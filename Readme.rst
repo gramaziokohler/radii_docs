@@ -1,6 +1,6 @@
-****************************************************
-Repository for the Radii Documentation Website
-****************************************************
+*****************************************************************************************************
+Repository for the `Radii Documentation Website <https://gramaziokohler.github.io/radii_docs/>`_
+*****************************************************************************************************
 
 More information on Radii can be found at `<Radii.info>`_
 

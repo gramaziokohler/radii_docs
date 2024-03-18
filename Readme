@@ -1,1 +1,10 @@
-Radii_Website
+# This is the repository for the Radii Documentation Website.
+
+Radii  
+
+Restructured text (.rst) can be eddited with any text software or through the browser directly. However the .rst formating has to be resprected 
+The website is compiled with Sphinx, by calling the "make html" command in the \docs directive, Html files are then generated at docs\_build\html\
+
+
+A guide on how to get started with Sphinx can be found at: https://www.sphinx-doc.org/en/master/usage/quickstart.html
+Quick guide on the formating: https://docutils.sourceforge.io/docs/user/rst/quickref.html#contents

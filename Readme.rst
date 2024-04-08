@@ -1,20 +1,11 @@
-*****************************************************************************************************
-Repository for the `Radii Documentation Website <https://gramaziokohler.github.io/radii_docs/>`_
-*****************************************************************************************************
+# this is the base file for the documentation of Radii
 
-More information on Radii can be found at `<Radii.info>`_
+This documentation is generated with restructured text files (.rst). They are a simple text format that makes it possible to edit them easily and transparent.
+File formats such as pdf. or Websites(html) are generated from the .rst files. The library that that is used for the generation is called sphinx. After its installation
+the easiest way to generate an updated html or pdf, is by navigating with the command prompt to the docs folder and typing: "make html" or "make pdf" the later
+need more dependencies but the following error messages will tell you about them.
 
-
-It is done in Restructured text (.rst) and can be eddited with any text software or through the browser directly on github. However the .rst formating has to be resprected throughout.
-
-The website is compiled with Sphinx, by calling the "make html" command in the \docs directive. Html files are generated at ..\docs\_build\html
-At the moment the html build is then pushed  manually to gh-pages and the website published from that branch with githubs internal service. 
-
-A guide on how to get started with `Sphinx <https://www.sphinx-doc.org/en/master/usage/quickstart.html>`_
-Quick guide on the formating can be found `here <https://docutils.sourceforge.io/docs/user/rst/quickref.html#contents>`_
-
-
-A live preview is possible in vscode. with the extension Name: 
-`reStructuredText <https://marketplace.visualstudio.com/items?itemName=lextudio.restructuredtext>`_
-Syntax help in vs can be provided with `reStructuredText Syntax highlighting <https://marketplace.visualstudio.com/items?itemName=trond-snekvik.simple-rst>`_  
+The two files that control the template as well as the general settings are the central index.rst that give the structure and fuctions as the home page.
+The conf.py has all the webpage options, the theme and generally controlls the look of the website.
+It also holds all links that are used throughout the pages as links. 
 

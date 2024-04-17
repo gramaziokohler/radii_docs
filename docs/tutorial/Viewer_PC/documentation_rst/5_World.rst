@@ -49,7 +49,8 @@ World Menu
 
 7. **Select Viewer**
 
-   .. image:: /tutorial/Radii_Icons/Viewer.png
+   .. image:: ../tutorial/Radii_Icons/Viewer.png
+      
 
   - Standard
   - Studio = Studio conditions, no weather or horizon, neutral reflections, color can be set with RGB values

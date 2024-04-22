@@ -29,12 +29,12 @@ To control the quality of your geometry you can use the following components
 
 **Output**
 
-=====   =====================================   ===================
-Name    Description                             Type
-=====   =====================================   ===================
-Log     Documents changes & data send           Text
-Save    Connect to Save component for saving    Radii content
-=====   =====================================   ===================
+=========   =====================================   ===================
+Name        Description                             Type
+=========   =====================================   ===================
+Log         Documents changes & data send           Text
+Content     Connect to Save component for saving    Radii content
+=========   =====================================   ===================
 
 
 - Log can help identify how much data and what kind of it is send

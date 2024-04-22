@@ -27,7 +27,7 @@ Point Cloud  Input for a Point cloud                  Point cloud
 Name        Description                             Type
 ==========  ======================================  ==============
 Log         Documents changes & Data send           Text
-Save        Connect to SaveContent for saving       Radii content
+Content     Connect to Content                      Radii content
 ==========  ======================================  ==============
 
 

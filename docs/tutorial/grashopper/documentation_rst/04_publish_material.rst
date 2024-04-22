@@ -17,12 +17,12 @@ Connection  Link with the Connect component Connection
 
 **Output**
 
-=======     ==================================  ==============
-Name        Description                         Type
-=======     ==================================  ==============
-Log         Documents changes & Data send       Text
-Save        Connect to SaveContent for saving   Radii content
-=======     ==================================  ==============
+=======     ===================================== ==============
+Name        Description                           Type
+=======     ===================================== ==============
+Log         Documents changes & Data send         Text
+Content     Connect to Save component for saving  Radii content
+=======     ===================================== ==============
 
 Note:
 

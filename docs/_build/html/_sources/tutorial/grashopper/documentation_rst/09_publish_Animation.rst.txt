@@ -31,7 +31,7 @@ Content             Geometry you want to animate                Save of Publish 
 Name        Description                             Type
 ==========  ======================================  ==============
 Log         Documents changes & Data send           Text
-Save        Connect to SaveContent for saving       Radii content
+Content     Connect to Content                      Radii content
 ==========  ======================================  ==============
 
 

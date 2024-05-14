@@ -105,6 +105,7 @@ rst_prolog = """
 .. _Publish Section: https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/05_publish_section.html
 .. _Publish Animation: https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/09_publish_Animation.html
 .. _Publish Control: https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/06_publish_control.html
+.. _Publish Reference: https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/14_publish_reference.html
 
 .. _Save Content: https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/12_SaveContent.html
 

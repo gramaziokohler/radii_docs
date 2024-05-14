@@ -56,9 +56,6 @@ Clear               Clears all content from viewers
 Set Location        Sets the world location for the sun
 Origin rotation     Rotates the model by x-degrees
 Set origin rotation Confirm rotation
-File                Displays the files from the channel, who's name you can type in below
-Get files           Activate the channel connection when clicked, files should now be displayed at "file"
-Scenario Manager    Opens the scenario manager, you can save your scenario with all settings from above
 =================== ============================================================================================
 
 
@@ -66,8 +63,8 @@ Scenario Manager    Opens the scenario manager, you can save your scenario with 
 
 - The saved content is stored in the component, be aware that huge amounts of geometry can make your .gh file very heavy and slow
   - In this case turn off the grasshopper autosave setting as it will slow you down  
-- To save time with heavier and bigger models: With "Files" you can direct all viewers to download a saved file from a channel, instead of live uploading and then downloading to the viewers.  
-- On mac systems the enter button for confirmation is currently not supported, always use the buttons to confirm your input
+- To save time with heavier and bigger models: with `Publish Reference`_ you can direct all viewers to download a saved file from a channel, instead of live uploading and then downloading to the viewers.  
+
 
 
 **Scenario Manager**

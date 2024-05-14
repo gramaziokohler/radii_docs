@@ -11,7 +11,7 @@ This component is used to save content locally or to a channel in the cloud.
 ==========  ======================================  ==============
 Name        Description                             Type
 ==========  ======================================  ==============
-Connection  Link with the Connect component         Connection
+Connection  Link with the Connect component         Connection  
 Content     To be included in the save              Radii content
 ==========  ======================================  ==============
 

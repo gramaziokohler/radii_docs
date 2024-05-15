@@ -34,15 +34,17 @@
   <section id="publishcontrol">
 <h1><span class="section-number">5. </span>PublishControl<a class="headerlink" href="#publishcontrol" title="Link to this heading">¶</a></h1>
 <a class="reference internal image-reference" href="../../../_images/Publish__controll.png"><img alt="../../../_images/Publish__controll.png" src="../../../_images/Publish__controll.png" style="width: 730.4000000000001px; height: 616.8000000000001px;" /></a>
-<dl>
-<dt>Publish control lets you control the viewer settings from grasshopper.</dt><dd><ul>
-<li><p>Everything you set as input can be saved in this publish control component with the scenario manager. Be careful with geometry content, this can make your grasshopper file very heavy.</p>
-<p>Tip: Grasshopper has an autosave. If the Publish Control component becomes too heavy, it will make you wait a lot</p>
-</li>
+<p>Publish control directs the viewer settings from grasshopper as listed in the menu section below.
+It contains the Scenario Manager that can save setting and all other content into a scenario to be played at once. With scenarios it is possible to do more complex presentations.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Be careful with saving geometry content into this component, this can make your grasshopper file very heavy.</p></li>
 </ul>
-</dd>
-</dl>
-<p>Video tutorials:</p>
+<blockquote>
+<div><p>Tip: Grasshopper has an autosave. If the Publish Control component becomes too heavy, it will make you wait a lot</p>
+</div></blockquote>
+</div></blockquote>
+<p><strong>Video tutorials:</strong></p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://www.youtube.com/watch?v=-_7DvX_-9uY">Publish Control overview</a></p></li>
 <li><p><a class="reference external" href="https://www.youtube.com/watch?v=9upFjrH9zrE">Publish Control cloud load</a></p></li>
@@ -162,11 +164,23 @@
 <section id="scenario-manager">
 <h2><span class="section-number">5.1. </span><strong>Scenario Manager</strong><a class="headerlink" href="#scenario-manager" title="Link to this heading">¶</a></h2>
 <a class="reference internal image-reference" href="../../../_images/Publish__controll_manager.png"><img alt="../../../_images/Publish__controll_manager.png" src="../../../_images/Publish__controll_manager.png" style="width: 388.8px; height: 314.40000000000003px;" /></a>
-<p>The scenario manager lets you save the selected options of the publishControl component and content that is connected to it.</p>
+<p>The scenario manager saves the selected options of the publishControl component and content that is connected to it into scenarios that can be played in succession.</p>
 <table class="docutils align-default">
 <tbody>
+<tr class="row-odd"><td><p>Scenario Name</p></td>
+<td><p>The name you want to give your scenario</p></td>
+</tr>
+<tr class="row-even"><td><p>Save</p></td>
+<td><p>Save the scenario, can be used to save on top of existing scenrios</p></td>
+</tr>
+<tr class="row-odd"><td><p>Update</p></td>
+<td><p>Updates time set and settings that can be set in publish control but not geometry</p></td>
+</tr>
+<tr class="row-even"><td><p>Rename</p></td>
+<td><p>Renames a scenario</p></td>
+</tr>
 <tr class="row-odd"><td><p>Clear</p></td>
-<td><p>clears the scene between each scenario - this can mean that you are uploading your geometry every time your load a new one</p></td>
+<td><p>clears the scene before a scenario</p></td>
 </tr>
 <tr class="row-even"><td><p>Duration</p></td>
 <td><p>length of the scenario</p></td>
@@ -192,7 +206,7 @@
 <td><p>loading from the channel</p></td>
 </tr>
 <tr class="row-even"><td><p>Duration</p></td>
-<td><p>of the scenario</p></td>
+<td><p>of the scenario when played on auto play in the viewer</p></td>
 </tr>
 </tbody>
 </table>
@@ -263,7 +277,7 @@ them as individual scenarios. You then can switch through them during your prese
 <li class="toctree-l2"><a class="reference internal" href="108_SubscribeUser.html">6. SubscribeUser</a></li>
 <li class="toctree-l2"><a class="reference internal" href="301_Tools_PointCloudResource_subset.html">1. PointCloudReduce &amp; SubsetPointCloud</a></li>
 <li class="toctree-l2"><a class="reference internal" href="302_Tools_Paint_Vertex.html">2. Tool Paint Vertex</a></li>
-<li class="toctree-l2"><a class="reference internal" href="303_10_Tips.html">3. 10 Rules for working with geometry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="303_10_Tips.html">3. Ten rules for working with Radii</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../Quick_Guide/Quick_Guides.html">Guides</a></li>

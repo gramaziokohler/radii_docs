@@ -2,18 +2,22 @@
 PublishControl
 ****************
 
+
 .. image:: ../images/Publish/Publish__controll.png
     :scale: 80 %
 
-Publish control lets you control the viewer settings from grasshopper. It contains the Scenario Manager that can save setting and all other content into a scenario as a bundle to be played at once. It is possible to do more complex presentations with this method.
+Publish control directs the viewer settings from grasshopper as listed in the menu section below.
+It contains the Scenario Manager that can save setting and all other content into a scenario to be played at once. With scenarios it is possible to do more complex presentations.
+ 
  - Be careful with saving geometry content into this component, this can make your grasshopper file very heavy. 
    
-   Tip: Grasshopper has an autosave. If the Publish Control component becomes too heavy, it will make you wait a lot
+  Tip: Grasshopper has an autosave. If the Publish Control component becomes too heavy, it will make you wait a lot
 
-Video tutorials:
+**Video tutorials:**
 
 - `Publish Control overview <https://www.youtube.com/watch?v=-_7DvX_-9uY>`_
 - `Publish Control cloud load <https://www.youtube.com/watch?v=9upFjrH9zrE>`_
+
 
 **Input**
 
@@ -27,6 +31,7 @@ Content Save    output from other radii components          save (Radii)
 Index           For switching between scenarios             Number
 =============   ======================================      ==============
 
+
 **Output**
 
 =============  ======================================      ==============
@@ -36,6 +41,7 @@ Log            Documents changes & Data send               Text
 Save Control   Saving the controls only                    Radii
 Save Scenario  Save control and geometry                   Radii
 =============  ======================================      ==============
+
 
 **Menu**
 
@@ -73,7 +79,7 @@ Set origin rotation Confirm rotation
 .. image:: ../images/Publish/Publish__controll_manager.png
     :scale: 80 %
 
-The scenario manager lets you save the selected options of the publishControl component and content that is connected to it.
+The scenario manager saves the selected options of the publishControl component and content that is connected to it into scenarios that can be played in succession. 
 
 
 ==============  ============================================================================================================================
@@ -97,9 +103,6 @@ Duration    of the scenario when played on auto play in the viewer
 ==========  ==============================================================================================
 
 
-
-
-
 **Examples**
 
 You have some geometry (a building) and want to publish or download from the server (1), then walk through it, change the time of the day (2) and
@@ -121,4 +124,3 @@ them as individual scenarios. You then can switch through them during your prese
 .. image:: ../images/Publish/Scenario_Manager_examples/3.png
 
 .. image:: ../images/Publish/Scenario_Manager_examples/4.png  
-

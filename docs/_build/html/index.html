@@ -36,22 +36,29 @@
 <p><a class="reference external" href="https://radii.info/">RADii</a> a Cloud platform where you can publish (upload) your
 3D Models, share, explore and collaborate.</p>
 <p>RADii consists of two parts, a Rhino Grasshopper plugin to publish (upload) 3D Models and Viewers that run on different devices ( PC/Mac, VR Glasses or mobile devices) to receive and explore the models.</p>
-<p><strong>The Viewer</strong></p>
+<section id="the-viewer">
+<h2>The Viewer<a class="headerlink" href="#the-viewer" title="Link to this heading">¶</a></h2>
 <img alt="The empty Radii viewer after starting" src="_images/01_Start_image.png" />
-<p>Empty Radii Viewer</p>
 <img alt="Autumn semester 2023, project by Cadei  Matteo &amp; Tami  Kyan" src="_images/231218_cadeim_kytami_Photo_1_WM.jpg" />
 <p>Immersive Design Studio ETHZ, Prof. Gramazio &amp; Kohler, Autumn semester 2023 student project by Cadei Matteo &amp; Tami Kyan</p>
-<p><strong>How Radii works:</strong></p>
-<img alt="_images/Artboard14.png" src="_images/Artboard14.png" />
-<p>This diagram shows all the ways Radii grashopper and the viewers can exchange data (geometry, materials, textures, etc.)</p>
-<p>RADii is being developed by Thomas Lee since 2020, in 2022 he started a collaboration with Gramazio &amp; Kohler Research at ETHZ for further development of the program in the context of the Immersive Design Studio.
-This documentation is part of the collaboration.
-More information, updates and the program Radii can be found at <a class="reference external" href="https://radii.info/">radii.info</a>.
-Videos about the current development as well as new features are available on the <a class="reference external" href="https://www.youtube.com/channel/UCfOGfaqPczXAGTpFDPm8XsA">Arctica Youtube Page</a>
-Radii is still under development, should you find bugs please notify us on <a class="reference external" href="https://github.com/Archtica/RADii/issues/">Github</a>
+</section>
+<section id="how-radii-works">
+<h2>How Radii works:<a class="headerlink" href="#how-radii-works" title="Link to this heading">¶</a></h2>
+<img alt="_images/Radii_funktionality_simple_programs.svg" src="_images/Radii_funktionality_simple_programs.svg" /><p><strong>How it works simplified:</strong> A CAD software (Rhino Grasshopper) is connected to a cloud through a plugin. 3D Models are live uploaded the cloud (Unity) and then distributes them to the Radii viewers.
+The Radii Viewers are a program that can be run on PC/Mac, Iphone and Vr Glasses. Viewers are connected through the cloud and can interact with each other.</p>
+</section>
+<section id="about-the-project">
+<h2>About the project:<a class="headerlink" href="#about-the-project" title="Link to this heading">¶</a></h2>
+<p>RADii is being developed by Thomas Lee since 2020. In 2022 he started a collaboration with Gramazio &amp; Kohler Research at ETHZ for further development of the program in the context of the Immersive Design Studio.
+ETH supported this project with a <a class="reference external" href="https://ethz.ch/de/die-eth-zuerich/lehre/innovedum/innovedum-fund.html">Innovedum Grand</a> , which among other this made this documentation possible.</p>
+</section>
+<section id="further-links">
+<h2>Further Links<a class="headerlink" href="#further-links" title="Link to this heading">¶</a></h2>
+<p>Videos about the current development and news are available on <a class="reference external" href="https://www.youtube.com/channel/UCfOGfaqPczXAGTpFDPm8XsA">Arctica Youtube Page</a>
+Should you find bugs please notify us on <a class="reference external" href="https://github.com/Archtica/RADii/issues/">Github</a>
 For errors or inconsistencies in the documentation, please notify us on <a class="reference external" href="https://github.com/gramaziokohler/radii_docs/issues">Github Radii Documentation Issues</a></p>
 <section id="download-links">
-<h2>Download Links<a class="headerlink" href="#download-links" title="Link to this heading">¶</a></h2>
+<h3>Download Links<a class="headerlink" href="#download-links" title="Link to this heading">¶</a></h3>
 <p>Grashopper Plugin:</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://radii.info/download/plugin/RADii.zip">Radii Grasshopper Win/Mac</a></p></li>
@@ -65,7 +72,7 @@ For errors or inconsistencies in the documentation, please notify us on <a class
 <p>Further viewers for VR, Mobile, Looking Glass and the Webviewer can be found at <a class="reference external" href="https://radii.info/">radii.info</a>.</p>
 </section>
 <section id="table-of-contents">
-<h2>Table of Contents<a class="headerlink" href="#table-of-contents" title="Link to this heading">¶</a></h2>
+<h3>Table of Contents<a class="headerlink" href="#table-of-contents" title="Link to this heading">¶</a></h3>
 <div class="toctree-wrapper compound">
 <ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Home</a></li>
@@ -103,7 +110,7 @@ For errors or inconsistencies in the documentation, please notify us on <a class
 <li class="toctree-l2"><a class="reference internal" href="tutorial/grashopper/documentation_rst/108_SubscribeUser.html">6. SubscribeUser</a></li>
 <li class="toctree-l2"><a class="reference internal" href="tutorial/grashopper/documentation_rst/301_Tools_PointCloudResource_subset.html">1. PointCloudReduce &amp; SubsetPointCloud</a></li>
 <li class="toctree-l2"><a class="reference internal" href="tutorial/grashopper/documentation_rst/302_Tools_Paint_Vertex.html">2. Tool Paint Vertex</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tutorial/grashopper/documentation_rst/303_10_Tips.html">3. 10 Rules for working with geometry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tutorial/grashopper/documentation_rst/303_10_Tips.html">3. Ten rules for working with Radii</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="tutorial/Quick_Guide/Quick_Guides.html">Guides</a><ul>
@@ -123,11 +130,12 @@ For errors or inconsistencies in the documentation, please notify us on <a class
 </div>
 </section>
 <section id="indices-and-tables">
-<h2>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Link to this heading">¶</a></h2>
+<h3>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Link to this heading">¶</a></h3>
 <ul class="simple">
 <li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
 <li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
 </ul>
+</section>
 </section>
 </section>
 

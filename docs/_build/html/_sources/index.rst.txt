@@ -15,29 +15,45 @@ Radii Documentation
 
 RADii consists of two parts, a Rhino Grasshopper plugin to publish (upload) 3D Models and Viewers that run on different devices ( PC/Mac, VR Glasses or mobile devices) to receive and explore the models.
 
-**The Viewer** 
+The Viewer
+_____________________ 
 
 .. image:: tutorial/Viewer_PC/images/01_Start_image.png
    :alt: The empty Radii viewer after starting
 
-Empty Radii Viewer
+
 
 .. image:: tutorial/Viewer_PC/images/231218_cadeim_kytami_Photo_1_WM.jpg
    :alt: Autumn semester 2023, project by Cadei  Matteo & Tami  Kyan  
 
 Immersive Design Studio ETHZ, Prof. Gramazio & Kohler, Autumn semester 2023 student project by Cadei Matteo & Tami Kyan    
 
-**How Radii works:**
+How Radii works:
+___________________
 
-.. image:: tutorial/Radii_diagramms/Daten_Diagramme_v2/Artboard14.png
 
-This diagram shows all the ways Radii grashopper and the viewers can exchange data (geometry, materials, textures, etc.)
 
-RADii is being developed by Thomas Lee since 2020, in 2022 he started a collaboration with Gramazio & Kohler Research at ETHZ for further development of the program in the context of the Immersive Design Studio.
-This documentation is part of the collaboration.
-More information, updates and the program Radii can be found at `radii.info <https://radii.info/>`_.
-Videos about the current development as well as new features are available on the `Arctica Youtube Page <https://www.youtube.com/channel/UCfOGfaqPczXAGTpFDPm8XsA>`_
-Radii is still under development, should you find bugs please notify us on `Github <https://github.com/Archtica/RADii/issues/>`_
+
+.. image:: tutorial/Radii_diagramms/Daten_Diagramme_v2/Radii_funktionality_simple_programs.svg
+
+**How it works simplified:** A CAD software (Rhino Grasshopper) is connected to a cloud through a plugin. 3D Models are live uploaded the cloud (Unity) and then distributes them to the Radii viewers.
+The Radii Viewers are a program that can be run on PC/Mac, Iphone and Vr Glasses. Viewers are connected through the cloud and can interact with each other.
+
+
+
+
+About the project:
+___________________
+
+RADii is being developed by Thomas Lee since 2020. In 2022 he started a collaboration with Gramazio & Kohler Research at ETHZ for further development of the program in the context of the Immersive Design Studio. 
+ETH supported this project with a `Innovedum Grand <https://ethz.ch/de/die-eth-zuerich/lehre/innovedum/innovedum-fund.html>`_ , which among other this made this documentation possible.
+
+
+Further Links
+______________
+
+Videos about the current development and news are available on `Arctica Youtube Page <https://www.youtube.com/channel/UCfOGfaqPczXAGTpFDPm8XsA>`_
+Should you find bugs please notify us on `Github <https://github.com/Archtica/RADii/issues/>`_
 For errors or inconsistencies in the documentation, please notify us on `Github Radii Documentation Issues`_
 
 

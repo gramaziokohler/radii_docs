@@ -5,8 +5,8 @@ PublishControl
 .. image:: ../images/Publish/Publish__controll.png
     :scale: 80 %
 
-Publish control lets you control the viewer settings from grasshopper.
- - Everything you set as input can be saved in this publish control component with the scenario manager. Be careful with geometry content, this can make your grasshopper file very heavy. 
+Publish control lets you control the viewer settings from grasshopper. It contains the Scenario Manager that can save setting and all other content into a scenario as a bundle to be played at once. It is possible to do more complex presentations with this method.
+ - Be careful with saving geometry content into this component, this can make your grasshopper file very heavy. 
    
    Tip: Grasshopper has an autosave. If the Publish Control component becomes too heavy, it will make you wait a lot
 
@@ -75,10 +75,15 @@ Set origin rotation Confirm rotation
 
 The scenario manager lets you save the selected options of the publishControl component and content that is connected to it.
 
-=========   ============================================================================================================================
-Clear       clears the scene between each scenario - this can mean that you are uploading your geometry every time your load a new one
-Duration    length of the scenario
-=========   ============================================================================================================================
+
+==============  ============================================================================================================================
+Scenario Name   The name you want to give your scenario
+Save            Save the scenario, can be used to save on top of existing scenrios  
+Update          Updates time set and settings that can be set in publish control but not geometry
+Rename  	      Renames scenario
+Clear           clears the scene between each scenario - this can mean that you are uploading your geometry every time your load a new one
+Duration        length of the scenario
+==============  ============================================================================================================================
 
 **Column descriptions**
 

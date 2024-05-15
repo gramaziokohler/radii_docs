@@ -80,8 +80,8 @@ The scenario manager lets you save the selected options of the publishControl co
 Scenario Name   The name you want to give your scenario
 Save            Save the scenario, can be used to save on top of existing scenrios  
 Update          Updates time set and settings that can be set in publish control but not geometry
-Rename  	      Renames scenario
-Clear           clears the scene between each scenario - this can mean that you are uploading your geometry every time your load a new one
+Rename  	      Renames a scenario
+Clear           clears the scene before a scenario
 Duration        length of the scenario
 ==============  ============================================================================================================================
 
@@ -93,7 +93,7 @@ Scenario    name of the scenario
 Content     is content send (geometry, views, etc.) you could just send settings (time, position etc.)
 Clear       Clears the channel before uploading new geometry
 Load        loading from the channel
-Duration    of the scenario
+Duration    of the scenario when played on auto play in the viewer
 ==========  ==============================================================================================
 
 

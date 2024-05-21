@@ -92,11 +92,14 @@ rst_prolog = """
 .. _Oculus Viewer Setup:
 
 .. _radii.info: https://radii.info/
-.. _Radii Grasshopper Win/Mac: https://radii.info/download/plugin/RADii.zip
+.. _Radii Rhino7 Grasshopper Win/Mac: https://radii.info/download/plugin/R7/RADii.zip
+.. _Radii Rhino8 Grasshopper Win/Mac: https://radii.info/download/plugin/R8/RADii.zip
 .. _Radii Capture Win/Mac: https://radii.info/download/plugin/RADiiCapture.zip
-.. _Windows 10+: https://radii.info/download/standard/RADii%20Viewer%20Setup.zip
-.. _macOS X: https://apps.apple.com/app/id1505325031
-.. _VR .apk: https://radii.info/download/vr/RADii%20Viewer%20VR.zip
+
+.. _Radii Viewer Windows 10+: https://radii.info/download/standard/RADii%20Viewer%20Setup.zip
+.. _Radii Viewer macOS X: https://apps.apple.com/app/id1505325031
+.. _Radii Viewer VR Oculus: https://radii.info/download/vr/RADii%20Viewer%20Oculus.zip
+.. _Radii Viewer VR universal : https://radii.info/download/vr/RADii%20Viewer%20VR.zip
 
 .. _Connect: https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/02_connect.html
 .. _PublishGeometry: https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/03_publish_geometry.html

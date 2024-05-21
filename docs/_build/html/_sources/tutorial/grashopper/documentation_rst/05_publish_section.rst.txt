@@ -11,6 +11,7 @@ Video tutorials:
 
 - `Publish Section city scale <https://www.youtube.com/watch?v=5zsiGtmGIz4>`_
 - `Publish Section building scale <https://www.youtube.com/watch?v=3mJXLDXxK8o>`_
+- `Section Pointcloud <https://www.youtube.com/watch?v=JkuKp_Q2p2A>`_
 
 **Input**
 

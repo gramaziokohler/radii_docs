@@ -10,8 +10,10 @@ If no content is given as an input all Viewers present will be subjected to the 
 In case content is connected to the component the animation will be applied to the geometry. 
 At least 3 planes are necessary for an animation.
 
-Example: https://www.youtube.com/shorts/9h1RwmqvWDQ
-
+Videos:
+    - `Animation example <https://www.youtube.com/shorts/9h1RwmqvWDQ>`_
+    - `Object animation <https://www.youtube.com/watch?v=yMZXNn_Pgq4>`_
+    - 
 
 
 **Input**
@@ -50,6 +52,6 @@ To play multiple animation in parallel with one component use the following setu
 .. image:: ../images/Publish/Publish_animation_parallel_schaltplan.png
 
 
-**Video tutorials:**
+**Video tutorial:**
 
 - `Object Animation example <https://www.youtube.com/watch?v=yMZXNn_Pgq4>`_

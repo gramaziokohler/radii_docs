@@ -7,6 +7,11 @@ Publish Sound
 
 Sound is emitted by a source in the center of the inner and outer envelope, it decreases over distance unless "stop on exit" or "limit" is set.
 
+**Videos:**
+
+        - `Publish sound basic usage <https://www.youtube.com/watch?v=4iT8-PehmJE>`_
+        - `RADii: Sound development <https://www.youtube.com/watch?v=0mPwLp1ye34>`_
+
 **Input**
 
 ================  ======================================  ==============

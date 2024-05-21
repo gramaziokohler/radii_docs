@@ -63,7 +63,7 @@ World Menu
     
   - Augmented Reality (AR) = Available on IOs, Android, Oculus. Displays virtual model in a real environment 
 
-8. **Tracking**
+8. **Tracking & Reposition**
 
    .. image:: /tutorial/Radii_Icons/Position.png
       :align: left
@@ -71,11 +71,25 @@ World Menu
 
    .. image:: /tutorial/Viewer_PC/images/World_menu_tracking.png
       :scale: 70 %
-      
+   
+   This option has different functions on pc and vr.
+
+   *PC:*
 
    - Tracker Method = for using Pepper Ghost viewer mode
-     
-      - Tracking is done with a camera and the external software: `Optitrack <https://github.com/opentrack/opentrack/>`_
+   - Tracking is done with a camera and the external software: `Optitrack <https://github.com/opentrack/opentrack/>`_
+
+      Videos:
+      
+         -  `OptiTrack Implementation <https://www.youtube.com/watch?v=jnvcOJw7FeE>`_
+         -  `OptiTrack Tracking View and Origin <https://www.youtube.com/watch?v=WMEc1gVGah0>`_
+         -  `OptiTrack Tracking on large screen <https://www.youtube.com/watch?v=CP3z3kR98ZU>`_
+
+   *VR:*
+
+   - reposition the origin and rotation to a location that is pointed on, the rotation is controlled with the joystick
+
+
 
    **Note for VR**
 

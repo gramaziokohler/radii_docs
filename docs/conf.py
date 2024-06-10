@@ -109,6 +109,7 @@ rst_prolog = """
 .. _Publish Animation: https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/09_publish_Animation.html
 .. _Publish Control: https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/06_publish_control.html
 .. _Publish Reference: https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/14_publish_reference.html
+.. _Publish Parameter: https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/15_publish_parameter.html
 
 
 .. _Save Content: https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/12_SaveContent.html
@@ -133,6 +134,10 @@ rst_prolog = """
 .. _Tutorial Grasshopper Basics:  https://gramaziokohler.github.io/radii_docs/tutorial/Quick_Guide/1_LV_Exploration_Grashopper.html
 .. _Tutorial Viewer Basics:  https://gramaziokohler.github.io/radii_docs/tutorial/Quick_Guide/1_LV_Exploration_Grashopper.html
 .. _Github Radii Documentation Issues: https://github.com/gramaziokohler/radii_docs/issues
+
+
+
+.. _Introducing Publish Parameter: https://www.youtube.com/watch?v=3u-yBNSTHpU
 
 
 """

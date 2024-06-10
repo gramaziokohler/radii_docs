@@ -11,8 +11,9 @@ SubscribeParameter
 
 .. image:: ../images/Subscribe/Sub_parameter22.png
 
-This component is used to subscribe to a parameter that is set in a Radii Viewer, it can then be changed in the Viewer and fed back into the grashopper session.
-With the value geometry could for example be modified. 
+This component is used to subscribe to a parameter that is set in a Radii Viewer or by `Publish Parameter`_ , it can then be changed in the Viewer and fed back into the grashopper session with this component.
+
+Example: Values from SubscribeParameter could be used to modify geometry in a grasshopper algorithm.
 
 
 **Input**

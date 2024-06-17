@@ -1,6 +1,5 @@
-
 *******************
-Publish Parameter
+PublishParameter
 *******************
 
 .. image:: ../images/Publish/Publish_Parameter/Publish_parameter_addParam.png

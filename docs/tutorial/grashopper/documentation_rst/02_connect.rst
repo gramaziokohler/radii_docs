@@ -23,7 +23,7 @@ Follow         Everyone follows the rhino view        Boolean
 ===========  ================================================== ================
 Name            Description                                     Type
 ===========  ================================================== ================
-Connection   All further components have to be connected here   Radii components
+Connection   All further components have to be connected here   RADii components
 ===========  ================================================== ================
 
 .. image:: ../images/Connect/Connect_gh.png

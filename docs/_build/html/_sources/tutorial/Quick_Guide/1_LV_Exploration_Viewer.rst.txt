@@ -45,7 +45,7 @@ Right-click to open & close the `Connect Menu`_.
 
 **3. Connect to channel**
 
-.. image::  /tutorial/Viewer_PC/images/02_Menu_zuschnitt.png
+.. image::  /tutorial/Viewer_PC/images/02_Menu_connect_zuschnitt.png
 
 Connect to the channel as described in section 3 of the `Connect Menu`_ by writing the Channelname, the Nickname and pressing connect.
 

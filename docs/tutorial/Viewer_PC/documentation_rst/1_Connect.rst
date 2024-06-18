@@ -12,6 +12,7 @@ This menu is for connecting to a channel, logging into your custom account, subs
 Logging into your Radii account gives you access to your personal channel and potentially your group channels, with more live and permanent storage.
 
 .. image:: ../images/02_Menu_connect_zuschnitt.png
+   :scale: 70%
    :class: float-left
    :align: right
 

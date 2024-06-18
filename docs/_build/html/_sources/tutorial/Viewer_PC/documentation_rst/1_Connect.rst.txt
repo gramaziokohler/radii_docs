@@ -12,6 +12,7 @@ This menu is for connecting to a channel, logging into your custom account, subs
 Logging into your Radii account gives you access to your personal channel and potentially your group channels, with more live and permanent storage.
 
 .. image:: ../images/02_Menu_connect_zuschnitt.png
+   :scale: 70%
    :class: float-left
    :align: right
 
@@ -43,21 +44,28 @@ Logging into your Radii account gives you access to your personal channel and po
 
 5. **Voice Chat**
 
-========= ==============
+=============================================================  ==================
+.. image:: /tutorial/Radii_Icons/Channel.png                   Join the voice chat
+.. image:: /tutorial/Radii_Icons/speaker_24_inv.png            Output
+.. image:: /tutorial/Radii_Icons/microphone_24_inv.png         Input
+.. image:: /tutorial/Radii_Icons/spatial_sound_24_inv.png      Positional sound  
+.. image:: /tutorial/Radii_Icons/debug_24_inv.png              Echo (for testing)
+=============================================================  ==================
 
+   Output Device: Taken from the system standard and can be changed in the settings
+   Input Device: Taken from the system standard and can be changed in the settings
 
-   - Join the Chat
-   - Output 
-   - Input
-   - Positional sound 
-   - Echo
-   
-   Output & Input
+ Note: As of now Positional sound and non Positional sound, work as two isolated voice chats. 
+ To hear each other all parties have to be in the same state.
 
 6. **Server**
 
-   - I-Info menu with version number, radii.info, Privacy Policy and Terms and Conditions
-   - Press Connect after setting the channel name
-   - Disconnect to leave the channel
-   - Sync - synchronize
-      - you will receive all data that is being sent to the channel at the moment
+====================================================  ==============================================================
+.. image:: /tutorial/Radii_Icons/Info_inv.png         I-Info menu with version number, radii.info, Privacy Policy and Terms and Conditions
+Connect                                               Press connect after setting the channel name to join a channel
+Disconnect                                            To exit a channel
+Sync                                                  synchronizes with a channel, to receive all content that was previously sent
+====================================================  ==============================================================
+
+
+   

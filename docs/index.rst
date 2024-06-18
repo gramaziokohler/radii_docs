@@ -21,7 +21,7 @@ Welcome to the Radii documentation.
    3. Radii Grasshopper - Detailed description of all parts & options
    4. Guides - Installations and Guides for different use cases
 
-`RADii <https://radii.info/>`_ is a cloud platform where you can publish (upload) 3D Models to share, explore and collaborate. 
+`RADii <https://RADii.info/>`_ is a cloud platform where you can publish (upload) 3D Models to share, explore and collaborate. 
 
 RADii consists of two parts, a plugin for the CAD software Rhino Grasshopper to publish (upload) 3D Models and programs called Viewers that run on a range of devices ( PC/Mac, VR Headsets or mobile devices) to receive and explore the models.
 
@@ -87,7 +87,7 @@ ___________________
 - `RADii Viewer VR Oculus`_
 - `RADii Viewer VR universal`_
 
-Further viewers for VR, Mobile, Looking Glass and the Webviewer can be found at `radii.info <https://radii.info/>`_.
+Further viewers for VR, Mobile, Looking Glass and the Webviewer can be found at `RADii.info <https://RADii.info/>`_.
 
 
 About

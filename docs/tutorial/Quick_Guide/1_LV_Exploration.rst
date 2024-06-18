@@ -75,7 +75,7 @@ Radii Grasshopper
 ====================
 
 This is a quick introduction into publishing/uploading your files to RADii.
-While it is possible to publish in the public channel without an account on radii.info we advice to make one if you want to have your personal space.
+While it is possible to publish in the public channel without an account on RADii.info we advice to make one if you want to have your personal space.
 You can do substantially more with the tool as you will find in more detail on the `Radii Viewer`_ and RadiiGrasshopper_ documentation
 
 *The following tool will Publish/Upload all the Geometry in your rhino file. Use it with care and not with big models.*

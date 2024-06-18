@@ -27,7 +27,7 @@ Name            Description                                 Type
 Connection      Link with the Connect component             Connect
 Time of Year    Day of the Year                             Number
 Time of Day     Time of the day                             Number
-Content Save    output from other radii components          save (Radii)
+Content Save    output from other RADii components          save (Radii)
 Index           For switching between scenarios             Number
 =============   ======================================      ==============
 

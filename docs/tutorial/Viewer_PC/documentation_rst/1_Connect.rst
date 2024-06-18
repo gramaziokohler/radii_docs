@@ -61,11 +61,12 @@ Logging into your Radii account gives you access to your personal channel and po
 6. **Server**
 
 ====================================================  ==============================================================
-.. image:: /tutorial/Radii_Icons/Info_inv.png         I-Info menu with version number, radii.info, Privacy Policy and Terms and Conditions
+.. image:: /tutorial/Radii_Icons/Info_inv.png         I-Info menu with version number, RADii.info, Privacy Policy and Terms and Conditions
 Connect                                               Press connect after setting the channel name to join a channel
 Disconnect                                            To exit a channel
 Sync                                                  synchronizes with a channel, to receive all content that was previously sent
 ====================================================  ==============================================================
 
+**Video**
 
-   
+- `Voice chat and viewer to viewer control`_

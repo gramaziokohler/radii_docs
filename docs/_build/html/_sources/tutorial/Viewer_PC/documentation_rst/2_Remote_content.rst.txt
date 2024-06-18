@@ -13,8 +13,8 @@ Remote Content Menu
 
 6. This menu displays data stored on the channel, once you input the channel address.
 7. Open the **save menu**
-      - Export = exports a radii locally
-      - Import = imports a radii file from a path
-      - Save = saves a radii file locally in a standard path
+      - Export = exports a RADii locally
+      - Import = imports a RADii file from a path
+      - Save = saves a RADii file locally in a standard path
 
 

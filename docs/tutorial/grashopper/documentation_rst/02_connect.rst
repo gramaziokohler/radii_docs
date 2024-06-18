@@ -38,7 +38,7 @@ Connection   All further components have to be connected here   RADii components
     - User Name
     - Password
 - click on "load account"
-- if you do not have an account, create one on `radii.info`_
+- if you do not have an account, create one on `RADii.info`_
 
 Note: If you are part of a group or organization, please use the respective email address.
 

@@ -5,45 +5,55 @@ World Menu
 
 
 .. image:: ../images/World_menu_detail.png
-  :align: left
+  :align: right
 
 1. **Camera**
 
-   - Field of view - controls the field of view 
-   - Sensitivity - mouse sensitivity
-   - Speed - movement speed
+================  =================================
+Field of view     Controls the field of view 
+Sensitivity       Mouse sensitivity
+Speed             Movement speed
+================  =================================
 
-   *Note:* turn slow when someone is following you through the project
+*Note:* turn slow when someone is following you through the project
 
 2. **Effects** - turning them off increases performance
 
-   - Motion = motion blur
-   - Bloom = makes bright spots bleed at the edges, simulating a real camera
-   - DOF = depth of field - distance between closest and furthest part of an image that are in focus
-   - Chrom = chromatic effect - adds artifacts to the image, simulating a poor len
-   - Vignet = darkening on the edges of images, simulating real cameras
-   - Inverse = clipping/sectioning leaves a ghost of the hidden geometry
+==========  ==================================================================================================
+Motion      Motion blur
+Bloom       Makes bright spots bleed at the edges, simulating a real camera
+DOF         Depth of field - distance between closest and furthest part of an image that are in focus
+Chrom       Chromatic effect - adds artifacts to the image, simulating a poor len
+Vignet      Darkening on the edges of images, simulating real cameras
+Inverse     Clipping/sectioning leaves a ghost of the hidden geometry
+==========  ==================================================================================================
 
 3. **Point Cloud**
 
-   - Point Size
-   - Point near size = increases point sizes near you
+================  =======================================
+Point Size        Size of the Points of the cloud
+Point near size   Increases point sizes near you
+================  =======================================
 
-   *Note:* point clouds are disabled in IOS/Android viewers because they require a lot of computing power
+*Note:* point clouds are disabled in IOS/Android viewers because they require a lot of computing power
 
 4. **Weather**
 
-   - Quality = resolution of the sky, above lv3 not significantly better
-   - Condition = types of weather: rainy, foggy and sunny
-   - Fog density = can hide the horizon but also your model
+=========== ===========================================================
+Quality     Resolution of the sky, above lv3 not significantly better
+Condition   Types of weather: rainy, foggy and sunny
+Fog density Can hide the horizon but also your model
+=========== ===========================================================
 
-   *Note:* for better performance: turn weather to sunny, fog off, quality to lowest
+*Note:* for better performance: turn weather to sunny, fog off, quality to lowest
 
 5. **Time**
 6. **Transform**
 
-   - Rotation = rotates all models around the 0 point
-   - Scale
+==========  ==========================================
+Rotation    Rotates all models around the 0 point
+Scale       Scales all content
+==========  ==========================================
 
 
 

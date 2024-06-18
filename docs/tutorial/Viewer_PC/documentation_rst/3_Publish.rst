@@ -9,17 +9,21 @@ Publish Menu
 
 .. image:: ../images/Publish_menu_detail.png
     :align: right
-    :scale: 80%
+    :scale: 70%
+
+
+This menu allows for the control of other viewers, the publication of content and the publication of 
+parameters to rhino sessions that have subscribed to this specific viewer.
 
 1. **Published content**
 
-
+- controls the type of content that is published with this viewer
 
 2. **Publish control**
 
 =========   =================================================================
-Control     the viewers settings are sent to all other viewers
-Follow      all viewers on the channel are forced to follow this viewer
+Control     this viewers settings are forced on all other viewers
+Follow      viewers on the channel are forced to follow this viewers movement
 Merge       control and follow in one button
 =========   =================================================================
 

@@ -7,14 +7,27 @@ Remote Content Menu
 .. .. image:: ../images/Menu_remote_content.png
 
 .. image:: ../images/Menu_remote_content_Detail.png
-    :class: float-left
-    :align: left
+    :align: right
+
+This menu displays content stored in the cloud on a specific channel, once you input an address.
+From the cloud content can be shared via a link or loaded into the viewer. Locally it can be saved, manually distributed and imported.
+
+1. **Refresh**
+    - updates the list of remote content manually, in case new items where added 
+
+2. 
+    .. image:: /tutorial/Radii_Icons/Save.png
+
+Toggle between remote and **local content**
+
+.. image:: ../images/Menu_remote_content_local.png
+    :scale: 80%
 
 
-6. This menu displays data stored on the channel, once you input the channel address.
-7. Open the **save menu**
-      - Export = exports a RADii locally
-      - Import = imports a RADii file from a path
-      - Save = saves a RADii file locally in a standard path
+======= ===================================================
+Export  Saves a RADii file locally
+Import  Imports a RADii file locally
+Save    Saves a RADii file locally in a standard path
+======= ===================================================
 
 

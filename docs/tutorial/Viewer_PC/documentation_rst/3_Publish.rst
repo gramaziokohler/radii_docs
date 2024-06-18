@@ -6,10 +6,9 @@ Publish Menu
 .. image:: /tutorial/Radii_Icons/publish_circle_48.png
     :scale: 50
 
-.. image:: ../images/Menu_publish.png
 
 .. image:: ../images/Publish_menu_detail.png
-    :align: left
+    :align: right
 
 8. **Parameters** - send parameters back to grasshopper
 

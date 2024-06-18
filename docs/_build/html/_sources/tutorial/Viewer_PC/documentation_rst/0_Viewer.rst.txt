@@ -22,15 +22,17 @@ In case you might find something unclear, out of date or missing please contact 
 
 **Keyboard Assignments**
 
-=========== ===================================
-Movement    W,A,S,D
-Jump        Space
-Shift       Sprint
-Q Fly       Up
-E Fly       Down
-Right Mouse Main Menus (open,close)
-Left Mouse  `Operation Menu`_ 
-=========== ===================================
+==============  ===================================
+Key             Action
+==============  ===================================
+W,A,S,D         Move
+Shift + Move    Sprint
+Space           Jump  
+Q               Fly Up
+E               Fly Down
+Right Mouse     Main Menus (open & close)
+Left Mouse      `Operation Menu`_ 
+==============  ===================================
 
 
 

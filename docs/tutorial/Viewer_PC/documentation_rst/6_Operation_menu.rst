@@ -3,6 +3,9 @@ Operation Menu
 ****************
 
 .. image:: ../images/Menu_action_detail.png
+    :scale: 80%
+    :align: center
+    
 
 Open the Operation menu with a left click, close it with a right click
 

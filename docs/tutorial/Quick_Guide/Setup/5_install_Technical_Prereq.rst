@@ -25,7 +25,7 @@ Radii PC requirements:
     - a graphics card of medium strength or higher
     - power and ram capacity can vary greatly depending on the size and detail of the 3D model.
   
-  - Rhino 3D license to use grashopper (only necessary for the Plugin)
+  - Rhino 3D license to use Grasshopper (only necessary for the Plugin)
 
 
 **Oculus Rift**
@@ -41,7 +41,7 @@ Radii PC requirements:
 
 **Server Storage and channels**
 
-By registering at `radii.info`_ you get aces to your own channel on the Radii server. If you would like to have a specific domain, your own server or unlimited storage contact Radii at contact@radii.info 
+By registering at `RADii.info`_ you get aces to your own channel on the Radii server. If you would like to have a specific domain, your own server or unlimited storage contact Radii at contact@RADii.info 
 The publishing and save limit can be seen when right clicking on the Connect_ component. 
 
 Current storage for:
@@ -52,7 +52,7 @@ Current storage for:
   - registered users: x GB
     - publish limit : 500 mb
     - save limit    : 250 mb 
-  - organizations: to be defined with Radii contact at contact@radii.info
+  - organizations: to be defined with Radii contact at contact@RADii.info
 
 **Infrastructure**
 
@@ -105,7 +105,7 @@ This enables the student to test models in Radii as well as present them at the 
 The first 1,5 hours explain the basics on how to use the viewer and the grasshopper plugin
 For the viewer this includes how to connect to a channel and navigate in a model. In grasshopper
 is is about the most basic workflow and most important publishing components.
-In the second sitting we introduce the saving to the cloud and locally in radii files, how to animate, define views and basics of publish control. 
+In the second sitting we introduce the saving to the cloud and locally in RADii files, how to animate, define views and basics of publish control. 
 The third class goes into detail about the scenario manager that is part of publish control and leaves time for possible subscribe components.
 
 

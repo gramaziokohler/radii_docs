@@ -91,7 +91,7 @@ rst_prolog = """
 .. _PC Viewer Setup: https://gramaziokohler.github.io/radii_docs/tutorial/Quick_Guide/Setup/2_install_PC.html
 .. _Oculus Viewer Setup:
 
-.. _radii.info: https://radii.info/
+.. _RADii.info: https://radii.info/
 .. _Radii Rhino7 Grasshopper Win/Mac: https://radii.info/download/plugin/R7/RADii.zip
 .. _Radii Rhino8 Grasshopper Win/Mac: https://radii.info/download/plugin/R8/RADii.zip
 .. _Radii Capture Win/Mac: https://radii.info/download/plugin/RADiiCapture.zip
@@ -138,6 +138,10 @@ rst_prolog = """
 
 
 .. _Introducing Publish Parameter: https://www.youtube.com/watch?v=3u-yBNSTHpU
+.. _Voice chat and viewer to viewer control: https://www.youtube.com/watch?v=CCU14B5tqCM
+
+
+
 
 
 """

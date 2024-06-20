@@ -33,27 +33,58 @@
             
   <section id="publish-menu">
 <h1><span class="section-number">3. </span>Publish Menu<a class="headerlink" href="#publish-menu" title="Link to this heading">¶</a></h1>
-<a class="reference internal image-reference" href="../../../_images/publish_circle_48.png"><img alt="../../../_images/publish_circle_48.png" src="../../../_images/publish_circle_48.png" style="width: 24.0px; height: 24.0px;" /></a>
-<img alt="../../../_images/Menu_publish.png" src="../../../_images/Menu_publish.png" />
-<img alt="../../../_images/Publish_menu_detail.png" class="align-left" src="../../../_images/Publish_menu_detail.png" />
-<ol class="arabic simple" start="8">
-<li><p><strong>Parameters</strong> - send parameters back to grasshopper</p>
-<ul class="simple">
-<li><dl class="simple">
-<dt>Add by typing a name and click:</dt><dd><ul>
-<li><p>Boolean (on/off)</p></li>
-<li><p>Slider (Number between 0 and 1)</p></li>
-</ul>
-</dd>
-</dl>
-</li>
-<li><p>To receive them in grasshopper use the SubscribeParameter component</p></li>
-</ul>
-</li>
+<a class="reference internal image-reference" href="../../../_images/publish_circle_48.png"><img alt="../../../_images/publish_circle_48.png" src="../../../_images/publish_circle_48.png" style="width: 28.799999999999997px; height: 28.799999999999997px;" /></a>
+<a class="reference internal image-reference" href="../../../_images/Publish_menu_detail.png"><img alt="../../../_images/Publish_menu_detail.png" class="align-right" src="../../../_images/Publish_menu_detail.png" style="width: 293.29999999999995px; height: 925.4px;" /></a>
+<p>This menu allows for the control of other viewers, the publication of content and the publication of
+parameters to rhino sessions that have subscribed to this specific viewer.</p>
+<ol class="arabic simple">
+<li><p><strong>Published content</strong></p></li>
 </ol>
+<ul class="simple">
+<li><p>controls the type of content that is published with this viewer</p></li>
+</ul>
+<ol class="arabic simple" start="2">
+<li><p><strong>Publish control</strong></p></li>
+</ol>
+<table class="docutils align-default">
+<tbody>
+<tr class="row-odd"><td><p>Control</p></td>
+<td><p>this viewers settings are forced on all other viewers</p></td>
+</tr>
+<tr class="row-even"><td><p>Follow</p></td>
+<td><p>viewers on the channel are forced to follow this viewers movement</p></td>
+</tr>
+<tr class="row-odd"><td><p>Merge</p></td>
+<td><p>control and follow in one button</p></td>
+</tr>
+</tbody>
+</table>
+<p><em>Note:</em> to Publish control, the active viewer has to be a member auf the channel</p>
+<ol class="arabic simple" start="3">
+<li><p><strong>Parameters</strong></p></li>
+</ol>
+<p>Send parameters back to Rhino Grasshopper that can be received with <a class="reference external" href="https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/107_SubscribeParameter.html">Subscribe Parameter</a></p>
+<p><strong>Add by</strong> typing a <em>name</em> and then click</p>
+<table class="docutils align-default">
+<tbody>
+<tr class="row-odd"><td><img alt="../../../_images/Circle.png" src="../../../_images/Circle.png" />
+</td>
+<td><p>Boolean (on/off)</p></td>
+</tr>
+<tr class="row-even"><td><img alt="../../../_images/Control.png" src="../../../_images/Control.png" />
+</td>
+<td><p>Slider (Number between 0 and 1)</p></td>
+</tr>
+<tr class="row-odd"><td><img alt="../../../_images/Numb_Parameter_24.png" src="../../../_images/Numb_Parameter_24.png" />
+</td>
+<td><p>Integer (0,1,2, …)</p></td>
+</tr>
+</tbody>
+</table>
 <p><strong>Video tutorial:</strong></p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://www.youtube.com/watch?v=d4HaI0gQRH4">Parameters</a></p></li>
+<li><p><a class="reference external" href="https://www.youtube.com/watch?v=CCU14B5tqCM">Voice chat and viewer to viewer control</a></p></li>
 </ul>
 </section>
 
@@ -92,7 +123,7 @@
 <li class="toctree-l2"><a class="reference internal" href="6_Operation_menu.html">6. Operation Menu</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../grashopper/documentation_rst/01_Components_Overview.html">Radii Grasshopper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../grashopper/documentation_rst/01_Components_Overview.html">RADii Grasshopper</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../Quick_Guide/Quick_Guides.html">Guides</a></li>
 </ul>
 

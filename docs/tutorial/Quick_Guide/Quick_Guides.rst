@@ -24,7 +24,7 @@ The plugin enables you to publish(send) and subscribe(receive) 3D models and oth
 
 
 **Radii Account** 
-`radii.info`_
+`RADii.info`_
 For your own domain, more storage, advanced management and functionalities
 
  *Register* in the user panel *and confirm* your email 

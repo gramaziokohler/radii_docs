@@ -6,7 +6,7 @@ Radii projects can be documented in a number of ways. This tutorial will show yo
 Saving geometry and controls separately has proven a useful practice, they can be loaded into the viewer speratily later. Making the individual files smaller and quicker to save.
 
 ---------------------
-Save a .radii file
+Save a .RADii file
 ---------------------
 
 .. image:: /tutorial/Radii_diagramms/Daten_Diagramme_v2/Artboard15.png
@@ -18,7 +18,7 @@ Radii file diagram
 
 - with the `Save Content`_ component: 
 
-  - save everything that is connected as a radii file to be used locally
+  - save everything that is connected as a RADii file to be used locally
   - save everything to the cloud
 
 

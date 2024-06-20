@@ -14,7 +14,7 @@
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
     <link rel="next" title="2. PublishGeometry" href="03_publish_geometry.html" />
-    <link rel="prev" title="Radii Grasshopper" href="01_Components_Overview.html" />
+    <link rel="prev" title="RADii Grasshopper" href="01_Components_Overview.html" />
    
   <link rel="stylesheet" href="../../../_static/custom.css" type="text/css" />
   
@@ -33,9 +33,9 @@
             
   <section id="id1">
 <h1><span class="section-number">1. </span>Connect<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h1>
-<p>The connect component is the <strong>central component</strong> of the radii plugin, every other component is connected to it, via “Connection” output.
-Only those components who are connected will be published, when you switch the Toggle to true.
-With it you can select the channel you want to publish to, and log into your Radii account.</p>
+<p>The connect component is the <strong>central component</strong> of the RADii plugin. All other components are connected to it via the “Connection” output.
+Only components that are connected will be published, as soon as you switch the Toggle to “True”.
+With it, you can select the channel you want to publish to, and log into your RADii account.</p>
 <p><strong>Input</strong></p>
 <table class="docutils align-default">
 <thead>
@@ -50,11 +50,11 @@ With it you can select the channel you want to publish to, and log into your Rad
 <td><p>Boolean</p></td>
 </tr>
 <tr class="row-odd"><td><p>Point to</p></td>
-<td><p>The rhino view is sending a pointer</p></td>
+<td><p>The Rhino view is sending a pointer</p></td>
 <td><p>Boolean</p></td>
 </tr>
 <tr class="row-even"><td><p>Follow</p></td>
-<td><p>Everyone follows the rhino view</p></td>
+<td><p>Everyone follows the Rhino view</p></td>
 <td><p>Boolean</p></td>
 </tr>
 </tbody>
@@ -73,7 +73,7 @@ With it you can select the channel you want to publish to, and log into your Rad
 <tbody>
 <tr class="row-even"><td><p>Connection</p></td>
 <td><p>All further components have to be connected here</p></td>
-<td><p>Radii components</p></td>
+<td><p>RADii components</p></td>
 </tr>
 </tbody>
 </table>
@@ -81,7 +81,7 @@ With it you can select the channel you want to publish to, and log into your Rad
 <p><strong>Right click menu:</strong></p>
 <img alt="../../../_images/Connect.1.png" src="../../../_images/Connect.1.png" />
 <ul class="simple">
-<li><p>Give yourself a <em>nickname</em> (this will be your name for other user in the viewer)</p></li>
+<li><p>Give yourself a <em>nickname</em> (this will be your name in the viewer so other users can recognise you)</p></li>
 <li><dl class="simple">
 <dt>input your:</dt><dd><ul>
 <li><p>User Name</p></li>
@@ -91,13 +91,13 @@ With it you can select the channel you want to publish to, and log into your Rad
 </dl>
 </li>
 <li><p>click on “load account”</p></li>
-<li><p>if you do not have an account create one on <a class="reference external" href="https://radii.info/">radii.info</a></p></li>
+<li><p>if you do not have an account, create one on <a class="reference external" href="https://radii.info/">RADii.info</a></p></li>
 </ul>
-<p>Note: If you are part of a group or organization please use the respective email address.</p>
+<p>Note: If you are part of a group or organization, please use the respective email address.</p>
 <img alt="../../../_images/Connect.11.png" src="../../../_images/Connect.11.png" />
-<p><strong>About channels and subchannels and subsubsubchannels</strong>
+<p><strong>About channels and subchannels and subsubsubchannels:</strong>
 The way to write channel addresses in the viewer is channelname.subchannel.sub.sub and can be endlessly extended.
-In Radii grasshopper the same address is reached by logging in, choosing “channelname &gt; My Domain” and then under “-subchannel-”
+In RADii grasshopper the same address is reached by logging in, choosing “channelname &gt; My Domain” and then under “-subchannel-”
 typing subchannel.sub.sub</p>
 <img alt="../../../_images/03_Quick_Guide_Publisher_zugeschnitten.png" src="../../../_images/03_Quick_Guide_Publisher_zugeschnitten.png" />
 <p>Example:
@@ -106,7 +106,7 @@ The channelname “sun” in grasshopper:
 Sun &gt; My Domain</p>
 <p>-subchannel-
 hs23.g1</p>
-<p>In the Radii viewer:
+<p>In the RADii viewer:
 -channel-
 sun.hs23.g1</p>
 </section>
@@ -138,7 +138,7 @@ sun.hs23.g1</p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../../../index.html">Home</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../Viewer_PC/documentation_rst/0_Viewer.html">Radii Viewer</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="01_Components_Overview.html">Radii Grasshopper</a><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="01_Components_Overview.html">RADii Grasshopper</a><ul class="current">
 <li class="toctree-l2 current"><a class="current reference internal" href="#">1. Connect</a></li>
 <li class="toctree-l2"><a class="reference internal" href="03_publish_geometry.html">2. PublishGeometry</a></li>
 <li class="toctree-l2"><a class="reference internal" href="04_publish_material.html">3. PublishMaterial</a></li>
@@ -151,7 +151,7 @@ sun.hs23.g1</p>
 <li class="toctree-l2"><a class="reference internal" href="11_publish_Message.html">10. PublishMessage</a></li>
 <li class="toctree-l2"><a class="reference internal" href="13_publish_sound.html">11. Publish Sound</a></li>
 <li class="toctree-l2"><a class="reference internal" href="14_publish_reference.html">12. PublishReference</a></li>
-<li class="toctree-l2"><a class="reference internal" href="15_publish_parameter.html">Publish Parameter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="15_publish_parameter.html">PublishParameter</a></li>
 <li class="toctree-l2"><a class="reference internal" href="12_SaveContent.html">1. SaveContent</a></li>
 <li class="toctree-l2"><a class="reference internal" href="200_Params_connection.html">1. Params Connect</a></li>
 <li class="toctree-l2"><a class="reference internal" href="201_Params_content.html">2. Params Content</a></li>
@@ -174,8 +174,8 @@ sun.hs23.g1</p>
 <h3>Related Topics</h3>
 <ul>
   <li><a href="../../../index.html">Documentation overview</a><ul>
-  <li><a href="01_Components_Overview.html">Radii Grasshopper</a><ul>
-      <li>Previous: <a href="01_Components_Overview.html" title="previous chapter">Radii Grasshopper</a></li>
+  <li><a href="01_Components_Overview.html">RADii Grasshopper</a><ul>
+      <li>Previous: <a href="01_Components_Overview.html" title="previous chapter">RADii Grasshopper</a></li>
       <li>Next: <a href="03_publish_geometry.html" title="next chapter"><span class="section-number">2. </span>PublishGeometry</a></li>
   </ul></li>
   </ul></li>

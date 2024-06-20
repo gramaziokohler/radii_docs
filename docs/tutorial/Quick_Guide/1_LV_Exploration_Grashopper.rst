@@ -20,7 +20,11 @@ With it you will be able to publish(upload) geometry on a Radii channel.
 
 
 This is a short introduction into publishing(uploading) your files to RADii.
+<<<<<<< HEAD
 You can create your own RADii account on `radii.info`_ if you want to have your personal space and more storage.
+=======
+We advice to make a Radii account at `RADii.info`_ if you want to have your personal space and more storage.
+>>>>>>> main
 More Detail can be found at RadiiGrasshopper_ documentation.
 Note that your viewer needs to be connected with the same channel to receive the sent content.
 

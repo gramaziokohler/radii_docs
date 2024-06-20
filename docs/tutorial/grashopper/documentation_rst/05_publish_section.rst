@@ -5,7 +5,7 @@ PublishSection
 .. image:: ../images/Publish/Publish_section.png
     :scale: 80 %
 
-This component is used to publish clipping planes from Rhino or directly from grashopper to a channel.
+This component is used to publish clipping planes from Rhino or directly from Grasshopper to a channel.
 
 Video tutorials:
 
@@ -19,7 +19,7 @@ Video tutorials:
 Name        Description                             Type
 ==========  ======================================  ==============
 Connection  Link with the Connect component         Connection
-Section     Plane A plane that will cut the model   Plane/surfaces
+Section     Select A plane that will cut the model   Plane/surfaces
 Index       Select a plane from a list              Number
 ==========  ======================================  ==============
 
@@ -32,7 +32,7 @@ Index       Select a plane from a list              Number
 Name        Description                             Type
 ==========  ======================================  ==============
 Log         Documents changes & Data send           Text
-Content     Connect to Content                      Radii content
+Content     Connect to Content                      RADii content
 ==========  ======================================  ==============
 
 **Menu**

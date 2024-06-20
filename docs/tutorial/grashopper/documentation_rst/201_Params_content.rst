@@ -21,5 +21,5 @@ Content     Link content in and outputs             RADii Content
 ==========  ======================================  ==============
 Name        Description                             Type
 ==========  ======================================  ==============
-Content     Link content in and outputs             Radii Content
+Content     Link content in and outputs             RADii Content
 ==========  ======================================  ==============

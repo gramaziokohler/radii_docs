@@ -9,7 +9,7 @@ Connect Menu
 
 
 This menu is for connecting to a channel, logging into your custom account, subscribing to specific types of content and for connecting to the voice chat.
-Logging into your Radii account gives you access to your personal channel and potentially your group channels, with more live and permanent storage.
+Logging into your RADii account gives you access to your personal channel and potentially your group channels, with more live and permanent storage.
 
 .. image:: ../images/02_Menu_connect_zuschnitt.png
    :scale: 70%
@@ -55,8 +55,8 @@ Logging into your Radii account gives you access to your personal channel and po
    Output Device: Taken from the system standard and can be changed in the settings
    Input Device: Taken from the system standard and can be changed in the settings
 
- Note: As of now Positional sound and non Positional sound, work as two isolated voice chats. 
- To hear each other all parties have to be in the same state.
+ Note: As of now, Positional sound and non-Positional sound work as two isolated voice chats. 
+ To hear each other, all parties have to be in the same state.
 
 6. **Server**
 
@@ -64,7 +64,7 @@ Logging into your Radii account gives you access to your personal channel and po
 .. image:: /tutorial/Radii_Icons/Info_inv.png         I-Info menu with version number, RADii.info, Privacy Policy and Terms and Conditions
 Connect                                               Press connect after setting the channel name to join a channel
 Disconnect                                            To exit a channel
-Sync                                                  synchronizes with a channel, to receive all content that was previously sent
+Sync                                                  Synchronizes with a channel, to receive all content that was previously sent
 ====================================================  ==============================================================
 
 **Video**

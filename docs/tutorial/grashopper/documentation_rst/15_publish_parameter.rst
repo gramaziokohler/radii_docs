@@ -7,7 +7,7 @@ PublishParameter
 Publish Parameter publishes a set of defined booleans, integers or decimal numbers to the viewer.
 New parameters can be added by zooming close to the component and pressing the ``+``. 
 The resulting input can be renamed and connected to a number slider or boolean. 
-For numbers that should be understood as integers, add an integer component between the input and the number, as shown in the image below.
+For numbers that should be understood as integers add a integer component between the input tha the number, as shown in the image below.
  
 
 These values can be interacted with in the Viewers and then feed back to the rhino session with the `Subscribe Parameter`_
@@ -36,7 +36,7 @@ Connection  Link with the Connect component             Connection
 Name        Description                             Type
 ==========  ======================================  ==============
 Log         Documents changes & data send           Text
-Content     Connect to Save or use otherwise        RADii content
+Content     Connect to Save or use otherwise        Radii content
 
 ==========  ======================================  ==============
 

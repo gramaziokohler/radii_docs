@@ -29,7 +29,7 @@ Inner Envelope      Defining the inner sound reach          Circle
 Name        Description                             Type
 ==========  ======================================  ==============
 Log         Documents changes & data send           Text
-Content     Connect to Save component for saving    RADii content
+Content     Connect to Save component for saving    Radii content
 ==========  ======================================  ==============
 
 **Menu**

@@ -33,7 +33,7 @@ To control the quality of your geometry you can use the following components
 Name        Description                             Type
 =========   =====================================   ===================
 Log         Documents changes & data send           Text
-Content     Connect to Save component for saving    RADii content
+Content     Connect to Save component for saving    Radii content
 =========   =====================================   ===================
 
 
@@ -57,4 +57,5 @@ Shared:     collaborative editing of geometry in the viewer
 - `Collaborative content modification <https://www.youtube.com/watch?v=YuBep3x01cE>`_
   
   - activate the "Shared" option in the menu
-- `Collaboration  <https://www.youtube.com/watch?v=PVB9a0dsJfQ>`_ 
+- `Collaboration  <https://www.youtube.com/watch?v=PVB9a0dsJfQ>`_
+-  

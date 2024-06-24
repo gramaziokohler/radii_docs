@@ -13,7 +13,7 @@ This component is a relay for content that lets you organize your wires more eff
 ==========  ======================================  ==============
 Name        Description                             Type
 ==========  ======================================  ==============
-Content     Link content in and outputs             RADii Content
+Content     Link content in and outputs             Radii Content
 ==========  ======================================  ==============
 
 **Output**
@@ -21,5 +21,5 @@ Content     Link content in and outputs             RADii Content
 ==========  ======================================  ==============
 Name        Description                             Type
 ==========  ======================================  ==============
-Content     Link content in and outputs             RADii Content
+Content     Link content in and outputs             Radii Content
 ==========  ======================================  ==============

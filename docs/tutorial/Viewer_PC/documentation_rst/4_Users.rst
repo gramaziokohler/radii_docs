@@ -12,14 +12,12 @@ Users Menu
 This menu lists all imported data, editors on the same channel and the data received from them as well as all other viewers on the channel.
 It is possible to toggle the visibility or clear received data or editors and viewers. Giving the viewer control over the displayed geometry.
 
-
-**1. Import** = data imported from RADii file
-
 .. |Position| image:: /tutorial/Radii_Icons/Position.png
 
 .. |Clear| image:: /tutorial/Radii_Icons/Delete.png
 
-**1. Import** - Data loaded from RADii file
+**1. Import** 
+- Data loaded from RADii file
   
 ============= ===============================
 NickName      That saved the imported file (Example. Anonymous)
@@ -28,15 +26,11 @@ Content       Toggle content
 Content Parts Toggle content
 ============= ===============================
 
-**2. Editor** = data that was published from Rhino Grasshopper
+**2. Editor** = data that was sent from RhinoGrasshopper
 
 ============= ==========================================
-
-Follow        Follow the Rhino view of the user
-
 NickName      The RhinoGrasshopper editor (Eg. RHinoGrasshopperEditor)
 Follow        Follow the rhino view of the user
-
 User          Toggle avatar
 Content       Toggle content
 |Position|    Jump to the position of the Editor
@@ -44,7 +38,7 @@ Content       Toggle content
 Content Parts Toggle content
 ============= ==========================================
   
-**3. Viewer**  all other viewers that are on the channel right now
+**3. Viewer**  all other viewers that are on the channel
 
 ============= ==========================================
 NickName      Viewers (EG. Viewer PC)

@@ -15,7 +15,8 @@ Sensitivity       Mouse sensitivity
 Speed             Movement speed
 ================  =================================
 
-*Note:* turn slow when someone is following you through the project
+.. note::
+   turn slow when someone is following you through the project
 
 2. **Effects** - turning them off increases performance
 
@@ -35,7 +36,7 @@ Point Size        Size of the Points of the cloud
 Point near size   Increases point sizes near you
 ================  =======================================
 
-*Note:* point clouds are disabled in IOS/Android viewers because they require a lot of computing power
+*Note:* Point Clouds are disabled in IOS/Android viewers because they require a lot of computing power
 
 4. **Weather**
 
@@ -51,7 +52,7 @@ Fog density Can hide the horizon but also your model
 6. **Transform**
 
 ==========  ==========================================
-Rotation    Rotates all models around the 0 point
+Rotation    Rotates all models around the origin
 Scale       Scales all content
 ==========  ==========================================
 
@@ -103,7 +104,7 @@ Scale       Scales all content
 
    **Note for VR**
 
-  - in the Vr-Viewer the icon opens a different menu that lets you position the X,Y = 0 position and the orientation of it
+  - in the VR Viewer, the icon opens a different menu that lets you position the X,Y = 0 position and its orientation
     
     - this is very helpful to precisely place a model in real space 
 

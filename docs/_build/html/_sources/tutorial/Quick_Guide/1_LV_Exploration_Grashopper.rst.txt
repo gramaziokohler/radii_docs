@@ -11,18 +11,22 @@ Tutorial: Grasshopper Basics
 
 Length: ca. 10 min
 
-This tutorial, is based on the `Grasshopper Setup`_ guide.
+This tutorial is based on the `Grasshopper Setup`_ guide.
 
-It will introduce the basics of the Radii Grasshopper plugin.
-With it you will be able to publish(upload) geometry on a Radii channel.
+It will introduce the basics of the RADii Grasshopper plugin.
+With it, you will be able to publish(upload) geometry on a RADii channel.
 
 |RadiiLogo|
 
 
 This is a short introduction into publishing(uploading) your files to RADii.
+<<<<<<< HEAD
+You can create your own RADii account on `radii.info`_ if you want to have your personal space and more storage.
+=======
 We advice to make a Radii account at `RADii.info`_ if you want to have your personal space and more storage.
-More Detail can be found at RadiiGrasshopper_ documentation.
-Note that you need a running viewer on the same channel to receive the send content.
+>>>>>>> main
+More detail can be found at RadiiGrasshopper_ documentation.
+Note that your viewer needs to be connected with the same channel to receive the sent content.
 
 *The following tool will Publish/Upload all the Geometry in your rhino file. Use it with care and not with big models.*
 

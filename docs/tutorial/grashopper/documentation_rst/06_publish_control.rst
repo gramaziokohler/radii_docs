@@ -6,12 +6,12 @@ PublishControl
 .. image:: ../images/Publish/Publish__controll.png
     :scale: 80 %
 
-Publish control directs the viewer settings from grasshopper as listed in the menu section below.
+Publish Control directs the viewer settings from Grasshopper as listed in the menu section below.
 It contains the Scenario Manager that can save setting and all other content into a scenario to be played at once. With scenarios it is possible to do more complex presentations.
  
- - Be careful with saving geometry content into this component, this can make your grasshopper file very heavy. 
+ - Be careful with saving geometry content into this component, this can make your Grasshopper file very heavy. 
    
-  Tip: Grasshopper has an autosave. If the Publish Control component becomes too heavy, it will make you wait a lot
+  Tip: Grasshopper has an autosave function as a default setting. If the Publish Control component becomes too heavy, it will make you wait a lot
 
 **Video tutorials:**
 
@@ -27,7 +27,7 @@ Name            Description                                 Type
 Connection      Link with the Connect component             Connect
 Time of Year    Day of the Year                             Number
 Time of Day     Time of the day                             Number
-Content Save    output from other RADii components          save (Radii)
+Content Save    output from other RADii components          save (RADii)
 Index           For switching between scenarios             Number
 =============   ======================================      ==============
 
@@ -38,8 +38,8 @@ Index           For switching between scenarios             Number
 Name           Description                                 Type
 =============  ======================================      ==============
 Log            Documents changes & Data send               Text
-Save Control   Saving the controls only                    Radii
-Save Scenario  Save control and geometry                   Radii
+Save Control   Saving the controls only                    RADii
+Save Scenario  Save control and geometry                   RADii
 =============  ======================================      ==============
 
 
@@ -56,7 +56,7 @@ Grid                Toggle base floor
 Origin              Toggle origin sign
 Labels              Toggle all labels
 Fly                 Forces viewers to fly
-Set position        Set the camera of your active rhino viewport as position
+Set position        Set the camera of your active Rhino viewport as position
 Save position       Include the position in a scenario save
 Clear               Clears all content from viewers
 Set Location        Sets the world location for the sun
@@ -79,7 +79,7 @@ Set origin rotation Confirm rotation
 .. image:: ../images/Publish/Publish__controll_manager.png
     :scale: 80 %
 
-The scenario manager saves the selected options of the publishControl component and content that is connected to it into scenarios that can be played in succession. 
+The scenario manager saves the selected options of the Publish Control component and content that is connected to it into scenarios that can be played in succession. 
 
 
 ==============  ============================================================================================================================
@@ -94,9 +94,9 @@ Duration        length of the scenario
 **Column descriptions**
 
 ==========  ==============================================================================================
-Blank       Number of the scenario
-Scenario    name of the scenario
-Content     is content send (geometry, views, etc.) you could just send settings (time, position etc.)
+Blank       Index of the scenario
+Scenario    Name of the scenario
+Content     is content sent (geometry, views, etc.) you could just send settings (time, position etc.)
 Clear       Clears the channel before uploading new geometry
 Load        loading from the channel
 Duration    of the scenario when played on auto play in the viewer

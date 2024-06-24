@@ -5,11 +5,11 @@ PublishView
 .. image:: ../images/Publish/Publish_view.png
     :scale: 80 %
 
-This component is used to publish saved views to all user of a channel. All present Viewers will be moved to the selected view.
+This component is used to publish saved views to all Subscribers of a channel. All present Subscribers will be moved to the selected view.
 
 - there are two ways to import views:
   
-  - grasshopper via the component input
+  - Grasshopper via the component input
   - Saved Rhino views are accessible in the component menu
 
 **Input**
@@ -29,7 +29,7 @@ Index           To switch between views                 Number
 Name      Description                             Type
 =======   ======================================  ==============
 Log       Documents changes & Data send           Text
-Save      Connect to SaveContent for saving       Radii content
+Save      Connect to SaveContent for saving       RADii content
 =======   ======================================  ==============
 
 **Menu**

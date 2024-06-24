@@ -13,7 +13,7 @@ Publish Menu
 
 
 This menu allows for the control of other viewers, the publication of content and the publication of 
-parameters to rhino sessions that have subscribed to this specific viewer.
+parameters to Rhino sessions that have subscribed to this specific viewer.
 
 1. **Published content**
 
@@ -22,8 +22,8 @@ parameters to rhino sessions that have subscribed to this specific viewer.
 2. **Publish control**
 
 =========   =================================================================
-Control     this viewers settings are forced on all other viewers
-Follow      viewers on the channel are forced to follow this viewers movement
+Control     This viewer's settings are forced on all other viewers
+Follow      viewers on the channel are forced to follow this viewer's movement
 Merge       control and follow in one button
 =========   =================================================================
 

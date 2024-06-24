@@ -23,7 +23,7 @@ Connection  Link with the Connect component         Connection
 Name        Description                             Type
 ==========  ======================================  ==============
 Log         Documents changes & data send           Text
-Content     Connect to Save component for saving    Radii content   
+Content     Connect to Save component for saving    RADii content   
 ==========  ======================================  ==============
 
 **Menu**

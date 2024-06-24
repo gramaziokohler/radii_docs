@@ -5,7 +5,7 @@ SubscribeCurve
 .. image:: ../images/Subscribe/Sub_curve.png
     :scale: 90 %
 
-This component is used to subscribe to lines that are published to a channel.
+This component is used to subscribe to curves that are published to a channel.
 
 **Input**
 

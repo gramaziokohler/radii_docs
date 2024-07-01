@@ -13,23 +13,29 @@ Curves are not a very efficient geometry and can slow down the model if you publ
 
 **Input**
 
-==========  ======================================  ==============
-Name        Description                             Type
-==========  ======================================  ==============
-Connection  Link with the Connect component         Connect
-Curve       the curves to publish                   Curve
-MinEdge     Min length of segments                  Number
-MaxEdge     Max length of segments                  Number
-==========  ======================================  ==============
+.. table::
+  :align: left
+
+  ==========  ======================================  ==============
+  Name        Description                             Type
+  ==========  ======================================  ==============
+  Connection  Link with the Connect component         Connect
+  Curve       the curves to publish                   Curve
+  MinEdge     Min length of segments                  Number
+  MaxEdge     Max length of segments                  Number
+  ==========  ======================================  ==============
 
 **Output**
 
-==========  ======================================  ==============
-Name        Description                             Type
-==========  ======================================  ==============
-Log         Documents changes & Data send           Text
-Content     Connect to Content                      RADii content
-==========  ======================================  ==============
+.. table::
+  :align: left
+    
+  ==========  ======================================  ==============
+  Name        Description                             Type
+  ==========  ======================================  ==============
+  Log         Documents changes & Data send           Text
+  Content     Connect to Content                      RADii content
+  ==========  ======================================  ==============
 
 
 

@@ -10,16 +10,22 @@ This component is a relay for content that lets you organize your wires more eff
 
 **Input**
 
-==========  ======================================  ==============
-Name        Description                             Type
-==========  ======================================  ==============
-Content     Link content in and outputs             RADii Content
-==========  ======================================  ==============
+.. table::
+  :align: left
+    
+  ==========  ======================================  ==============
+  Name        Description                             Type
+  ==========  ======================================  ==============
+  Content     Link content in and outputs             RADii Content
+  ==========  ======================================  ==============
 
 **Output**
 
-==========  ======================================  ==============
-Name        Description                             Type
-==========  ======================================  ==============
-Content     Link content in and outputs             RADii Content
-==========  ======================================  ==============
+.. table::
+  :align: left
+    
+  ==========  ======================================  ==============
+  Name        Description                             Type
+  ==========  ======================================  ==============
+  Content     Link content in and outputs             RADii Content
+  ==========  ======================================  ==============

@@ -11,24 +11,26 @@ ReducePointCloud
 
 **Input**
 
-=========== ======================================  ==============
-Name        Description                             Type
-=========== ======================================  ==============
-Point Cloud Point Cloud to Reduce                   Point Cloud
-Fraction    Fraction of Points to remain            Number
-=========== ======================================  ==============
+.. table::
+  :align: left
+    
+  =========== ======================================  ==============
+  Name        Description                             Type
+  =========== ======================================  ==============
+  Point Cloud Point Cloud to Reduce                   Point Cloud
+  Fraction    Fraction of Points to remain            Number
+  =========== ======================================  ==============
 
 **Output**
 
-===========  ======================================  ==============
-Name         Description                              Type
-===========  ======================================  ==============
-Point Cloud  Reduced Point Cloud                      Point Cloud
-===========  ======================================  ==============
-
-
-
-
+.. table::
+  :align: left
+    
+  ===========  ======================================  ==============
+  Name         Description                              Type
+  ===========  ======================================  ==============
+  Point Cloud  Reduced Point Cloud                      Point Cloud
+  ===========  ======================================  ==============
 
 SubsetPointCloud
 -----------------
@@ -37,18 +39,24 @@ SubsetPointCloud
 
 **Input**
 
-=============   ======================================  ==============
-Name            Description                             Type
-=============   ======================================  ==============
-Point Cloud     Point Cloud to Reduce                   Point Cloud
-Selection box   Volume you want to keep                 Box
-=============   ======================================  ==============
+.. table::
+  :align: left
+
+  =============   ======================================  ==============
+  Name            Description                             Type
+  =============   ======================================  ==============
+  Point Cloud     Point Cloud to Reduce                   Point Cloud
+  Selection box   Volume you want to keep                 Box
+  =============   ======================================  ==============
 
 **Output**
 
-===========  ======================================  ==============
-Name         Description                             Type
-===========  ======================================  ==============
-Point Cloud  Selection of Point Cloud                Point Cloud
-===========  ======================================  ==============
+.. table::
+  :align: left
+    
+  ===========  ======================================  ==============
+  Name         Description                             Type
+  ===========  ======================================  ==============
+  Point Cloud  Selection of Point Cloud                Point Cloud
+  ===========  ======================================  ==============
 

@@ -9,28 +9,37 @@ Textures are automatically resized to 1200px to avoid unnecessary large files, t
 
 **Input**
 
-=========== =============================== ===========
-Name        Description                     Type
-=========== =============================== ===========
-Connection  Link with the Connect component Connection
-=========== =============================== ===========
+.. table::
+  :align: left
+
+  =========== =============================== ===========
+  Name        Description                     Type
+  =========== =============================== ===========
+  Connection  Link with the Connect component Connection
+  =========== =============================== ===========
 
 **Output**
 
-=======     ===================================== ==============
-Name        Description                           Type
-=======     ===================================== ==============
-Log         Documents changes & Data send         Text
-Content     Connect to Save component for saving  RADii content
-=======     ===================================== ==============
+.. table::
+  :align: left
+    
+  =======     ===================================== ==============
+  Name        Description                           Type
+  =======     ===================================== ==============
+  Log         Documents changes & Data send         Text
+  Content     Connect to Save component for saving  RADii content
+  =======     ===================================== ==============
 
 **Menu:**
 
-=========== ========================  =============
-Resolution  Max size of the texture   Pixel count
-=========== ========================  =============
+.. table::
+  :align: left
+    
+  =========== ========================  =============
+  Resolution  Max size of the texture   Pixel count
+  =========== ========================  =============
 
-Note:
+**Note:** 
 
-  - RADii only reads Custom Materials properly from Rhino, no Emission, Glass, Paint, Plaster, ...
-  - in case your Custom Material remains black, try changing the color profile of the image in use to RGB
+- ``RADii only reads Custom Materials properly from Rhino, no Emission, Glass, Paint, Plaster, ...``
+- ``in case your Custom Material remains black, try changing the color profile of the image in use to RGB``

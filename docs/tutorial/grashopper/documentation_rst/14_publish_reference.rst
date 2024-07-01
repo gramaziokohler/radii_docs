@@ -11,35 +11,42 @@ By activating (loading) geometry before a presentation, it is possible to easily
 
 **Input**
 
-==========  ======================================  ==============
-Name        Description                             Type
-==========  ======================================  ==============
-Connection  Link with the Connect component         Connection
-==========  ======================================  ==============
+.. table::
+  :align: left
+
+  ==========  ======================================  ==============
+  Name        Description                             Type
+  ==========  ======================================  ==============
+  Connection  Link with the Connect component         Connection
+  ==========  ======================================  ==============
 
 **Output**
 
-==========  ======================================  ==============
-Name        Description                             Type
-==========  ======================================  ==============
-Log         Documents changes & data send           Text
-Content     Connect to Save component for saving    RADii content   
-==========  ======================================  ==============
+.. table::
+  :align: left
+    
+  ==========  ======================================  ==============
+  Name        Description                             Type
+  ==========  ======================================  ==============
+  Log         Documents changes & data send           Text
+  Content     Connect to Save component for saving    RADii content   
+  ==========  ======================================  ==============
 
 **Menu**
 
 .. image:: ../images/Publish/Publish_Reference/Publish_reference_manager.png
     :scale: 90%
 
-=====================   ==========================================
-Name                    Description                           
-=====================   ==========================================
-Channelname             Channel to access references from
-Refresh                 Update List
-List                    Names of Geometry Collections on the channel
-Reference collection    For collecting references from channels
-Active                  Loads the Reference to all viewers
-Visible                 Shows the Reference to all viewers
-=====================   ==========================================
-
-
+.. table::
+  :align: left
+    
+  =====================   ==========================================
+  Name                    Description                           
+  =====================   ==========================================
+  Channelname             Channel to access references from
+  Refresh                 Update List
+  List                    Names of Geometry Collections on the channel
+  Reference collection    For collecting references from channels
+  Active                  Loads the Reference to all viewers
+  Visible                 Shows the Reference to all viewers
+  =====================   ==========================================

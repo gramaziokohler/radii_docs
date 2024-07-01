@@ -13,20 +13,26 @@ If your mesh is coloured with the color mesh component, the colors will be trans
 
 **Input**
 
-=========== ============================================    ==============
-Name        Description                                     Type
-=========== ============================================    ==============
-Right click Link Pointcloud from Rhino Scene                Pointcloud
-Mesh        Mesh vertices will be turned into pointcloud    Mesh  
-=========== ============================================    ==============
+.. table::
+  :align: left
+    
+  =========== ============================================    ==============
+  Name        Description                                     Type
+  =========== ============================================    ==============
+  Right click Link Pointcloud from Rhino Scene                Pointcloud
+  Mesh        Mesh vertices will be turned into pointcloud    Mesh  
+  =========== ============================================    ==============
 
 **Output**
 
-==========  ======================================  ==============
-Name        Description                             Type
-==========  ======================================  ==============
-Pointcloud  Generated or Linked Pointcloud          Pointcloud
-==========  ======================================  ==============
+.. table::
+  :align: left
+    
+  ==========  ======================================  ==============
+  Name        Description                             Type
+  ==========  ======================================  ==============
+  Pointcloud  Generated or Linked Pointcloud          Pointcloud
+  ==========  ======================================  ==============
 
 
 

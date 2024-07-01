@@ -7,58 +7,75 @@ World Menu
 .. image:: ../images/World_menu_detail.png
   :align: right
 
-1. **Camera**
+**1. Camera**
 
-================  =================================
-Field of view     Controls the field of view 
-Sensitivity       Mouse sensitivity
-Speed             Movement speed
-================  =================================
+.. table::
+  :align: left 
 
-.. note::
-   turn slow when someone is following you through the project
+  ================  =================================
+  Field of view     Controls the field of view 
+  Sensitivity       Mouse sensitivity
+  Speed             Movement speed
+  ================  =================================
 
-2. **Effects** - turning them off increases performance
-
-==========  ==================================================================================================
-Motion      Motion blur
-Bloom       Makes bright spots bleed at the edges, simulating a real camera
-DOF         Depth of field - distance between closest and furthest part of an image that are in focus
-Chrom       Chromatic effect - adds artifacts to the image, simulating a poor len
-Vignet      Darkening on the edges of images, simulating real cameras
-Inverse     Clipping/sectioning leaves a ghost of the hidden geometry
-==========  ==================================================================================================
-
-3. **Point Cloud**
-
-================  =======================================
-Point Size        Size of the Points of the cloud
-Point near size   Increases point sizes near you
-================  =======================================
-
-*Note:* Point Clouds are disabled in IOS/Android viewers because they require a lot of computing power
-
-4. **Weather**
-
-=========== ===========================================================
-Quality     Resolution of the sky, above lv3 not significantly better
-Condition   Types of weather: rainy, foggy and sunny
-Fog density Can hide the horizon but also your model
-=========== ===========================================================
-
-*Note:* for better performance: turn weather to sunny, fog off, quality to lowest
-
-5. **Time**
-6. **Transform**
-
-==========  ==========================================
-Rotation    Rotates all models around the origin
-Scale       Scales all content
-==========  ==========================================
+**Note:** ``Turn slow when someone is following you through the project``
 
 
+**2. Effects** - turning them off increases performance
 
-7. **Select Viewer**
+.. table::
+  :align: left 
+
+  ==========  ==================================================================================================
+  Motion      Motion blur
+  Bloom       Makes bright spots bleed at the edges, simulating a real camera
+  DOF         Depth of field - distance between closest and furthest part of an image that are in focus
+  Chrom       Chromatic effect - adds artifacts to the image, simulating a poor len
+  Vignet      Darkening on the edges of images, simulating real cameras
+  Inverse     Clipping/sectioning leaves a ghost of the hidden geometry
+  ==========  ==================================================================================================
+
+**3. Point Cloud**
+
+.. table::
+  :align: left 
+   
+  ================  =======================================
+  Point Size        Size of the Points of the cloud
+  Point near size   Increases point sizes near you
+  ================  =======================================
+
+**Note:** 
+``Point Clouds are disabled in IOS/Android viewers because they require a lot of computing power``
+
+**4. Weather**
+
+.. table::
+  :align: left 
+   
+  =========== ===========================================================
+  Quality     Resolution of the sky, above lv3 not significantly better
+  Condition   Types of weather: rainy, foggy and sunny
+  Fog density Can hide the horizon but also your model
+  =========== ===========================================================
+
+**Note:** ``for better performance turn weather to sunny, fog off, quality to lowest``
+
+**5. Time**
+
+**6. Transform**
+
+.. table::
+  :align: left 
+   
+  ==========  ==========================================
+  Rotation    Rotates all models around the origin
+  Scale       Scales all content
+  ==========  ==========================================
+
+
+
+**7. Select Viewer**
 
    .. image:: /tutorial/Radii_Icons/Viewer.png
       
@@ -74,7 +91,7 @@ Scale       Scales all content
     
   - Augmented Reality (AR) = Available on IOs, Android, Oculus. Displays virtual model in a real environment 
 
-8. **Tracking & Reposition**
+**8. Tracking & Reposition**
 
    .. image:: /tutorial/Radii_Icons/Position.png
       :align: left
@@ -109,7 +126,7 @@ Scale       Scales all content
     - this is very helpful to precisely place a model in real space 
 
 
-9. **Projection**
+**9. Projection**
 
    .. image:: /tutorial/Radii_Icons/Projection.png
       :align: left
@@ -123,8 +140,10 @@ Scale       Scales all content
    - Projection = screen size settings
      - you can also edit the overall scale and height of the horizon
 
-10. **Grid** = toggles the default floor
-11. **Origin** = toggles the origin point
+
+**10. Grid** = toggles the default floor
+
+**11. Origin** = toggles the origin point
 
 **Video tutorials:**
 

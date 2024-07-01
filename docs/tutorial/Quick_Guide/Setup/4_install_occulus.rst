@@ -7,9 +7,19 @@ Please be aware that the Oculus and its environments are subject to frequent cha
 1. Download the advanced version of `sidequest <https://sidequestvr.com/>`_
 2. Download the .apk file under the name `Radii Viewer VR universal`_ from https://Radii.info in the Download section
 3. Set your Oculus account to developer mode (you have to be part of a developer organization), log in to your account on your device and enable Settings > System > Developer, and then turn on the USB Connection Dialog option.
-4. Connect the Oculus to your device and start side on the later
+4. Connect the Oculus to your device and start sidequest on the later
+
+.. image:: ../Setup/Images/VR_setup_02_detected.png
+    :scale: 50%
+       
 5. Allow for debugging on your Oculus
 6. On sidequest select the install .apk file and install
+
+.. image:: ../Setup/Images/VR_setup_03_install_apk.png
+    :scale: 50%
+
+Congratulations you have installed Radii on your Vr device
+
 
 To find the Radii Viewer app on Oculus:
 
@@ -17,6 +27,6 @@ To find the Radii Viewer app on Oculus:
 2. Filter apps for unknown sources 
 3. Start Radii Viewer VR
 
-Congratulations you have installed Radii on your Vr device
+
 
 

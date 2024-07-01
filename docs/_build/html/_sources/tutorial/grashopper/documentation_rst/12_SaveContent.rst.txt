@@ -8,19 +8,25 @@ This component is used to save content locally or to a channel in the cloud.
 
 **Input**
 
-==========  ======================================  ==============
-Name        Description                             Type
-==========  ======================================  ==============
-Connection  Link with the Connect component         Connection  
-Content     To be included in the save              RADii content
-==========  ======================================  ==============
+.. table::
+  :align: left
+
+  ==========  ======================================  ==============
+  Name        Description                             Type
+  ==========  ======================================  ==============
+  Connection  Link with the Connect component         Connection  
+  Content     To be included in the save              RADii content
+  ==========  ======================================  ==============
 
 **Menu**
 
-==============  ==========================================
-Save            Save a RADii file locally
-Cloud Manager   Save to the connected channel
-==============  ==========================================
+.. table::
+  :align: left
+    
+  ==============  ==========================================
+  Save            Save a RADii file locally
+  Cloud Manager   Save to the connected channel
+  ==============  ==========================================
 
 
 .. image:: ../images/Save_Content/Save_Content2.png

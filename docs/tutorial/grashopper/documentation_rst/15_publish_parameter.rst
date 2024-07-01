@@ -21,24 +21,30 @@ It is possible to define such parameters in a viewer, they are however temporary
 
 **Input**
 
-==========  ==========================================  ==============
-Name        Description                                 Type
-==========  ==========================================  ==============
-Connection  Link with the Connect component             Connection
-``+``       Adds a boolean, integer or decimal number   Boolean, Integer, Decimal
+.. table::
+  :align: left
+    
+  ==========  ==========================================  ==============
+  Name        Description                                 Type
+  ==========  ==========================================  ==============
+  Connection  Link with the Connect component             Connection
+  ``+``       Adds a boolean, integer or decimal number   Boolean, Integer, Decimal
 
-==========  ==========================================  ==============
+  ==========  ==========================================  ==============
 
 
 **Output**
 
-==========  ======================================  ==============
-Name        Description                             Type
-==========  ======================================  ==============
-Log         Documents changes & data send           Text
-Content     Connect to Save or use otherwise        RADii content
+.. table::
+  :align: left
+    
+  ==========  ======================================  ==============
+  Name        Description                             Type
+  ==========  ======================================  ==============
+  Log         Documents changes & data send           Text
+  Content     Connect to Save or use otherwise        RADii content
 
-==========  ======================================  ==============
+  ==========  ======================================  ==============
 
 .. image:: ../images/Publish/Publish_Parameter/Publish_parameter_subscribe.png
 

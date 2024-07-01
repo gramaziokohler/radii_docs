@@ -17,32 +17,41 @@ Videos:
 
 **Input**
 
-=================   ========================================    =======================================
-Name                Description                                 Type
-=================   ========================================    =======================================
-Connection          Link with the Connect component             Connect
-Animation Planes    Along the path you want to animate          Planes
-Content             Geometry you want to animate                Save of Publish Geometry component
-=================   ========================================    =======================================
+.. table::
+  :align: left
+    
+  =================   ========================================    =======================================
+  Name                Description                                 Type
+  =================   ========================================    =======================================
+  Connection          Link with the Connect component             Connect
+  Animation Planes    Along the path you want to animate          Planes
+  Content             Geometry you want to animate                Save of Publish Geometry component
+  =================   ========================================    =======================================
 
 
 **Output**
 
-==========  ======================================  ==============
-Name        Description                             Type
-==========  ======================================  ==============
-Log         Documents changes & Data send           Text
-Content     Connect to Content                      RADii content
-==========  ======================================  ==============
+.. table::
+  :align: left
+    
+  ==========  ======================================  ==============
+  Name        Description                             Type
+  ==========  ======================================  ==============
+  Log         Documents changes & Data send           Text
+  Content     Connect to Content                      RADii content
+  ==========  ======================================  ==============
 
 
 **Menu**
 
-==========  ==========================================
-Animation   Title / Name of your Animation
-Animation   Duration Speed: higher number = quicker
-Animation   Behavior Play, Replay, Reverse, Return
-==========  ==========================================
+.. table::
+  :align: left
+    
+  ==========  ==========================================
+  Animation   Title / Name of your Animation
+  Animation   Duration Speed: higher number = quicker
+  Animation   Behavior Play, Replay, Reverse, Return
+  ==========  ==========================================
 
 **Multiple Animations in parallel:**
 

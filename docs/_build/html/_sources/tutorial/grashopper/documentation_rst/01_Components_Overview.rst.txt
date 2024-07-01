@@ -14,12 +14,13 @@ There are 6 types of components:
 | **Subscribe** imports data from from a connected channel to your local Rhino Grasshopper session. The data can then be further processed or saved.
 | **Tools** to modify point clouds and meshes
 
-**Any way in which data can be sent, stored and received in RADii:**
+Diagram of all ways in which data can be sent, stored and received with RADii:
+-----------------------------------------------------------------------------------
 
 .. image:: /tutorial/Radii_diagramms/Daten_Diagramme_v2/Artboard14.png
 
 Grasshopper Components
-_____________________________
+-----------------------
 
 .. the naming in toctree is case sensitive
 

@@ -14,29 +14,38 @@ This component is used to publish saved views to all Subscribers of a channel. A
 
 **Input**
 
-=============   ======================================  ==============
-Name            Description                             Type
-=============   ======================================  ==============
-Connection      Link with the Connect component         Connect
-Camera Planes   Planes to define viewpoints             Plane
-Field of view   Size of view                            Number
-Index           To switch between views                 Number
-=============   ======================================  ==============
+.. table::
+  :align: left
+
+  =============   ======================================  ==============
+  Name            Description                             Type
+  =============   ======================================  ==============
+  Connection      Link with the Connect component         Connect
+  Camera Planes   Planes to define viewpoints             Plane
+  Field of view   Size of view                            Number
+  Index           To switch between views                 Number
+  =============   ======================================  ==============
 
 **Output**
 
-=======   ======================================  ==============
-Name      Description                             Type
-=======   ======================================  ==============
-Log       Documents changes & Data send           Text
-Save      Connect to SaveContent for saving       RADii content
-=======   ======================================  ==============
+.. table::
+  :align: left
+    
+  =======   ======================================  ==============
+  Name      Description                             Type
+  =======   ======================================  ==============
+  Log       Documents changes & Data send           Text
+  Save      Connect to SaveContent for saving       RADii content
+  =======   ======================================  ==============
 
 **Menu**
 
-=========== ======================================  
-View        Duration Speed to switch between views
-Active view Rhino Views
-=========== ======================================
+.. table::
+  :align: left
+    
+  =========== ======================================  
+  View        Duration Speed to switch between views
+  Active view Rhino Views
+  =========== ======================================
 
-*Tip:* The camera lense length from Rhino is used for Rhino views.
+*Tip:* ``The camera lense length from Rhino is used for Rhino views.``

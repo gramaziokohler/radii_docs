@@ -10,13 +10,16 @@ This component is used to select geometry that should be published to a channel.
 
 **Input**
 
-=========== ================================ ================
-Name        Description                         Type
-=========== ================================ ================
-Connection  Link with the Connect component     Connection
-Geometry    Geometry you want to upload         Brep or Mesh
-Quality     Mesh Quality for conversion         Settings
-=========== ================================ ================
+.. table::
+  :align: left
+
+  =========== ================================ ================
+  Name        Description                         Type
+  =========== ================================ ================
+  Connection  Link with the Connect component     Connection
+  Geometry    Geometry you want to upload         Brep or Mesh
+  Quality     Mesh Quality for conversion         Settings
+  =========== ================================ ================
 
 **Quality:** 
 To control the quality of your geometry you can use the following components
@@ -29,12 +32,15 @@ To control the quality of your geometry you can use the following components
 
 **Output**
 
-=========   =====================================   ===================
-Name        Description                             Type
-=========   =====================================   ===================
-Log         Documents changes & data send           Text
-Content     Connect to Save component for saving    RADii content
-=========   =====================================   ===================
+.. table::
+  :align: left
+
+  =========   =====================================   ===================
+  Name        Description                             Type
+  =========   =====================================   ===================
+  Log         Documents changes & data send           Text
+  Content     Connect to Save component for saving    RADii content
+  =========   =====================================   ===================
 
 
 - Log can help identify how much data and what kind of it is send
@@ -42,15 +48,18 @@ Content     Connect to Save component for saving    RADii content
 
 **Menu:**
 
-==========  =====================================================
-Update:     update only changed geometry
-Rebuild:    republish everything in the component
-Render:     visible/invisible
-Collision:  permeable/impermeable
-Physics:    objects push on each other
-Gravity:    9.807 m/s² pulling on each object
-Shared:     collaborative editing of geometry in the viewer
-==========  =====================================================
+.. table::
+  :align: left
+
+  ==========  =====================================================
+  Update:     update only changed geometry
+  Rebuild:    republish everything in the component
+  Render:     visible/invisible
+  Collision:  permeable/impermeable
+  Physics:    objects push on each other
+  Gravity:    9.807 m/s² pulling on each object
+  Shared:     collaborative editing of geometry in the viewer
+  ==========  =====================================================
 
 **Video tutorials:**
 

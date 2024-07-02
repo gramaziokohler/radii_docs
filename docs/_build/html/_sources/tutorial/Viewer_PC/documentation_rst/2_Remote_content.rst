@@ -16,15 +16,17 @@ Remote Content Menu
     :align: right
     :scale: 70%
 
-**1. Refresh**
-  
+Refresh
+"""""""""""""
+
 - Updates the list of stored content manually, in case new items have been added 
 
 
 .. image:: /tutorial/Radii_Icons/Save.png
 
 
-**2. Toggle between remote and local content**
+Toggle between remote and local content
+""""""""""""""""""""""""""""""""""""""""""
 
 .. image:: ../images/Menu_remote_content_local.png
   :scale: 80%

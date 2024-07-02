@@ -15,11 +15,15 @@ Publish Menu
     :align: right
     :scale: 100%
 
-1. **Published content**
+Published content
+"""""""""""""""""""""
 
 - controls the type of content that is published with this viewer
 
-2. **Publish control**
+Publish control
+""""""""""""""""""""""
+
+Allows for the control of other viewers on the channel.
 
 .. table::
   :align: left 
@@ -30,15 +34,18 @@ Publish Menu
   Merge       control and follow in one button
   =========   =================================================================
 
-*Note:* to Publish control, the active viewer has to be a member auf the channel
+.. note::
+
+  To Publish control, the active viewer has to be a member auf the channel
 
 
-3. **Parameters** 
+Parameters
+""""""""""""
 
 Send parameters back to Rhino Grasshopper that can be received with `Subscribe Parameter`_ 
 
 
-**Add by** typing a *name* and then click 
+**Add by** typing a ``name`` and then click one of the options:
 
 .. table::
   :align: left 
@@ -50,7 +57,8 @@ Send parameters back to Rhino Grasshopper that can be received with `Subscribe P
   ======================================================  =====================================
 
 
-**Video tutorial:**
+Video tutorial:
+""""""""""""""""
 
 - `Parameters <https://www.youtube.com/watch?v=d4HaI0gQRH4>`_
 - `Voice chat and viewer to viewer control`_

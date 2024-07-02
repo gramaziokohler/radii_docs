@@ -1,19 +1,22 @@
+.. image:: /tutorial/Radii_Icons/User.png
+  :scale: 120%
+
 ************
 Users Menu
 ************
-.. image:: /tutorial/Radii_Icons/User.png
+
+
+  This menu lists all users and their associated data.
+  They are sorted as: ``imported``, ``editors`` and ``viewers`` on the channel.
+  It is possible to toggle the visibility or delete with ``clear``. Giving the viewer control over the displayed geometry.
 
 .. image:: ../images/Users_menu_detail.png
   :scale: 75%
   :align: right
-  
-**Users - List of all data in the viewer**
-
-This menu lists all imported data, editors on the same channel and the data received from them as well as all other viewers on the channel.
-It is possible to toggle the visibility or clear received data or editors and viewers. Giving the viewer control over the displayed geometry.
 
 
-**1. Import** - Data loaded from RADii file
+Import - Data loaded from RADii file
+""""""""""""""""""""""""""""""""""""""""
 
 .. |Position| image:: /tutorial/Radii_Icons/Position.png
 
@@ -30,7 +33,8 @@ It is possible to toggle the visibility or clear received data or editors and vi
   ============= ===============================
 
 
-**2. Editor** - data that was published from Rhino Grasshopper
+Editor - data that was published from Rhino Grasshopper
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 .. table::
   :align: left 
@@ -46,7 +50,8 @@ It is possible to toggle the visibility or clear received data or editors and vi
   Content Parts Toggle content
   ============= =========================================================
     
-**3. Viewer** - all other viewers that are on the channel right now
+Viewer - all other viewers that are on the channel right now
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 .. table::
   :align: left 
@@ -62,7 +67,8 @@ It is possible to toggle the visibility or clear received data or editors and vi
   ============= ==========================================
 
 
-**4. Menu**
+Menu
+""""""""""""""""""""
 
 .. table::
   :align: left 
@@ -75,8 +81,9 @@ It is possible to toggle the visibility or clear received data or editors and vi
   ============= ===================================================
 
 .. image:: ../images/Menu_users.png
-  :scale: 60%
+  :scale: 35%
 
-**Video tutorials:**
+Video tutorials:
+"""""""""""""""""
 
 - `Toggle content <https://www.youtube.com/watch?v=HKPb65UUk2M>`_

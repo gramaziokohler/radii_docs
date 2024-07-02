@@ -333,7 +333,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -349,6 +351,18 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#import-data-loaded-from-radii-file">4.1. Import - Data loaded from RADii file</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#editor-data-that-was-published-from-rhino-grasshopper">4.2. Editor - data that was published from Rhino Grasshopper</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#viewer-all-other-viewers-that-are-on-the-channel-right-now">4.3. Viewer - all other viewers that are on the channel right now</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#menu">4.4. Menu</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#video-tutorials">4.5. Video tutorials:</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -358,14 +372,17 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section id="users-menu">
+  <a class="reference internal image-reference" href="../../../_images/User.png"><img alt="../../../_images/User.png" src="../../../_images/User.png" style="width: 28.799999999999997px; height: 28.799999999999997px;" /></a>
+<section id="users-menu">
 <h1><span class="section-number">4. </span>Users Menu<a class="headerlink" href="#users-menu" title="Link to this heading">#</a></h1>
-<img alt="../../../_images/User.png" src="../../../_images/User.png" />
+<blockquote>
+<div><p>This menu lists all users and their associated data.
+They are sorted as: <code class="docutils literal notranslate"><span class="pre">imported</span></code>, <code class="docutils literal notranslate"><span class="pre">editors</span></code> and <code class="docutils literal notranslate"><span class="pre">viewers</span></code> on the channel.
+It is possible to toggle the visibility or delete with <code class="docutils literal notranslate"><span class="pre">clear</span></code>. Giving the viewer control over the displayed geometry.</p>
+</div></blockquote>
 <a class="reference internal image-reference" href="../../../_images/Users_menu_detail.png"><img alt="../../../_images/Users_menu_detail.png" class="align-right" src="../../../_images/Users_menu_detail.png" style="width: 343.5px; height: 993.75px;" /></a>
-<p><strong>Users - List of all data in the viewer</strong></p>
-<p>This menu lists all imported data, editors on the same channel and the data received from them as well as all other viewers on the channel.
-It is possible to toggle the visibility or clear received data or editors and viewers. Giving the viewer control over the displayed geometry.</p>
-<p><strong>1. Import</strong> - Data loaded from RADii file</p>
+<section id="import-data-loaded-from-radii-file">
+<h2><span class="section-number">4.1. </span>Import - Data loaded from RADii file<a class="headerlink" href="#import-data-loaded-from-radii-file" title="Link to this heading">#</a></h2>
 <div class="pst-scrollable-table-container"><table class="table table-left">
 <tbody>
 <tr class="row-odd"><td><p>NickName</p></td>
@@ -383,7 +400,9 @@ It is possible to toggle the visibility or clear received data or editors and vi
 </tbody>
 </table>
 </div>
-<p><strong>2. Editor</strong> - data that was published from Rhino Grasshopper</p>
+</section>
+<section id="editor-data-that-was-published-from-rhino-grasshopper">
+<h2><span class="section-number">4.2. </span>Editor - data that was published from Rhino Grasshopper<a class="headerlink" href="#editor-data-that-was-published-from-rhino-grasshopper" title="Link to this heading">#</a></h2>
 <div class="pst-scrollable-table-container"><table class="table table-left">
 <tbody>
 <tr class="row-odd"><td><p>Follow</p></td>
@@ -413,7 +432,9 @@ It is possible to toggle the visibility or clear received data or editors and vi
 </tbody>
 </table>
 </div>
-<p><strong>3. Viewer</strong> - all other viewers that are on the channel right now</p>
+</section>
+<section id="viewer-all-other-viewers-that-are-on-the-channel-right-now">
+<h2><span class="section-number">4.3. </span>Viewer - all other viewers that are on the channel right now<a class="headerlink" href="#viewer-all-other-viewers-that-are-on-the-channel-right-now" title="Link to this heading">#</a></h2>
 <div class="pst-scrollable-table-container"><table class="table table-left">
 <tbody>
 <tr class="row-odd"><td><p>NickName</p></td>
@@ -440,7 +461,9 @@ It is possible to toggle the visibility or clear received data or editors and vi
 </tbody>
 </table>
 </div>
-<p><strong>4. Menu</strong></p>
+</section>
+<section id="menu">
+<h2><span class="section-number">4.4. </span>Menu<a class="headerlink" href="#menu" title="Link to this heading">#</a></h2>
 <div class="pst-scrollable-table-container"><table class="table table-left">
 <tbody>
 <tr class="row-odd"><td><p>Labels</p></td>
@@ -458,11 +481,14 @@ It is possible to toggle the visibility or clear received data or editors and vi
 </tbody>
 </table>
 </div>
-<a class="reference internal image-reference" href="../../../_images/Menu_users.png"><img alt="../../../_images/Menu_users.png" src="../../../_images/Menu_users.png" style="width: 1536.0px; height: 840.6px;" /></a>
-<p><strong>Video tutorials:</strong></p>
+<a class="reference internal image-reference" href="../../../_images/Menu_users.png"><img alt="../../../_images/Menu_users.png" src="../../../_images/Menu_users.png" style="width: 896.0px; height: 490.34999999999997px;" /></a>
+</section>
+<section id="video-tutorials">
+<h2><span class="section-number">4.5. </span>Video tutorials:<a class="headerlink" href="#video-tutorials" title="Link to this heading">#</a></h2>
 <ul class="simple">
 <li><p><a class="reference external" href="https://www.youtube.com/watch?v=HKPb65UUk2M">Toggle content</a></p></li>
 </ul>
+</section>
 </section>
 
 
@@ -500,6 +526,25 @@ It is possible to toggle the visibility or clear received data or editors and vi
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#import-data-loaded-from-radii-file">4.1. Import - Data loaded from RADii file</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#editor-data-that-was-published-from-rhino-grasshopper">4.2. Editor - data that was published from Rhino Grasshopper</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#viewer-all-other-viewers-that-are-on-the-channel-right-now">4.3. Viewer - all other viewers that are on the channel right now</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#menu">4.4. Menu</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#video-tutorials">4.5. Video tutorials:</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

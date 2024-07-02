@@ -1,17 +1,20 @@
+
+.. icon Menu
+.. image:: /tutorial/Radii_Icons/Cloud.png
+  :scale: 120%
+
+.. .. image:: ../images/Menu_remote_content.png
+
 ********************
 Remote Content Menu
 ********************
-.. icon Menu
-.. image:: /tutorial/Radii_Icons/Cloud.png
 
-.. .. image:: ../images/Menu_remote_content.png
+   This menu displays content stored in the cloud on a specific channel. The content is shown once you set the channel.
+   Content from the cloud can be shared via a link or loaded into the viewer. Content can also be saved locally, then distributed manually or imported.
 
 .. image:: ../images/Menu_remote_content_Detail.png
     :align: right
     :scale: 70%
-
-This menu displays content stored in the cloud on a specific channel. The content is shown once you set the channel.
-Content from the cloud can be shared via a link or loaded into the viewer. Content can also be saved locally, then distributed manually or imported.
 
 **1. Refresh**
   
@@ -20,9 +23,11 @@ Content from the cloud can be shared via a link or loaded into the viewer. Conte
 
 .. image:: /tutorial/Radii_Icons/Save.png
 
+
 **2. Toggle between remote and local content**
-  .. image:: ../images/Menu_remote_content_local.png
-    :scale: 80%
+
+.. image:: ../images/Menu_remote_content_local.png
+  :scale: 80%
 
 .. table::
   :align: left 

@@ -1,19 +1,19 @@
-************
-Publish Menu
-************
+
 .. icon Menu
 
 .. image:: /tutorial/Radii_Icons/publish_circle_48.png
     :scale: 60
 
+************
+Publish Menu
+************
+
+  This menu allows for the control of other viewers, the publication of content and the publication of 
+  parameters to Rhino sessions that have subscribed to this specific viewer.
 
 .. image:: ../images/Publish_menu_detail.png
     :align: right
-    :scale: 70%
-
-
-This menu allows for the control of other viewers, the publication of content and the publication of 
-parameters to Rhino sessions that have subscribed to this specific viewer.
+    :scale: 100%
 
 1. **Published content**
 

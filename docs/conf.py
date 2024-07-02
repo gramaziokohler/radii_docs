@@ -17,6 +17,8 @@ import sys
 
 # -- Project information -----------------------------------------------------
 
+language = "en"
+
 project = 'Radii Documentation'
 copyright = '2024, ETH Zürich, Gramazio Kohler Research'
 author = 'Gereon Sievi'
@@ -67,13 +69,14 @@ Install this theme: $ pip install sphinx-book-theme
 Set the following in your existing Sphinx documentation’s conf.py file:
 html_theme = 'sphinx_book_theme'
 """
-
+html_last_updated_fmt = '%d.%m.%Y'
 
 html_theme_options =  {
     "logo": {
       "image_light": "_static/logo.png",
       "image_dark": "_static/logo_dark.png",
-   }
+   },
+   "content_footer_items": ["last-updated"]
    
 }
 

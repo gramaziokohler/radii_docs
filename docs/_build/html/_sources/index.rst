@@ -10,8 +10,6 @@
 Radii Documentation
 **************************
 
-v39.1
-
 Welcome to the RADii documentation.
 
 .. 
@@ -21,10 +19,12 @@ Welcome to the RADii documentation.
    3. Radii Grasshopper - Detailed description of all parts & options
    4. Guides - Installations and Guides for different use cases
 
-`RADii <https://RADii.info/>`_ is a cloud platform that allows you to publish 3D Models for sharing, exploration and collaboration. RADii consists of **two parts**: 
+.. topic::  What is RADii ?
 
-   - A Software **Plugin** for Rhino / Grasshopper to publish 3D Models
-   - A bunch of **Viewers** for various devices (Win/Mac PCs, VR Headsets or mobile devices) to receive and explore the models.
+  `RADii <https://RADii.info/>`_ is a cloud platform that allows you to publish 3D Models for sharing, exploration and collaboration. RADii consists of **two parts**: 
+
+    - A Software **Plugin** for Rhino / Grasshopper to publish 3D Models
+    - A bunch of **Viewers** for various devices (Win/Mac PCs, VR Headsets or mobile devices) to receive and explore the models.
 
 
 Rhino, Grasshopper and Viewer
@@ -55,8 +55,10 @@ ___________________
 
 .. image:: tutorial/Radii_diagramms/Daten_Diagramme_v2/svg/Radii_funktionality_simple_crop.svg
 
-**How it works simplified:** A CAD software (Rhino / Grasshopper) is connected to a cloud through a plugin. 3D Models are live uploaded to the cloud and then distributed to the RADii Viewers.
-The RADii Viewers are a program that can be run on Win/Mac, iPhone and VR Headsets. Viewers are connected through the cloud and can interact with each other.
+.. topic:: How it works simplified:
+
+   A CAD software (Rhino / Grasshopper) is connected to a cloud through a plugin. 3D Models are live uploaded to the cloud and then distributed to the RADii Viewers.
+   The RADii Viewers are a program that can be run on Win/Mac, iPhone and VR Headsets. Viewers are connected through the cloud and can interact with each other.
 
 
 
@@ -95,7 +97,7 @@ About
 ___________________
 
 RADii is being developed by Thomas W. Lee since 2020. In 2022, he started a collaboration with Gramazio Kohler Research at ETHZ for further development of the program in the context of the Immersive Design Studio. 
-ETH supported this project with a `Innovedum Grant <https://ethz.ch/de/die-eth-zuerich/lehre/innovedum/innovedum-fund.html>`_ , which among other this made this documentation possible.
+ETH supported this project with a `Innovedum Grant <https://ethz.ch/de/die-eth-zuerich/lehre/innovedum/innovedum-fund.html>`_ , which made this made this documentation and further proliferation possible.
 
 
 

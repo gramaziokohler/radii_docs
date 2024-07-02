@@ -1,38 +1,358 @@
+
 <!DOCTYPE html>
 
-<html lang="en" data-content_root="../../../">
+
+<html lang="en" data-content_root="../../../" >
+
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>13. PublishParameter &#8212; Radii Documentation 0.38.b1 documentation</title>
-    <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=4f649999" />
-    <link rel="stylesheet" type="text/css" href="../../../_static/alabaster.css?v=8691e056" />
-    <script src="../../../_static/documentation_options.js?v=eba4f94d"></script>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="../../../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/styles/sphinx-book-theme.css?v=a3416100" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../../../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script src="../../../_static/documentation_options.js?v=8d72ea8c"></script>
     <script src="../../../_static/doctools.js?v=888ff710"></script>
     <script src="../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'tutorial/grashopper/documentation_rst/15_publish_parameter';</script>
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
     <link rel="next" title="1. SaveContent" href="12_SaveContent.html" />
     <link rel="prev" title="12. PublishReference" href="14_publish_reference.html" />
-   
-  <link rel="stylesheet" href="../../../_static/custom.css" type="text/css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
   
   
-  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
 
-  </head><body>
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search..."
+         aria-label="Search..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
   
 
-    <div class="document">
-      <div class="documentwrapper">
-        <div class="bodywrapper">
-          
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
 
-          <div class="body" role="main">
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../../../index.html">
+  
+  
+  
+  
+  
+  
+    <p class="title logo__title">Radii Documentation 0.38.b1 documentation</p>
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../../index.html">Home</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Viewer_PC/documentation_rst/0_Viewer.html">Radii Viewer</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Viewer_PC/documentation_rst/1_Connect.html">1. Connect Menu</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Viewer_PC/documentation_rst/2_Remote_content.html">2. Remote Content Menu</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Viewer_PC/documentation_rst/3_Publish.html">3. Publish Menu</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Viewer_PC/documentation_rst/4_Users.html">4. Users Menu</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Viewer_PC/documentation_rst/5_World.html">5. World Menu</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Viewer_PC/documentation_rst/6_Operation_menu.html">6. Operation Menu</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="01_Components_Overview.html">RADii Grasshopper</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="02_connect.html">1. Connect</a></li>
+<li class="toctree-l2"><a class="reference internal" href="03_publish_geometry.html">2. PublishGeometry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="04_publish_material.html">3. PublishMaterial</a></li>
+<li class="toctree-l2"><a class="reference internal" href="05_publish_section.html">4. PublishSection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="06_publish_control.html">5. PublishControl</a></li>
+<li class="toctree-l2"><a class="reference internal" href="07_publish_View.html">6. PublishView</a></li>
+<li class="toctree-l2"><a class="reference internal" href="08_publish_Pointcloud.html">7. PublishPointcloud</a></li>
+<li class="toctree-l2"><a class="reference internal" href="09_publish_Animation.html">8. PublishAnimation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="10_publish_Curve.html">9. PublishCurve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="11_publish_Message.html">10. PublishMessage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="13_publish_sound.html">11. Publish Sound</a></li>
+<li class="toctree-l2"><a class="reference internal" href="14_publish_reference.html">12. PublishReference</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">13. PublishParameter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="12_SaveContent.html">1. SaveContent</a></li>
+<li class="toctree-l2"><a class="reference internal" href="200_Params_connection.html">1. Params Connect</a></li>
+<li class="toctree-l2"><a class="reference internal" href="201_Params_content.html">2. Params Content</a></li>
+<li class="toctree-l2"><a class="reference internal" href="202_Params_pointcloud.html">3. Params Pointcloud</a></li>
+<li class="toctree-l2"><a class="reference internal" href="103_SubscribeCurve.html">1. SubscribeCurve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="104_SubscribeMessages.html">2. SubscribeMessages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="105_SubscribePointCloud.html">3. SubscribePointCloud</a></li>
+<li class="toctree-l2"><a class="reference internal" href="106_SubscribeGeometry.html">4. SubscribeGeometry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="107_SubscribeParameter.html">5. SubscribeParameter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="108_SubscribeUser.html">6. SubscribeUser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="301_Tools_PointCloudResource_subset.html">1. PointCloudReduce &amp; SubsetPointCloud</a></li>
+<li class="toctree-l2"><a class="reference internal" href="302_Tools_Paint_Vertex.html">2. Tool Paint Vertex</a></li>
+<li class="toctree-l2"><a class="reference internal" href="303_10_Tips.html">3. Ten rules for working with Radii</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Quick_Guide/Quick_Guides.html">Guides</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Quick_Guide/Setup/2_install_PC.html">Setup Viewer PC/Mac</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Quick_Guide/Setup/3_install_grasshopper.html">Setup Grasshopper Plugin</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Quick_Guide/Setup/4_install_occulus.html">Setup Oculus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Quick_Guide/Setup/5_install_Technical_Prereq.html">Technicalities and Teaching</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Quick_Guide/1_LV_Exploration_Grashopper.html">1. Tutorial: Grasshopper Basics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Quick_Guide/1_LV_Exploration_Viewer.html">2. Tutorial: Viewer Basics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Quick_Guide/2_LV_Simple_Review.html">3. Tutorial: Simple Presentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Quick_Guide/3_LV%20Presentation_Storry.html">4. Tutorial: Advanced Presentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Quick_Guide/4_LV_Collaboration.html">5. Tutorial: Collaborative working</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Quick_Guide/5_Documentation.html">6. Tutorial: Project documentation</a></li>
+</ul>
+</details></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../../../_sources/tutorial/grashopper/documentation_rst/15_publish_parameter.rst" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.rst</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>PublishParameter</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
             
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
   <section id="publishparameter">
-<h1><span class="section-number">13. </span>PublishParameter<a class="headerlink" href="#publishparameter" title="Link to this heading">¶</a></h1>
+<h1><span class="section-number">13. </span>PublishParameter<a class="headerlink" href="#publishparameter" title="Link to this heading">#</a></h1>
 <img alt="../../../_images/Publish_parameter_addParam.png" src="../../../_images/Publish_parameter_addParam.png" />
 <p>Publish Parameter publishes a set of defined booleans, integers or decimal numbers to the viewer.
 New parameters can be added by zooming close to the component and pressing the <code class="docutils literal notranslate"><span class="pre">+</span></code>.
@@ -48,7 +368,7 @@ It is possible to define such parameters in a viewer, they are however temporary
 </ul>
 </div></blockquote>
 <p><strong>Input</strong></p>
-<table class="docutils align-left">
+<div class="pst-scrollable-table-container"><table class="table table-left">
 <thead>
 <tr class="row-odd"><th class="head"><p>Name</p></th>
 <th class="head"><p>Description</p></th>
@@ -66,8 +386,9 @@ It is possible to define such parameters in a viewer, they are however temporary
 </tr>
 </tbody>
 </table>
+</div>
 <p><strong>Output</strong></p>
-<table class="docutils align-left">
+<div class="pst-scrollable-table-container"><table class="table table-left">
 <thead>
 <tr class="row-odd"><th class="head"><p>Name</p></th>
 <th class="head"><p>Description</p></th>
@@ -85,6 +406,7 @@ It is possible to define such parameters in a viewer, they are however temporary
 </tr>
 </tbody>
 </table>
+</div>
 <img alt="../../../_images/Publish_parameter_subscribe.png" src="../../../_images/Publish_parameter_subscribe.png" />
 <p>The image shows how numbers between 0 and 1, integers and Booleans can be added to the Publish Parameter component.
 Below is the <a class="reference external" href="https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/107_SubscribeParameter.html">Subscribe Parameter</a> component that receives the Parameters from the viewer, they could be changed in the viewer and would come back different in that case.
@@ -93,111 +415,88 @@ Between the viewer and the publisher, the last change will be the dominant to be
 </section>
 
 
-          </div>
-          
-        </div>
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="14_publish_reference.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title"><span class="section-number">12. </span>PublishReference</p>
       </div>
-      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
-        <div class="sphinxsidebarwrapper">
-<h1 class="logo"><a href="../../../index.html">Radii Documentation</a></h1>
-
-
-
-
-
-
-<p>
-<iframe src="https://ghbtns.com/github-btn.html?user=gramaziokohler/&repo=radii_docs&type=watch&count=true&size=large&v=2"
-  allowtransparency="true" frameborder="0" scrolling="0" width="200px" height="35px"></iframe>
+    </a>
+    <a class="right-next"
+       href="12_SaveContent.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title"><span class="section-number">1. </span>SaveContent</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Gereon Sievi
 </p>
 
-
-
-
-
-<h3>Navigation</h3>
-<ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../../index.html">Home</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../Viewer_PC/documentation_rst/0_Viewer.html">Radii Viewer</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="01_Components_Overview.html">RADii Grasshopper</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="02_connect.html">1. Connect</a></li>
-<li class="toctree-l2"><a class="reference internal" href="03_publish_geometry.html">2. PublishGeometry</a></li>
-<li class="toctree-l2"><a class="reference internal" href="04_publish_material.html">3. PublishMaterial</a></li>
-<li class="toctree-l2"><a class="reference internal" href="05_publish_section.html">4. PublishSection</a></li>
-<li class="toctree-l2"><a class="reference internal" href="06_publish_control.html">5. PublishControl</a></li>
-<li class="toctree-l2"><a class="reference internal" href="07_publish_View.html">6. PublishView</a></li>
-<li class="toctree-l2"><a class="reference internal" href="08_publish_Pointcloud.html">7. PublishPointcloud</a></li>
-<li class="toctree-l2"><a class="reference internal" href="09_publish_Animation.html">8. PublishAnimation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="10_publish_Curve.html">9. PublishCurve</a></li>
-<li class="toctree-l2"><a class="reference internal" href="11_publish_Message.html">10. PublishMessage</a></li>
-<li class="toctree-l2"><a class="reference internal" href="13_publish_sound.html">11. Publish Sound</a></li>
-<li class="toctree-l2"><a class="reference internal" href="14_publish_reference.html">12. PublishReference</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">13. PublishParameter</a></li>
-<li class="toctree-l2"><a class="reference internal" href="12_SaveContent.html">1. SaveContent</a></li>
-<li class="toctree-l2"><a class="reference internal" href="200_Params_connection.html">1. Params Connect</a></li>
-<li class="toctree-l2"><a class="reference internal" href="201_Params_content.html">2. Params Content</a></li>
-<li class="toctree-l2"><a class="reference internal" href="202_Params_pointcloud.html">3. Params Pointcloud</a></li>
-<li class="toctree-l2"><a class="reference internal" href="103_SubscribeCurve.html">1. SubscribeCurve</a></li>
-<li class="toctree-l2"><a class="reference internal" href="104_SubscribeMessages.html">2. SubscribeMessages</a></li>
-<li class="toctree-l2"><a class="reference internal" href="105_SubscribePointCloud.html">3. SubscribePointCloud</a></li>
-<li class="toctree-l2"><a class="reference internal" href="106_SubscribeGeometry.html">4. SubscribeGeometry</a></li>
-<li class="toctree-l2"><a class="reference internal" href="107_SubscribeParameter.html">5. SubscribeParameter</a></li>
-<li class="toctree-l2"><a class="reference internal" href="108_SubscribeUser.html">6. SubscribeUser</a></li>
-<li class="toctree-l2"><a class="reference internal" href="301_Tools_PointCloudResource_subset.html">1. PointCloudReduce &amp; SubsetPointCloud</a></li>
-<li class="toctree-l2"><a class="reference internal" href="302_Tools_Paint_Vertex.html">2. Tool Paint Vertex</a></li>
-<li class="toctree-l2"><a class="reference internal" href="303_10_Tips.html">3. Ten rules for working with Radii</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="../../Quick_Guide/Quick_Guides.html">Guides</a></li>
-</ul>
-
-<div class="relations">
-<h3>Related Topics</h3>
-<ul>
-  <li><a href="../../../index.html">Documentation overview</a><ul>
-  <li><a href="01_Components_Overview.html">RADii Grasshopper</a><ul>
-      <li>Previous: <a href="14_publish_reference.html" title="previous chapter"><span class="section-number">12. </span>PublishReference</a></li>
-      <li>Next: <a href="12_SaveContent.html" title="next chapter"><span class="section-number">1. </span>SaveContent</a></li>
-  </ul></li>
-  </ul></li>
-</ul>
-</div>
-<div id="searchbox" style="display: none" role="search">
-  <h3 id="searchlabel">Quick search</h3>
-    <div class="searchformwrapper">
-    <form class="search" action="../../../search.html" method="get">
-      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
-      <input type="submit" value="Go" />
-    </form>
-    </div>
-</div>
-<script>document.getElementById('searchbox').style.display = "block"</script>
-
-
-
-
-
-
-
-
-        </div>
-      </div>
-      <div class="clearer"></div>
-    </div>
-    <div class="footer">
-      &copy;2023, ETH Zuerich Chair of Gramazio & Kohler.
-      
-      |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 7.2.6</a>
-      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.13</a>
-      
-      |
-      <a href="../../../_sources/tutorial/grashopper/documentation_rst/15_publish_parameter.rst.txt"
-          rel="nofollow">Page source</a>
-    </div>
-
+  </div>
+  
+  <div class="footer-item">
     
 
+  <p class="copyright">
     
+      © Copyright 2024, ETH Zürich, Gramazio Kohler Research.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
   </body>
 </html>

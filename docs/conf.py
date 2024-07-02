@@ -18,7 +18,7 @@ import sys
 # -- Project information -----------------------------------------------------
 
 project = 'Radii Documentation'
-copyright = '2023, ETH Zuerich Chair of Gramazio & Kohler'
+copyright = '2024, ETH Zürich, Gramazio Kohler Research'
 author = 'Gereon Sievi'
 
 # The full version, including alpha/beta/rc tags
@@ -54,18 +54,23 @@ exclude_patterns = ['_build',
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+html_theme = 'sphinx_book_theme'
+
+# How to use the sphinx book theme
+"""
+the sphinx_book_theme can be found at https://sphinx-themes.org/sample-sites/sphinx-book-theme/#id2
+
+Quickstart
+
+Install this theme: $ pip install sphinx-book-theme
+
+Set the following in your existing Sphinx documentation’s conf.py file:
+html_theme = 'sphinx_book_theme'
+"""
+
 
 html_theme_options =  {
-    'fixed_sidebar' : 'False',
-    'github_banner' : 'False' ,
-    'github_repo'   : "radii_docs",
-    'github_button' : 'true',
-    'github_user'   : 'gramaziokohler/',
-    'show_relbars' : 'False',
-    'show_related' : 'True',
-    'font_family'   : 'OfficeCodePro-Regular.otf',
-
+   
 }
 
 # things that i have not gotten to work so far

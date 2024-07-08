@@ -4,9 +4,12 @@ PublishReference
 
 .. image:: ../images/Publish/Publish_Reference/Publish_reference.png
     
-The reference manager is for storing a list of references, loading and displaying them from channels.
-The component can be connected to `Publish Control`_ & `Save Content`_ to automatically load and show different configurations of references. 
-By activating (loading) geometry before a presentation, it is possible to easily and quickly switch between visible and invisible states without long loading times that can occur with bigger models.    
+
+.. topic:: Definition
+    
+  The reference manager is for storing a list of references, loading and displaying them from channels.
+  The component can be connected to `Publish Control`_ & `Save Content`_ to automatically load and show different configurations of references. 
+  By activating (loading) geometry before a presentation, it is possible to easily and quickly switch between visible and invisible states without long loading times that can occur with bigger models.    
 
 
 **Input**

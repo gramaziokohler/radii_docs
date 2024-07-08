@@ -6,12 +6,16 @@ PublishControl
 .. image:: ../images/Publish/Publish__controll.png
     :scale: 80 %
 
-Publish Control directs the viewer settings from Grasshopper as listed in the menu section below.
-It contains the Scenario Manager that can save setting and all other content into a scenario to be played at once. With scenarios it is possible to do more complex presentations.
- 
- - Be careful with saving geometry content into this component, this can make your Grasshopper file very heavy. 
+.. topic:: Definition
+    
+  Publish Control directs the viewer settings from Grasshopper as listed in the menu section below.
+  It contains the Scenario Manager that can save setting and all other content into a scenario to be played at once. With scenarios it is possible to do more complex presentations.
+  
+  - Be careful with saving geometry content into this component, this can make your Grasshopper file very heavy. 
    
-  Tip: Grasshopper has an autosave function as a default setting. If the Publish Control component becomes too heavy, it will make you wait a lot
+.. tip:: 
+
+  Grasshopper has an autosave function as a default setting. If the Publish Control component becomes too heavy, it will make you wait a lot
 
 **Video tutorials:**
 
@@ -74,17 +78,15 @@ It contains the Scenario Manager that can save setting and all other content int
   =================== ============================================================================================
 
 
-**Tips**
+.. tip:: 
 
-``- The saved content is stored in the component, be aware that huge amounts of geometry can make your .gh file very heavy and slow``
-
-``- In this case turn off the grasshopper autosave setting as it will slow you down``
-
-``- To save time with heavier and bigger models: with `Publish Reference`_ you can direct all viewers to download a saved file from a channel, instead of live uploading and then downloading to the viewers.``
+  - The saved content is stored in the component, be aware that huge amounts of geometry can make your .gh file very heavy and slow
+  - In this case turn off the grasshopper autosave setting as it will slow you down
+  - To save time with heavier and bigger models: with `Publish Reference`_ you can direct all viewers to download a saved file from a channel, instead of live uploading and then downloading to the viewers.
 
 
 
-**Scenario Manager**
+Scenario Manager
 -----------------------
 
 .. image:: ../images/Publish/Publish__controll_manager.png

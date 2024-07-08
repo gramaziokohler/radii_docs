@@ -4,7 +4,9 @@ SubscribeUser
 
 .. image:: ../images/Subscribe/Sub_user.png
 
-This component is used to subscribe to a number of values by a user such as head and hand position. 
+.. topic:: Definition
+    
+  This component is used to subscribe to a number of values by a user such as head and hand position. 
     
 **Input**
 

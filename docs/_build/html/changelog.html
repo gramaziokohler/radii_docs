@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Radii Documentation &#8212; Radii Documentation  documentation</title>
+    <title>Changelog &#8212; Radii Documentation  documentation</title>
   
   
   
@@ -40,10 +40,9 @@
     <script src="_static/doctools.js?v=888ff710"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'index';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'changelog';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Radii Viewer" href="tutorial/Viewer_PC/documentation_rst/0_Viewer.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
     <meta name="docbuild:last-update" content="08.07.2024"/>
@@ -127,7 +126,7 @@
     
   
 
-<a class="navbar-brand logo" href="#">
+<a class="navbar-brand logo" href="index.html">
   
   
   
@@ -156,8 +155,8 @@
  </script></div>
         <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
-        <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Home</a></li>
+        <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="index.html">Home</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="tutorial/Viewer_PC/documentation_rst/0_Viewer.html">Radii Viewer</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="tutorial/Viewer_PC/documentation_rst/1_Connect.html">1. Connect Menu</a></li>
 <li class="toctree-l2"><a class="reference internal" href="tutorial/Viewer_PC/documentation_rst/2_Remote_content.html">2. Remote Content Menu</a></li>
@@ -263,7 +262,7 @@
       
       
       
-      <li><a href="_sources/index.rst" target="_blank"
+      <li><a href="_sources/changelog.rst" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -347,7 +346,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Radii Documentation</h1>
+    <h1>Changelog</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -357,14 +356,21 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#rhino-grasshopper-and-viewer">Rhino, Grasshopper and Viewer</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-project">Example Project</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-radii-works">How RADii works</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#further-links">Further Links</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#download-links">Download Links</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#about">About</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#table-of-contents">Table of Contents</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#indices-and-tables">Indices and tables</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#v-0-39-b2">V 0.39 B2</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#features">Features:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#changes">Changes:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#fixes">Fixes:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#hints">Hints:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#v0-39-beta-1">v0.39-beta.1</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Features:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Changes:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Fixes:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#v0-39-beta-0">v0.39-beta.0</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Features:</a></li>
 </ul>
 </li>
 </ul>
@@ -378,130 +384,77 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <img alt="_images/Radii_logo.png" src="_images/Radii_logo.png" />
-<section id="radii-documentation">
-<h1>Radii Documentation<a class="headerlink" href="#radii-documentation" title="Link to this heading">#</a></h1>
-<ol class="upperalpha simple" start="22">
-<li><p>0.39 B2</p></li>
-</ol>
-<aside class="topic">
-<p class="topic-title">What is RADii ?</p>
-<p><a class="reference external" href="https://RADii.info/">RADii</a> is a cloud platform that allows you to publish 3D Models for sharing, exploration and collaboration. RADii consists of <strong>two parts</strong>:</p>
-<blockquote>
-<div><ul class="simple">
-<li><p>A Software <strong>Plugin</strong> for Rhino / Grasshopper to publish 3D Models</p></li>
-<li><p>A bunch of <strong>Viewers</strong> for various devices (Win/Mac PCs, VR Headsets or mobile devices) to receive and explore the models.</p></li>
-</ul>
-</div></blockquote>
-</aside>
-<section id="rhino-grasshopper-and-viewer">
-<h2>Rhino, Grasshopper and Viewer<a class="headerlink" href="#rhino-grasshopper-and-viewer" title="Link to this heading">#</a></h2>
-<img alt="_images/Rhino_GH_Viewer.png" src="_images/Rhino_GH_Viewer.png" />
-</section>
-<section id="example-project">
-<h2>Example Project<a class="headerlink" href="#example-project" title="Link to this heading">#</a></h2>
-<img alt="Autumn semester 2023, project by Cadei  Matteo &amp; Tami  Kyan" src="_images/231218_cadeim_kytami_Photo_1_WM.jpg" />
-<p>Immersive Design Studio at Gramazio Kohler Research, ETH Zürich, Autumn semester 2023 student project by Matteo Cadei &amp; Kyan Tami</p>
-</section>
-<section id="how-radii-works">
-<h2>How RADii works<a class="headerlink" href="#how-radii-works" title="Link to this heading">#</a></h2>
-<img alt="_images/Radii_funktionality_simple_crop.svg" src="_images/Radii_funktionality_simple_crop.svg" /><aside class="topic">
-<p class="topic-title">How it works simplified:</p>
-<p>A CAD software (Rhino / Grasshopper) is connected to a cloud through a plugin. 3D Models are live uploaded to the cloud and then distributed to the RADii Viewers.
-The RADii Viewers are a program that can be run on Win/Mac, iPhone and VR Headsets. Viewers are connected through the cloud and can interact with each other.</p>
-</aside>
-</section>
-<section id="further-links">
-<h2>Further Links<a class="headerlink" href="#further-links" title="Link to this heading">#</a></h2>
-<p>Videos about the current development and news are available on <a class="reference external" href="https://www.youtube.com/channel/UCfOGfaqPczXAGTpFDPm8XsA">Archtica Youtube Channel</a>.
-If you find any bugs, please notify us on <a class="reference external" href="https://github.com/Archtica/RADii/issues/">GitHub</a>.
-For errors or inconsistencies in the documentation, please notify us on <a class="reference external" href="https://github.com/gramaziokohler/radii_docs/issues">Github Radii Documentation Issues</a>.</p>
-</section>
-<section id="download-links">
-<h2>Download Links<a class="headerlink" href="#download-links" title="Link to this heading">#</a></h2>
-<p><strong>Grasshopper Plugin</strong></p>
+  <section id="changelog">
+<h1>Changelog<a class="headerlink" href="#changelog" title="Link to this heading">#</a></h1>
+<p>This is a log file of  changes from v.0.39 B2 onwards.</p>
+<section id="v-0-39-b2">
+<h2>V 0.39 B2<a class="headerlink" href="#v-0-39-b2" title="Link to this heading">#</a></h2>
+<section id="features">
+<h3>Features:<a class="headerlink" href="#features" title="Link to this heading">#</a></h3>
 <ul class="simple">
-<li><p><a class="reference external" href="https://radii.info/download/plugin/R7/RADii.zip">RADii Rhino7 Grasshopper Win/Mac</a></p></li>
-<li><p><a class="reference external" href="https://radii.info/download/plugin/R8/RADii.zip">RADii Rhino8 Grasshopper Win/Mac</a></p></li>
-<li><p><a class="reference external" href="https://radii.info/download/plugin/RADiiCapture.zip">RADii Capture Win/Mac</a></p></li>
+<li><p>Added local connection for direct zero latency connection on LAN.</p></li>
+<li><p>Added component toogle for saveable content. If off, content cannot be exported on the viewer side. Off by default.</p></li>
+<li><p>Split the control component into control component and scenario component.</p></li>
+<li><p>Scenario component has the option to Add/Replace content in the selected scenario. If the content doesn’t exist in the scenario, it will be added. If it exists, the scenario content wil be updated witth the attached. If Add/Replacing content with zero elements, it will delete it from the selected scenario</p></li>
 </ul>
-<p><strong>PC Viewers</strong></p>
-<ul class="simple">
-<li><p><a class="reference external" href="https://radii.info/download/standard/RADii%20Viewer%20Setup.zip">RADii Viewer Windows 10+</a></p></li>
-<li><p><a class="reference external" href="https://apps.apple.com/app/id1505325031">RADii Viewer macOS X</a></p></li>
-<li><p><a class="reference external" href="https://radii.info/download/vr/RADii%20Viewer%20Oculus.zip">RADii Viewer VR Oculus</a></p></li>
-<li><p><a class="reference external" href="https://radii.info/download/vr/RADii%20Viewer%20VR.zip">RADii Viewer VR universal</a></p></li>
-</ul>
-<p>Further viewers for VR, Mobile, Looking Glass and the Webviewer can be found at <a class="reference external" href="https://RADii.info/">RADii.info</a>.</p>
 </section>
-<section id="about">
-<h2>About<a class="headerlink" href="#about" title="Link to this heading">#</a></h2>
-<p>RADii is being developed by Thomas W. Lee since 2020. In 2022, he started a collaboration with Gramazio Kohler Research at ETHZ for further development of the program in the context of the Immersive Design Studio.
-ETH supported this project with a <a class="reference external" href="https://ethz.ch/de/die-eth-zuerich/lehre/innovedum/innovedum-fund.html">Innovedum Grant</a> , which made this made this documentation and further proliferation possible.</p>
-<section id="table-of-contents">
-<h3>Table of Contents<a class="headerlink" href="#table-of-contents" title="Link to this heading">#</a></h3>
-<div class="toctree-wrapper compound">
-<ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Home</a></li>
-<li class="toctree-l1"><a class="reference internal" href="tutorial/Viewer_PC/documentation_rst/0_Viewer.html">Radii Viewer</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="tutorial/Viewer_PC/documentation_rst/1_Connect.html">1. Connect Menu</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tutorial/Viewer_PC/documentation_rst/2_Remote_content.html">2. Remote Content Menu</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tutorial/Viewer_PC/documentation_rst/3_Publish.html">3. Publish Menu</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tutorial/Viewer_PC/documentation_rst/4_Users.html">4. Users Menu</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tutorial/Viewer_PC/documentation_rst/5_World.html">5. World Menu</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tutorial/Viewer_PC/documentation_rst/6_Operation_menu.html">6. Operation Menu</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="tutorial/grashopper/documentation_rst/01_Components_Overview.html">RADii Grasshopper</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="tutorial/grashopper/documentation_rst/02_connect.html">1. Connect</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tutorial/grashopper/documentation_rst/03_publish_geometry.html">2. PublishGeometry</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tutorial/grashopper/documentation_rst/04_publish_material.html">3. PublishMaterial</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tutorial/grashopper/documentation_rst/05_publish_section.html">4. PublishSection</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tutorial/grashopper/documentation_rst/06_publish_control.html">5. PublishControl</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tutorial/grashopper/documentation_rst/07_publish_View.html">6. PublishView</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tutorial/grashopper/documentation_rst/08_publish_Pointcloud.html">7. PublishPointcloud</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tutorial/grashopper/documentation_rst/09_publish_Animation.html">8. PublishAnimation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tutorial/grashopper/documentation_rst/10_publish_Curve.html">9. PublishCurve</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tutorial/grashopper/documentation_rst/11_publish_Message.html">10. PublishMessage</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tutorial/grashopper/documentation_rst/13_publish_sound.html">11. Publish Sound</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tutorial/grashopper/documentation_rst/14_publish_reference.html">12. PublishReference</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tutorial/grashopper/documentation_rst/15_publish_parameter.html">13. PublishParameter</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tutorial/grashopper/documentation_rst/12_SaveContent.html">1. SaveContent</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tutorial/grashopper/documentation_rst/200_Params_connection.html">1. Params Connect</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tutorial/grashopper/documentation_rst/201_Params_content.html">2. Params Content</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tutorial/grashopper/documentation_rst/202_Params_pointcloud.html">3. Params Pointcloud</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tutorial/grashopper/documentation_rst/103_SubscribeCurve.html">1. SubscribeCurve</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tutorial/grashopper/documentation_rst/104_SubscribeMessages.html">2. SubscribeMessages</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tutorial/grashopper/documentation_rst/105_SubscribePointCloud.html">3. SubscribePointCloud</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tutorial/grashopper/documentation_rst/106_SubscribeGeometry.html">4. SubscribeGeometry</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tutorial/grashopper/documentation_rst/107_SubscribeParameter.html">5. SubscribeParameter</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tutorial/grashopper/documentation_rst/108_SubscribeUser.html">6. SubscribeUser</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tutorial/grashopper/documentation_rst/301_Tools_PointCloudResource_subset.html">1. PointCloudReduce &amp; SubsetPointCloud</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tutorial/grashopper/documentation_rst/302_Tools_Paint_Vertex.html">2. Tool Paint Vertex</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tutorial/grashopper/documentation_rst/303_10_Tips.html">3. Ten rules for working with Radii</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="tutorial/Quick_Guide/Quick_Guides.html">Guides</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="tutorial/Quick_Guide/Setup/2_install_PC.html">Setup Viewer PC/Mac</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tutorial/Quick_Guide/Setup/3_install_grasshopper.html">Setup Grasshopper Plugin</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tutorial/Quick_Guide/Setup/4_install_occulus.html">Setup Oculus</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tutorial/Quick_Guide/Setup/5_install_Technical_Prereq.html">Technicalities and Teaching</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tutorial/Quick_Guide/1_LV_Exploration_Grashopper.html">1. Tutorial: Grasshopper Basics</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tutorial/Quick_Guide/1_LV_Exploration_Viewer.html">2. Tutorial: Viewer Basics</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tutorial/Quick_Guide/2_LV_Simple_Review.html">3. Tutorial: Simple Presentation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tutorial/Quick_Guide/3_LV%20Presentation_Storry.html">4. Tutorial: Advanced Presentation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tutorial/Quick_Guide/4_LV_Collaboration.html">5. Tutorial: Collaborative working</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tutorial/Quick_Guide/5_Documentation.html">6. Tutorial: Project documentation</a></li>
-</ul>
-</li>
-</ul>
-</div>
-</section>
-<section id="indices-and-tables">
-<h3>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Link to this heading">#</a></h3>
+<section id="changes">
+<h3>Changes:<a class="headerlink" href="#changes" title="Link to this heading">#</a></h3>
 <ul class="simple">
-<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
-<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
+<li><p>Animation and view component now accepts lens length instead of field of view.</p></li>
+<li><p>new icons and renaming of connection component.</p></li>
+</ul>
+</section>
+<section id="fixes">
+<h3>Fixes:<a class="headerlink" href="#fixes" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Many minor fixes</p></li>
+</ul>
+</section>
+<section id="hints">
+<h3>Hints:<a class="headerlink" href="#hints" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>When dropping the ConnectLocal component in for the first time, make sure you allow Rhino to communicate on the network you’re currently connected to. In my case it’s the private network at home</p></li>
+</ul>
+</section>
+</section>
+<section id="v0-39-beta-1">
+<h2>v0.39-beta.1<a class="headerlink" href="#v0-39-beta-1" title="Link to this heading">#</a></h2>
+<section id="id1">
+<h3>Features:<a class="headerlink" href="#id1" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Added Follow, Control and Merge options in publish menu for viewers. Allows control over other viewers from a viewer. Functions are only allowed when the user role has the following user role on the domain (OWNER, SPECTATOR, EDITOR, ADMINISTRATOR).</p></li>
+<li><p>Added voice chat - Control access by web interface. Set required role for output and required role for input.</p></li>
+<li><p>Added Rhino lens length when using set position in PublishControl</p></li>
+<li><p>Added lens length when using follow on connect component and follow in viewers</p></li>
+<li><p>Smooth transition with changes to Field Of View in viewers</p></li>
+<li><p>Error reporting to server for improved debug</p></li>
+</ul>
+</section>
+<section id="id2">
+<h3>Changes:<a class="headerlink" href="#id2" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>World orientation has been removed from the control component and is now only set in the Rhino Sun menu under north direction.</p></li>
+<li><p>More UI space for parameter manipulation in the viewers.</p></li>
+</ul>
+</section>
+<section id="id3">
+<h3>Fixes:<a class="headerlink" href="#id3" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Fixed an issues with geometry that would skip some objects if they were aligned in a large grid.</p></li>
+<li><p>Fixed world orientation bug in plugin for negative rotation</p></li>
+<li><p>Fixed VR follow rotation</p></li>
+</ul>
+</section>
+</section>
+<section id="v0-39-beta-0">
+<h2>v0.39-beta.0<a class="headerlink" href="#v0-39-beta-0" title="Link to this heading">#</a></h2>
+<section id="id4">
+<h3>Features:<a class="headerlink" href="#id4" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Added integer option to parameters</p></li>
+<li><p>Publish parameter from RADii Plugin</p></li>
+<li><p>Subscribe/Sync to paramteres in viewers from other viewers and RADii plugins</p></li>
 </ul>
 </section>
 </section>
@@ -518,15 +471,6 @@ ETH supported this project with a <a class="reference external" href="https://et
                 <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
-    <a class="right-next"
-       href="tutorial/Viewer_PC/documentation_rst/0_Viewer.html"
-       title="next page">
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Radii Viewer</p>
-      </div>
-      <i class="fa-solid fa-angle-right"></i>
-    </a>
 </div>
                 </footer>
               
@@ -543,14 +487,21 @@ ETH supported this project with a <a class="reference external" href="https://et
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#rhino-grasshopper-and-viewer">Rhino, Grasshopper and Viewer</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-project">Example Project</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-radii-works">How RADii works</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#further-links">Further Links</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#download-links">Download Links</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#about">About</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#table-of-contents">Table of Contents</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#indices-and-tables">Indices and tables</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#v-0-39-b2">V 0.39 B2</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#features">Features:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#changes">Changes:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#fixes">Fixes:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#hints">Hints:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#v0-39-beta-1">v0.39-beta.1</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Features:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Changes:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Fixes:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#v0-39-beta-0">v0.39-beta.0</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Features:</a></li>
 </ul>
 </li>
 </ul>

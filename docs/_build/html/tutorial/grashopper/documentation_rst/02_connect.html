@@ -47,7 +47,7 @@
     <link rel="prev" title="RADii Grasshopper" href="01_Components_Overview.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-    <meta name="docbuild:last-update" content="02.07.2024"/>
+    <meta name="docbuild:last-update" content="08.07.2024"/>
   </head>
   
   
@@ -356,7 +356,8 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#about-channels-subchannels-and-subsubsubchannels">1.1. About channels, subchannels and subsubsubchannels:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#two-types-of-connect-components">1.1. Two types of Connect components:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#about-channels-subchannels-and-subsubsubchannels">1.2. About channels, subchannels and subsubsubchannels:</a></li>
 </ul>
             </nav>
         </div>
@@ -370,9 +371,28 @@ document.write(`
                   
   <section id="id1">
 <h1><span class="section-number">1. </span>Connect<a class="headerlink" href="#id1" title="Link to this heading">#</a></h1>
-<p>The connect component is the <strong>central component</strong> of the RADii plugin. All other components are connected to it via the “Connection” output.
-Only components that are connected will be published, as soon as you switch the Toggle to “True”.
-With it, you can select the channel you want to publish to, and log into your RADii account.</p>
+<a class="reference internal image-reference" href="../../../_images/Connect.png"><img alt="../../../_images/Connect.png" class="align-left" src="../../../_images/Connect.png" style="width: 517.09px; height: 205.84px;" /></a>
+<img alt="../../../_images/Connect_local.png" class="align-left" src="../../../_images/Connect_local.png" />
+<p>The connect components are the <strong>central components</strong> of the RADii plugin.
+All other components are connected to one of them via the <code class="docutils literal notranslate"><span class="pre">Connection</span></code> output.
+Only components that are connected will be published, as soon as you switch the Toggle to “True”.</p>
+<section id="two-types-of-connect-components">
+<h2><span class="section-number">1.1. </span>Two types of Connect components:<a class="headerlink" href="#two-types-of-connect-components" title="Link to this heading">#</a></h2>
+<aside class="topic">
+<p class="topic-title">1. Connect Global</p>
+<ul class="simple">
+<li><p>connects to a channel that can be accessed globally</p></li>
+<li><p>works with an account from RADii.info</p></li>
+</ul>
+</aside>
+<aside class="topic">
+<p class="topic-title">2. Connect Local</p>
+<ul class="simple">
+<li><p>can be used offline on your device or local network</p></li>
+<li><p>is quicker since there is not need for an upload to the cloud</p></li>
+</ul>
+</aside>
+<p>With it, you can select the channel you want to publish to, and log into your RADii account.</p>
 <p><strong>Input</strong></p>
 <div class="pst-scrollable-table-container"><table class="table table-left">
 <thead>
@@ -414,7 +434,7 @@ With it, you can select the channel you want to publish to, and log into your RA
 </tbody>
 </table>
 </div>
-<a class="reference internal image-reference" href="../../../_images/Connect_gh.png"><img alt="../../../_images/Connect_gh.png" src="../../../_images/Connect_gh.png" style="width: 590.4px; height: 262.40000000000003px;" /></a>
+<a class="reference internal image-reference" href="../../../_images/Connect.1.png"><img alt="../../../_images/Connect.1.png" src="../../../_images/Connect.1.png" style="width: 509.6px; height: 352.0px;" /></a>
 <p><strong>Right click menu:</strong></p>
 <img alt="../../../_images/Connect.1.png" src="../../../_images/Connect.1.png" />
 <div class="pst-scrollable-table-container"><table class="table table-left">
@@ -435,9 +455,10 @@ With it, you can select the channel you want to publish to, and log into your RA
 </table>
 </div>
 <p><strong>Note:</strong>  <code class="docutils literal notranslate"><span class="pre">If</span> <span class="pre">you</span> <span class="pre">are</span> <span class="pre">part</span> <span class="pre">of</span> <span class="pre">a</span> <span class="pre">group</span> <span class="pre">or</span> <span class="pre">organization,</span> <span class="pre">please</span> <span class="pre">use</span> <span class="pre">the</span> <span class="pre">respective</span> <span class="pre">email</span> <span class="pre">address.</span></code></p>
-<img alt="../../../_images/Connect.11.png" src="../../../_images/Connect.11.png" />
+<img alt="tutorial/grashopper/images/Connect/Connect.11.png" src="tutorial/grashopper/images/Connect/Connect.11.png" />
+</section>
 <section id="about-channels-subchannels-and-subsubsubchannels">
-<h2><span class="section-number">1.1. </span>About channels, subchannels and subsubsubchannels:<a class="headerlink" href="#about-channels-subchannels-and-subsubsubchannels" title="Link to this heading">#</a></h2>
+<h2><span class="section-number">1.2. </span>About channels, subchannels and subsubsubchannels:<a class="headerlink" href="#about-channels-subchannels-and-subsubsubchannels" title="Link to this heading">#</a></h2>
 <p>The way to note a channel addresses in the Viewers <a class="reference external" href="https://gramaziokohler.github.io/radii_docs/tutorial/Viewer_PC/documentation_rst/1_Connect.html">Connect Menu</a> is channelname.subchannel.subsubchannel. and can be endlessly extended in this way.</p>
 <p>In RADii grasshoppers <a class="reference external" href="https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/02_connect.html">connect</a> the same address can be reached by: logging in, choosing “channelname &gt; My Domain” and then under “-subchannel-”
 typing the respective subchannel or subsubchannel as shown in the image below.</p>
@@ -498,7 +519,8 @@ typing the respective subchannel or subsubchannel as shown in the image below.</
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#about-channels-subchannels-and-subsubsubchannels">1.1. About channels, subchannels and subsubsubchannels:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#two-types-of-connect-components">1.1. Two types of Connect components:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#about-channels-subchannels-and-subsubsubchannels">1.2. About channels, subchannels and subsubsubchannels:</a></li>
 </ul>
   </nav></div>
 
@@ -532,7 +554,7 @@ By Gereon Sievi
   
   <div class="footer-item">
     <p class="last-updated">
-  Last updated on 02.07.2024.
+  Last updated on 08.07.2024.
   <br/>
 </p>
   </div>

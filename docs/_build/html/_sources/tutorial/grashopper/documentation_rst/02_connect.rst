@@ -2,8 +2,33 @@
 Connect
 ************
 
-The connect component is the **central component** of the RADii plugin. All other components are connected to it via the "Connection" output.
+.. image:: ../images/Connect/Connect.png
+  :align: left
+  :scale: 83%
+
+.. image:: ../images/Connect/Connect_local.png
+  :align: left
+
+
+The connect components are the **central components** of the RADii plugin. 
+All other components are connected to one of them via the ``Connection`` output.
 Only components that are connected will be published, as soon as you switch the Toggle to "True".
+
+Two types of Connect components:
+--------------------------------------------
+
+.. topic:: 1. Connect Global
+
+  - connects to a channel that can be accessed globally
+  - works with an account from RADii.info
+
+
+.. topic:: 2. Connect Local
+  
+  - can be used offline on your device or local network
+  - is quicker since there is not need for an upload to the cloud
+
+
 With it, you can select the channel you want to publish to, and log into your RADii account.
 
 **Input**
@@ -32,7 +57,7 @@ With it, you can select the channel you want to publish to, and log into your RA
   Connection   All further components have to be connected here   RADii components
   ===========  ================================================== ================
 
-.. image:: ../images/Connect/Connect_gh.png
+.. image:: ../images/Connect/Connect.1.png
     :scale: 80 %
 
 **Right click menu:**

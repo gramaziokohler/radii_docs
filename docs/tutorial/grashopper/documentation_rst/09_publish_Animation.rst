@@ -13,10 +13,6 @@ PublishAnimation
   In case content is connected to the component, the animation will be applied to the geometry. 
   At least 3 planes are necessary for an animation.
 
-Videos:
-    - `Animation example <https://www.youtube.com/shorts/9h1RwmqvWDQ>`_
-    - `Object animation <https://www.youtube.com/watch?v=yMZXNn_Pgq4>`_
-
 
 **Input**
 
@@ -63,6 +59,8 @@ To play multiple animations in parallel with one component, use the following se
 .. image:: ../images/Publish/Publish_animation_parallel_schaltplan.png
 
 
-**Video tutorial:**
+**Videos**
 
 - `Object Animation example <https://www.youtube.com/watch?v=yMZXNn_Pgq4>`_
+- `Animation example <https://www.youtube.com/shorts/9h1RwmqvWDQ>`_
+- `Object animation <https://www.youtube.com/watch?v=yMZXNn_Pgq4>`_

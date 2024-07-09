@@ -34,4 +34,6 @@ SaveContent
 .. image:: ../images/Save_Content/Save_Content2.png
     :scale: 100 %
 
-- Cloud content can also be loaded via the scenario manager
+.. tip::
+
+  - Cloud content can be loaded via the scenario manager

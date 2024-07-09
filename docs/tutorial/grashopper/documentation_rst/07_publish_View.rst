@@ -50,4 +50,6 @@ PublishView
   Active view Rhino Views
   =========== ======================================
 
-*Tip:* ``The camera lense length from Rhino is used for Rhino views.``
+.. tip:: 
+
+  The camera lense length from Rhino is used for Rhino views.

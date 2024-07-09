@@ -1,28 +1,47 @@
-
-
-
-
+**********************
+Publish Scenario
+**********************
 
 .. image:: ../images/Publish/Publish_scenario_manager.png
 
+.. topic:: Definition
 
-It contains the Scenario Manager that can save setting and all other content into a scenario to be played at once. With scenarios it is possible to do more complex presentations.
+  The Scenario Manager can collect all type of content, views, references, settings and more into scenarios, that can then be called into a viewer at once
+  With scenarios it is possible to do more complex presentations at ease.
   
-  - Be careful with saving geometry content into this component, this can make your Grasshopper file very heavy. 
+.. attention:: 
+
+  Be careful or refrain from saving geometry content into this component with scenarios, instead use `Publish Reference`_. Otherwise the Grasshopper file can get very heavy and slow.
   
 
 
 .. tip:: 
 
-  Grasshopper has an autosave function as a default setting. If the Publish Control component becomes too heavy, it will make you wait a lot
-
-
-
-.. tip:: 
-
-  - The saved content is stored in the component, be aware that huge amounts of geometry can make your .gh file very heavy and slow
-  - In this case turn off the grasshopper autosave setting as it will slow you down
+  - the content from Publish Scenario can be saved to the cloud with `Save Content`_
+  - Grasshoppers autosave can be deactivated, in case it takes to long 
   - To save time with heavier and bigger models: with `Publish Reference`_ you can direct all viewers to download a saved file from a channel, instead of live uploading and then downloading to the viewers.
+
+
+**Input**
+
+==========  ========================================= ==============
+Name        Description                               Type
+==========  ========================================= ==============
+Connection  Link with the Connect component           Connection
+Content     Content to be bundled into one scenario   RADii content
+Index       To switch between scenarios               Integer
+==========  ========================================= ==============
+
+**Output**
+
+==========  ======================================  ==============
+Name        Description                             Type
+==========  ======================================  ==============
+Log         Documents changes & data send           Text
+Content     Connect to Save component for saving    RADii content   
+==========  ======================================  ==============
+
+
 
 
 
@@ -32,8 +51,6 @@ Scenario Manager
 .. image:: ../images/Publish/Publish__controll_manager.png
     :scale: 80 %
 
-The scenario manager saves the selected options of the Publish Control component and content that is connected to it into scenarios that can be played in succession. 
-
 
 ==============  ============================================================================================================================
 Scenario Name   The name you want to give your scenario
@@ -41,7 +58,7 @@ Save            Save the scenario, can be used to save on top of existing scenri
 Update          Updates time set and settings that can be set in publish control but not geometry
 Rename  	      Renames a scenario
 Clear           clears the scene before a scenario
-Duration        length of the scenario
+Duration        length of the scenario when played in the viewer in auto mode
 ==============  ============================================================================================================================
 
 **Column descriptions**

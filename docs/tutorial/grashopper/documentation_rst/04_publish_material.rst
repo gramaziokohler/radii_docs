@@ -41,7 +41,7 @@ PublishMaterial
   Resolution  Max size of the texture   Pixel count
   =========== ========================  =============
 
-**Note:** 
+.. attention:: 
 
-- ``RADii only reads Custom Materials properly from Rhino, no Emission, Glass, Paint, Plaster, ...``
-- ``in case your Custom Material remains black, try changing the color profile of the image in use to RGB``
+  - RADii only reads Custom Materials properly from Rhino, no Emission, Glass, Paint, Plaster, ...
+  - in case your Custom Material remains black, try changing the color profile of the image in use to RGB

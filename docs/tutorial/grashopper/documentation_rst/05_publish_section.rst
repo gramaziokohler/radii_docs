@@ -9,11 +9,6 @@ PublishSection
     
   This component is used to publish clipping planes from Rhino or directly from Grasshopper to a channel.
 
-Video tutorials:
-
-- `Publish Section city scale <https://www.youtube.com/watch?v=5zsiGtmGIz4>`_
-- `Publish Section building scale <https://www.youtube.com/watch?v=3mJXLDXxK8o>`_
-- `Section Pointcloud <https://www.youtube.com/watch?v=JkuKp_Q2p2A>`_
 
 **Input**
 
@@ -28,10 +23,10 @@ Video tutorials:
   Index       Select a plane from a list              Number
   ==========  ======================================  ==============
 
-**Note:**
-  ``- you can connect a number slider with "index" if you have connected a list of surfaces with the input: "Section Plane"``
+.. tip::
 
-  ``- Rhino clipping planes are automatically imported and have to be selected in the menu below -Activate clipping planes-``
+  - you can connect a number slider with ``index`` if you have connected a list of surfaces with the input: ``Section Plane``
+  - Rhino clipping planes are automatically imported and have to be selected in the menu below ``-Activate clipping planes-``
 
 **Output**
 
@@ -56,8 +51,13 @@ Video tutorials:
   Activate clipping planes:   clipping planes from rhino to be selected
   ==========================  ================================================
 
-**Note:** 
+.. tip:: 
+  
+  - In Rhino flipping a clipping plane is not recognized by Radii, rotating the plane by 180° however achieves the same
+  - Names of clipping planes are not carried over into the Grasshopper plugin at the time of writing
 
-``- In Rhino flipping a clipping plane is not recognized by Radii, rotating the plane by 180° however achieves the same``
+**Video tutorials:**
 
-``- Names of clipping planes are not carried over into the Grasshopper plugin at the time of writing``
+- `Publish Section city scale <https://www.youtube.com/watch?v=5zsiGtmGIz4>`_
+- `Publish Section building scale <https://www.youtube.com/watch?v=3mJXLDXxK8o>`_
+- `Section Pointcloud <https://www.youtube.com/watch?v=JkuKp_Q2p2A>`_

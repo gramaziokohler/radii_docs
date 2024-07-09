@@ -47,7 +47,7 @@
     <link rel="prev" title="4. PublishSection" href="05_publish_section.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-    <meta name="docbuild:last-update" content="08.07.2024"/>
+    <meta name="docbuild:last-update" content="09.07.2024"/>
   </head>
   
   
@@ -167,7 +167,7 @@
 </ul>
 </details></li>
 <li class="toctree-l1 current active has-children"><a class="reference internal" href="01_Components_Overview.html">RADii Grasshopper</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="02_connect.html">1. Connect</a></li>
+<li class="toctree-l2"><a class="reference internal" href="02_connect.html">1. Connect Global &amp; Local</a></li>
 <li class="toctree-l2"><a class="reference internal" href="03_publish_geometry.html">2. PublishGeometry</a></li>
 <li class="toctree-l2"><a class="reference internal" href="04_publish_material.html">3. PublishMaterial</a></li>
 <li class="toctree-l2"><a class="reference internal" href="05_publish_section.html">4. PublishSection</a></li>
@@ -356,7 +356,7 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scenario-manager">5.1. <strong>Scenario Manager</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scenario-manager">5.1. Scenario Manager</a></li>
 </ul>
             </nav>
         </div>
@@ -371,16 +371,18 @@ document.write(`
   <section id="publishcontrol">
 <h1><span class="section-number">5. </span>PublishControl<a class="headerlink" href="#publishcontrol" title="Link to this heading">#</a></h1>
 <a class="reference internal image-reference" href="../../../_images/Publish__controll.png"><img alt="../../../_images/Publish__controll.png" src="../../../_images/Publish__controll.png" style="width: 730.4000000000001px; height: 616.8000000000001px;" /></a>
+<aside class="topic">
+<p class="topic-title">Definition</p>
 <p>Publish Control directs the viewer settings from Grasshopper as listed in the menu section below.
 It contains the Scenario Manager that can save setting and all other content into a scenario to be played at once. With scenarios it is possible to do more complex presentations.</p>
-<blockquote>
-<div><ul class="simple">
+<ul class="simple">
 <li><p>Be careful with saving geometry content into this component, this can make your Grasshopper file very heavy.</p></li>
 </ul>
-<blockquote>
-<div><p>Tip: Grasshopper has an autosave function as a default setting. If the Publish Control component becomes too heavy, it will make you wait a lot</p>
-</div></blockquote>
-</div></blockquote>
+</aside>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Grasshopper has an autosave function as a default setting. If the Publish Control component becomes too heavy, it will make you wait a lot</p>
+</div>
 <p><strong>Video tutorials:</strong></p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://www.youtube.com/watch?v=-_7DvX_-9uY">Publish Control overview</a></p></li>
@@ -495,12 +497,16 @@ It contains the Scenario Manager that can save setting and all other content int
 </tbody>
 </table>
 </div>
-<p><strong>Tips</strong></p>
-<p><code class="docutils literal notranslate"><span class="pre">-</span> <span class="pre">The</span> <span class="pre">saved</span> <span class="pre">content</span> <span class="pre">is</span> <span class="pre">stored</span> <span class="pre">in</span> <span class="pre">the</span> <span class="pre">component,</span> <span class="pre">be</span> <span class="pre">aware</span> <span class="pre">that</span> <span class="pre">huge</span> <span class="pre">amounts</span> <span class="pre">of</span> <span class="pre">geometry</span> <span class="pre">can</span> <span class="pre">make</span> <span class="pre">your</span> <span class="pre">.gh</span> <span class="pre">file</span> <span class="pre">very</span> <span class="pre">heavy</span> <span class="pre">and</span> <span class="pre">slow</span></code></p>
-<p><code class="docutils literal notranslate"><span class="pre">-</span> <span class="pre">In</span> <span class="pre">this</span> <span class="pre">case</span> <span class="pre">turn</span> <span class="pre">off</span> <span class="pre">the</span> <span class="pre">grasshopper</span> <span class="pre">autosave</span> <span class="pre">setting</span> <span class="pre">as</span> <span class="pre">it</span> <span class="pre">will</span> <span class="pre">slow</span> <span class="pre">you</span> <span class="pre">down</span></code></p>
-<p><code class="docutils literal notranslate"><span class="pre">-</span> <span class="pre">To</span> <span class="pre">save</span> <span class="pre">time</span> <span class="pre">with</span> <span class="pre">heavier</span> <span class="pre">and</span> <span class="pre">bigger</span> <span class="pre">models:</span> <span class="pre">with</span> <span class="pre">`Publish</span> <span class="pre">Reference`_</span> <span class="pre">you</span> <span class="pre">can</span> <span class="pre">direct</span> <span class="pre">all</span> <span class="pre">viewers</span> <span class="pre">to</span> <span class="pre">download</span> <span class="pre">a</span> <span class="pre">saved</span> <span class="pre">file</span> <span class="pre">from</span> <span class="pre">a</span> <span class="pre">channel,</span> <span class="pre">instead</span> <span class="pre">of</span> <span class="pre">live</span> <span class="pre">uploading</span> <span class="pre">and</span> <span class="pre">then</span> <span class="pre">downloading</span> <span class="pre">to</span> <span class="pre">the</span> <span class="pre">viewers.</span></code></p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<ul class="simple">
+<li><p>The saved content is stored in the component, be aware that huge amounts of geometry can make your .gh file very heavy and slow</p></li>
+<li><p>In this case turn off the grasshopper autosave setting as it will slow you down</p></li>
+<li><p>To save time with heavier and bigger models: with <a class="reference external" href="https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/14_publish_reference.html">Publish Reference</a> you can direct all viewers to download a saved file from a channel, instead of live uploading and then downloading to the viewers.</p></li>
+</ul>
+</div>
 <section id="scenario-manager">
-<h2><span class="section-number">5.1. </span><strong>Scenario Manager</strong><a class="headerlink" href="#scenario-manager" title="Link to this heading">#</a></h2>
+<h2><span class="section-number">5.1. </span>Scenario Manager<a class="headerlink" href="#scenario-manager" title="Link to this heading">#</a></h2>
 <a class="reference internal image-reference" href="../../../_images/Publish__controll_manager.png"><img alt="../../../_images/Publish__controll_manager.png" src="../../../_images/Publish__controll_manager.png" style="width: 388.8px; height: 314.40000000000003px;" /></a>
 <p>The scenario manager saves the selected options of the Publish Control component and content that is connected to it into scenarios that can be played in succession.</p>
 <div class="pst-scrollable-table-container"><table class="table">
@@ -610,7 +616,7 @@ them as individual scenarios. You then can switch through them during your prese
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scenario-manager">5.1. <strong>Scenario Manager</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scenario-manager">5.1. Scenario Manager</a></li>
 </ul>
   </nav></div>
 
@@ -644,7 +650,7 @@ By Gereon Sievi
   
   <div class="footer-item">
     <p class="last-updated">
-  Last updated on 08.07.2024.
+  Last updated on 09.07.2024.
   <br/>
 </p>
   </div>

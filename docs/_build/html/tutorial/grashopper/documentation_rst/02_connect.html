@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>1. Connect &#8212; Radii Documentation  documentation</title>
+    <title>1. Connect Global &amp; Local &#8212; Radii Documentation  documentation</title>
   
   
   
@@ -47,7 +47,7 @@
     <link rel="prev" title="RADii Grasshopper" href="01_Components_Overview.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-    <meta name="docbuild:last-update" content="08.07.2024"/>
+    <meta name="docbuild:last-update" content="09.07.2024"/>
   </head>
   
   
@@ -167,7 +167,7 @@
 </ul>
 </details></li>
 <li class="toctree-l1 current active has-children"><a class="reference internal" href="01_Components_Overview.html">RADii Grasshopper</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
-<li class="toctree-l2 current active"><a class="current reference internal" href="#">1. Connect</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">1. Connect Global &amp; Local</a></li>
 <li class="toctree-l2"><a class="reference internal" href="03_publish_geometry.html">2. PublishGeometry</a></li>
 <li class="toctree-l2"><a class="reference internal" href="04_publish_material.html">3. PublishMaterial</a></li>
 <li class="toctree-l2"><a class="reference internal" href="05_publish_section.html">4. PublishSection</a></li>
@@ -346,7 +346,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Connect</h1>
+    <h1>Connect Global & Local</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -356,8 +356,12 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#two-types-of-connect-components">1.1. Two types of Connect components:</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#about-channels-subchannels-and-subsubsubchannels">1.2. About channels, subchannels and subsubsubchannels:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#two-types-of-connect">1.1. Two types of Connect:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#connect-global-to-a-channel">1.2. Connect Global to a channel:</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#about-channels-subchannels-and-subsubsubchannels">1.2.1. About channels, subchannels and subsubsubchannels:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#connect-local">1.3. Connect Local:</a></li>
 </ul>
             </nav>
         </div>
@@ -369,15 +373,18 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section id="id1">
-<h1><span class="section-number">1. </span>Connect<a class="headerlink" href="#id1" title="Link to this heading">#</a></h1>
+  <section id="connect-global-local">
+<h1><span class="section-number">1. </span>Connect Global &amp; Local<a class="headerlink" href="#connect-global-local" title="Link to this heading">#</a></h1>
 <a class="reference internal image-reference" href="../../../_images/Connect.png"><img alt="../../../_images/Connect.png" class="align-left" src="../../../_images/Connect.png" style="width: 517.09px; height: 205.84px;" /></a>
 <img alt="../../../_images/Connect_local.png" class="align-left" src="../../../_images/Connect_local.png" />
+<aside class="topic">
+<p class="topic-title">Definition</p>
 <p>The connect components are the <strong>central components</strong> of the RADii plugin.
 All other components are connected to one of them via the <code class="docutils literal notranslate"><span class="pre">Connection</span></code> output.
 Only components that are connected will be published, as soon as you switch the Toggle to “True”.</p>
-<section id="two-types-of-connect-components">
-<h2><span class="section-number">1.1. </span>Two types of Connect components:<a class="headerlink" href="#two-types-of-connect-components" title="Link to this heading">#</a></h2>
+</aside>
+<section id="two-types-of-connect">
+<h2><span class="section-number">1.1. </span>Two types of Connect:<a class="headerlink" href="#two-types-of-connect" title="Link to this heading">#</a></h2>
 <aside class="topic">
 <p class="topic-title">1. Connect Global</p>
 <ul class="simple">
@@ -390,9 +397,9 @@ Only components that are connected will be published, as soon as you switch the 
 <ul class="simple">
 <li><p>can be used offline on your device or local network</p></li>
 <li><p>is quicker since there is not need for an upload to the cloud</p></li>
+<li><p>Further explanation can be found in the <a href="#id1"><span class="problematic" id="id2">`Connect Local`_</span></a> section</p></li>
 </ul>
 </aside>
-<p>With it, you can select the channel you want to publish to, and log into your RADii account.</p>
 <p><strong>Input</strong></p>
 <div class="pst-scrollable-table-container"><table class="table table-left">
 <thead>
@@ -434,13 +441,21 @@ Only components that are connected will be published, as soon as you switch the 
 </tbody>
 </table>
 </div>
+</section>
+<section id="connect-global-to-a-channel">
+<h2><span class="section-number">1.2. </span>Connect Global to a channel:<a class="headerlink" href="#connect-global-to-a-channel" title="Link to this heading">#</a></h2>
 <a class="reference internal image-reference" href="../../../_images/Connect.1.png"><img alt="../../../_images/Connect.1.png" src="../../../_images/Connect.1.png" style="width: 509.6px; height: 352.0px;" /></a>
-<p><strong>Right click menu:</strong></p>
-<img alt="../../../_images/Connect.1.png" src="../../../_images/Connect.1.png" />
+<p><code class="docutils literal notranslate"><span class="pre">Right</span> <span class="pre">click</span> <span class="pre">to</span> <span class="pre">open</span> <span class="pre">the</span> <span class="pre">menu</span></code></p>
 <div class="pst-scrollable-table-container"><table class="table table-left">
 <tbody>
 <tr class="row-odd"><td><p>Nickname</p></td>
-<td><p>Name in the viewer for other users to recognise you</p></td>
+<td><p>Name in the viewer for other users to recognize you</p></td>
+</tr>
+<tr class="row-even"><td><p>Channel</p></td>
+<td><p>Select Channel from list</p></td>
+</tr>
+<tr class="row-odd"><td><p>subchannel</p></td>
+<td><p>Type subchannel name</p></td>
 </tr>
 <tr class="row-even"><td><p>Username</p></td>
 <td><p><a class="reference external" href="https://radii.info/">RADii.info</a> username</p></td>
@@ -451,26 +466,44 @@ Only components that are connected will be published, as soon as you switch the 
 <tr class="row-even"><td><p>Load account</p></td>
 <td><p>Load Radii.info account</p></td>
 </tr>
+<tr class="row-odd"><td><p>Create an account</p></td>
+<td><p>Forwards you to the <a class="reference external" href="https://radii.info/">RADii.info</a> website</p></td>
+</tr>
 </tbody>
 </table>
 </div>
-<p><strong>Note:</strong>  <code class="docutils literal notranslate"><span class="pre">If</span> <span class="pre">you</span> <span class="pre">are</span> <span class="pre">part</span> <span class="pre">of</span> <span class="pre">a</span> <span class="pre">group</span> <span class="pre">or</span> <span class="pre">organization,</span> <span class="pre">please</span> <span class="pre">use</span> <span class="pre">the</span> <span class="pre">respective</span> <span class="pre">email</span> <span class="pre">address.</span></code></p>
-<img alt="tutorial/grashopper/images/Connect/Connect.11.png" src="tutorial/grashopper/images/Connect/Connect.11.png" />
-</section>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you are part of a group or organization, please use the respective email address.</p>
+</div>
 <section id="about-channels-subchannels-and-subsubsubchannels">
-<h2><span class="section-number">1.2. </span>About channels, subchannels and subsubsubchannels:<a class="headerlink" href="#about-channels-subchannels-and-subsubsubchannels" title="Link to this heading">#</a></h2>
-<p>The way to note a channel addresses in the Viewers <a class="reference external" href="https://gramaziokohler.github.io/radii_docs/tutorial/Viewer_PC/documentation_rst/1_Connect.html">Connect Menu</a> is channelname.subchannel.subsubchannel. and can be endlessly extended in this way.</p>
+<h3><span class="section-number">1.2.1. </span>About channels, subchannels and subsubsubchannels:<a class="headerlink" href="#about-channels-subchannels-and-subsubsubchannels" title="Link to this heading">#</a></h3>
+<img alt="../../../_images/03_Quick_Guide_Publisher_zugeschnitten.png" src="../../../_images/03_Quick_Guide_Publisher_zugeschnitten.png" />
 <p>In RADii grasshoppers <a class="reference external" href="https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/02_connect.html">connect</a> the same address can be reached by: logging in, choosing “channelname &gt; My Domain” and then under “-subchannel-”
 typing the respective subchannel or subsubchannel as shown in the image below.</p>
-<img alt="../../../_images/03_Quick_Guide_Publisher_zugeschnitten.png" src="../../../_images/03_Quick_Guide_Publisher_zugeschnitten.png" />
-<p><strong>Example how to write channels:</strong></p>
-<p>The channel <strong>sun.hs23.g1</strong></p>
-<p><strong>In the RADii viewer:</strong></p>
-<p><em>sun.hs23.g1</em></p>
-<p><strong>In RADii Grasshopper:</strong></p>
-<p>select from the available Channels:</p>
-<p>Sun &gt; My Domain</p>
-<p>subchannel:<em>hs23.g1</em></p>
+<p>The way to note a channel addresses in the Viewers <a class="reference external" href="https://gramaziokohler.github.io/radii_docs/tutorial/Viewer_PC/documentation_rst/1_Connect.html">Connect Menu</a> is channelname.subchannel.subsubchannel. and can be endlessly extended in this way.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>How the channel</strong> <code class="docutils literal notranslate"><span class="pre">sun.hs23.g1</span></code> <strong>is written:</strong></p>
+<p>In the RADii viewer:
+<code class="docutils literal notranslate"><span class="pre">sun.hs23.g1</span></code></p>
+<p>In Grasshopper <a class="reference external" href="https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/02_connect.html">Connect</a>
+select from the available Channels:</p>
+<p><code class="docutils literal notranslate"><span class="pre">Sun</span> <span class="pre">&gt;</span> <span class="pre">My</span> <span class="pre">Domain</span></code> and
+type: <code class="docutils literal notranslate"><span class="pre">subchannel:*hs23.g1</span></code></p>
+</div>
+</section>
+</section>
+<section id="connect-local">
+<h2><span class="section-number">1.3. </span>Connect Local:<a class="headerlink" href="#connect-local" title="Link to this heading">#</a></h2>
+<p>When using <cite>Connect Local</cite>, all content is automatically send to all open instances of the RADii Viewer on the same device as long as the <cite>Viewers Local Connection Ip Address</cite> is set to the <cite>Local IP-Adress</cite> that is displayed below the component.</p>
+<p>To connect locally to an editor in the same network, input the <cite>LAN</cite>: Ip Address below the component into the <cite>Viewers Local Connection Ip Address</cite></p>
+<a class="reference internal image-reference" href="../../../_images/Connect_local.png"><img alt="../../../_images/Connect_local.png" src="../../../_images/Connect_local.png" style="width: 301.2px; height: 105.6px;" /></a>
+<a class="reference internal image-reference" href="../../../_images/Connect_local_viewer.png"><img alt="../../../_images/Connect_local_viewer.png" src="../../../_images/Connect_local_viewer.png" style="width: 284.40000000000003px; height: 248.4px;" /></a>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>You will have an individual <code class="docutils literal notranslate"><span class="pre">Lan</span> <span class="pre">and</span> <span class="pre">Local</span> <span class="pre">IP</span> <span class="pre">address</span></code> showing below your component, do not use the one from the image on top.</p>
+</div>
 </section>
 </section>
 
@@ -519,8 +552,12 @@ typing the respective subchannel or subsubchannel as shown in the image below.</
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#two-types-of-connect-components">1.1. Two types of Connect components:</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#about-channels-subchannels-and-subsubsubchannels">1.2. About channels, subchannels and subsubsubchannels:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#two-types-of-connect">1.1. Two types of Connect:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#connect-global-to-a-channel">1.2. Connect Global to a channel:</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#about-channels-subchannels-and-subsubsubchannels">1.2.1. About channels, subchannels and subsubsubchannels:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#connect-local">1.3. Connect Local:</a></li>
 </ul>
   </nav></div>
 
@@ -554,7 +591,7 @@ By Gereon Sievi
   
   <div class="footer-item">
     <p class="last-updated">
-  Last updated on 08.07.2024.
+  Last updated on 09.07.2024.
   <br/>
 </p>
   </div>

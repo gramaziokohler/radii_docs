@@ -1,10 +1,40 @@
-************
-Connect
-************
+***********************
+Connect Global & Local
+***********************
 
-The connect component is the **central component** of the RADii plugin. All other components are connected to it via the "Connection" output.
-Only components that are connected will be published, as soon as you switch the Toggle to "True".
-With it, you can select the channel you want to publish to, and log into your RADii account.
+.. image:: ../images/Connect/Connect.png
+  :align: left
+  :scale: 83%
+
+.. image:: ../images/Connect/Connect_local.png
+  :align: left
+
+.. topic:: Definition
+
+  The connect components are the **central components** of the RADii plugin. 
+  All other components are connected to one of them via the ``Connection`` output.
+  Only components that are connected will be published, as soon as you switch the Toggle to "True".
+
+
+
+
+
+Two types of Connect:
+--------------------------------------------
+
+.. topic:: 1. Connect Global
+
+  - connects to a channel that can be accessed globally
+  - works with an account from RADii.info
+
+
+
+.. topic:: 2. Connect Local
+  
+  - can be used offline on your device or local network
+  - is quicker since there is not need for an upload to the cloud
+  - Further explanation can be found in the `Connect Local`_ section
+
 
 **Input**
 
@@ -21,6 +51,7 @@ With it, you can select the channel you want to publish to, and log into your RA
 
 `Follow video Demo <https://www.youtube.com/watch?v=h-5thZiZg1Q>`_
 
+
 **Output**
 
 .. table::
@@ -32,59 +63,80 @@ With it, you can select the channel you want to publish to, and log into your RA
   Connection   All further components have to be connected here   RADii components
   ===========  ================================================== ================
 
-.. image:: ../images/Connect/Connect_gh.png
-    :scale: 80 %
 
-**Right click menu:**
+
+
+Connect Global to a channel:
+--------------------------------
 
 .. image:: ../images/Connect/Connect.1.png
+    :scale: 80 %
+
+``Right click to open the menu``
+
 
 .. table::
   :align: left
 
-  =============   ====================================================
-  Nickname        Name in the viewer for other users to recognise you
-  Username        `RADii.info`_ username
-  Password        `RADii.info`_ password
-  Load account    Load Radii.info account
-  =============   ====================================================
+  ================= ====================================================
+  Nickname          Name in the viewer for other users to recognize you
+  Channel           Select Channel from list
+  subchannel        Type subchannel name
+  Username          `RADii.info`_ username
+  Password          `RADii.info`_ password
+  Load account      Load Radii.info account
+  Create an account Forwards you to the `RADii.info`_ website
+  ================= ====================================================
+
+
+.. note:: 
+
+  If you are part of a group or organization, please use the respective email address.
 
 
 
-**Note:**  ``If you are part of a group or organization, please use the respective email address.``
-
-.. image:: ../images/Connect/Connect.11.png
 
 
 
 About channels, subchannels and subsubsubchannels:
----------------------------------------------------
+"""""""""""""""""""""""""""""""""""""""""""""""""""
 
-The way to note a channel addresses in the Viewers `Connect Menu`_ is channelname.subchannel.subsubchannel. and can be endlessly extended in this way. 
+.. image:: /tutorial/Quick_Guide//1_LV_Explo_Images/Grashopper/03_Quick_Guide_Publisher_zugeschnitten.png
 
 In RADii grasshoppers connect_ the same address can be reached by: logging in, choosing "channelname > My Domain" and then under "-subchannel-" 
 typing the respective subchannel or subsubchannel as shown in the image below.
 
-.. image:: /tutorial/Quick_Guide//1_LV_Explo_Images/Grashopper/03_Quick_Guide_Publisher_zugeschnitten.png
+The way to note a channel addresses in the Viewers `Connect Menu`_ is channelname.subchannel.subsubchannel. and can be endlessly extended in this way. 
 
 
-**Example how to write channels:**
+.. note::
+    
+  **How the channel** ``sun.hs23.g1`` **is written:**
 
-The channel **sun.hs23.g1**
+  In the RADii viewer:
+  ``sun.hs23.g1``
 
-**In the RADii viewer:**
+  In Grasshopper `Connect`_ 
+  select from the available Channels:
 
-*sun.hs23.g1*
-
-**In RADii Grasshopper:**
-
-select from the available Channels: 
-
-Sun > My Domain
-
-subchannel:*hs23.g1*
-
- 
+  ``Sun > My Domain`` and 
+  type: ``subchannel:*hs23.g1``
 
 
+Connect Local:
+--------------------------------
 
+When using `Connect Local`, all content is automatically send to all open instances of the RADii Viewer on the same device as long as the `Viewers Local Connection Ip Address` is set to the `Local IP-Adress` that is displayed below the component.
+
+To connect locally to an editor in the same network, input the `LAN`: Ip Address below the component into the `Viewers Local Connection Ip Address`
+
+.. image:: ../images/Connect/Connect_local.png
+  :scale: 60%
+
+.. image:: ../images/Connect/Connect_local_viewer.png
+  :scale: 90%
+
+
+.. important:: 
+
+  You will have an individual ``Lan and Local IP address`` showing below your component, do not use the one from the image on top.

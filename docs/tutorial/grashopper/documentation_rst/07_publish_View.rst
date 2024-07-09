@@ -5,7 +5,9 @@ PublishView
 .. image:: ../images/Publish/Publish_view.png
     :scale: 80 %
 
-This component is used to publish saved views to all Subscribers of a channel. All present Subscribers will be moved to the selected view.
+.. topic:: Definition
+  
+  This component is used to publish saved views to all Subscribers of a channel. All present Subscribers will be moved to the selected view.
 
 - there are two ways to import views:
   

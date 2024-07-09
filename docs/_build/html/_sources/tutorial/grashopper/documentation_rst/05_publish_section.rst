@@ -5,7 +5,9 @@ PublishSection
 .. image:: ../images/Publish/Publish_section.png
     :scale: 80 %
 
-This component is used to publish clipping planes from Rhino or directly from Grasshopper to a channel.
+.. topic:: Definition
+    
+  This component is used to publish clipping planes from Rhino or directly from Grasshopper to a channel.
 
 Video tutorials:
 

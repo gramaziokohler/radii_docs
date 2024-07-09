@@ -4,9 +4,7 @@ SaveContent
 
 .. image:: ../images/Save_Content/Save_Content.png
 
-.. topic:: Definition
-  
-  This component is used to save content locally or to a channel in the cloud.
+This component is used to save content locally or to a channel in the cloud.
 
 **Input**
 
@@ -34,6 +32,4 @@ SaveContent
 .. image:: ../images/Save_Content/Save_Content2.png
     :scale: 100 %
 
-.. tip::
-
-  - Cloud content can be loaded via the scenario manager
+- Cloud content can also be loaded via the scenario manager

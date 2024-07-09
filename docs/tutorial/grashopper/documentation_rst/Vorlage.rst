@@ -4,10 +4,6 @@ Temp
 
 .. image:: ../images/Publish/
 
-.. topic:: Definition
-
-  Textextesxt
-
 **Input**
 
 ==========  ======================================  ==============

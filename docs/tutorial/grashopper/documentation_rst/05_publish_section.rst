@@ -5,10 +5,13 @@ PublishSection
 .. image:: ../images/Publish/Publish_section.png
     :scale: 80 %
 
-.. topic:: Definition
-    
-  This component is used to publish clipping planes from Rhino or directly from Grasshopper to a channel.
+This component is used to publish clipping planes from Rhino or directly from Grasshopper to a channel.
 
+Video tutorials:
+
+- `Publish Section city scale <https://www.youtube.com/watch?v=5zsiGtmGIz4>`_
+- `Publish Section building scale <https://www.youtube.com/watch?v=3mJXLDXxK8o>`_
+- `Section Pointcloud <https://www.youtube.com/watch?v=JkuKp_Q2p2A>`_
 
 **Input**
 
@@ -23,10 +26,10 @@ PublishSection
   Index       Select a plane from a list              Number
   ==========  ======================================  ==============
 
-.. tip::
+**Note:**
+  ``- you can connect a number slider with "index" if you have connected a list of surfaces with the input: "Section Plane"``
 
-  - you can connect a number slider with ``index`` if you have connected a list of surfaces with the input: ``Section Plane``
-  - Rhino clipping planes are automatically imported and have to be selected in the menu below ``-Activate clipping planes-``
+  ``- Rhino clipping planes are automatically imported and have to be selected in the menu below -Activate clipping planes-``
 
 **Output**
 
@@ -51,13 +54,8 @@ PublishSection
   Activate clipping planes:   clipping planes from rhino to be selected
   ==========================  ================================================
 
-.. tip:: 
-  
-  - In Rhino flipping a clipping plane is not recognized by Radii, rotating the plane by 180° however achieves the same
-  - Names of clipping planes are not carried over into the Grasshopper plugin at the time of writing
+**Note:** 
 
-**Video tutorials:**
+``- In Rhino flipping a clipping plane is not recognized by Radii, rotating the plane by 180° however achieves the same``
 
-- `Publish Section city scale <https://www.youtube.com/watch?v=5zsiGtmGIz4>`_
-- `Publish Section building scale <https://www.youtube.com/watch?v=3mJXLDXxK8o>`_
-- `Section Pointcloud <https://www.youtube.com/watch?v=JkuKp_Q2p2A>`_
+``- Names of clipping planes are not carried over into the Grasshopper plugin at the time of writing``

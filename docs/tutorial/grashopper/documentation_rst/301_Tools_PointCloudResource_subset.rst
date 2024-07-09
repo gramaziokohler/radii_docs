@@ -9,11 +9,6 @@ ReducePointCloud
 
 .. image:: ../images/Pointcloud/Pointcloudreduce.png
 
-.. topic:: Definition
-
-  Reduces the number of points in a Point Cloud by a given fraction.
-
-
 **Input**
 
 .. table::
@@ -37,18 +32,10 @@ ReducePointCloud
   Point Cloud  Reduced Point Cloud                      Point Cloud
   ===========  ======================================  ==============
 
-
-
-
 SubsetPointCloud
 -----------------
 
 .. image:: ../images/Pointcloud/Pointcloudbox.png
-
-.. topic:: Definition
-
-  Sections a Point Cloud by a selection box volume.
-
 
 **Input**
 
@@ -72,3 +59,4 @@ SubsetPointCloud
   ===========  ======================================  ==============
   Point Cloud  Selection of Point Cloud                Point Cloud
   ===========  ======================================  ==============
+

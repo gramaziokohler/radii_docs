@@ -4,9 +4,7 @@ SubscribePointCloud
 
 .. image:: ../images/Subscribe/Pointcloud.png
 
-.. topic:: Definition
-  
-  This component is used to subscribe to Pointclouds that are published to a channel.
+This component is used to subscribe to Pointclouds that are published to a channel.
 
 **Input**
 

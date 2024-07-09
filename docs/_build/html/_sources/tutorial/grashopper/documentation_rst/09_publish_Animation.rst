@@ -5,13 +5,10 @@ PublishAnimation
 .. image:: ../images/Publish/Publish_animation.png
     :scale: 90 %
 
-
-.. topic:: Definition
-    
-  This component is used to publish animations to a channel.
-  If no content is given as an input, all Viewers present will be subjected to the animation, similar to a dolly camera.
-  In case content is connected to the component, the animation will be applied to the geometry. 
-  At least 3 planes are necessary for an animation.
+This component is used to publish animations to a channel.
+If no content is given as an input, all Viewers present will be subjected to the animation, similar to a dolly camera.
+In case content is connected to the component, the animation will be applied to the geometry. 
+At least 3 planes are necessary for an animation.
 
 Videos:
     - `Animation example <https://www.youtube.com/shorts/9h1RwmqvWDQ>`_

@@ -5,9 +5,7 @@ PublishPointcloud
 .. image:: ../images/Publish/Publish_Pointclouds.png
     :scale: 90 %
 
-.. topic:: Definition
-
-  This component is used to publish Pointclouds to a channel.
+This component is used to publish Pointclouds to a channel.
 
 **Note:** ``Pointclouds have a tendency to be very large and can be a strain on your pc, in those cases see`` `Tools Pointcloud`_ ``to reduce their size.``
 

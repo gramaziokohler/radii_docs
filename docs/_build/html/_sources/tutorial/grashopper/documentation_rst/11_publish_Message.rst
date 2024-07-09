@@ -4,9 +4,7 @@ PublishMessage
 
 .. image:: ../images/Publish/Publish_message.png
 
-.. topic:: Definition
-
-  This component is used to publish messages to a channel.
+This component is used to publish messages to a channel.
 
 **Input**
 

@@ -4,9 +4,7 @@ SaveContent
 
 .. image:: ../images/Save_Content/Save_Content.png
 
-.. topic:: Definition
-  
-  This component is used to save content locally or to a channel in the cloud.
+This component is used to save content locally or to a channel in the cloud.
 
 **Input**
 

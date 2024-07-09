@@ -28,7 +28,7 @@ Grasshopper Components
 .. here you are missing connect, this should come before publish components
 
 **Connect**
-.. put the connect link here
+.. @help put the connect link here
 
 **Publish Components**
 

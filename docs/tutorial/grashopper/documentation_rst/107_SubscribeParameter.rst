@@ -47,6 +47,8 @@ Radii viewer counterpart
   Parameter/Boolean   Parameter/Boolean from Radii Viewer     Boolean/Number
   ==================  ======================================  ==============
 
-- The more parameters you define in the viewer, the more will be on this component
-- The number will be between 0 to 1, you can remap this to any other range
+.. note:: 
+
+  - The more parameters you define in the viewer, the more will be on this component
+  - The number will be between 0 to 1, you can remap this to any other range
 

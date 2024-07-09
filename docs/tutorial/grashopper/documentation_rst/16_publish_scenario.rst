@@ -73,7 +73,8 @@ Duration    of the scenario when played on auto play in the viewer
 ==========  ==============================================================================================
 
 
-**Examples**
+Examples
+------------------------
 
 You have some geometry (a building) and want to publish or download from the server (1), then walk through it, change the time of the day (2) and
 continue your tour via a series of pre defined views (3-4).

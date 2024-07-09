@@ -5,7 +5,9 @@ Publish Sound
 .. image:: ../images/Publish/Publish_sound.png
     :scale: 80 %
 
-Sound is emitted by a source in the center of the inner and outer envelope, it decreases over distance unless "stop on exit" or "limit" is set.
+.. topic:: Definition
+    
+  Sound is emitted by a source in the center of the inner and outer envelope, it decreases over distance unless "stop on exit" or "limit" is set.
 
 **Videos:**
 

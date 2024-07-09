@@ -5,7 +5,9 @@ PublishView
 .. image:: ../images/Publish/Publish_view.png
     :scale: 80 %
 
-This component is used to publish saved views to all Subscribers of a channel. All present Subscribers will be moved to the selected view.
+.. topic:: Definition
+  
+  This component is used to publish saved views to all Subscribers of a channel. All present Subscribers will be moved to the selected view.
 
 - there are two ways to import views:
   
@@ -48,4 +50,6 @@ This component is used to publish saved views to all Subscribers of a channel. A
   Active view Rhino Views
   =========== ======================================
 
-*Tip:* ``The camera lense length from Rhino is used for Rhino views.``
+.. tip:: 
+
+  The camera lense length from Rhino is used for Rhino views.

@@ -4,7 +4,9 @@ SubscribeMessages
 
 .. image:: ../images/Subscribe/Sub_message.png
 
-This component is used to subscribe to messages that are published to a channel.
+.. topic:: Definition
+
+  This component is used to subscribe to messages that are published to a channel.
 
 **Input**
 

@@ -6,7 +6,9 @@ PublishGeometry
 .. image:: ../images/Publish/Publish_geometry.png
     :scale: 80 %
 
-This component is used to select geometry that should be published to a channel.
+.. topic:: Definition
+
+  This component is used to select geometry that should be published to a channel.
 
 **Input**
 
@@ -21,14 +23,16 @@ This component is used to select geometry that should be published to a channel.
   Quality     Mesh Quality for conversion         Settings
   =========== ================================ ================
 
-**Quality:** 
-To control the quality of your geometry you can use the following components
+.. Tip::
 
-    - Setting (Speed)
-    - Setting (Quality)
-    - Setting (Custom)
+  **Quality:** 
+  To control the quality of your geometry you can use the following gh components:
 
-      - use "Min Edge" to sett the minimal edge length this will make your model low poly if you go to high
+      - Setting (Speed)
+      - Setting (Quality)
+      - Setting (Custom)
+
+        - use "Min Edge" to sett the minimal edge length this will make your model low poly if you go to high
 
 **Output**
 

@@ -10,7 +10,7 @@
 Radii Documentation
 **************************
 
-Welcome to the RADii documentation.
+V. 0.39 B2
 
 .. 
    Table of content:

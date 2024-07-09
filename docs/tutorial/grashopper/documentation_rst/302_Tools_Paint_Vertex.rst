@@ -5,8 +5,10 @@ Tool Paint Vertex
 .. image:: ../images/Pointcloud/Tool_PaintVertex.png 
     :scale: 60 %
 
-This tool bakes an image texture onto a mesh, it can then be modified without loosing the texture.
-The precision of the bake depends on the mesh resolution.
+.. topic:: Definition
+    
+  This tool bakes an image texture onto a mesh, it can then be modified without loosing the texture.
+  The precision of the bake depends on the mesh resolution.
 
 **Input**
 

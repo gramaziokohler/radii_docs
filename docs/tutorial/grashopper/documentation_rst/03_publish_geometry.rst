@@ -23,10 +23,18 @@ PublishGeometry
   Quality     Mesh Quality for conversion         Settings
   =========== ================================ ================
 
+
+.. important:: 
+
+ - RADii converts all Rhino surfaces and polysurfaces to meshes. 
+ - The automatic mesh conversion often produces many faces which results in big amount of data and longer loading times.
+ 
+
+
 .. Tip::
 
   **Quality:** 
-  To control the quality of your geometry you can use the following gh components:
+  To control the conversion process to meshes and the smoothness of your geometry you can use the following gh components:
 
       - Setting (Speed)
       - Setting (Quality)
@@ -47,7 +55,9 @@ PublishGeometry
   =========   =====================================   ===================
 
 
-- Log can help identify how much data and what kind of it is send
+.. Tip::
+
+  **Log:** helps to identify how much and what kind of data is sent
 
 
 **Menu:**

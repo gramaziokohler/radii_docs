@@ -17,6 +17,8 @@ There are 6 types of components:
 Diagram of all ways in which data can be sent, stored and received with RADii:
 -----------------------------------------------------------------------------------
 
+.. @gereon could the above become a small footnote below the image instead of a headline?
+
 .. image:: /tutorial/Radii_diagramms/Daten_Diagramme_v2/Artboard14.png
 
 
@@ -25,9 +27,16 @@ Grasshopper Components
 -----------------------
 
 .. the naming in toctree is case sensitive
-.. here you are missing connect, this should come before publish components
+.. @gereon: maybe we could takl about menus on rightclick of components here; maybe think about how to clearly structure
+.. explanations of the different menu sections
+.. @gereon: generally, there seem to be very different ways of using the formatting. i think it would make sense
+.. to unify these; for example use the tips only if you show how something is done, use the important or warning (best decide for one of them) if you want to hint to
+.. potential problems; maybe there is also some sort of formatting to use for the videos section and maybe this is always at the very bottom??
+.. @gereon here you are missing connect, this should come before publish components
+.. @gereon the explorer on the right hand side: would make sense to have things structured better there (mit einrückung??)
 
-**Connect**
+**Connect Components**
+
 .. @help put the connect link from below here
 
 **Publish Components**
@@ -40,7 +49,7 @@ Grasshopper Components
     *connect
     *publish*
 
-**Save Content**
+**Save Components**
 
 .. toctree::
     :titlesonly:
@@ -49,7 +58,7 @@ Grasshopper Components
     
     *Save*
 
-**Params**
+**Params Components**
 
 .. toctree::
     :titlesonly:
@@ -67,9 +76,10 @@ Grasshopper Components
     
     *Subscribe*
 
-**Tool Components & Tips**
 
-.. tips von menu unten rausnehmen und als eigenen punkt, formatiert in diesem kasten mit tips
+.. @gereon tips von menu unten rausnehmen und als eigenen punkt, formatiert in diesem kasten mit tips
+
+**Tools Components**
 
 .. toctree::
     :titlesonly:
@@ -78,3 +88,10 @@ Grasshopper Components
     
     *Tools*
     *10_Tips*
+
+
+.. Tip::
+
+  **10 general Tips for working with RADii** 
+
+.. @help put link for 10 tips above

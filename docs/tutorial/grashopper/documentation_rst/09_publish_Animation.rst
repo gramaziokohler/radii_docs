@@ -52,11 +52,12 @@ PublishAnimation
   Animation   Behavior Play, Replay, Reverse, Return
   ==========  ==========================================
 
-**Multiple Animations in parallel:**
+.. tip:: 
+  **Multiple Animations in parallel:**
 
-To play multiple animations in parallel with one component, use the following setup:
+  To play multiple animations in parallel with one component, use the following setup:
 
-.. image:: ../images/Publish/Publish_animation_parallel_schaltplan.png
+  .. image:: ../images/Publish/Publish_animation_parallel_schaltplan.png
 
 
 **Videos**

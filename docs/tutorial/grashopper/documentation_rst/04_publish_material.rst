@@ -28,11 +28,11 @@ PublishMaterial
   =======     ===================================== ==============
   Name        Description                           Type
   =======     ===================================== ==============
-  Log         Documents changes & Data send         Text
+  Log         Documents changes & Data sent         Text
   Content     Connect to Save component for saving  RADii content
   =======     ===================================== ==============
 
-**Menu:**
+**Menu**
 
 .. table::
   :align: left
@@ -41,7 +41,10 @@ PublishMaterial
   Resolution  Max size of the texture   Pixel count
   =========== ========================  =============
 
-.. attention:: 
+
+.. @gereon the secont point below with the black material is unclear
+
+.. important::
 
   - RADii only reads Custom Materials properly from Rhino, no Emission, Glass, Paint, Plaster, ...
   - in case your Custom Material remains black, try changing the color profile of the image in use to RGB

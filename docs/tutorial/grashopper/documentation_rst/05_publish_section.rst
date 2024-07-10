@@ -25,8 +25,8 @@ PublishSection
 
 .. tip::
 
-  - you can connect a number slider with ``index`` if you have connected a list of surfaces with the input: ``Section Plane``
-  - Rhino clipping planes are automatically imported and have to be selected in the menu below ``-Activate clipping planes-``
+   - Rhino clipping planes are automatically imported and have to be selected in the menu below ``-Activate clipping planes-``
+   - If you hav connected one or multiple surfaces with the input: ``Section Plane``, you have to connect a number slider with ``index`` to select them.
 
 **Output**
 

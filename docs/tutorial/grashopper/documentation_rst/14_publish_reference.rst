@@ -37,6 +37,8 @@ PublishReference
 
 **Menu**
 
+.. @Gereon: somehow i find the table hard to read - lets discuss this
+
 .. image:: ../images/Publish/Publish_Reference/Publish_reference_manager.png
     :scale: 90%
 

@@ -50,6 +50,6 @@ PublishView
   Active view Rhino Views
   =========== ======================================
 
-.. tip:: 
+.. important:: 
 
-  The camera lense length from Rhino is used for Rhino views.
+  RADii views use the camera lense length from Rhino is used for Rhino views.

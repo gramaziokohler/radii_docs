@@ -12,7 +12,7 @@ There are 6 types of components:
 | **3. Publish** components send different types of data from CAD software to a channel and its connected receivers.
 | **4. Save** enables you to save locally to .RADii files or on a channel in the cloud.
 | **5. Subscribe** imports data from a viewer back to your local Rhino Grasshopper session.
-| **6. Tools** to modify point clouds and meshes
+| **6. Tools** to modify point clouds and meshes 
 
 Diagram of all ways in which data can be sent, stored and received with RADii:
 -----------------------------------------------------------------------------------

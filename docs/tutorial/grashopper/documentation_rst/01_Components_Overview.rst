@@ -8,7 +8,7 @@ RADii Grasshopper
 There are 6 types of components:
 
 | **1. Connect** is the fundamental component to connect to a channel, it is always connected to all components that are in use.
-| **2. Params** relay or link the described datatype  
+| **2. Params** relay or link the described datatype
 | **3. Publish** components send different types of data from CAD software to a channel and its connected receivers.
 | **4. Save** enables you to save locally to .RADii files or on a channel in the cloud.
 | **5. Subscribe** imports data from a viewer back to your local Rhino Grasshopper session.
@@ -28,7 +28,7 @@ Grasshopper Components
 .. here you are missing connect, this should come before publish components
 
 **Connect**
-.. @help put the connect link here
+.. @help put the connect link from below here
 
 **Publish Components**
 

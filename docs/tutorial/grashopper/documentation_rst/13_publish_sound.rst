@@ -1,3 +1,5 @@
+.. RevSarah
+
 ***************
 Publish Sound
 ***************
@@ -7,7 +9,7 @@ Publish Sound
 
 .. topic:: Definition
     
-  Sound is emitted by a source in the center of the inner and outer envelope, it decreases over distance unless "stop on exit" or "limit" is set.
+  Sound is emitted in the center of a source defined by an inner and outer envelope. Sound decreases over distance unless "stop on exit" or "limit" is set.
 
 **Videos:**
 
@@ -36,7 +38,7 @@ Publish Sound
   ==========  ======================================  ==============
   Name        Description                             Type
   ==========  ======================================  ==============
-  Log         Documents changes & data send           Text
+  Log         Document  changes & data sent           Text
   Content     Connect to Save component for saving    RADii content
   ==========  ======================================  ==============
 
@@ -55,6 +57,6 @@ Publish Sound
   Play on enter   Play sound after entering outer envelope
   Stop on exit    Stop sound after exiting outer envelope
   Loop            Loop the sound
-  Spatial         Sound spacial in direction of the origin
+  Spatial         Sound spatial in direction of the origin
   Limit           Sound decreases to 0 at the outer envelope
   ==============  ==========================================

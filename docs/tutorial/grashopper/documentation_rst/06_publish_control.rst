@@ -1,3 +1,5 @@
+.. RevSarah
+
 ****************
 PublishControl
 ****************
@@ -27,7 +29,7 @@ PublishControl
   Connection      Link with the Connect component             Connect
   Time of Year    Day of the Year                             Number
   Time of Day     Time of the day                             Number
-  Content Save    output from other RADii components          save (RADii)
+  Content Save    Output from other RADii components          save (RADii)
   Index           For switching between scenarios             Number
   =============   ======================================      ==============
 

@@ -1,3 +1,5 @@
+.. RevSarah
+
 ******************
 PublishMaterial
 ******************
@@ -28,7 +30,7 @@ PublishMaterial
   =======     ===================================== ==============
   Name        Description                           Type
   =======     ===================================== ==============
-  Log         Documents changes & Data sent         Text
+  Log         Document changes & Data sent          Text
   Content     Connect to Save component for saving  RADii content
   =======     ===================================== ==============
 

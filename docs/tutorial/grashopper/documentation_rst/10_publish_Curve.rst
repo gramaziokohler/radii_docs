@@ -1,3 +1,5 @@
+.. RevSarah
+
 *************
 PublishCurve
 *************
@@ -6,7 +8,7 @@ PublishCurve
 
 .. topic:: Definition
     
-  This component is used to publish lines to a channel.
+  This component is used to publish lines, polylines or curves to a channel.
 
 *Option:* The line weight can be controlled by setting it in the Rhino layer or directly on the object, after baking the curves.
 
@@ -36,7 +38,7 @@ PublishCurve
   ==========  ======================================  ==============
   Name        Description                             Type
   ==========  ======================================  ==============
-  Log         Documents changes & Data send           Text
+  Log         Document changes & Data sent            Text
   Content     Connect to Content                      RADii content
   ==========  ======================================  ==============
 

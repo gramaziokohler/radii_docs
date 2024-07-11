@@ -1,3 +1,5 @@
+.. RevSarah
+
 ****************
 PublishSection
 ****************
@@ -36,7 +38,7 @@ PublishSection
   ==========  ======================================  ==============
   Name        Description                             Type
   ==========  ======================================  ==============
-  Log         Documents changes & Data send           Text
+  Log         Document changes & Data sent            Text
   Content     Connect to Content                      RADii content
   ==========  ======================================  ==============
 

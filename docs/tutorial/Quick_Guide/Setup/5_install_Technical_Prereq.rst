@@ -5,6 +5,10 @@ Technicalities and Teaching
 
 **work in progress**
 
+.. @gereon: I think this should become two sections. maybe have the technical things somewhere else; 
+.. i feel that the content of the index, the quick guides and some content from here might need some restructuring.
+.. also we should make sure, that the structure here in the explorer matches the chapters names
+
 
 
 -------------------------

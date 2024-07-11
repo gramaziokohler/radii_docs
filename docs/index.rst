@@ -4,6 +4,8 @@
    contain the root `toctree` directive.
 
 
+.. @gereon: Ithink, this page needs some restructuring; would like to have a look at it together (also i cannot preview this)
+
 .. image:: tutorial/Radii_Icons/Radii_logo.png
 
 **************************
@@ -90,7 +92,7 @@ ___________________
 - `RADii Viewer VR Oculus`_
 - `RADii Viewer VR universal`_
 
-Further viewers for VR, Mobile, Looking Glass and the Webviewer can be found at `RADii.info <https://RADii.info/>`_.
+Further viewers for VR, Mobile, Looking Glass and the Webviewer can be found on `RADii <https://RADii.info/>`_.
 
 
 About

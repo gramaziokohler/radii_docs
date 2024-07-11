@@ -1,3 +1,5 @@
+.. RevSarah
+
 ******************
 PublishGeometry
 ******************
@@ -34,8 +36,8 @@ PublishGeometry
 .. Tip::
 
   **Quality:** 
-  To control the conversion process to meshes and the smoothness of your geometry you can use the following gh components:
-
+  To control meshing process and the smoothness of your geometry you can use the following gh components:
+  
       - Setting (Speed)
       - Setting (Quality)
       - Setting (Custom)

@@ -1,3 +1,5 @@
+.. RevSarah
+
 ************
 SaveContent
 ************
@@ -27,7 +29,7 @@ SaveContent
     
   ==============  ==========================================
   Save            Save a RADii file locally
-  Cloud Manager   Save to the connected channel
+  Cloud Manager   Save to the connected channel, rename and delete files from selected channels
   ==============  ==========================================
 
 
@@ -36,4 +38,6 @@ SaveContent
 
 .. tip::
 
-  - Cloud content can be loaded via the scenario manager
+  Cloud content can be loaded via the scenario manager
+
+.. @gereon: add link to scenario manager above

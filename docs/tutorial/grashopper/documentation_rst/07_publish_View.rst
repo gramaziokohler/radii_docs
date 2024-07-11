@@ -36,7 +36,7 @@ PublishView
   =======   ======================================  ==============
   Name      Description                             Type
   =======   ======================================  ==============
-  Log       Documents changes & Data send           Text
+  Log       Document changes & Data sent            Text
   Save      Connect to SaveContent for saving       RADii content
   =======   ======================================  ==============
 

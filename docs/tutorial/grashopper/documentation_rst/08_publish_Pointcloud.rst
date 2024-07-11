@@ -36,7 +36,7 @@ PublishPointcloud
   ==========  ======================================  ==============
   Name        Description                             Type
   ==========  ======================================  ==============
-  Log         Documents changes & Data send           Text
+  Log         Document changes & Data sen             Text
   Content     Connect to Content                      RADii content
   ==========  ======================================  ==============
 

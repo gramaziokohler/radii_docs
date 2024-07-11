@@ -1,3 +1,5 @@
+.. RevSarah
+
 ****************
 PublishMessage
 ****************
@@ -7,6 +9,8 @@ PublishMessage
 .. topic:: Definition
 
   This component is used to publish messages to a channel.
+
+  .. @gereon maybe it could  be added that the messages disappear automatically after ??? and is limited to max. 64 characters
 
 **Input**
 

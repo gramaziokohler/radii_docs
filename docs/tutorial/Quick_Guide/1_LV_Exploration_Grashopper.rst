@@ -8,6 +8,7 @@
 ************************************
 Tutorial: Grasshopper Basics
 ************************************
+|RadiiLogo|
 
 Length: ca. 10 min
 
@@ -16,65 +17,68 @@ This tutorial is based on the `Grasshopper Setup`_ guide.
 It will introduce the basics of the RADii Grasshopper plugin.
 With it, you will be able to publish(upload) geometry on a RADii channel.
 
-|RadiiLogo|
-
-
-This is a short introduction into publishing(uploading) your files to RADii.
-<<<<<<< HEAD
-You can create your own RADii account on `radii.info`_ if you want to have your personal space and more storage.
-=======
 We advice to make a Radii account at `RADii.info`_ if you want to have your personal space and more storage.
->>>>>>> main
-More detail can be found at RadiiGrasshopper_ documentation.
-Note that your viewer needs to be connected with the same channel to receive the sent content.
+More detail about the components can be found at RadiiGrasshopper_ in the documentation.
 
-*The following tool will Publish/Upload all the Geometry in your rhino file. Use it with care and not with big models.*
+.. attention:: 
+
+    The following tool will Publish/Upload all the Geometry in your rhino file. Use it with care and not with big models.
 
 
-**1. How to build a basic file to publish**
+How to build a basic file to publish
+--------------------------------------------
 
 .. image:: ../Quick_Guide/1_LV_Explo_Images/Grashopper/01_Quick_Guide_Publisher.png
 
 Every RadiiGrasshopper_ file starts with the Connect_ |Connect| component.
 To it, you connect the PublishMaterial_ |PublishMaterial_icon| and the PublishGeometry_ |PublishGeometry_icon|, components.
-Add a geometry pipeline or other geometry to the later as shown in the picture.
+Add a ``geometry pipeline`` or other geometry to the later as shown in the picture.
 
+
+- ``Log:`` helps to identify how much and what kind of data is sent
+- ``Content`` is RADii data that can be used in other components, mainly for storing or collecting. The components are called `Publish Scenario`_ and `Save Content`_.
 
 .. |Connect| image:: /tutorial/Radii_Icons/ConnectParam.png
 .. |PublishMaterial_icon| image:: /tutorial/Radii_Icons/Material.png
 .. |PublishGeometry_icon| image:: /tutorial/Radii_Icons/Mesh.png
 
 
-**2. Enter Credentials**
+Enter Credentials
+-----------------------
 
-Log in with your `Radii.info`_ account and password you have created during the `Grasshopper Setup`_ and left click on "load account" to log in.
-Your private domain will show up under the section - CHANNEL - and possibly others if you are part of a class or group.
 
 .. image:: ../Quick_Guide/1_LV_Explo_Images/Grashopper/02_Quick_Guide_Publisher.png
 
+Log in with your `Radii.info`_ account and password you have created during the `Grasshopper Setup`_ and left click on ``load account`` to log in.
+Your private domain will show up under the section ``- CHANNEL -`` and possibly others if you are part of a class or group.
 
-
-**3. Choose domain and channel**
-
-Right click on the Connect component, there should be a tick next to "username >  My Domain", in this state your would publish your geometry on on your personal channel.
-
-If you want to publish on your groups channel, change the tick to its respective name, in this example that could be sun and should show up as  " sun > My Domain" 
-Press Enter to confirm.
-
-More information about channel addresses under Connect_.
-
-*IMPORTANT*: you have to publish to the same channel that you are connected with in the viewer - typos leave you stranded.
-If you save your grasshopper file, it will remember your login settings and channel. The viewer will also remember the channel that it was connected to.
+Choose domain and channel
+-------------------------------
 
 .. image:: ../Quick_Guide/1_LV_Explo_Images/Grashopper/03_Quick_Guide_Publisher_zugeschnitten.png
 
 
+Right click on the Connect component, there should be a tick next to ``username >  My Domain``, in this state your would publish your geometry on on your personal channel.
+More information about channel addresses can be found at Connect_.
+Change the tick to its respective Domain name.
+Press ``Enter`` to confirm.
 
-**4. Connect**
 
-To activate the connection to the channel double click on the dark "false" on the Boolean Toggle to turn it into true.
+.. attention::
+    You have to publish to the same channel that you are connected with in the viewer - typos leave you stranded.
+
+
+
+
+Connect
+---------------
 
 .. image:: ../Quick_Guide/1_LV_Explo_Images/Grashopper/05_Quick_Guide_Publisher_true.png
+    :scale: 80 %
+
+To activate the connection to the channel ``double click`` on the dark ``false`` on the ``Boolean Toggle`` to turn it into ``true``.
+
+
 
 
 **Congratulations, your model should now appear in your Radii viewer!**

@@ -36,7 +36,7 @@ PublishView
   =======   ======================================  ==============
   Name      Description                             Type
   =======   ======================================  ==============
-  Log       Documents changes & Data send           Text
+  Log       Document changes & Data sent            Text
   Save      Connect to SaveContent for saving       RADii content
   =======   ======================================  ==============
 
@@ -50,4 +50,6 @@ PublishView
   Active view Rhino Views
   =========== ======================================
 
-*Tip:* ``The camera lense length from Rhino is used for Rhino views.``
+.. important:: 
+
+  RADii views use the camera lense length from Rhino is used for Rhino views.

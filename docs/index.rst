@@ -4,7 +4,8 @@
    contain the root `toctree` directive.
 
 
-.. @gereon: Ithink, this page needs some restructuring; would like to have a look at it together (also i cannot preview this)
+.. @gereon_: Ithink, this page needs some restructuring; would like to have a look at it together (also i cannot preview this)
+.. @sarah: I agree, i am under the impression it lacks bite for the welcoming page, would be great to talk about it
 
 .. image:: tutorial/Radii_Icons/Radii_logo.png
 
@@ -14,7 +15,7 @@ Radii Documentation
 
 V. 0.39 B2
 
-.. 
+.. IDEA:
    Table of content:
    1. Home Page with general information
    2. Radii Viewer - Detailed description of all parts & options 

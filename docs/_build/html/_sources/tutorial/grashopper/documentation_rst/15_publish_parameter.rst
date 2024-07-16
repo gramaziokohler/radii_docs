@@ -43,7 +43,7 @@ It is possible to define such parameters in a viewer, they are however temporary
   ==========  ======================================  ==============
   Name        Description                             Type
   ==========  ======================================  ==============
-  Log         Documents changes & data send           Text
+  Log         Document changes & data sent            Text
   Content     Connect to Save or use otherwise        RADii content
 
   ==========  ======================================  ==============

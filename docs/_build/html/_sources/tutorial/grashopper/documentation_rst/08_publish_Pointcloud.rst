@@ -9,7 +9,9 @@ PublishPointcloud
 
   This component is used to publish Pointclouds to a channel.
 
-**Note:** ``Pointclouds have a tendency to be very large and can be a strain on your pc, in those cases see`` `Tools Pointcloud`_ ``to reduce their size.``
+.. tip:: 
+  
+  Pointclouds have a tendency to be very large and can be a strain on your pc, in those cases see`` `Tools Pointcloud`_ ``to reduce their size.``
 
 **Input**
 
@@ -34,7 +36,7 @@ PublishPointcloud
   ==========  ======================================  ==============
   Name        Description                             Type
   ==========  ======================================  ==============
-  Log         Documents changes & Data send           Text
+  Log         Document changes & Data sen             Text
   Content     Connect to Content                      RADii content
   ==========  ======================================  ==============
 

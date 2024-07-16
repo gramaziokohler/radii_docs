@@ -5,10 +5,12 @@ Technicalities and Teaching
 
 **work in progress**
 
-.. @gereon: I think this should become two sections. maybe have the technical things somewhere else; 
+.. @gereon: I think this should become two sections -- Done. maybe have the technical things somewhere else; 
 .. i feel that the content of the index, the quick guides and some content from here might need some restructuring.
 .. also we should make sure, that the structure here in the explorer matches the chapters names
-
+.. @sarah reply: i agree with the restrucuturing, i will attempt to give this a quick rework
+.. regarding the file names an the heading - they did change a lot in the past which is why i did not do the extra work to go through the .conf file
+.. and relink them
 
 
 -------------------------
@@ -17,36 +19,33 @@ Technical information
 
 **PC/Mac**
 
-While the Radii Viewer can run on relatively simple machines, the resources necessary scale with the complextiy of the model and the level of its optimisation.
-As a live renderer, the Radii Viewer, needs more computing power than the Rhino Plguin, a model that is almost to complex in Rhino, will not run on it in the Viewer.
-For very big models it can be necessary to run Rhino on one device and the viewer on another for a seamless use.
-In these cases it is best practice to save to the cloud before a presentation and then commanding a load to the viewers through the `Publish Control`_ component.
+While the Radii Viewer can run on relatively simple machines, the resources necessary scale with the complexity of the model and the level of its optimisation.
+As a live renderer the Radii Viewer needs more computing power than the Rhino Plugin. A model that is almost to complex in Rhino, will not run on a device in the Viewer.
+For very big models it can be necessary to run the Rhino Editor on a different device than the viewer.
+In the cases of very big models it is the best practice to save them to the cloud before a presentation and then commanding a load to the viewers through the `Publish Reference`_ component.
+
 For 32bit system there is a limit of 2GB for each component and saves.
 
-Radii PC requirements:
+.. topic:: Radii PC requirements:
   
-    - ideally min. 4 GB of RAM but also works with 2 GB for small projects
-    - a graphics card of medium strength or higher
-    - power and ram capacity can vary greatly depending on the size and detail of the 3D model.
-  
+  - ideally min. 4 GB of RAM but also works with 2 GB for small projects
+  - a graphics card of medium strength or higher
+  - power and ram capacity can vary greatly depending on the size and detail of the 3D model.
   - Rhino 3D license to use Grasshopper (only necessary for the Plugin)
 
 
-**Oculus Rift**
-
-  Oculus Quest 2
+.. topic:: Oculus Quest 2
 
   - for Pointclouds we found a performance limit of 100 000 Points
 
   **Best practice:** 
-  
-  - in the scale of our design studio we found that smaller models such as 1:1 mockups in the path through mode worked best for the hardware. 
-  - The Oculus 2 is a standalone device and does not need a PC to run, but it is necessary to have a Facebook account to use it.  
+  - in our design studio we found that smaller models such as 1:1 konstruction detail mockups in the path through mode worked best for the hardware. 
+ 
 
 **Server Storage and channels**
 
-By registering at `RADii.info`_ you get aces to your own channel on the Radii server. If you would like to have a specific domain, your own server or unlimited storage contact Radii at contact@RADii.info 
-The publishing and save limit can be seen when right clicking on the Connect_ component. 
+By registering at `RADii.info`_ you get aces to your own channel on the Radii server. If you would like to have a specific domain, your own server or unlimited storage contact RADii at contact@RADii.info 
+ 
 
 Current storage for:
 
@@ -56,7 +55,7 @@ Current storage for:
   - registered users: x GB
     - publish limit : 500 mb
     - save limit    : 250 mb 
-  - organizations: to be defined with Radii contact at contact@RADii.info
+  - organizations: Can be defined in coordination with Radii, please write to contact@RADii.info
 
 **Infrastructure**
 
@@ -80,44 +79,6 @@ In the scope of the `Imersive Design Studio <https://gramaziokohler.arch.ethz.ch
   - personal Phones or Ipads for augmented reality usage
 
 
-
-
-_________________________________________________
-Preparations for teaching
-_________________________________________________
-
-**Lv 1. A walkthrough with a group:**
-
-*Preparation and time:* 1 Day for the publisher, 20 min. for the group 
-
-The publisher: understand the basic of how to stream geometry with Radii Grasshopper and the basics on operating the viewer.
-The observers: Install the viewer, log into the server and navigate
-
-*Tech:*
-
-The Designer: min. a laptop of medium strength for streaming and running the viewer in parallel
-The observers:  min. a laptop of medium strength for running the viewer
-
-
-**Lv 2. Class of students work and develop their projects through a semester with Radii:**
-
-*Preparation and time:* 3-4 days of preparation to understand the program and be able to teach it.
-
-We teach Radii in 3 seatings throughout the semester in a total of 5 hours, with constant usage in between.
-This enables the student to test models in Radii as well as present them at the end.
-
-The first 1,5 hours explain the basics on how to use the viewer and the grasshopper plugin
-For the viewer this includes how to connect to a channel and navigate in a model. In grasshopper
-is is about the most basic workflow and most important publishing components.
-In the second sitting we introduce the saving to the cloud and locally in RADii files, how to animate, define views and basics of publish control. 
-The third class goes into detail about the scenario manager that is part of publish control and leaves time for possible subscribe components.
-
-
-
-**Lv 3. Interactive collaborative work**
-
-
-Oculus 
 
 
 

@@ -20,29 +20,28 @@ PublishGeometry
   =========== ================================ ================
   Name        Description                         Type
   =========== ================================ ================
-  Connection  Link with the Connect component     Connection
-  Geometry    Geometry you want to upload         Brep or Mesh
-  Quality     Mesh Quality for conversion         Settings
+  Connection  Link with the Connect component  Connection
+  Geometry    Geometry you want to upload      Brep or Mesh
+  Quality     Mesh Quality for conversion      Setting (Speed, Quality, Custom)
   =========== ================================ ================
 
+..
 
-.. important:: 
+  - RADii converts all Rhino surfaces and polysurfaces to meshes. 
+  - The default meshing process often produces to complex meshes with resulting data sizes and long loading times
 
- - RADii converts all Rhino surfaces and polysurfaces to meshes. 
- - The automatic mesh conversion often produces many faces which results in big amount of data and longer loading times.
- 
-
+.. the dots earlier are to end the table before the list starts
 
 .. Tip::
 
   **Quality:** 
-  To control meshing process and the smoothness of your geometry you can use the following gh components:
+  To control meshing process and the smoothness of your geometry use the following gh components:
   
-      - Setting (Speed)
-      - Setting (Quality)
-      - Setting (Custom)
+  - Setting (Speed)
+  - Setting (Quality)
+  - Setting (Custom)
 
-        - use "Min Edge" to sett the minimal edge length this will make your model low poly if you go to high
+    - use "Min Edge" to sett the minimal edge length this will make your model low poly if you go to high
 
 **Output**
 
@@ -57,9 +56,6 @@ PublishGeometry
   =========   =====================================   ===================
 
 
-.. Tip::
-
-  **Log:** helps to identify how much and what kind of data is sent
 
 
 **Menu:**
@@ -77,7 +73,8 @@ PublishGeometry
   Shared:     collaborative editing of geometry in the viewer
   ==========  =====================================================
 
-**Video tutorials:**
+Video tutorials:
+-----------------
 
 - `Collaborative content modification <https://www.youtube.com/watch?v=YuBep3x01cE>`_
   

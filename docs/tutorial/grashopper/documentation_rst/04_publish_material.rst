@@ -39,14 +39,15 @@ PublishMaterial
 .. table::
   :align: left
     
-  =========== ========================  =============
-  Resolution  Max size of the texture   Pixel count
-  =========== ========================  =============
+  =========== =================================  =============
+  Resolution  Max size of the texture in pixel   Integer
+  =========== =================================  =============
 
 
-.. @gereon the secont point below with the black material is unclear
+.. @gereon_ the secont point below with the black material is unclear
 
 .. important::
 
   - RADii only reads Custom Materials properly from Rhino, no Emission, Glass, Paint, Plaster, ...
-  - in case your Custom Material remains black, try changing the color profile of the image in use to RGB
+  - Custom material that display as black in RADii: check if the color space is set to RGB in the texture settings
+  

@@ -39,24 +39,26 @@ PublishReference
 
 **Menu**
 
-.. @Gereon: somehow i find the table hard to read - lets discuss this 
+.. @Gereon_: somehow i find the table hard to read - lets discuss this 
+.. @sarah reply : is the alignment next to each other helping ?
 
 
 .. image:: ../images/Publish/Publish_Reference/Publish_reference_manager.png
-    :scale: 90%
+    :scale: 80%
+    :align: left
 
 .. table::
-  :align: left
+  :align: right
     
   =====================   ==========================================
   Name                    Description                           
   =====================   ==========================================
   Channelname             Channel to access references from
-  Refresh                 Update List
-  List                    Names of Geometry Collections on the channel
-  Reference collection    For collecting references from channels
-  Active                  Loads the Reference to all viewers
-  Visible                 Shows the Reference to all viewers
+  Refresh                 Update list
+  List                    Display of geometry collections on the selected channel
+  Reference collection    For collecting references from the current and different channels
+  Active                  Loads the reference to all viewers
+  Visible                 Shows the reference to all viewers
   =====================   ==========================================
 
 

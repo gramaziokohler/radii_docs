@@ -51,6 +51,8 @@ exclude_patterns = ['_build',
 ]
 
 
+
+
 # -- Options for HTML output -------------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
@@ -69,6 +71,8 @@ Install this theme: $ pip install sphinx-book-theme
 Set the following in your existing Sphinx documentation’s conf.py file:
 html_theme = 'sphinx_book_theme'
 """
+
+
 html_last_updated_fmt = '%d.%m.%Y'
 
 html_theme_options =  {
@@ -80,9 +84,9 @@ html_theme_options =  {
    
 }
 
-# things that i have not gotten to work so far
-#'logo': '/tutorial/grashopper/images/Icons/logo.png', 
-# font_family = {"../docs/_Font/OfficeCodePro/OfficeCodePro-Medium.oft"}
+# things that i have not gotten to work so far:
+
+
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -122,7 +126,7 @@ rst_prolog = """
 .. _Publish Control: https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/06_publish_control.html
 .. _Publish Reference: https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/14_publish_reference.html
 .. _Publish Parameter: https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/15_publish_parameter.html
-
+.. _Publish Scenario: https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/16_publish_scenario.html
 
 .. _Save Content: https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/12_SaveContent.html
 

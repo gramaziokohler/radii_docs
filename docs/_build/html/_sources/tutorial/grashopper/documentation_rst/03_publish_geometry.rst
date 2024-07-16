@@ -1,3 +1,5 @@
+.. RevSarah
+
 ******************
 PublishGeometry
 ******************
@@ -23,14 +25,24 @@ PublishGeometry
   Quality     Mesh Quality for conversion         Settings
   =========== ================================ ================
 
-**Quality:** 
-To control the quality of your geometry you can use the following components
 
-    - Setting (Speed)
-    - Setting (Quality)
-    - Setting (Custom)
+.. important:: 
 
-      - use "Min Edge" to sett the minimal edge length this will make your model low poly if you go to high
+ - RADii converts all Rhino surfaces and polysurfaces to meshes. 
+ - The automatic mesh conversion often produces many faces which results in big amount of data and longer loading times.
+ 
+
+
+.. Tip::
+
+  **Quality:** 
+  To control meshing process and the smoothness of your geometry you can use the following gh components:
+  
+      - Setting (Speed)
+      - Setting (Quality)
+      - Setting (Custom)
+
+        - use "Min Edge" to sett the minimal edge length this will make your model low poly if you go to high
 
 **Output**
 
@@ -45,7 +57,9 @@ To control the quality of your geometry you can use the following components
   =========   =====================================   ===================
 
 
-- Log can help identify how much data and what kind of it is send
+.. Tip::
+
+  **Log:** helps to identify how much and what kind of data is sent
 
 
 **Menu:**

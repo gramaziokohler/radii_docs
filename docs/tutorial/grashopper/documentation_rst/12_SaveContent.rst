@@ -38,6 +38,5 @@ SaveContent
 
 .. tip::
 
-  Cloud content can be loaded via the scenario manager
+  Cloud content can be loaded via `Publish Reference`_ or with the component as part of a scenario in `Publish Scenario`_
 
-.. @gereon: add link to scenario manager above

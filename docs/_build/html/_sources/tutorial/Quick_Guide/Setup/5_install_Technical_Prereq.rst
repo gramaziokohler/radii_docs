@@ -5,6 +5,12 @@ Technicalities and Teaching
 
 **work in progress**
 
+.. @gereon: I think this should become two sections. maybe have the technical things somewhere else; 
+.. i feel that the content of the index, the quick guides and some content from here might need some restructuring.
+.. also we should make sure, that the structure here in the explorer matches the chapters names
+.. @sarah reply: i agree with the restrucuturing, i will attempt to give this a quick rework
+.. regarding the file names an the heading - they did change a lot in the past which is why i did not do the extra work to go through the .conf file
+.. and relink them
 
 
 -------------------------
@@ -52,7 +58,7 @@ Current storage for:
   - registered users: x GB
     - publish limit : 500 mb
     - save limit    : 250 mb 
-  - organizations: to be defined with Radii contact at contact@RADii.info
+  - organizations: Can be defined in coordination with Radii, please write to contact@RADii.info
 
 **Infrastructure**
 
@@ -76,44 +82,6 @@ In the scope of the `Imersive Design Studio <https://gramaziokohler.arch.ethz.ch
   - personal Phones or Ipads for augmented reality usage
 
 
-
-
-_________________________________________________
-Preparations for teaching
-_________________________________________________
-
-**Lv 1. A walkthrough with a group:**
-
-*Preparation and time:* 1 Day for the publisher, 20 min. for the group 
-
-The publisher: understand the basic of how to stream geometry with Radii Grasshopper and the basics on operating the viewer.
-The observers: Install the viewer, log into the server and navigate
-
-*Tech:*
-
-The Designer: min. a laptop of medium strength for streaming and running the viewer in parallel
-The observers:  min. a laptop of medium strength for running the viewer
-
-
-**Lv 2. Class of students work and develop their projects through a semester with Radii:**
-
-*Preparation and time:* 3-4 days of preparation to understand the program and be able to teach it.
-
-We teach Radii in 3 seatings throughout the semester in a total of 5 hours, with constant usage in between.
-This enables the student to test models in Radii as well as present them at the end.
-
-The first 1,5 hours explain the basics on how to use the viewer and the grasshopper plugin
-For the viewer this includes how to connect to a channel and navigate in a model. In grasshopper
-is is about the most basic workflow and most important publishing components.
-In the second sitting we introduce the saving to the cloud and locally in RADii files, how to animate, define views and basics of publish control. 
-The third class goes into detail about the scenario manager that is part of publish control and leaves time for possible subscribe components.
-
-
-
-**Lv 3. Interactive collaborative work**
-
-
-Oculus 
 
 
 

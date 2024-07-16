@@ -25,7 +25,9 @@ This becomes more important in the later phases of a project.
 
 .. @gereon: habe die liste von oben versucht zu präzisieren unten in 2 verianten (vielleicht kann die extra seite hier auch entfallen und man macht das in die index seite?)
 
-.. tip:: 
+
+.. table:: 
+  :align: left
   
   ======  ========================================================================  ==================================================================================================
   **1**   **Only publish if necessary**                                             Do not spam content. Publish large static content like context, once while working on it then only keep the part of the scene live that your working on
@@ -39,7 +41,6 @@ This becomes more important in the later phases of a project.
   **9**   **Trim and subsample point clouds**                                       Pointclouds can very quickly generate heavy scenes. Process them to fit your viewer's device: @help add link to pointcloud editing here
   **10**  **Report bugs**                                                           If you find things working unexpectedly, please report to `Github <https://github.com/Archtica/RADii/issues>`_
   ======  ========================================================================  ==================================================================================================
-
 
 
 .. table::

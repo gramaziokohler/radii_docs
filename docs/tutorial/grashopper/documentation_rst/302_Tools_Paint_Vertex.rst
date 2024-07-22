@@ -32,6 +32,7 @@ Tool Paint Vertex
   Mesh         with coloured vertex                    Mesh
   ===========  ======================================  ==============
 
-**Video tutorials:**
+Video tutorials:
+-------------------
 
 - `Paint Vertex Example <https://www.youtube.com/watch?v=PjHwRyPMDLA>`_

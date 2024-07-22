@@ -58,7 +58,8 @@ PublishSection
   - In Rhino flipping a clipping plane is not recognized by Radii, rotating the plane by 180° however achieves the same
   - Names of clipping planes are not carried over into the Grasshopper plugin at the time of writing
 
-**Video tutorials:**
+Video tutorials:
+-----------------
 
 - `Publish Section city scale <https://www.youtube.com/watch?v=5zsiGtmGIz4>`_
 - `Publish Section building scale <https://www.youtube.com/watch?v=3mJXLDXxK8o>`_

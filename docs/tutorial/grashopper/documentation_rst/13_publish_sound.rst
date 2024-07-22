@@ -11,10 +11,6 @@ Publish Sound
     
   Sound is emitted in the center of a source defined by an inner and outer envelope. Sound decreases over distance unless "stop on exit" or "limit" is set.
 
-**Videos:**
-
-        - `Publish sound basic usage <https://www.youtube.com/watch?v=4iT8-PehmJE>`_
-        - `RADii: Sound development <https://www.youtube.com/watch?v=0mPwLp1ye34>`_
 
 **Input**
 
@@ -60,3 +56,9 @@ Publish Sound
   Spatial         Sound spatial in direction of the origin
   Limit           Sound decreases to 0 at the outer envelope
   ==============  ==========================================
+
+Videos:
+---------------
+
+- `Publish sound basic usage <https://www.youtube.com/watch?v=4iT8-PehmJE>`_
+- `RADii: Sound development <https://www.youtube.com/watch?v=0mPwLp1ye34>`_

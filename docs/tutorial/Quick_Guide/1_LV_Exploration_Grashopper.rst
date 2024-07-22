@@ -8,7 +8,7 @@
 ************************************
 Tutorial: Grasshopper Basics
 ************************************
-|RadiiLogo|
+
 
 Length: ca. 10 min
 
@@ -25,22 +25,27 @@ More detail about the components can be found at RadiiGrasshopper_ in the docume
     The following tool will Publish/Upload all the Geometry in your rhino file. Use it with care and not with big models.
 
 
+
+
+
 How to build a basic file to publish
 --------------------------------------------
 
 .. image:: ../Quick_Guide/1_LV_Explo_Images/Grashopper/01_Quick_Guide_Publisher.png
 
-Every RadiiGrasshopper_ file starts with the Connect_ |Connect| component.
+Every RadiiGrasshopper_ file starts with the Connect_ component.
 To it, you connect the PublishMaterial_ |PublishMaterial_icon| and the PublishGeometry_ |PublishGeometry_icon|, components.
-Add a ``geometry pipeline`` or other geometry to the later as shown in the picture.
+Add a ``geometry input`` to the later, in our example we are using the ``geometry pipeline`` as shown in the picture.
 
 
-- ``Log:`` helps to identify how much and what kind of data is sent
-- ``Content`` is RADii data that can be used in other components, mainly for storing or collecting. The components are called `Publish Scenario`_ and `Save Content`_.
 
 .. |Connect| image:: /tutorial/Radii_Icons/ConnectParam.png
 .. |PublishMaterial_icon| image:: /tutorial/Radii_Icons/Material.png
 .. |PublishGeometry_icon| image:: /tutorial/Radii_Icons/Mesh.png
+
+
+
+
 
 
 Enter Credentials
@@ -76,7 +81,7 @@ Connect
 .. image:: ../Quick_Guide/1_LV_Explo_Images/Grashopper/05_Quick_Guide_Publisher_true.png
     :scale: 80 %
 
-To activate the connection to the channel ``double click`` on the dark ``false`` on the ``Boolean Toggle`` to turn it into ``true``.
+To activate the connection to the channel ``double click`` on the dark ``false`` on the ``Boolean Toggle`` to turn it into ``true``, as shown in the picture above.
 
 
 

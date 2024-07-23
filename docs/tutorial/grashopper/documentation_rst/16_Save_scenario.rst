@@ -1,5 +1,5 @@
 **********************
-Publish Scenario
+Save Scenario
 **********************
 
 .. image:: ../images/Publish/Publish_scenario_manager.png
@@ -17,7 +17,7 @@ Publish Scenario
 
 .. tip:: 
 
-  - Content from Publish Scenario can be saved to the cloud with `Save Content`_
+  - Content from save Scenario can be saved to the cloud with `Save Content`_
   - Grasshoppers autosave can be deactivated, in case it takes to long 
   - To save time with heavier and bigger models: with `Publish Reference`_ you can direct all viewers to download a saved file from a channel, instead of live uploading and then downloading to the viewers.
 

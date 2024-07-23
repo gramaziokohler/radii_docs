@@ -3,6 +3,7 @@ PublishParameter
 *******************
 
 .. image:: ../images/Publish/Publish_Parameter/Publish_parameter_addParam.png
+  :scale: 70 %
 
 .. topic:: Definition
     
@@ -16,9 +17,6 @@ These values can be interacted with in the Viewers and then feed back to the rhi
 component.
 It is possible to define such parameters in a viewer, they are however temporary to every session.  
 
-**Videos:**
-
-    - `Introducing Publish Parameter`_
 
 
 **Input**
@@ -54,5 +52,12 @@ The image shows how numbers between 0 and 1, integers and Booleans can be added 
 Below is the `Subscribe Parameter`_ component that receives the Parameters from the viewer, they could be changed in the viewer and would come back different in that case.
 Between the viewer and the publisher, the last change will be the dominant to be received by `Subscribe Parameter`_ .
 
+
+
+
+Videos:
+-------------
+
+`Introducing Publish Parameter`_
 
 *Implemented in v.39_b*

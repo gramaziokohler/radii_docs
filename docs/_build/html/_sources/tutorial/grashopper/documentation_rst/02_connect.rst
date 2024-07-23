@@ -26,17 +26,14 @@ There are two types of connecting:
         - can be used offline on your device or local network
         - is quicker since there is not need for an upload to the cloud
 
-.. the section below should not have a number (not 1.1. two types of connect) but belong to the general section 1. connect global and local
-
-
+.. the section below should not have a number 
+.. (not 1.1. two types of connect) but belong to the general section 1. connect global and local
 
 
 .. .. topic:: 1. Connect Global
 
   - connects to a channel that can be accessed globally
   - works with an account from RADii.info
-
-
 
 .. .. topic:: 2. Connect Local
   
@@ -98,7 +95,7 @@ Connect Global:
 
 .. note:: 
 
-  If you are part of a group or organization, please use the respective email address.
+  If you are part of a group or organization, please use the respective email address to log in
 
 
 
@@ -116,7 +113,7 @@ typing the respective subchannel or subsubchannel as shown in the image below.
 The way to note a channel addresses in the Viewers `Connect Menu`_ is channelname.subchannel.subsubchannel. and can be endlessly extended in this way. 
 
 
-.. note::
+.. tip::
     
   **How the channel** ``sun.hs23.g1`` **is written:**
 
@@ -130,31 +127,33 @@ The way to note a channel addresses in the Viewers `Connect Menu`_ is channelnam
   type: ``subchannel:*hs23.g1``
 
 
+
+
+
 Connect Local:
 --------------------------------
 
-When using `Connect Local`, all content is automatically sent to all open instances of the RADii Viewer on the same device as long as the `Viewers Local Connection Ip Address` is set to the `Local IP-Adress` that is displayed below the component.
+When using Connect Local, all content is automatically sent to all open instances of the RADii Viewer on the same device as long as the Viewers ``Local Connection`` Ip Address is set to the ``Local`` IP-Adress
+that is displayed below the component.
 
-To connect locally to another editor in the same network, input the `LAN`: Ip Address below the component into the `Viewers Local Connection Ip Address`
+To connect locally to another editor in the same network, input the ``LAN``: Ip Address below
+the component into the Viewers ``Local Connection`` Ip Address
 
-.. i would mark text in the images below in a way that you cannot read it or just make a grey or black box on top of it, then delete the note
 
-.. image:: ../images/Connect/Connect_local.png
-  :scale: 60%
+.. image:: ../images/Connect/Connect_local_noIP.png
+  :scale: 70%
 
-.. image:: ../images/Connect/Connect_local_viewer.png
+.. image:: ../images/Connect/Connect_local_viewer_noIP.png
   :scale: 90%
 
 
 .. important:: 
 
-  .. i would fix the images and change the note below. maybe here you would want to mention, that devices need to me connected to the same network 
-
-  You will have an individual ``Lan and Local IP address`` showing below your component, do not use the one from the image on top.
+  For local connection to work, the devices have to be in the same network.
 
 
 
 Videos:
 ---------
 
-`Follow video Demo <https://www.youtube.com/watch?v=h-5thZiZg1Q>`_
+`Connect - Follow video Demo <https://www.youtube.com/watch?v=h-5thZiZg1Q>`_

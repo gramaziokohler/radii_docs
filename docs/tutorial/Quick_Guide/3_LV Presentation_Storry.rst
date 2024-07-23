@@ -3,30 +3,34 @@ Tutorial: Advanced Presentation
 **********************************
 
 
+This tutorial will show how to create a more advanced presentation with the `Publish Animation`_ and `Publish Control`_ . 
+With `Publish Animation`_ it is possible to send viewers on defined paths and `Publish Control`_ lets you control the display settings of all viewers as well as the weather and the background. With `Publish Reference`_ it is possible to direct the viewers to load references into the scene from the cloud.  
 
-This tutorial will show how to create a more advanced presentation with the `Publish Animation`_ and `Publish Control`_ components.
-With `Publish Animation`_ it is possible to send viewers on defined paths and with, `Publish Control`_ lets you control the display settings of all viewers 
-as well as the weather. With the scenario manager you can save a series of settings and switch through them.
+With the scenario manager of the `Save Scenario`_ component, you can bundle the content of all or some of the publish components and save them into a series of scenarios to switch through them.
 
-- ``Log:`` helps to identify how much and what kind of data is sent
-- ``Content`` is RADii data that can be used in other components, mainly for storing or collecting. The components are called `Publish Scenario`_ and `Save Content`_.
+
+
+
 
 
 
 .. image:: ../Quick_Guide/3_LV_advanced_review/Grashopper_advanced_components_layout.png
-    :scale: 80%
+    :scale: 60 %
 
 Component list 
 -------------------------
 
 to be linked to the `Connect`_ component:
 
-- PublishGeometry_
 - PublishMaterial_
+- PublishGeometry_
+- `Publish Section`_ 
 - `Publish View`_
-- `Publish Section`_
 - `Publish Animation`_
+- `Publish Reference`_
 - `Publish Control`_
+- `Save Scenario`_
+- `Save Content`_
 
 
 

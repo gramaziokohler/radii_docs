@@ -126,8 +126,8 @@ rst_prolog = """
 .. _Publish Control: https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/06_publish_control.html
 .. _Publish Reference: https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/14_publish_reference.html
 .. _Publish Parameter: https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/15_publish_parameter.html
-.. _Publish Scenario: https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/16_publish_scenario.html
 
+.. _Save Scenario: https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/16_save_scenario.html
 .. _Save Content: https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/12_SaveContent.html
 
 .. _Subscribe Curve: https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/103_SubscribeCurve.html

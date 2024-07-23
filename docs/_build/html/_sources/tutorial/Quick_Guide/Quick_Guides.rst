@@ -10,8 +10,6 @@ and then the guides for a range of use cases, sorted by difficulty.
 The setups for each device take between 5 - 15 min each. 
 
 
-
-
 3 Parts of RADii:
 ----------------------------------------------
 
@@ -33,8 +31,8 @@ The setups for each device take between 5 - 15 min each.
 
 
 
-Video Guides
---------------
+Video Guides:
+---------------
 
 Should you come across discrepancies between the videos and what you encounter in RADii please return to the written manual.
 
@@ -49,9 +47,10 @@ Should you come across discrepancies between the videos and what you encounter i
 - `Basics Viewer <https://www.youtube.com/watch?v=6Lra3IDARNo&list=PLsnxnhDZs-abvOYTdO6MPhOkPDq6ffQNz&index=4&pp=iAQB>`_
 
 
+Table of content:
+----------------------
 
-Setup Pages:
-----------------
+**Setup Pages:**
 
 .. toctree::
 	:titlesonly:
@@ -62,8 +61,7 @@ Setup Pages:
 	Setup/5_install_Technical_Prereq
 	Setup/6_install_teaching
 
-Guide Pages:
------------------
+**Guide Pages:**
 
 .. toctree:: 
 	:titlesonly:

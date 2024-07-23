@@ -14,7 +14,7 @@ PublishControl
 
 .. note::
 
-  The Scenario Manager and Publish Reference was spun of its own component in v 039.B2
+  The scenario Manager was spun of into `Publish Scenario`_ and the loading of references into `Publish Reference`_ in v 039.B2 from PublishControl
   
 
 
@@ -74,7 +74,8 @@ PublishControl
 
 
 
-**Video tutorials:**
+Video tutorials:
+---------------------
 
 - `Publish Control overview <https://www.youtube.com/watch?v=-_7DvX_-9uY>`_
 - `Publish Control cloud load <https://www.youtube.com/watch?v=9upFjrH9zrE>`_

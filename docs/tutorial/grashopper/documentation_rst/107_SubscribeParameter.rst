@@ -9,7 +9,7 @@ Grasshopper component
     
 .. topic:: Definition
 
-  This component is used to subscribe to a parameter that is set in a RADii Viewer or by `Publish Parameter`_ , it can then be changed in the Viewer and fed back into the Grashopper session with this component.
+  This component is used to subscribe to a parameter that is set in a RADii Viewer or by `Publish Parameter`_ , it can then be changed in the Viewer and fed back into the Grasshopper session with this component.
 
 
 Radii viewer counterpart

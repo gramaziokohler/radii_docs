@@ -12,7 +12,7 @@ to the same channel as the sender.
 2. If you did not already: **Register** in the user panel **and confirm** your email 
     - it is not necessary to set a domain name
 3. **Unpack** the .Zip file 
-4. **Drag & drop** the Radii.gha file it into the Rhino Grasshopper window, you open it by typing the "grasshopper" command in rhino
+4. **Drag & drop** the Radii.gha file it into the Rhino Grasshopper window, you open it by typing the "grasshopper" command in Rhino
 5. **Check** if the install was successful, it should be visible in one your tabs as shown below.
 
 .. image:: ../Setup/Images/Grashopper_Blank_install.png

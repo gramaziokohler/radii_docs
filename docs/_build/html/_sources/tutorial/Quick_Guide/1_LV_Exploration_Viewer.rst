@@ -9,7 +9,7 @@
 Tutorial: Viewer Basics
 ************************************
 
-|RadiiLogo|
+
 
 Length: ca. 10 min
 

@@ -3,7 +3,8 @@ Tutorial: Advanced Presentation
 **********************************
 
 
-This tutorial will show how to create a more advanced presentation with the `Publish Animation`_ and `Publish Control`_ . 
+This tutorial will show how to create a more advanced presentation with the `Publish Animation`_ and `Publish Control`_ .
+
 With `Publish Animation`_ it is possible to send viewers on defined paths and `Publish Control`_ lets you control the display settings of all viewers as well as the weather and the background. With `Publish Reference`_ it is possible to direct the viewers to load references into the scene from the cloud.  
 
 With the scenario manager of the `Save Scenario`_ component, you can bundle the content of all or some of the publish components and save them into a series of scenarios to switch through them.

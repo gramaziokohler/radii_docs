@@ -47,7 +47,7 @@
     <link rel="prev" title="5. Tutorial: Advanced Presentation" href="3_LV%20Presentation_Storry.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-    <meta name="docbuild:last-update" content="22.07.2024"/>
+    <meta name="docbuild:last-update" content="23.07.2024"/>
   </head>
   
   
@@ -337,7 +337,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -353,6 +355,15 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#collaborative-geometry-modification">6.1. Collaborative geometry modification :</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#recording-the-viewers-movement-and-using-it-to-create-an-animation-path">6.2. Recording the viewers movement and using it to create an animation path.</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -368,30 +379,29 @@ document.write(`
 <p>The components in the Subscribe section in Rhino Grasshopper Radii can add the reverse diction to the workflow.
 With them we can send data from the viewers through the server into Grasshopper.
 Because of the amount of possibilities with these components, we will only give a few examples that we found useful.</p>
-<ol class="arabic simple">
-<li><p><strong>Working and assembling geometry together in the viewers on a channel:</strong></p></li>
-</ol>
-<blockquote>
-<div><p>Geometry is first send from Grasshopper with <a class="reference external" href="https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/03_publish_geometry.html">PublishGeometry</a> to the viewers, it is important that the shared option is selected in the component.
+<section id="collaborative-geometry-modification">
+<h2><span class="section-number">6.1. </span>Collaborative geometry modification :<a class="headerlink" href="#collaborative-geometry-modification" title="Link to this heading">#</a></h2>
+<p>Geometry is first send from Grasshopper with <a class="reference external" href="https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/03_publish_geometry.html">PublishGeometry</a> to the viewers, it is important that the shared option is selected in the component.
 The geometry can then be modified in the viewer in collaboration and fed back into Rhino via the <a class="reference external" href="https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/106_SubscribeGeometry.html">Subscribe Geometry</a> component.
 After baking or internalizing the fed back geometry it can be permanently stored.</p>
 <img alt="../../_images/Subscribe_Geometry_Grasshopper_viewer.png" src="../../_images/Subscribe_Geometry_Grasshopper_viewer.png" />
 <img alt="../../_images/Subscribe_Geometry_Grasshopper.png" src="../../_images/Subscribe_Geometry_Grasshopper.png" />
-<p>Components needed:</p>
+<aside class="topic">
+<p class="topic-title">Components needed:</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/02_connect.html">Connect</a></p></li>
 <li><p><a class="reference external" href="https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/03_publish_geometry.html">PublishGeometry</a></p></li>
 <li><p><a class="reference external" href="https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/04_publish_material.html">PublishMaterial</a></p></li>
 <li><p><a class="reference external" href="https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/106_SubscribeGeometry.html">Subscribe Geometry</a></p></li>
 </ul>
-</div></blockquote>
-<ol class="arabic simple" start="2">
-<li><p><strong>Recording the viewers movement and using it to create an animation path.</strong></p></li>
-</ol>
-<blockquote>
-<div><p>It can be quiet difficult to create a smooth animation path with Rhino, this can be done by recording the movement of the viewer and using it to create an animation path as shown in the example below.</p>
+</aside>
+</section>
+<section id="recording-the-viewers-movement-and-using-it-to-create-an-animation-path">
+<h2><span class="section-number">6.2. </span>Recording the viewers movement and using it to create an animation path.<a class="headerlink" href="#recording-the-viewers-movement-and-using-it-to-create-an-animation-path" title="Link to this heading">#</a></h2>
+<p>It can be quiet difficult to create a smooth animation path with Rhino, this can be done by recording the movement of the viewer and using it to create an animation path as shown in the example below.</p>
 <img alt="../../_images/Recording_Path_viewer_planes_icons_rhino.png" src="../../_images/Recording_Path_viewer_planes_icons_rhino.png" />
-<p>Components needed:</p>
+<aside class="topic">
+<p class="topic-title">Components needed:</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/02_connect.html">Connect</a></p></li>
 <li><p><a class="reference external" href="https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/108_SubscribeUser.html">Subscribe User</a></p></li>
@@ -400,7 +410,8 @@ After baking or internalizing the fed back geometry it can be permanently stored
 <li><p>List Item</p></li>
 <li><p><a class="reference external" href="https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/09_publish_Animation.html">Publish Animation</a></p></li>
 </ul>
-</div></blockquote>
+</aside>
+</section>
 </section>
 
 
@@ -439,6 +450,22 @@ After baking or internalizing the fed back geometry it can be permanently stored
             
             
               
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#collaborative-geometry-modification">6.1. Collaborative geometry modification :</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#recording-the-viewers-movement-and-using-it-to-create-an-animation-path">6.2. Recording the viewers movement and using it to create an animation path.</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
             
           </div>
           <footer class="bd-footer-content">
@@ -467,7 +494,7 @@ By Gereon Sievi
   
   <div class="footer-item">
     <p class="last-updated">
-  Last updated on 22.07.2024.
+  Last updated on 23.07.2024.
   <br/>
 </p>
   </div>

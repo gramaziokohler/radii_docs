@@ -1,3 +1,5 @@
+.. RevSarah
+
 *******************
 PublishParameter
 *******************
@@ -8,8 +10,8 @@ PublishParameter
 .. topic:: Definition
     
   Publish Parameter publishes a set of defined booleans, integers or decimal numbers to the viewer.
-  New parameters can be added by zooming close to the component and pressing the ``+``. 
-  The resulting input can be renamed and connected to a number slider or boolean. 
+  Additional parameters can be added by pressing the ``+``, that appears when zooming in very close to the component. 
+  The resulting input can be renamed and connected to a number slider or boolean toggle. 
   For numbers that should be understood as integers, add an integer component between the input and the number, as shown in the image below.
  
 

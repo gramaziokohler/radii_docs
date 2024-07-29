@@ -72,6 +72,7 @@ Load        loading from the channel
 Duration    of the scenario when played on auto play in the viewer
 ==========  ==============================================================================================
 
+.. @Gereon: I would remove the examples below and link to a video or tutorial - keeping things here clean structure wise
 
 Examples
 ------------------------
@@ -94,4 +95,4 @@ them as individual scenarios. You then can switch through them during your prese
 
 .. image:: ../images/Publish/Scenario_Manager_examples/3.png
 
-.. image:: ../images/Publish/Scenario_Manager_examples/4.png  
+.. image:: ../images/Publish/Scenario_Manager_examples/4.png  \

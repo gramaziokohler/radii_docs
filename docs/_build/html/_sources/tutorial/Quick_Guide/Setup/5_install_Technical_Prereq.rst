@@ -39,7 +39,7 @@ For 32bit system there is a limit of 2GB for each component and saves.
   - for Pointclouds we found a performance limit of 100 000 Points
 
   **Best practice:** 
-  - in our design studio we found that smaller models such as 1:1 konstruction detail mockups in the path through mode worked best for the hardware. 
+  - in our design studio we found that smaller models such as 1:1 konstruction detail mockups in the pass through mode worked best for the hardware. 
  
 
 Server Storage and channels
@@ -48,19 +48,17 @@ Server Storage and channels
 By registering at `RADii.info`_ you get aces to your own channel on the Radii server.
 If you would like to have a specific domain, your own server, unlimited or local storage contact RADii at contact@RADii.info.
  
-**Storage levels:**
-
-  - unregistered users:
+  - **Unregistered users**:
 
     - publish limit : 250 mb
     - save limit    : 50 mb
   
-  - registered users:
+  - **Registered users**:
 
     - publish limit : 500 mb
     - save limit    : 250 mb 
   
-  - organizations: Can be defined in coordination with Radii, please write to contact@RADii.info
+  - **Organizations**: Can be defined in coordination with Radii, please write to contact@RADii.info
 
 
 Infrastructure
@@ -68,24 +66,27 @@ Infrastructure
 
 In the scope of the `Imersive Design Studio <https://gramaziokohler.arch.ethz.ch/web/d/lehre/448.html>`_ at Gramazio Kohler Research at ETH Zürich we made good experience with the following Infrastructure for 14 students:
   
-  **Space:**
+**Space:**
 
-  - A Vr-Arena: an empty Space of 10m by 10m for about 14 people
-  - Work tables that are situated right next to it for seamless use between drawing and VR testing.
+- A Vr-Arena: an empty Space of 10m by 10m 
+- Work tables that are situated right next to the arena for seamless transition to VR testing.
 
-  **Tech**
+**Tech**
 
-  - Personal laptops of medium strength for each student
-  - One strong PC for every second student
+- Personal laptops of medium strength for each student
+- For every team of two students
 
-    - for more advanced models in the later stages of a project  
+  - One strong PC for complex models in the later stages of a project 
+  - Oculus or other Vr device
 
-  - A bigg screen/projector relative to the size of the class
+.. the link in the next section should go towards a 3d model of the clamp that we use in the studio to make the occulus a handheld device 
 
-    - for group discussion and presentations
+    - using a `clamp <>` to modify the VR glasses into handheld devices makes for more seamless switching between users in discussion 
 
-  - Oculus or other Vr devices, for every second student
+ 
 
-    - a `clamp<>` to modify the VR glasses into handheld devices makes for more seamless switching between users 
+- A bigg screen/projector 
 
-  - personal Phones or Ipads for augmented reality usage
+  - relative to the size of the class for group discussion and presentations
+
+- personal Phones or Ipads for augmented reality usage

@@ -10,11 +10,6 @@ With `Publish Animation`_ it is possible to send viewers on defined paths and `P
 With the scenario manager of the `Save Scenario`_ component, you can bundle the content of all or some of the publish components and save them into a series of scenarios to switch through them.
 
 
-
-
-
-
-
 .. image:: ../Quick_Guide/3_LV_advanced_review/Grashopper_advanced_components_layout.png
     :scale: 60 %
 
@@ -39,6 +34,6 @@ Video Examples:
 ---------------------
 
 - `Animation from 7 simple planes <https://www.youtube.com/shorts/9h1RwmqvWDQ>`_
-- `Publish Control <https://www.youtube.com/watch?v=U9Uv8wFHlSQ>`_
+- `Publish Control Tutorial <https://www.youtube.com/watch?v=U9Uv8wFHlSQ>`_
 
 

@@ -2,9 +2,10 @@
 Guides 
 **************
 
-Welcome to the guide page, the following resources should give a quick entry into Radii.
-Starting with the installation you will find a description on every supported platform 
-and then the guides for a range of use cases, sorted by difficulty.
+| Welcome to the guide overview page.
+
+This page will give a general overview about the different parts of RADii.
+In the subpages of the guide section, found at the end of this page, guides for the installation and a range of use cases, sorted by complexity can be found.
 
 
 The setups for each device take between 5 - 15 min each. 
@@ -54,7 +55,8 @@ Table of content:
 
 .. toctree::
 	:titlesonly:
-		
+	:numbered:
+
 	Setup/2_install_PC
 	Setup/3_install_grasshopper
 	Setup/4_install_occulus

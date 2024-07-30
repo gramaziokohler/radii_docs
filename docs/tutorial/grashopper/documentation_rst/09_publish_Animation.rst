@@ -42,7 +42,7 @@ PublishAnimation
   ==========  ======================================  ==============
 
 
-**Menu**
+**Right click menu**
 
 .. table::
   :align: left

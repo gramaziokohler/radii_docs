@@ -24,7 +24,7 @@ PublishMessage
   Connection  Link with the Connect component         Connection
   ==========  ======================================  ==============
 
-**Menu**
+**Right click menu**
 
 .. table::
   :align: left

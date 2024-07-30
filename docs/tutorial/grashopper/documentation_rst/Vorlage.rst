@@ -23,7 +23,7 @@ Connection  Link with the Connect component         Connection
 Name        Description                             Type
 ==========  ======================================  ==============
 
-**Menu**
+**Right click menu**
 
 ==========  ==========================================
 ==========  ==========================================

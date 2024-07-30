@@ -34,7 +34,7 @@ PublishMaterial
   Content     Connect to Save component for saving  RADii content
   =======     ===================================== ==============
 
-**Menu**
+**Right click menu**
 
 .. table::
   :align: left

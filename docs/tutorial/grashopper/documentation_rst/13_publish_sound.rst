@@ -38,7 +38,7 @@ Publish Sound
   Content     Connect to Save component for saving    RADii content
   ==========  ======================================  ==============
 
-**Menu**
+**Right click menu**
 
 .. image:: ../images/Publish/Publish_sound_menu.png
     :scale: 80%

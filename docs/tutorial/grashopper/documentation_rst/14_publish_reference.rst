@@ -37,7 +37,7 @@ PublishReference
   Content     Connect to Save component for saving    RADii content   
   ==========  ======================================  ==============
 
-**Menu**
+**Right click menu**
 
 .. @Gereon: somehow i find the table hard to read - lets discuss this - fliestext schreiben
 

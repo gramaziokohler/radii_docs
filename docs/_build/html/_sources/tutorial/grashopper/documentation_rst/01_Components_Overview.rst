@@ -40,7 +40,7 @@ Grasshopper Components
 -----------------------
 
 
-.. @gereon right click menu is how menu should be called from now on no :
+.. @gereon **Right click menu** is how menu should be called from now on no :
 
 .. write a style guide: tips for optional attention for important etc. put it in the vorlage page
 

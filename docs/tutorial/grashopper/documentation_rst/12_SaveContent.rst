@@ -22,7 +22,7 @@ SaveContent
   Content     To be included in the save              RADii content
   ==========  ======================================  ==============
 
-**Menu**
+**Right click menu**
 
 .. table::
   :align: left

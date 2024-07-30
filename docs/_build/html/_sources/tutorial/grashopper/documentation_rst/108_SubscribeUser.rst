@@ -43,7 +43,7 @@ SubscribeUser
   Left Upward     Direction upwards           Vector
   =============== =========================== ==============
 
-**Menu**
+**Right click menu**
 
 .. table::
   :align: left

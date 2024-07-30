@@ -40,7 +40,7 @@ PublishView
   Save      Connect to SaveContent for saving       RADii content
   =======   ======================================  ==============
 
-**Menu**
+**Right click menu**
 
 .. table::
   :align: left

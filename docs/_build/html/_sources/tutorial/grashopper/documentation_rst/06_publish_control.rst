@@ -48,7 +48,7 @@ PublishControl
   =============  ======================================      ==============
 
 
-**Menu**
+**Right click menu**
 
 .. table::
   :align: left

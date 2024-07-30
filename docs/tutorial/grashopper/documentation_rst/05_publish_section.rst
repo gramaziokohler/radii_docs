@@ -42,7 +42,7 @@ PublishSection
   Content     Connect to Content                      RADii content
   ==========  ======================================  ==============
 
-**Menu**
+**Right click menu**
 
 .. table::
   :align: left

@@ -5,7 +5,7 @@
 
 
 .. @gereon_: Ithink, this page needs some restructuring; would like to have a look at it together (also i cannot preview this)
-.. @sarah: I agree, i am under the impression it lacks bite for the welcoming page, would be great to talk about it
+.. @sarah_: I agree, i am under the impression it lacks bite for the welcoming page, would be great to talk about it
 
 .. image:: tutorial/Radii_Icons/Radii_logo.png
 

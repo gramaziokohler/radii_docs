@@ -24,7 +24,7 @@ PublishView
   =============   ======================================  ==============
   Connection      Link with the Connect component         Connect
   Camera Planes   Planes to define viewpoints             Plane
-  Field of view   Size of view                            Number
+  Lens Length     Lense to describe the field of view     Number
   Index           To switch between views                 Number
   =============   ======================================  ==============
 

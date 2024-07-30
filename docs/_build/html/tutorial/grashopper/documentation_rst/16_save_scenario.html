@@ -47,7 +47,7 @@
     <link rel="prev" title="1. SaveContent" href="12_SaveContent.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-    <meta name="docbuild:last-update" content="23.07.2024"/>
+    <meta name="docbuild:last-update" content="29.07.2024"/>
   </head>
   
   
@@ -375,7 +375,7 @@ document.write(`
                   
   <section id="id1">
 <h1>Save Scenario<a class="headerlink" href="#id1" title="Link to this heading">#</a></h1>
-<img alt="../../../_images/Publish_scenario_manager.png" src="../../../_images/Publish_scenario_manager.png" />
+<img alt="../../../_images/Save_scenario_manager.png" src="../../../_images/Save_scenario_manager.png" />
 <aside class="topic">
 <p class="topic-title">Definition</p>
 <p>The Scenario Manager can collect all type of content, views, references, settings and more into scenarios, that can then be called into a viewer at once
@@ -383,14 +383,14 @@ With scenarios it is possible to do more complex presentations at ease.</p>
 </aside>
 <div class="admonition attention">
 <p class="admonition-title">Attention</p>
-<p>Be careful or refrain from saving geometry content into this component with scenarios, instead use <a class="reference external" href="https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/14_publish_reference.html">Publish Reference</a>. Otherwise the Grasshopper file can get very heavy and slow.</p>
+<p>Be careful or refrain from saving geometry content into this component with scenarios, instead use <a class="reference external" href="https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/14_publish_reference.html">Publish Reference</a> to download it. Otherwise the Grasshopper file can get very heavy and slow.</p>
 </div>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
 <ul class="simple">
 <li><p>Content from save Scenario can be saved to the cloud with <a class="reference external" href="https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/12_SaveContent.html">Save Content</a></p></li>
 <li><p>Grasshoppers autosave can be deactivated, in case it takes to long</p></li>
-<li><p>To save time with heavier and bigger models: with <a class="reference external" href="https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/14_publish_reference.html">Publish Reference</a> you can direct all viewers to download a saved file from a channel, instead of live uploading and then downloading to the viewers.</p></li>
+<li><p>To save time with heavier and bigger models: <a class="reference external" href="https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/14_publish_reference.html">Publish Reference</a>  can direct all viewers to download a previously saved file that was saved to a channel, instead of live uploading and then downloading to the viewers.</p></li>
 </ul>
 </div>
 <p><strong>Input</strong></p>
@@ -439,26 +439,26 @@ With scenarios it is possible to do more complex presentations at ease.</p>
 </div>
 <section id="scenario-manager">
 <h2>Scenario Manager<a class="headerlink" href="#scenario-manager" title="Link to this heading">#</a></h2>
-<a class="reference internal image-reference" href="../../../_images/Publish__controll_manager.png"><img alt="../../../_images/Publish__controll_manager.png" src="../../../_images/Publish__controll_manager.png" style="width: 388.8px; height: 314.40000000000003px;" /></a>
+<a class="reference internal image-reference" href="../../../_images/Save_Scenario_controll_manager.png"><img alt="../../../_images/Save_Scenario_controll_manager.png" src="../../../_images/Save_Scenario_controll_manager.png" style="width: 345.6px; height: 315.20000000000005px;" /></a>
 <div class="pst-scrollable-table-container"><table class="table">
 <tbody>
 <tr class="row-odd"><td><p>Scenario Name</p></td>
 <td><p>The name you want to give your scenario</p></td>
 </tr>
 <tr class="row-even"><td><p>Save</p></td>
-<td><p>Save the scenario, can be used to save on top of existing scenrios</p></td>
+<td><p>Save the scenario, can be used to save on top of existing scenarios</p></td>
 </tr>
-<tr class="row-odd"><td><p>Update</p></td>
-<td><p>Updates time set and settings that can be set in publish control but not geometry</p></td>
-</tr>
-<tr class="row-even"><td><p>Rename</p></td>
+<tr class="row-odd"><td><p>Rename</p></td>
 <td><p>Renames a scenario</p></td>
 </tr>
-<tr class="row-odd"><td><p>Clear</p></td>
-<td><p>clears the scene before a scenario</p></td>
+<tr class="row-even"><td><p>Clear</p></td>
+<td><p>Clears the scene before a scenario</p></td>
 </tr>
-<tr class="row-even"><td><p>Duration</p></td>
-<td><p>length of the scenario when played in the viewer in auto mode</p></td>
+<tr class="row-odd"><td><p>Duration</p></td>
+<td><p>Length of the scenario when played in the viewer in auto mode</p></td>
+</tr>
+<tr class="row-even"><td><p>Add/Replace content</p></td>
+<td><p>New content will be added and existing updated. If used with existing content that has zero elements, it will delete it from the scenario</p></td>
 </tr>
 </tbody>
 </table>
@@ -490,17 +490,15 @@ With scenarios it is possible to do more complex presentations at ease.</p>
 </section>
 <section id="examples">
 <h2>Examples<a class="headerlink" href="#examples" title="Link to this heading">#</a></h2>
-<p>You have some geometry (a building) and want to publish or download from the server (1), then walk through it, change the time of the day (2) and
-continue your tour via a series of pre defined views (3-4).
-Instead of setting everything live during your presentation, you define one position after the other and save
-them as individual scenarios. You then can switch through them during your presentation more easily.</p>
+<p>The plan is to do the following: Geometry (a building) that has to be publish or downloaded from the server (1), then a walk through it, change the time of the day and the weather (2) and continue your tour via a series of pre defined views (3-4).</p>
+<p>Setting and sending the above mentioned live during a presentation takes a lot of time. It is quicker to collect the content into scenarios and save them. Switch through them during a presentation then becomes more easier and makes more complex presentations possible.</p>
 <p><strong>1)</strong></p>
-<img alt="../../../_images/1.png" src="../../../_images/1.png" />
+<img alt="1)" src="../../../_images/1.png" />
 <p><strong>2)</strong></p>
-<img alt="../../../_images/2.png" src="../../../_images/2.png" />
+<img alt="2)" src="../../../_images/2.png" />
 <p><strong>3-4)</strong></p>
-<img alt="../../../_images/3.png" src="../../../_images/3.png" />
-<img alt="../../../_images/4.png" src="../../../_images/4.png" />
+<img alt="3-4)" src="../../../_images/3.png" />
+<img alt="3-4)" src="../../../_images/4.png" />
 </section>
 </section>
 
@@ -584,7 +582,7 @@ By Gereon Sievi
   
   <div class="footer-item">
     <p class="last-updated">
-  Last updated on 23.07.2024.
+  Last updated on 29.07.2024.
   <br/>
 </p>
   </div>

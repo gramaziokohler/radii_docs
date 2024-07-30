@@ -2,8 +2,8 @@
 PublishAnimation
 ******************
 
-.. image:: ../images/Publish/Publish_animation.png
-    :scale: 90 %
+.. image:: ../images/Publish/Publish_animation_2.png
+    :scale: 80 %
 
 
 .. topic:: Definition
@@ -24,6 +24,7 @@ PublishAnimation
   =================   ========================================    =======================================
   Connection          Link with the Connect component             Connect
   Animation Planes    Along the path you want to animate          Planes
+  Lens Length         Lense to describe the field of view         Number
   Content             Geometry you want to animate                Save of Publish Geometry component
   =================   ========================================    =======================================
 

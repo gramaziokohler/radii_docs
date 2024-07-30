@@ -2,7 +2,7 @@
 Save Scenario
 **********************
 
-.. image:: ../images/Publish/Publish_scenario_manager.png
+.. image:: ../images/Save_Content/Save_scenario_manager.png
 
 .. topic:: Definition
 
@@ -11,7 +11,7 @@ Save Scenario
   
 .. attention:: 
 
-  Be careful or refrain from saving geometry content into this component with scenarios, instead use `Publish Reference`_. Otherwise the Grasshopper file can get very heavy and slow.
+  Be careful or refrain from saving geometry content into this component with scenarios, instead use `Publish Reference`_ to download it. Otherwise the Grasshopper file can get very heavy and slow.
   
 
 
@@ -19,7 +19,7 @@ Save Scenario
 
   - Content from save Scenario can be saved to the cloud with `Save Content`_
   - Grasshoppers autosave can be deactivated, in case it takes to long 
-  - To save time with heavier and bigger models: with `Publish Reference`_ you can direct all viewers to download a saved file from a channel, instead of live uploading and then downloading to the viewers.
+  - To save time with heavier and bigger models: `Publish Reference`_  can direct all viewers to download a previously saved file that was saved to a channel, instead of live uploading and then downloading to the viewers.
 
 
 **Input**
@@ -48,18 +48,18 @@ Content     Connect to Save component for saving    RADii content
 Scenario Manager
 -----------------------
 
-.. image:: ../images/Publish/Publish__controll_manager.png
+.. image:: ../images/Save_Content/Save_Scenario_controll_manager.png
     :scale: 80 %
 
 
-==============  ============================================================================================================================
-Scenario Name   The name you want to give your scenario
-Save            Save the scenario, can be used to save on top of existing scenrios  
-Update          Updates time set and settings that can be set in publish control but not geometry
-Rename  	      Renames a scenario
-Clear           clears the scene before a scenario
-Duration        length of the scenario when played in the viewer in auto mode
-==============  ============================================================================================================================
+=================== ============================================================================================================================
+Scenario Name       The name you want to give your scenario
+Save                Save the scenario, can be used to save on top of existing scenarios
+Rename  	          Renames a scenario
+Clear               Clears the scene before a scenario
+Duration            Length of the scenario when played in the viewer in auto mode
+Add/Replace content New content will be added and existing updated. If used with existing content that has zero elements, it will delete it from the scenario
+=================== ============================================================================================================================
 
 **Column descriptions**
 
@@ -77,22 +77,27 @@ Duration    of the scenario when played on auto play in the viewer
 Examples
 ------------------------
 
-You have some geometry (a building) and want to publish or download from the server (1), then walk through it, change the time of the day (2) and
-continue your tour via a series of pre defined views (3-4).
-Instead of setting everything live during your presentation, you define one position after the other and save
-them as individual scenarios. You then can switch through them during your presentation more easily.
+The plan is to do the following: Geometry (a building) that has to be publish or downloaded from the server (1), then a walk through it, change the time of the day and the weather (2) and continue your tour via a series of pre defined views (3-4).
+
+Setting and sending the above mentioned live during a presentation takes a lot of time. It is quicker to collect the content into scenarios and save them. Switch through them during a presentation then becomes more easier and makes more complex presentations possible.
+
 
 
 **1)**
 
 .. image:: ../images/Publish/Scenario_Manager_examples/1.png
+  :alt: 1)
 
 **2)**
 
 .. image:: ../images/Publish/Scenario_Manager_examples/2.png
+  :alt: 2)
+
 
 **3-4)**
 
 .. image:: ../images/Publish/Scenario_Manager_examples/3.png
+  :alt: 3-4)
 
-.. image:: ../images/Publish/Scenario_Manager_examples/4.png  \
+.. image:: ../images/Publish/Scenario_Manager_examples/4.png  
+  :alt: 3-4)

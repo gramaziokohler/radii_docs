@@ -3,7 +3,10 @@ Tutorial: Simple Presentation
 **********************************
 
 This tutorial is based on the fundamentals in the `Tutorial Grasshopper Basics`_ .
-It explains and lists what kind of components are needed for a simple presentation in Radii. 
+
+.. topic:: What this is about
+  
+  It explains and lists what kind of components are needed for a simple presentation in Radii. 
 
 After publishing the necessary content, there is a number of ways to lead the Viewers through the model. 
 First with the ``follow`` option of the `Connect`_ component. After giving a true input, all viewers will follow the Rhino viewport. 

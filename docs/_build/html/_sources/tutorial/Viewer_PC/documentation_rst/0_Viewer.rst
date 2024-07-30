@@ -39,7 +39,7 @@ Videos
 - `Phone Viewer object manipulation <https://www.youtube.com/watch?v=y1cg8ZQKlQg>`_
 
 
-Viewer Page Menu:
+Viewer Pages:
 ---------------------
 
 .. toctree::

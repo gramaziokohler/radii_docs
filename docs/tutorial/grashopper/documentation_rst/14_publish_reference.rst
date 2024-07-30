@@ -53,7 +53,8 @@ Right click menu
 The first ``text field`` is for the the channel name to be accessed, right next to it the ``refresh button`` to manually update the ``list of content`` below it, in case that is necessary. 
 Double click on content of the list to collect a reference into the second list, the ``reference collection``. The collection has three options to interact with the content: ``Active`` to load a reference to all viewers, ``Visible`` defines the references visibility for all viewers and ``delete`` to remove an item from the collection. 
 
-.. comment the table out
+
+.. 
   .. table::
     :align: right
       

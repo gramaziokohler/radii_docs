@@ -50,19 +50,23 @@ Right click menu
     :scale: 80%
     :align: left
 
-.. table::
-  :align: right
-    
-  =====================   ==========================================
-  Name                    Description                           
-  =====================   ==========================================
-  Channelname             Channel to access references from
-  Refresh                 Update list
-  List                    Display of geometry collections on the selected channel
-  Reference collection    For collecting references from the current and different channels
-  Active                  Loads the reference to all viewers
-  Visible                 Shows the reference to all viewers
-  =====================   ==========================================
+The first ``text field`` is for the the channel name to be accessed, right next to it the ``refresh button`` to manually update the ``list of content`` below it, in case that is necessary. 
+Double click on content of the list to collect a reference into the second list, the ``reference collection``. The collection has three options to interact with the content: ``Active`` to load a reference to all viewers, ``Visible`` defines the references visibility for all viewers and ``delete`` to remove an item from the collection. 
+
+.. comment the table out
+  .. table::
+    :align: right
+      
+    =====================   ==========================================
+    Name                    Description                           
+    =====================   ==========================================
+    Channelname             Channel to access references from
+    Refresh                 Update list
+    List of content         Display of geometry collections on the selected channel
+    Reference collection    For collecting references from the current and different channels
+    Active                  Loads the reference to all viewers
+    Visible                 Shows the reference to all viewers
+    =====================   ==========================================
 
 
 .. tip:: 

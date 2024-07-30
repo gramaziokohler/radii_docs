@@ -40,14 +40,15 @@ Grasshopper Components
 -----------------------
 
 
-.. @gereon_ DONE -**Right click menu** is how menu should be called from now on no :
+.. @gereon right click menu is how menu should be called from now on no :
 
 .. write a style guide: tips for optional attention for important etc. put it in the vorlage page
 
 
 .. Note: the naming in toctree is case sensitive
 
-**Connect Components**
+Connect Components
+_____________________
 
 .. toctree::
     :titlesonly:
@@ -56,7 +57,8 @@ Grasshopper Components
     
     *connect
 
-**Publish Components**
+Publish Components
+____________________
 
 .. toctree::
     :titlesonly:
@@ -65,7 +67,8 @@ Grasshopper Components
     
     *publish*
 
-**Save Components**
+Save Components
+________________
 
 .. toctree::
     :titlesonly:
@@ -74,7 +77,8 @@ Grasshopper Components
     
     *Save*
 
-**Params Components**
+Params Components
+___________________
 
 .. toctree::
     :titlesonly:
@@ -83,7 +87,8 @@ Grasshopper Components
     
     *Params*
 
-**Subscribe Components**
+Subscribe Components
+_________________________
 
 .. toctree::
     :titlesonly:
@@ -95,7 +100,8 @@ Grasshopper Components
 
 
 
-**Tools Components**
+Tools Components
+_____________________
 
 .. toctree::
     :titlesonly:
@@ -112,6 +118,3 @@ Grasshopper Components
 
         *10_Tips*
 
-  
-
-.. @help put link for 10 tips above

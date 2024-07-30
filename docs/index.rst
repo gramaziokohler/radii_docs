@@ -114,7 +114,9 @@ Table of Contents
    Home <self>
    tutorial/Viewer_PC/documentation_rst/0_Viewer 
    tutorial/grashopper/documentation_rst/01_Components_Overview
-   tutorial/Quick_Guide/Quick_Guides 
+   tutorial/Quick_Guide/Quick_Guides
+   tutorial/Quick_Guide/Setup/1_install_overview.rst
+   
    
 
 Indices and tables

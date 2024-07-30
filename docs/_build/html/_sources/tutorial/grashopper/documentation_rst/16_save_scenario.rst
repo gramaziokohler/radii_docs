@@ -52,7 +52,7 @@ Scenario Manager
 
 .. image:: ../images/Save_Content/Save_Scenario_controll_manager.png
     :scale: 80 %
-
+    :align: left
 
 =================== ============================================================================================================================
 Scenario Name       The name you want to give your scenario
@@ -63,43 +63,16 @@ Duration            Length of the scenario when played in the viewer in auto mod
 Add/Replace content New content will be added and existing updated. If used with existing content that has zero elements, it will delete it from the scenario
 =================== ============================================================================================================================
 
-**Column descriptions**
+**Column titles**
 
 ==========  ==============================================================================================
 Blank       Index of the scenario
 Scenario    Name of the scenario
 Content     is content sent (geometry, views, etc.) you could just send settings (time, position etc.)
 Clear       Clears the channel before uploading new geometry
-Load        loading from the channel
+Load        Indicated if loading content via `Publish Reference`_ is included 
 Duration    of the scenario when played on auto play in the viewer
 ==========  ==============================================================================================
 
-.. @Gereon: I would remove the examples below and link to a video or tutorial - keeping things here clean structure wise
+An example on how to use the component can be found in the Guide at `Tutorial: Advanced Presentation`_ 
 
-Examples
-------------------------
-
-The plan is to do the following: Geometry (a building) that has to be publish or downloaded from the server (1), then a walk through it, change the time of the day and the weather (2) and continue your tour via a series of pre defined views (3-4).
-
-Setting and sending the above mentioned live during a presentation takes a lot of time. It is quicker to collect the content into scenarios and save them. Switch through them during a presentation then becomes more easier and makes more complex presentations possible.
-
-
-
-**1)**
-
-.. image:: ../images/Publish/Scenario_Manager_examples/1.png
-  :alt: 1)
-
-**2)**
-
-.. image:: ../images/Publish/Scenario_Manager_examples/2.png
-  :alt: 2)
-
-
-**3-4)**
-
-.. image:: ../images/Publish/Scenario_Manager_examples/3.png
-  :alt: 3-4)
-
-.. image:: ../images/Publish/Scenario_Manager_examples/4.png  
-  :alt: 3-4)

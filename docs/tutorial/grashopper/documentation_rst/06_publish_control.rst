@@ -71,9 +71,11 @@ Right click menu
   Save position       Include the position in a scenario save
   Clear               Clears all content from viewers
   Set Location        Sets the world location for the sun
-  Origin rotation     Rotates the model by x-degrees
-  Set origin rotation Confirm rotation
   =================== ============================================================================================
+
+.. removed from table:
+.. Origin rotation     Rotates the model by x-degrees
+.. Set origin rotation Confirm rotation
 
 
 

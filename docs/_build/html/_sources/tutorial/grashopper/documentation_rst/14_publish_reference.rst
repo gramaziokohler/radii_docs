@@ -39,8 +39,8 @@ PublishReference
 
 **Menu**
 
-.. @Gereon_: somehow i find the table hard to read - lets discuss this 
-.. @sarah reply : is the alignment next to each other helping ?
+.. @Gereon: somehow i find the table hard to read - lets discuss this - fliestext schreiben
+
 
 
 .. image:: ../images/Publish/Publish_Reference/Publish_reference_manager.png

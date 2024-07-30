@@ -38,5 +38,5 @@ SaveContent
 
 .. tip::
 
-  Cloud content can be loaded via `Publish Reference`_ or with the component as part of a scenario in `Publish Scenario`_
+  Cloud content can be loaded via `Publish Reference`_ or with the component as part of a scenario in `Save Scenario`_
 

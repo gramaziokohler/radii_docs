@@ -24,7 +24,7 @@ There are two types of connecting:
 
   Connect Local:
         - can be used offline on your device or local network
-        - is quicker since there is not need for an upload to the cloud
+        - is quicker since there is no need for any cloud upload
 
 .. the section below should not have a number 
 .. (not 1.1. two types of connect) but belong to the general section 1. connect global and local

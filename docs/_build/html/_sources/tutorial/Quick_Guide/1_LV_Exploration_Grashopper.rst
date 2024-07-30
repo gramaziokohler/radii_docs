@@ -93,4 +93,4 @@ To activate the connection to the channel ``double click`` on the dark ``false``
 
 
 .. - ``Log:`` helps to identify how much and what kind of data is sent
-.. - ``Content`` is RADii data that can be used in other components, mainly for storing or collecting. The components are called `Publish Scenario`_ and `Save Content`_.
+.. - ``Content`` is RADii data that can be used in other components, mainly for storing or collecting. The components are called `Save Scenario`_ and `Save Content`_.

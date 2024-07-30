@@ -24,7 +24,7 @@ This becomes more important in the later phases of a project.
   **10**  You shall **report bugs**                                                               Always report a bug to `Github <https://github.com/Archtica/RADii/issues>`_
   ======  =====================================================================================   ==================================================================================================
 
-.. @gereon: habe die liste von oben versucht zu präzisieren unten in 2 verianten (vielleicht kann die extra seite hier auch entfallen und man macht das in die index seite?)
+.. @gereon_: habe die liste von oben versucht zu präzisieren unten in 2 verianten (vielleicht kann die extra seite hier auch entfallen und man macht das in die index seite?)
 .. @sarah: noch zu besprechen
 
 .. commented out untill discussed 

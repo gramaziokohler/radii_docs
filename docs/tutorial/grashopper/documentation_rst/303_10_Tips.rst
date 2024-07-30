@@ -26,26 +26,9 @@ This becomes more important in the later phases of a project.
 .. @gereon: habe die liste von oben versucht zu präzisieren unten in 2 verianten (vielleicht kann die extra seite hier auch entfallen und man macht das in die index seite?)
 
 
-.. table:: 
-  :align: left
-  
-  ======  ========================================================================  ==================================================================================================
-  **1**   **Only publish if necessary**                                             Do not spam content. Publish large static content like context, once while working on it then only keep the part of the scene live that your working on
-  **2**   **Prepare your content according to the power of the viewer's device**    Complex scenes can make the viewers on slower devices choke
-  **3**   **Keep an eye on frame rate performance drops in your scene**             Check your scene for places with performance drops (no lower than 25-30 fps) and solve issues below
-  **4**   **Apply relative level of detail**                                        Use your effort highly detailed modelling thoughtfully and only where necessary
-  **5**   **Use mesh count wisely**                                                 Keep an eye on the meshing of your geometries. See also: PublishGeometry_
-  **6**   **Check your scene for hidden or duplicate objects and materials**        Purge geometries that are occluded from view as well as unused materials
-  **7**   **Use adequate texture resolutions**                                      Match the texture resolution to the object size. See options of PublishMaterial_
-  **8**   **Only apply collision to objects if needed**                             Do not put collision on screws, nails, fixtures etc. see: PublishGeometry_
-  **9**   **Trim and subsample point clouds**                                       Pointclouds can very quickly generate heavy scenes. Process them to fit your viewer's device: @help add link to pointcloud editing here
-  **10**  **Report bugs**                                                           If you find things working unexpectedly, please report to `Github <https://github.com/Archtica/RADii/issues>`_
-  ======  ========================================================================  ==================================================================================================
-
-
 .. table::
   :align: left
-
+  
   ======  ========================================================================  ==================================================================================================
   **1**   **Only publish if necessary**                                             Do not spam content. Publish large static content like context, once while working on it then only keep the part of the scene live that your working on
   **2**   **Prepare your content according to the power of the viewer's device**    Complex scenes can make the viewers on slower devices choke

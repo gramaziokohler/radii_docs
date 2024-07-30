@@ -16,7 +16,8 @@ PublishCurve
   Curves will be converted into line segments. Be Careful with the max. and min. edge length, it can create a lot of data if the values are too small.
   Curves are not a very efficient geometry and can slow down the model if you publish many of them.
 
-**Input**
+Input
+---------
 
 .. table::
   :align: left
@@ -30,7 +31,8 @@ PublishCurve
   MaxEdge     Max length of segments                  Number
   ==========  ======================================  ==============
 
-**Output**
+Output
+------------
 
 .. table::
   :align: left

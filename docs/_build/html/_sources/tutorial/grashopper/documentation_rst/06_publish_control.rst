@@ -18,7 +18,8 @@ PublishControl
   
 
 
-**Input**
+Input
+---------
 
 .. table::
   :align: left
@@ -34,7 +35,8 @@ PublishControl
   =============   ======================================      ==============
 
 
-**Output**
+Output
+------------
 
 .. table::
   :align: left
@@ -48,7 +50,8 @@ PublishControl
   =============  ======================================      ==============
 
 
-**Right click menu**
+Right click menu
+-----------------
 
 .. table::
   :align: left

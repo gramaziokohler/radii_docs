@@ -22,7 +22,8 @@ Save Scenario
   - To save time with heavier and bigger models: `Publish Reference`_  can direct all viewers to download a previously saved file that was saved to a channel, instead of live uploading and then downloading to the viewers.
 
 
-**Input**
+Input
+---------
 
 ==========  ========================================= ==============
 Name        Description                               Type
@@ -32,7 +33,8 @@ Content     Content to be bundled into one scenario   RADii content
 Index       To switch between scenarios               Integer
 ==========  ========================================= ==============
 
-**Output**
+Output
+------------
 
 ==========  ======================================  ==============
 Name        Description                             Type

@@ -12,7 +12,8 @@ PublishSection
   This component is used to publish clipping planes from Rhino or directly from Grasshopper to a channel.
 
 
-**Input**
+Input
+---------
 
 .. table::
   :align: left
@@ -30,7 +31,8 @@ PublishSection
    - Rhino clipping planes are automatically imported and have to be selected in the menu below ``-Activate clipping planes-``
    - If you hav connected one or multiple surfaces with the input: ``Section Plane``, you have to connect a number slider with ``index`` to select them.
 
-**Output**
+Output
+------------
 
 .. table::
   :align: left
@@ -42,7 +44,8 @@ PublishSection
   Content     Connect to Content                      RADii content
   ==========  ======================================  ==============
 
-**Right click menu**
+Right click menu
+-----------------
 
 .. table::
   :align: left

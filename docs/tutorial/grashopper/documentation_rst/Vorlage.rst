@@ -6,9 +6,10 @@ Temp
 
 .. topic:: Definition
 
-  Textextesxt
+  Definition of the component text
 
-**Input**
+Input
+-----------
 
 ==========  ======================================  ==============
 Name        Description                             Type
@@ -17,15 +18,20 @@ Connection  Link with the Connect component         Connection
 
 ==========  ======================================  ==============
 
-**Output**
+Output
+------------
 
 ==========  ======================================  ==============
 Name        Description                             Type
 ==========  ======================================  ==============
 
-**Right click menu**
+Right click menu
+-----------------
 
 ==========  ==========================================
 ==========  ==========================================
 
-**Grasshopper Components**
+
+Video tutorials:
+---------------------
+

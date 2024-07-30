@@ -14,7 +14,8 @@ PublishView
   - Grasshopper via the component input
   - Saved Rhino views are accessible in the component menu
 
-**Input**
+Input
+---------
 
 .. table::
   :align: left
@@ -28,7 +29,8 @@ PublishView
   Index           To switch between views                 Number
   =============   ======================================  ==============
 
-**Output**
+Output
+------------
 
 .. table::
   :align: left
@@ -40,7 +42,8 @@ PublishView
   Save      Connect to SaveContent for saving       RADii content
   =======   ======================================  ==============
 
-**Right click menu**
+Right click menu
+-----------------
 
 .. table::
   :align: left

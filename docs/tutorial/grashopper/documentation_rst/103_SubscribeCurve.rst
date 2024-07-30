@@ -9,7 +9,8 @@ SubscribeCurve
 
   This component is used to subscribe to curves that are published to a channel.
 
-**Input**
+Input
+---------
 
 .. table::
   :align: left
@@ -22,7 +23,8 @@ SubscribeCurve
   Subscribe   Toggle the subscription                 Boolean
   ==========  ======================================  ==============
 
-**Output**
+Output
+------------
 
 .. table::
   :align: left

@@ -8,7 +8,8 @@ SubscribeMessages
 
   This component is used to subscribe to messages that are published to a channel.
 
-**Input**
+Input
+---------
 
 .. table::
   :align: left
@@ -20,7 +21,8 @@ SubscribeMessages
   Subscribe   Toggle the subscription                 Boolean
   ==========  ======================================  ==============
 
-**Output**
+Output
+------------
 
 .. table::
   :align: left

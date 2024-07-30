@@ -11,7 +11,8 @@ Params Connect
   This component is a relay for connections that lets you organize your wires more efficiently.
 
 
-**Input**
+Input
+---------
 
 .. table::
   :align: left
@@ -22,7 +23,8 @@ Params Connect
   Connection  Link with the Connect component         Connection
   ==========  ======================================  ==============
 
-**Output**
+Output
+------------
 
 .. table::
   :align: left

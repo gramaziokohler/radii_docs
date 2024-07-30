@@ -23,7 +23,8 @@ Radii viewer counterpart
   Values from SubscribeParameter could be used to modify geometry in a Grasshopper algorithm.
 
 
-**Input**
+Input
+---------
 
 .. table::
   :align: left
@@ -35,7 +36,8 @@ Radii viewer counterpart
   Subscribe   Toggle the subscription                 Boolean
   ==========  ======================================  ==============
 
-**Output**
+Output
+------------
 
 .. table::
   :align: left

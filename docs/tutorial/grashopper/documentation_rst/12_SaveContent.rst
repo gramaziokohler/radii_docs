@@ -10,7 +10,8 @@ SaveContent
   
   This component is used to save content locally or to a channel in the cloud.
 
-**Input**
+Input
+---------
 
 .. table::
   :align: left
@@ -22,7 +23,8 @@ SaveContent
   Content     To be included in the save              RADii content
   ==========  ======================================  ==============
 
-**Right click menu**
+Right click menu
+-----------------
 
 .. table::
   :align: left

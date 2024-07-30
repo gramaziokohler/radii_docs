@@ -15,7 +15,8 @@ Params Pointcloud
   - If your mesh is coloured with the color mesh component, the colors will be transferred to the pointcloud.
 
 
-**Input**
+Input
+---------
 
 .. table::
   :align: left
@@ -27,7 +28,8 @@ Params Pointcloud
   Mesh        Mesh vertices will be turned into pointcloud    Mesh  
   =========== ============================================    ==============
 
-**Output**
+Output
+------------
 
 .. table::
   :align: left

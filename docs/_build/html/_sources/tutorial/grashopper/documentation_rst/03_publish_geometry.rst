@@ -12,7 +12,8 @@ PublishGeometry
 
   This component is used to select geometry that should be published to a channel.
 
-**Input**
+Input
+---------
 
 .. table::
   :align: left
@@ -43,7 +44,8 @@ PublishGeometry
 
     - use "Min Edge" to sett the minimal edge length this will make your model low poly if you go to high
 
-**Output**
+Output
+------------
 
 .. table::
   :align: left

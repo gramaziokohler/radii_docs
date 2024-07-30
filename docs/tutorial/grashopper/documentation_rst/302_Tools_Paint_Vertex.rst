@@ -10,7 +10,8 @@ Tool Paint Vertex
   This tool bakes an image texture onto a mesh, it can then be modified without loosing the texture.
   The precision of the bake depends on the mesh resolution.
 
-**Input**
+Input
+---------
 
 .. table::
   :align: left
@@ -21,7 +22,8 @@ Tool Paint Vertex
   Mesh        Mesh to paint on                        Mesh 
   =========== ======================================  ==============
 
-**Output**
+Output
+------------
 
 .. table::
   :align: left

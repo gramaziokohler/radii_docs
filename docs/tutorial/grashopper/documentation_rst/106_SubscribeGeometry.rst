@@ -8,7 +8,8 @@ SubscribeGeometry
     
   This component is used to subscribe to geometry that is published to a channel.
 
-**Input**
+Input
+---------
 
 .. table::
   :align: left
@@ -21,7 +22,8 @@ SubscribeGeometry
   Subscribe   Toggle the subscription                 Boolean
   ==========  ======================================  ==============
 
-**Output**
+Output
+------------
 
 .. table::
   :align: left

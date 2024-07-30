@@ -8,7 +8,8 @@ SubscribePointCloud
   
   This component is used to subscribe to Pointclouds that are published to a channel.
 
-**Input**
+Input
+---------
 
 .. table::
   :align: left
@@ -21,7 +22,8 @@ SubscribePointCloud
   Subscribe   Toggle the subscription                 Boolean
   ==========  ======================================  ==============
 
-**Output**
+Output
+------------
 
 .. table::
   :align: left

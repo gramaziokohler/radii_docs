@@ -14,7 +14,8 @@ PublishReference
   By making geometry active (loading), you can very quickly switch between visibility states without additional loading times (which can occur with bigger models).    
 
 
-**Input**
+Input
+---------
 
 .. table::
   :align: left
@@ -25,7 +26,8 @@ PublishReference
   Connection  Link with the Connect component         Connection
   ==========  ======================================  ==============
 
-**Output**
+Output
+------------
 
 .. table::
   :align: left
@@ -37,7 +39,8 @@ PublishReference
   Content     Connect to Save component for saving    RADii content   
   ==========  ======================================  ==============
 
-**Right click menu**
+Right click menu
+-----------------
 
 .. @Gereon: somehow i find the table hard to read - lets discuss this - fliestext schreiben
 

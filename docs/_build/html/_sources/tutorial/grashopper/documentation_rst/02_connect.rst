@@ -41,7 +41,8 @@ There are two types of connecting:
   - is quicker since there is not need for an upload to the cloud
 
 
-**Input**
+Input
+---------
 
 .. table::
   :align: left
@@ -56,7 +57,8 @@ There are two types of connecting:
 
 
 
-**Output**
+Output
+------------
 
 .. table::
   :align: left

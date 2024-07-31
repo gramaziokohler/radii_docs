@@ -33,6 +33,19 @@ V. 0.39 B2
 .. - A Software **Plugin** for Rhino / Grasshopper to publish 3D Models
 .. - A bunch of **Viewers** for various devices (Win/Mac PCs, VR Headsets or mobile devices) .to receive and explore the models.
 
+.. image:: tutorial/Radii_diagramms/Daten_Diagramme_v2/svg/Radii_funktionality_simple_crop.svg
+
+.. topic:: How RADii works
+
+   A plugin connects your CAD software (Rhino / Grasshopper) and 3D model to the cloud. This live connection is distributed to RADii Viewers.
+   RADii Viewers exist for different platforms: Win/Mac, mobile devices and VR Headsets. Viewers are connected through the cloud and can interact with each other.
+
+
+.. note::
+ RADii is being developed by the architect Thomas W. Lee since 2020. From 2022 it has been further developed in collaboration with Gramazio Kohler Research in the context of the Immersive Design Studio at ETH Zurich. 
+
+.. braucht es die Info da wirklich? ETH supported this project with a `Innovedum Grant <https://ethz.ch/de/die-eth-zuerich/lehre/innovedum/innovedum-fund.html>`_ , which made this made this documentation and further proliferation possible.
+
 
 Rhino, Grasshopper and Viewer
 ________________________________
@@ -52,23 +65,6 @@ _____________________
    :alt: Autumn semester 2023, project by Cadei  Matteo & Tami  Kyan  
 
 Immersive Design Studio at Gramazio Kohler Research, ETH Zürich, Autumn semester 2023 student project by Matteo Cadei & Kyan Tami  
-
-
-
-
-How RADii works
-___________________
-
-
-.. image:: tutorial/Radii_diagramms/Daten_Diagramme_v2/svg/Radii_funktionality_simple_crop.svg
-
-.. topic:: 
-
-   A CAD software (Rhino / Grasshopper) is connected to a cloud through a plugin. 3D Models are live uploaded to the cloud and then distributed to the RADii Viewers.
-   The RADii Viewers are a program that can be run on Win/Mac, iPhone and VR Headsets. Viewers are connected through the cloud and can interact with each other.
-
-
-
 
 
 
@@ -99,16 +95,6 @@ ___________________
 
 Further viewers for VR, Mobile, Looking Glass and the Webviewer can be found on `RADii <https://RADii.info/>`_.
 
-
-About
-___________________
-
-.. info::
-   RADii is being developed by the architect Thomas W. Lee since 2020. From 2022 it has been further developed in collaboration with Gramazio Kohler Research in the context of the Immersive Design Studio at ETH Zurich. 
-   
-   
-   
-   .. braucht es die Info da wirklich? ETH supported this project with a `Innovedum Grant <https://ethz.ch/de/die-eth-zuerich/lehre/innovedum/innovedum-fund.html>`_ , which made this made this documentation and further proliferation possible.
 
 
 

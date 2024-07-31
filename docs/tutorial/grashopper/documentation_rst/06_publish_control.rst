@@ -15,8 +15,8 @@ PublishControl
 .. note::
 
   The scenario Manager was spun of into `Save Scenario`_ and the loading of references into `Publish Reference`_ in v 039.B2 from PublishControl
-  
 
+  .. @gereon ist diese note hier oben wichtig? wir gehen ja eigentlich nicht davon aus, dass wer ältere Versionen verwendet...
 
 Input
 ---------

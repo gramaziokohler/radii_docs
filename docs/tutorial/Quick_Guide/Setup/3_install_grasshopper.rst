@@ -1,8 +1,8 @@
-_________________________
-Setup Grasshopper Plugin
-_________________________
+_______________________________
+Setup RADii Grasshopper Plugin
+_______________________________
 
-The Radii Grasshopper plugin runs in `Rhino 3D <https://www.rhino3d.com/>`_  
+The Radii Grasshopper plugin only runs with `Rhino 3D <https://www.rhino3d.com/>`_  
 
 The plugin enables you to publish (send) 3D models and other geometry. 
 Publishing works similar to a Radio station, geometry can be received by others as long as they are connected 

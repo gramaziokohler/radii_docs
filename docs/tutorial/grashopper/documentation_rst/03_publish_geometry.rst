@@ -36,7 +36,7 @@ Input
 .. Tip::
 
   **Quality:** 
-  To control meshing process and the smoothness of your geometry use the following gh components:
+  To control meshing process and the smoothness of your geometry use the following Grasshopper components:
   
   - Setting (Speed)
   - Setting (Quality)
@@ -53,7 +53,7 @@ Output
   =========   =====================================   ===================
   Name        Description                             Type
   =========   =====================================   ===================
-  Log         Documents changes & data send           Text
+  Log         Documents changes & data sent           Text
   Content     Connect to Save component for saving    RADii content
   =========   =====================================   ===================
 

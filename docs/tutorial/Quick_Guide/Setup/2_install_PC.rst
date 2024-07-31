@@ -1,11 +1,11 @@
-_____________________
-Setup Viewer PC/Mac
-_____________________
+____________________________
+Setup RADii Viewer PC/Mac
+____________________________
 
 
 .. image:: ../Setup/Images/Radii_Info_Downloads_Standard_viewer.png
 
-1. **Download** the latest Radii Viewer from https://RADii.info/
+1. **Download** the latest Radii Viewer for your platform from https://RADii.info/
 2. **Register** in the user panel **and confirm** your email 
     - it is not necessary to set a domain name
 3. **Install** the file

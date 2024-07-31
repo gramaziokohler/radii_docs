@@ -21,13 +21,17 @@ V. 0.39 B2
    2. Radii Viewer - Detailed description of all parts & options 
    3. Radii Grasshopper - Detailed description of all parts & options
    4. Guides - Installations and Guides for different use cases
+   
+.. @gereon vielleicht braucht es hier bei what is radii mehr einen übergreifenden text, der erklärt, was damit ermöglicht wird. vielleicht hat ja auch thomas dazu irgendwo was? Und das mit den parts würd ich dann weglassen, zumal du hier von 2 parts sprichst, später dann von 3... Könnten wie hier dann auch ein video einbetten? ich denke, das wäre sehr schön.
 
 .. topic::  What is RADii ?
+      
+      RADii was created to easily access 3D models through different devices. Paired with a CAD plugin it creates a powerful real time connection to collaboratively develop 3d Models and discuss them in a VR environment.
 
-  `RADii <https://RADii.info/>`_ is a cloud platform that allows you to publish 3D Models for sharing, exploration and collaboration. RADii consists of **two parts**: 
+..   `RADii <https://RADii.info/>`_ is a cloud platform that allows you to publish 3D Models for sharing, exploration and collaboration. RADii consists of **two parts**: 
 
-    - A Software **Plugin** for Rhino / Grasshopper to publish 3D Models
-    - A bunch of **Viewers** for various devices (Win/Mac PCs, VR Headsets or mobile devices) to receive and explore the models.
+.. - A Software **Plugin** for Rhino / Grasshopper to publish 3D Models
+.. - A bunch of **Viewers** for various devices (Win/Mac PCs, VR Headsets or mobile devices) .to receive and explore the models.
 
 
 Rhino, Grasshopper and Viewer
@@ -58,7 +62,7 @@ ___________________
 
 .. image:: tutorial/Radii_diagramms/Daten_Diagramme_v2/svg/Radii_funktionality_simple_crop.svg
 
-.. topic:: How it works simplified:
+.. topic:: 
 
    A CAD software (Rhino / Grasshopper) is connected to a cloud through a plugin. 3D Models are live uploaded to the cloud and then distributed to the RADii Viewers.
    The RADii Viewers are a program that can be run on Win/Mac, iPhone and VR Headsets. Viewers are connected through the cloud and can interact with each other.
@@ -99,8 +103,12 @@ Further viewers for VR, Mobile, Looking Glass and the Webviewer can be found on 
 About
 ___________________
 
-RADii is being developed by Thomas W. Lee since 2020. In 2022, he started a collaboration with Gramazio Kohler Research at ETHZ for further development of the program in the context of the Immersive Design Studio. 
-ETH supported this project with a `Innovedum Grant <https://ethz.ch/de/die-eth-zuerich/lehre/innovedum/innovedum-fund.html>`_ , which made this made this documentation and further proliferation possible.
+.. info::
+   RADii is being developed by the architect Thomas W. Lee since 2020. From 2022 it has been further developed in collaboration with Gramazio Kohler Research in the context of the Immersive Design Studio at ETH Zurich. 
+   
+   
+   
+   .. braucht es die Info da wirklich? ETH supported this project with a `Innovedum Grant <https://ethz.ch/de/die-eth-zuerich/lehre/innovedum/innovedum-fund.html>`_ , which made this made this documentation and further proliferation possible.
 
 
 

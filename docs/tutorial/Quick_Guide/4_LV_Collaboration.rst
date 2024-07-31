@@ -2,6 +2,8 @@
 Tutorial: Collaborative working
 ********************************
 
+.. topic:: What this is about
+  
 Radii can be used in a linear way, sending commands and geometry from Grasshopper to the viewers.
 
 The components in the Subscribe section in Rhino Grasshopper Radii can add the reverse diction to the workflow. 

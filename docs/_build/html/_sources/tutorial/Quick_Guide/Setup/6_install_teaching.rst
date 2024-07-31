@@ -7,6 +7,42 @@ WORK IN PROGRESS
 ******************
 
 .. @sarah-schneider ich habe das Gefühl das dieser Teil vielleicht weg könnte. Mir scheint eine Beschreibung für den Unterricht berrechtigt nicht gleich eine ganze Webseite zum Thema teaching
+..  gereon. move sections to the guides
+
+
+Infrastructure
+^^^^^^^^^^^^^^^^
+
+In the scope of the `Imersive Design Studio <https://gramaziokohler.arch.ethz.ch/web/d/lehre/448.html>`_ at Gramazio Kohler Research at ETH Zürich we made good experience with the following Infrastructure for 14 students:
+  
+**Space:**
+
+- A Vr-Arena: an empty Space of 10m by 10m 
+- Work tables that are situated right next to the arena for seamless transition to VR testing.
+
+**Tech**
+
+- Personal laptops of medium strength for each student
+- For every team of two students
+
+  - One strong PC for complex models in the later stages of a project 
+  - Oculus or other Vr device
+
+.. the link in the next section should go towards a 3d model of the clamp that we use in the studio to make the occulus a handheld device 
+
+    - using a `clamp <>` to modify the VR glasses into handheld devices makes for more seamless switching between users in discussion 
+
+ 
+
+- A bigg screen/projector 
+
+  - relative to the size of the class for group discussion and presentations
+
+- personal Phones or Ipads for augmented reality usage
+
+
+
+
 
 Ths section is for teaching RADii in the scope of a class or workshop and is following the packages that we teach our classes in our design courses.
 

@@ -13,7 +13,8 @@ PublishMessage
 
   .. @gereon_ maybe it could  be added that the messages disappear automatically after ??? and is limited to max. 64 characters
 
-**Input**
+Input
+---------
 
 .. table::
   :align: left
@@ -24,7 +25,8 @@ PublishMessage
   Connection  Link with the Connect component         Connection
   ==========  ======================================  ==============
 
-**Menu**
+Right click menu
+-----------------
 
 .. table::
   :align: left

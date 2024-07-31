@@ -6,19 +6,23 @@
 
 
 ************************************
-Tutorial: Grasshopper Basics
+Tutorial: Publishing Basics
 ************************************
 
 
 Length: ca. 10 min
 
+.. topic:: What this is about
+
+  It will introduce the basics of the RADii Grasshopper plugin.
+  With it, you will be able to publish(upload) geometry on a RADii channel.
+
 This tutorial is based on the `Grasshopper Setup`_ guide.
 
-It will introduce the basics of the RADii Grasshopper plugin.
-With it, you will be able to publish(upload) geometry on a RADii channel.
-
-We advice to make a Radii account at `RADii.info`_ if you want to have your personal space and more storage.
-More detail about the components can be found at RadiiGrasshopper_ in the documentation.
+.. tip:: 
+  
+  We advice to make a Radii account at `RADii.info`_ if you want to have your personal space and more storage.
+  More detail about the components can be found at RadiiGrasshopper_ in the documentation.
 
 .. attention:: 
 
@@ -93,4 +97,4 @@ To activate the connection to the channel ``double click`` on the dark ``false``
 
 
 .. - ``Log:`` helps to identify how much and what kind of data is sent
-.. - ``Content`` is RADii data that can be used in other components, mainly for storing or collecting. The components are called `Publish Scenario`_ and `Save Content`_.
+.. - ``Content`` is RADii data that can be used in other components, mainly for storing or collecting. The components are called `Save Scenario`_ and `Save Content`_.

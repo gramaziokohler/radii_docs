@@ -21,7 +21,8 @@ It is possible to define such parameters in a viewer, they are however temporary
 
 
 
-**Input**
+Input
+---------
 
 .. table::
   :align: left
@@ -35,7 +36,8 @@ It is possible to define such parameters in a viewer, they are however temporary
   ==========  ==========================================  ==============
 
 
-**Output**
+Output
+------------
 
 .. table::
   :align: left

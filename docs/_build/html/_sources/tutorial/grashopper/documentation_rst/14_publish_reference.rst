@@ -14,7 +14,8 @@ PublishReference
   By making geometry active (loading), you can very quickly switch between visibility states without additional loading times (which can occur with bigger models).    
 
 
-**Input**
+Input
+---------
 
 .. table::
   :align: left
@@ -25,7 +26,8 @@ PublishReference
   Connection  Link with the Connect component         Connection
   ==========  ======================================  ==============
 
-**Output**
+Output
+------------
 
 .. table::
   :align: left
@@ -37,29 +39,40 @@ PublishReference
   Content     Connect to Save component for saving    RADii content   
   ==========  ======================================  ==============
 
-**Menu**
+Right click menu
+-----------------
 
 .. @Gereon: somehow i find the table hard to read - lets discuss this - fliestext schreiben
 
+<<<<<<< HEAD
+.. @Gereon: somehow i find the table hard to read - lets discuss this - fliestext schreiben
+
+=======
+>>>>>>> d9dad86e67a605785884263307abbe97a81984ac
 
 
 .. image:: ../images/Publish/Publish_Reference/Publish_reference_manager.png
     :scale: 80%
     :align: left
 
-.. table::
-  :align: right
-    
-  =====================   ==========================================
-  Name                    Description                           
-  =====================   ==========================================
-  Channelname             Channel to access references from
-  Refresh                 Update list
-  List                    Display of geometry collections on the selected channel
-  Reference collection    For collecting references from the current and different channels
-  Active                  Loads the reference to all viewers
-  Visible                 Shows the reference to all viewers
-  =====================   ==========================================
+The first ``text field`` is for the the channel name to be accessed, right next to it the ``refresh button`` to manually update the ``list of content`` below it, in case that is necessary. 
+Double click on content of the list to collect a reference into the second list, the ``reference collection``. The collection has three options to interact with the content: ``Active`` to load a reference to all viewers, ``Visible`` defines the references visibility for all viewers and ``delete`` to remove an item from the collection. 
+
+
+.. 
+  .. table::
+    :align: right
+      
+    =====================   ==========================================
+    Name                    Description                           
+    =====================   ==========================================
+    Channelname             Channel to access references from
+    Refresh                 Update list
+    List of content         Display of geometry collections on the selected channel
+    Reference collection    For collecting references from the current and different channels
+    Active                  Loads the reference to all viewers
+    Visible                 Shows the reference to all viewers
+    =====================   ==========================================
 
 
 .. tip:: 

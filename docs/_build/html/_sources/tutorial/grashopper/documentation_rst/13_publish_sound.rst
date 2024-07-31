@@ -12,7 +12,8 @@ Publish Sound
   Sound is emitted in the center of a source defined by an inner and outer envelope. Sound decreases over distance unless "stop on exit" or "limit" is set.
 
 
-**Input**
+Input
+---------
 
 .. table::
   :align: left
@@ -26,7 +27,8 @@ Publish Sound
   Inner Envelope      Defining the inner sound reach          Circle
   ================  ======================================  ==============
 
-**Output**
+Output
+------------
 
 .. table::
   :align: left
@@ -38,7 +40,8 @@ Publish Sound
   Content     Connect to Save component for saving    RADii content
   ==========  ======================================  ==============
 
-**Menu**
+Right click menu
+-----------------
 
 .. image:: ../images/Publish/Publish_sound_menu.png
     :scale: 80%

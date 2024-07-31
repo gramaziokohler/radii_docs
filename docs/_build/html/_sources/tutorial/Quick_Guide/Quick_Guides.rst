@@ -48,22 +48,8 @@ Should you come across discrepancies between the videos and what you encounter i
 - `Basics Viewer <https://www.youtube.com/watch?v=6Lra3IDARNo&list=PLsnxnhDZs-abvOYTdO6MPhOkPDq6ffQNz&index=4&pp=iAQB>`_
 
 
-Table of content:
+Guide Pages
 ----------------------
-
-**Setup Pages:**
-
-.. toctree::
-	:titlesonly:
-	:numbered:
-
-	Setup/2_install_PC
-	Setup/3_install_grasshopper
-	Setup/4_install_occulus
-	Setup/5_install_Technical_Prereq
-	Setup/6_install_teaching
-
-**Guide Pages:**
 
 .. toctree:: 
 	:titlesonly:

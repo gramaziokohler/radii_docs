@@ -2,9 +2,7 @@
 Preparations for teaching
 ***************************************************
 
-******************
-WORK IN PROGRESS
-******************
+work in progress
 
 .. @sarah-schneider ich habe das Gefühl das dieser Teil vielleicht weg könnte. Mir scheint eine Beschreibung für den Unterricht berrechtigt nicht gleich eine ganze Webseite zum Thema teaching
 ..  gereon. move sections to the guides

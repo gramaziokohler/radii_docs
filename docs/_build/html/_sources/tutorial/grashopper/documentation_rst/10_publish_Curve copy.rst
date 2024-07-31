@@ -1,8 +1,8 @@
 .. RevSarah
 
-*************
-PublishCurve
-*************
+*******************
+PublishCurve test
+*******************
 
 .. image:: ../images/Publish/Publish_curve.png
 

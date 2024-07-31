@@ -13,7 +13,8 @@ PublishPointcloud
   
   Pointclouds have a tendency to be very large and can be a strain on your pc, in those cases see `Tools Pointcloud`_ to reduce their size.
 
-**Input**
+Input
+---------
 
 .. table::
   :align: left
@@ -28,7 +29,8 @@ PublishPointcloud
 
 
 
-**Output**
+Output
+------------
 
 .. table::
   :align: left

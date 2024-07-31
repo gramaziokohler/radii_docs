@@ -14,7 +14,8 @@ PublishAnimation
   At least 3 planes are necessary for an animation.
 
 
-**Input**
+Input
+---------
 
 .. table::
   :align: left
@@ -29,7 +30,8 @@ PublishAnimation
   =================   ========================================    =======================================
 
 
-**Output**
+Output
+------------
 
 .. table::
   :align: left
@@ -42,7 +44,8 @@ PublishAnimation
   ==========  ======================================  ==============
 
 
-**Menu**
+Right click menu
+-----------------
 
 .. table::
   :align: left

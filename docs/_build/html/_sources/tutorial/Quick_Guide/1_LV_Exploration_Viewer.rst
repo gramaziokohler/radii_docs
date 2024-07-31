@@ -13,11 +13,13 @@ Tutorial: Viewer Basics
 
 Length: ca. 10 min
 
+
+.. topic:: What this is about
+    
+  The following will be an introduction of the basics of the Radii Viewer, that functions the same across platforms, with slight variations in the inputs.
+  Afterward you will be able to explore a 3D model with the Radii viewer.
+
 This tutorial, is based on the `PC Viewer Setup`_. In case you have a Occulus device please first go through the `Oculus Viewer Setup`_.
-
-The following will be an introduction of the basics of the Radii Viewer, that functions the same across platforms, with slight variations in the inputs.
-Afterward you will be able to explore a 3D model with the Radii viewer.
-
 
 
 **********************

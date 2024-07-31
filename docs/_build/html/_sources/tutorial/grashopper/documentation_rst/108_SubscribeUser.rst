@@ -8,7 +8,8 @@ SubscribeUser
     
   This component is used to subscribe to a number of values by a user such as head and hand position. 
     
-**Input**
+Input
+---------
 
 .. table::
   :align: left
@@ -22,7 +23,8 @@ SubscribeUser
   Subscribe   Toggle the subscription                 Boolean
   ==========  ======================================  ==============
 
-**Output**
+Output
+------------
 
 .. table::
   :align: left
@@ -43,7 +45,8 @@ SubscribeUser
   Left Upward     Direction upwards           Vector
   =============== =========================== ==============
 
-**Menu**
+Right click menu
+-----------------
 
 .. table::
   :align: left

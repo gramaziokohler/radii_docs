@@ -44,11 +44,6 @@ Right click menu
 
 .. @Gereon: somehow i find the table hard to read - lets discuss this - fliestext schreiben
 
-<<<<<<< HEAD
-.. @Gereon: somehow i find the table hard to read - lets discuss this - fliestext schreiben
-
-=======
->>>>>>> d9dad86e67a605785884263307abbe97a81984ac
 
 
 .. image:: ../images/Publish/Publish_Reference/Publish_reference_manager.png

@@ -1,13 +1,8 @@
 *******************************************
-Technical Information
+Setup Mobile Viewers
 *******************************************
 
-
-.. @gereon: I think this should become two sections -- Done. maybe have the technical things somewhere else; 
-.. i feel that the content of the index, the quick guides and some content from here might need some restructuring.
-.. also we should make sure, that the structure here in the explorer matches the chapters names
-.. @sarah reply: i agree with the restrucuturing, i will attempt to give this a quick rework
-.. regarding the file names an the heading - they did change a lot in the past which is why i did not do the extra work to go through the .conf file and relink them
+.. @gereon I would convert this page to a mobile viewer page and add the technical requirements to the section where needed; i would take the structure from the radii homepage, where it also has standard viewer (win/mac), plugin, vr viewers and mobile viewers; that also makes it more clear that you can install the viewer on almost any device, but that the plugin only runs on a win/mac machine with rhino installed.
 
 
 PC/Mac
@@ -34,6 +29,9 @@ For 32bit system there is a limit of 2GB for each component and saves.
 
   In the cases of very big models it is the best practice to save them to the cloud before a presentation and then commanding a load to the viewers through the `Publish Reference`_ component.
 
+VR Glasses
+^^^^^^^^^^^^
+
 .. topic:: Oculus Quest 2
 
   - for Pointclouds we found a performance limit of 100 000 Points
@@ -41,6 +39,9 @@ For 32bit system there is a limit of 2GB for each component and saves.
   **Best practice:** 
   - in our design studio we found that smaller models such as 1:1 konstruction detail mockups in the pass through mode worked best for the hardware. 
  
+Mobile Devices and Tablets
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. @gereon 
 
 Server Storage and channels
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

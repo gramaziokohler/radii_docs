@@ -14,25 +14,25 @@ Length: ca. 10 min
 
 .. topic:: What this is about
 
-  It will introduce the basics of the RADii Grasshopper plugin.
-  With it, you will be able to publish(upload) geometry on a RADii channel.
+  This tutorial will introduce you to the basics of the RADii Grasshopper plugin.
+  You will learn, how to publish(upload) geometry to a specific RADii channel. To install your plugin, checkout the `Grasshopper Setup`_ guide.
 
-This tutorial is based on the `Grasshopper Setup`_ guide.
+
 
 .. tip:: 
   
-  We advice to make a Radii account at `RADii.info`_ if you want to have your personal space and more storage.
-  More detail about the components can be found at RadiiGrasshopper_ in the documentation.
+  We recommend that you create your own RADii account on `RADii.info`_ to publish on your individual channel and extend your upload limit.
+  
 
 .. attention:: 
 
-    The following tool will Publish/Upload all the Geometry in your rhino file. Use it with care and not with big models.
+    The following setup will publish/upload all existing geometry from your Rhino file. Use it with care and not with big models.
 
 
 
 
 
-How to build a basic file to publish
+Connect RADii Grasshopper Components
 --------------------------------------------
 
 .. image:: ../Quick_Guide/1_LV_Explo_Images/Grashopper/01_Quick_Guide_Publisher.png
@@ -41,7 +41,7 @@ Every RadiiGrasshopper_ file starts with the Connect_ component.
 To it, you connect the PublishMaterial_ |PublishMaterial_icon| and the PublishGeometry_ |PublishGeometry_icon|, components.
 Add a ``geometry input`` to the later, in our example we are using the ``geometry pipeline`` as shown in the picture.
 
-
+More detail about the components can be found at RadiiGrasshopper_ in the documentation.
 
 .. |Connect| image:: /tutorial/Radii_Icons/ConnectParam.png
 .. |PublishMaterial_icon| image:: /tutorial/Radii_Icons/Material.png
@@ -74,7 +74,7 @@ Press ``Enter`` to confirm.
 
 
 .. attention::
-    You have to publish to the same channel that you are connected with in the viewer - typos leave you stranded.
+    You have to publish to the same channel that your viewer is connected to - typos leave you stranded.
 
 
 

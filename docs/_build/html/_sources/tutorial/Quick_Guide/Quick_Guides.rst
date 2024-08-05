@@ -1,6 +1,7 @@
 **************
 Guides 
 **************
+.. @gereon wenn die anderen jetzt alle tutorials heissen, müsste das dann nicht auch tutorial heissen? und wie steht die seite zur setup seite?
 
 | Welcome to the guide overview page.
 
@@ -8,31 +9,32 @@ This page will give a general overview about the different parts of RADii.
 In the subpages of the guide section, found at the end of this page, guides for the installation and a range of use cases, sorted by complexity can be found.
 
 
-The setups for each device take between 5 - 15 min each. 
+The setup for each device takes between 5 - 15 min
 
 
-3 Parts of RADii:
+3 Parts of RADii
 ----------------------------------------------
 
-.. topic:: Viewer
+.. topic:: RADii Account
+	
+	Register on  `RADii.info`_ for your own domain, more storage, advanced management and functionalities. *Register* in the user panel *and confirm* your email. It is not necessary to set a domain name.
+
+.. topic:: RADii Viewers
 
 	Models can be explored via the Radii Viewers, that have to be installed as stand alone programs.
 	Viewers are available for a number of different operating systems such as Windows/Mac, IPhone/Android and Oculus VR. 
 
 
-.. topic:: Radii Grasshopper Plugin:
+.. topic:: RADii Grasshopper Plugin
 
 	The plugin enables you to publish(send) and subscribe(receive) 3D models and other geometry. It is running inside of `Rhino 3D <https://www.rhino3d.com/>`_.
 
-.. topic:: Radii Account `RADii.info`_
-	
-	For your own domain, more storage, advanced management and functionalities
-	*Register* in the user panel *and confirm* your email 
-	it is not necessary to set a domain name
 
 
+.. @gereon wenn wir hier unten von tutorials reden, wäre vielleicht auch in den Überschriften der Ausdruck passender als guides
 
-Video Guides:
+
+Video Tutorials
 ---------------
 
 Should you come across discrepancies between the videos and what you encounter in RADii please return to the written manual.
@@ -48,7 +50,7 @@ Should you come across discrepancies between the videos and what you encounter i
 - `Basics Viewer <https://www.youtube.com/watch?v=6Lra3IDARNo&list=PLsnxnhDZs-abvOYTdO6MPhOkPDq6ffQNz&index=4&pp=iAQB>`_
 
 
-Guide Pages
+Tutorials
 ----------------------
 
 .. toctree:: 

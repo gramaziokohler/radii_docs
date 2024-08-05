@@ -1,14 +1,14 @@
 ********************************
-Tutorial: Collaborative working
+Tutorial: Collaborative Working
 ********************************
 
-Radii can be used in a linear way, sending commands and geometry from Grasshopper to the viewers.
+.. topic:: What this is about
 
-The components in the Subscribe section in Rhino Grasshopper Radii can add the reverse diction to the workflow. 
-With them we can send data from the viewers through the server into Grasshopper.
-Because of the amount of possibilities with these components, we will only give a few examples that we found useful. 
+  Radii can be used in a linear way, sending commands and geometry from your CAD to connected viewers. The RADii subscribe components (`Subscribe Geometry`_, `Subscribe User`_, `Subscribe Parameter`_, `Subscribe Curve`_, `Subscribe PointCloud`_, `Subscribe Message`_    ) can add the reverse diction to the workflow. This means, that data from the viewers can be imported back into your CAD software. We will give a few examples of working with these components that we found useful. 
 
-Collaborative geometry modification :
+
+
+Collaborative Geometry Modification
 -----------------------------------------------------------------------
 
 Geometry is first send from Grasshopper with PublishGeometry_ to the viewers, it is important that the shared option is selected in the component.

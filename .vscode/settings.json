@@ -22,5 +22,6 @@
         "restrucuturing",
         "titlesonly",
         "toctree"
-    ]
+    ],
+    "iis.configDir": ""
 }

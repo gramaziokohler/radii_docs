@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 
-.. @gereon_: Ithink, this page needs some restructuring; would like to have a look at it together (also i cannot preview this)
+.. @gereon_: I think, this page needs some restructuring; would like to have a look at it together (also i cannot preview this)
 .. @sarah_: I agree, i am under the impression it lacks bite for the welcoming page, would be great to talk about it
 
 .. image:: tutorial/Radii_Icons/Radii_logo.png
@@ -41,7 +41,8 @@ V. 0.39 B2
    RADii Viewers exist for different platforms: Win/Mac, mobile devices and VR Headsets. Viewers are connected through the cloud and can interact with each other.
 
 
-.. note::
+.. topic:: About
+
  RADii is being developed by the architect Thomas W. Lee since 2020. From 2022 further development happened in collaboration with Gramazio Kohler Research in the context of the Immersive Design Studio at ETH Zurich. 
 
 .. @gereon braucht es die Info da wirklich? ETH supported this project with a `Innovedum Grant <https://ethz.ch/de/die-eth-zuerich/lehre/innovedum/innovedum-fund.html>`_ , which made this made this documentation and further proliferation possible.
@@ -53,8 +54,6 @@ ________________________________
 
 .. image:: /tutorial/Quick_Guide/1_LV_Explo_Images/Rhino_GH_Viewer.png
 
-
-
 Example Project
 _____________________ 
 
@@ -64,6 +63,12 @@ _____________________
 
 .. image:: tutorial/Viewer_PC/images/231218_cadeim_kytami_Photo_1_WM.jpg
    :alt: Autumn semester 2023, project by Cadei  Matteo & Tami  Kyan  
+
+
+.. raw:: html
+
+    <iframe width="700" height="315" src="https://youtu.be/NFQ2JTfqHFc" frameborder="0" allowfullscreen></iframe>
+
 
 Immersive Design Studio at Gramazio Kohler Research, ETH Zürich, Autumn semester 2023 student project by Matteo Cadei & Kyan Tami  
 

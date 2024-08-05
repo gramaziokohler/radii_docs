@@ -74,9 +74,5 @@ Load        Indicated if loading content via `Publish Reference`_ is included
 Duration    of the scenario when played on auto play in the viewer
 ==========  ==============================================================================================
 
-<<<<<<< HEAD
-.. @Gereon: I would remove the examples below and link to a video or tutorial - keeping things here clean structure wise
-=======
 An example on how to use the component can be found in the Guide at `Tutorial: Advanced Presentation`_ 
->>>>>>> d9dad86e67a605785884263307abbe97a81984ac
 

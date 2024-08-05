@@ -9,7 +9,7 @@ PublishSection
 
 .. topic:: Definition
     
-  This component is used to publish clipping planes from Rhino or directly from Grasshopper to a channel.
+  This component is used to publish clipping planes to a channel to visually cut your 3D model. You can either use Rhino clipping planes or use different planes either from Rhino or generated from Grasshopper.
 
 
 Input
@@ -22,14 +22,14 @@ Input
   Name        Description                             Type
   ==========  ======================================  ==============
   Connection  Link with the Connect component         Connection
-  Section     Select A plane that will cut the model   Plane/surfaces
+  Section     Select a plane to cut the model         Plane/surfaces
   Index       Select a plane from a list              Number
   ==========  ======================================  ==============
 
 .. tip::
 
    - Rhino clipping planes are automatically imported and have to be selected in the menu below ``-Activate clipping planes-``
-   - If you hav connected one or multiple surfaces with the input: ``Section Plane``, you have to connect a number slider with ``index`` to select them.
+   - If you have connected one or multiple surfaces with the input: ``Section Plane``, you have to connect a number slider with ``index`` to be able to select them and turn them on or off.
 
 Output
 ------------
@@ -58,7 +58,7 @@ Right click menu
 
 .. tip:: 
   
-  - In Rhino flipping a clipping plane is not recognized by Radii, rotating the plane by 180° however achieves the same
+  - If you need to change view direction of a Rhino clipping plane, you have to rotate it 180°. The Rhino "flip" command will not work.
   - Names of clipping planes are not carried over into the Grasshopper plugin at the time of writing
 
 Video tutorials:

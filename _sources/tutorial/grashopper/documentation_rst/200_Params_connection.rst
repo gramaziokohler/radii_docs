@@ -6,10 +6,13 @@ Params Connect
 .. image:: ../images/Params/Params_connect.png
     :scale: 60%
 
-This component is a relay for connections that lets you organize your wires more efficiently.
+.. topic:: Definition
+  
+  This component is a relay for connections that lets you organize your wires more efficiently.
 
 
-**Input**
+Input
+---------
 
 .. table::
   :align: left
@@ -20,7 +23,8 @@ This component is a relay for connections that lets you organize your wires more
   Connection  Link with the Connect component         Connection
   ==========  ======================================  ==============
 
-**Output**
+Output
+------------
 
 .. table::
   :align: left

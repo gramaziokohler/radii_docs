@@ -7,6 +7,9 @@ Grasshopper component
 
 .. image:: ../images/Subscribe/Sub_parameter.png
     
+.. topic:: Definition
+
+  This component is used to subscribe to a parameter that is set in a RADii Viewer or by `Publish Parameter`_ , it can then be changed in the Viewer and fed back into the Grasshopper session with this component.
 
 
 Radii viewer counterpart
@@ -14,12 +17,14 @@ Radii viewer counterpart
 
 .. image:: ../images/Subscribe/Sub_parameter22.png
 
-This component is used to subscribe to a parameter that is set in a RADii Viewer or by `Publish Parameter`_ , it can then be changed in the Viewer and fed back into the Grashopper session with this component.
 
-Example: Values from SubscribeParameter could be used to modify geometry in a Grasshopper algorithm.
+.. tip::
+
+  Values from SubscribeParameter could be used to modify geometry in a Grasshopper algorithm.
 
 
-**Input**
+Input
+---------
 
 .. table::
   :align: left
@@ -31,7 +36,8 @@ Example: Values from SubscribeParameter could be used to modify geometry in a Gr
   Subscribe   Toggle the subscription                 Boolean
   ==========  ======================================  ==============
 
-**Output**
+Output
+------------
 
 .. table::
   :align: left
@@ -43,6 +49,8 @@ Example: Values from SubscribeParameter could be used to modify geometry in a Gr
   Parameter/Boolean   Parameter/Boolean from Radii Viewer     Boolean/Number
   ==================  ======================================  ==============
 
-- The more parameters you define in the viewer, the more will be on this component
-- The number will be between 0 to 1, you can remap this to any other range
+.. note:: 
+
+  - The more parameters you define in the viewer, the more will be on this component
+  - The number will be between 0 to 1, you can remap this to any other range
 

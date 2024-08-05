@@ -5,9 +5,12 @@ SubscribeCurve
 .. image:: ../images/Subscribe/Sub_curve.png
     :scale: 90 %
 
-This component is used to subscribe to curves that are published to a channel.
+.. topic:: Definition
 
-**Input**
+  This component is used to subscribe to curves that are published to a channel.
+
+Input
+---------
 
 .. table::
   :align: left
@@ -20,7 +23,8 @@ This component is used to subscribe to curves that are published to a channel.
   Subscribe   Toggle the subscription                 Boolean
   ==========  ======================================  ==============
 
-**Output**
+Output
+------------
 
 .. table::
   :align: left

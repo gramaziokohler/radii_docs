@@ -1,3 +1,5 @@
+.. RevSarah
+
 ********************
 RADii Grasshopper
 ********************
@@ -5,26 +7,45 @@ RADii Grasshopper
 .. image:: ../images/all_components.png
     :scale: 120 %
 
-There are 6 types of components:
+Types of components
+------------------------
 
-| **Connect** is the fundamental component to connect to a channel, it is always connected to all components that are in use.
-| **Params** relay or link the described datatype 
-| **Publishing** components can send data to a channel and its connected receivers.
-| **Save** enables you to save locally to .RADii files or on a channel in the cloud.
-| **Subscribe** imports data from from a connected channel to your local Rhino Grasshopper session. The data can then be further processed or saved.
-| **Tools** to modify point clouds and meshes
+| **1. Connect** is the fundamental component to connect to a channel, it has to be connected to all components for publishing.
+| **2. Params** relay or link the described datatype
+| **3. Publish** components send different types of data from CAD software to a channel and its connected viewers.
+| **4. Save** enables you to save .radii files local on your machine or on a channel in the cloud.
+| **5. Subscribe** imports data from a viewer back to your local Rhino Grasshopper session.
+| **6. Tools** to modify point clouds and meshes 
 
-Diagram of all ways in which data can be sent, stored and received with RADii:
------------------------------------------------------------------------------------
+.. @gereon Der Absatz hier vor Grasshopper Components passt finde ich nicht richtig rein. vielleicht könnte das bild auch noch auf die index seite und vielleicht bräuchte es nochmal eine kleine überarbeitung mit den publish local und global? to be discussed
+
+Data flow diagram RADii
+----------------------------
 
 .. image:: /tutorial/Radii_diagramms/Daten_Diagramme_v2/Artboard14.png
+    :alt: Diagram of all ways in which data can be sent, stored and received with RADii
+
+Diagram of all ways in which data can be sent, stored and received with RADii
+
+| **Publish** sends data from the CAD software through the cloud to a RADii Viewer.
+| **Subscribe** imports data from a RADii Viewer though the cloud back to the CAD software.
+| `Publish Reference`_ allows for data that was stored in the cloud to be downloaded to viewers without having to directly upload it again.
+| `Save Content`_ can save all publishing content to the cloud or locally as a .RADII file. The viewers can then manually download them from the cloud or import locally.
+| Viewers can save all content they have received into a local .RADII file.  
+
+
+
 
 Grasshopper Components
 -----------------------
 
-.. the naming in toctree is case sensitive
 
-**Publish Components**
+
+
+.. Note: the naming in toctree is case sensitive
+
+Connect Components
+_____________________
 
 .. toctree::
     :titlesonly:
@@ -32,9 +53,21 @@ Grasshopper Components
     :glob:
     
     *connect
+
+
+Publish Components
+____________________
+
+.. toctree::
+    :titlesonly:
+    :numbered:
+    :glob:
+    
     *publish*
 
-**Save Content**
+
+Save Components
+________________
 
 .. toctree::
     :titlesonly:
@@ -43,7 +76,8 @@ Grasshopper Components
     
     *Save*
 
-**Params**
+Params Components
+___________________
 
 .. toctree::
     :titlesonly:
@@ -52,7 +86,8 @@ Grasshopper Components
     
     *Params*
 
-**Subscribe Components**
+Subscribe Components
+_________________________
 
 .. toctree::
     :titlesonly:
@@ -61,7 +96,9 @@ Grasshopper Components
     
     *Subscribe*
 
-**Tool Components & Tips**
+
+Tools Components
+_____________________
 
 .. toctree::
     :titlesonly:
@@ -69,4 +106,13 @@ Grasshopper Components
     :glob:
     
     *Tools*
-    *10_Tips*
+
+
+.. Tip::
+
+    .. toctree::
+        :titlesonly:
+        :glob:
+
+        *10_Tips*
+

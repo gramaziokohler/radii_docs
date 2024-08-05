@@ -1,12 +1,17 @@
+.. RevSarah
+
 ************
 SaveContent
 ************
 
 .. image:: ../images/Save_Content/Save_Content.png
 
-This component is used to save content locally or to a channel in the cloud.
+.. topic:: Definition
+  
+  This component is used to save content locally or to a channel in the cloud.
 
-**Input**
+Input
+---------
 
 .. table::
   :align: left
@@ -18,18 +23,22 @@ This component is used to save content locally or to a channel in the cloud.
   Content     To be included in the save              RADii content
   ==========  ======================================  ==============
 
-**Menu**
+Right click menu
+-----------------
 
 .. table::
   :align: left
     
   ==============  ==========================================
   Save            Save a RADii file locally
-  Cloud Manager   Save to the connected channel
+  Cloud Manager   Save to the connected channel, rename and delete files from selected channels
   ==============  ==========================================
 
 
 .. image:: ../images/Save_Content/Save_Content2.png
     :scale: 100 %
 
-- Cloud content can also be loaded via the scenario manager
+.. tip::
+
+  Cloud content can be loaded via `Publish Reference`_ or with the component as part of a scenario in `Save Scenario`_
+

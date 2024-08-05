@@ -9,18 +9,13 @@ In the following chapters, you can find a detailed documentation of all parts of
 development and might have changed over time.
 
 
-**Videos**
-
-- `Radii overview <https://www.youtube.com/watch?v=6Lra3IDARNo&list=PLsnxnhDZs-abvOYTdO6MPhOkPDq6ffQNz&index=5>`_
-- `VR grab mechanism <https://www.youtube.com/watch?v=mY81ZklBn8s>`_
-- `Phone Viewer <https://www.youtube.com/watch?v=a7lTTOijtNA>`_
-- `Phone Viewer object manipulation <https://www.youtube.com/watch?v=y1cg8ZQKlQg>`_
 
 
 In case you might find something unclear, out of date or missing, please contact Gramazio Kohler Research at ETHZ gesievi@ethz.ch
 
 
-**Keyboard Assignments**
+Keyboard Assignments
+-----------------------
 
 ==============  ===================================
 Key             Action
@@ -35,8 +30,17 @@ Left Mouse      `Operation Menu`_
 ==============  ===================================
 
 
+Videos
+----------
 
-**Viewer Page Menu:**
+- `Radii overview <https://www.youtube.com/watch?v=6Lra3IDARNo&list=PLsnxnhDZs-abvOYTdO6MPhOkPDq6ffQNz&index=5>`_
+- `VR grab mechanism <https://www.youtube.com/watch?v=mY81ZklBn8s>`_
+- `Phone Viewer <https://www.youtube.com/watch?v=a7lTTOijtNA>`_
+- `Phone Viewer object manipulation <https://www.youtube.com/watch?v=y1cg8ZQKlQg>`_
+
+
+Viewer Pages:
+---------------------
 
 .. toctree::
     :titlesonly:

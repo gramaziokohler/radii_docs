@@ -126,9 +126,9 @@ Tracking & Reposition
 
     Videos:
       
-    `OptiTrack Implementation <https://www.youtube.com/watch?v=jnvcOJw7FeE>`_
-    `OptiTrack Tracking View and Origin <https://www.youtube.com/watch?v=WMEc1gVGah0>`_
-    `OptiTrack Tracking on large screen <https://www.youtube.com/watch?v=CP3z3kR98ZU>`_
+    - `OptiTrack Implementation <https://www.youtube.com/watch?v=jnvcOJw7FeE>`_
+    - `OptiTrack Tracking View and Origin <https://www.youtube.com/watch?v=WMEc1gVGah0>`_
+    - `OptiTrack Tracking on large screen <https://www.youtube.com/watch?v=CP3z3kR98ZU>`_
 
   **VR-Viewer**
 

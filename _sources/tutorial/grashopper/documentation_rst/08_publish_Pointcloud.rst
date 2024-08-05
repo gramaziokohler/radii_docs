@@ -5,11 +5,17 @@ PublishPointcloud
 .. image:: ../images/Publish/Publish_Pointclouds.png
     :scale: 90 %
 
-This component is used to publish Pointclouds to a channel.
+.. topic:: Definition
 
-**Note:** ``Pointclouds have a tendency to be very large and can be a strain on your pc, in those cases see`` `Tools Pointcloud`_ ``to reduce their size.``
+  This component is used to publish Pointclouds to a channel.
 
-**Input**
+.. tip:: 
+  
+  Pointclouds have a tendency to be very heavy and can make your viewer choke. In those cases see `Tools Pointcloud`_ to reduce their size.
+
+
+Input
+---------
 
 .. table::
   :align: left
@@ -24,7 +30,8 @@ This component is used to publish Pointclouds to a channel.
 
 
 
-**Output**
+Output
+------------
 
 .. table::
   :align: left
@@ -32,7 +39,7 @@ This component is used to publish Pointclouds to a channel.
   ==========  ======================================  ==============
   Name        Description                             Type
   ==========  ======================================  ==============
-  Log         Documents changes & Data send           Text
+  Log         Document changes & Data sen             Text
   Content     Connect to Content                      RADii content
   ==========  ======================================  ==============
 

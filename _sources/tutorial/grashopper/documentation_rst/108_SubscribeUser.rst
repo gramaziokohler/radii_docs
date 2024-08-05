@@ -4,9 +4,12 @@ SubscribeUser
 
 .. image:: ../images/Subscribe/Sub_user.png
 
-This component is used to subscribe to a number of values by a user such as head and hand position. 
+.. topic:: Definition
     
-**Input**
+  This component is used to subscribe to a number of values by a user such as head and hand position. 
+    
+Input
+---------
 
 .. table::
   :align: left
@@ -20,7 +23,8 @@ This component is used to subscribe to a number of values by a user such as head
   Subscribe   Toggle the subscription                 Boolean
   ==========  ======================================  ==============
 
-**Output**
+Output
+------------
 
 .. table::
   :align: left
@@ -41,7 +45,8 @@ This component is used to subscribe to a number of values by a user such as head
   Left Upward     Direction upwards           Vector
   =============== =========================== ==============
 
-**Menu**
+Right click menu
+-----------------
 
 .. table::
   :align: left

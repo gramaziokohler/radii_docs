@@ -4,9 +4,12 @@ SubscribeGeometry
 
 .. image:: ../images/Subscribe/Sub_geometry.png
 
-This component is used to subscribe to geometry that is published to a channel.
+.. topic:: Definition
+    
+  This component is used to subscribe to geometry that is published to a channel.
 
-**Input**
+Input
+---------
 
 .. table::
   :align: left
@@ -19,7 +22,8 @@ This component is used to subscribe to geometry that is published to a channel.
   Subscribe   Toggle the subscription                 Boolean
   ==========  ======================================  ==============
 
-**Output**
+Output
+------------
 
 .. table::
   :align: left

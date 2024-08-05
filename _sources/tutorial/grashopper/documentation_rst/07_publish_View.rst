@@ -5,14 +5,17 @@ PublishView
 .. image:: ../images/Publish/Publish_view.png
     :scale: 80 %
 
-This component is used to publish saved views to all Subscribers of a channel. All present Subscribers will be moved to the selected view.
+.. topic:: Definition
+  
+  This component is used to publish saved views to all Subscribers of a channel. All present Subscribers will be moved to the selected view.
 
 - there are two ways to import views:
   
   - Grasshopper via the component input
   - Saved Rhino views are accessible in the component menu
 
-**Input**
+Input
+---------
 
 .. table::
   :align: left
@@ -22,11 +25,12 @@ This component is used to publish saved views to all Subscribers of a channel. A
   =============   ======================================  ==============
   Connection      Link with the Connect component         Connect
   Camera Planes   Planes to define viewpoints             Plane
-  Field of view   Size of view                            Number
+  Lens Length     Lense to describe the field of view     Number
   Index           To switch between views                 Number
   =============   ======================================  ==============
 
-**Output**
+Output
+------------
 
 .. table::
   :align: left
@@ -34,11 +38,12 @@ This component is used to publish saved views to all Subscribers of a channel. A
   =======   ======================================  ==============
   Name      Description                             Type
   =======   ======================================  ==============
-  Log       Documents changes & Data send           Text
+  Log       Document changes & Data sent            Text
   Save      Connect to SaveContent for saving       RADii content
   =======   ======================================  ==============
 
-**Menu**
+Right click menu
+-----------------
 
 .. table::
   :align: left
@@ -48,4 +53,6 @@ This component is used to publish saved views to all Subscribers of a channel. A
   Active view Rhino Views
   =========== ======================================
 
-*Tip:* ``The camera lense length from Rhino is used for Rhino views.``
+.. note:: 
+
+  RADii views use the camera lense length from Rhino is used for Rhino views.

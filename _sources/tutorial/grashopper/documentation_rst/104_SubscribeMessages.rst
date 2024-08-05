@@ -4,9 +4,12 @@ SubscribeMessages
 
 .. image:: ../images/Subscribe/Sub_message.png
 
-This component is used to subscribe to messages that are published to a channel.
+.. topic:: Definition
 
-**Input**
+  This component is used to subscribe to messages that are published to a channel.
+
+Input
+---------
 
 .. table::
   :align: left
@@ -18,7 +21,8 @@ This component is used to subscribe to messages that are published to a channel.
   Subscribe   Toggle the subscription                 Boolean
   ==========  ======================================  ==============
 
-**Output**
+Output
+------------
 
 .. table::
   :align: left
@@ -28,3 +32,5 @@ This component is used to subscribe to messages that are published to a channel.
   ==========  ======================================  ==============
   Messages    Connect to a Notepad to observe         Text
   ==========  ======================================  ==============
+
+  

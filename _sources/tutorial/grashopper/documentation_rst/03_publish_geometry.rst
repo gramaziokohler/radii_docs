@@ -1,3 +1,5 @@
+.. RevSarah
+
 ******************
 PublishGeometry
 ******************
@@ -6,9 +8,12 @@ PublishGeometry
 .. image:: ../images/Publish/Publish_geometry.png
     :scale: 80 %
 
-This component is used to select geometry that should be published to a channel.
+.. topic:: Definition
 
-**Input**
+  This component is used to select geometry that should be published to a channel.
+
+Input
+---------
 
 .. table::
   :align: left
@@ -16,21 +21,31 @@ This component is used to select geometry that should be published to a channel.
   =========== ================================ ================
   Name        Description                         Type
   =========== ================================ ================
-  Connection  Link with the Connect component     Connection
-  Geometry    Geometry you want to upload         Brep or Mesh
-  Quality     Mesh Quality for conversion         Settings
+  Connection  Link with the Connect component  Connection
+  Geometry    Geometry you want to upload      Brep or Mesh
+  Quality     Mesh Quality for conversion      Setting (Speed, Quality, Custom)
   =========== ================================ ================
 
-**Quality:** 
-To control the quality of your geometry you can use the following components
+..
 
-    - Setting (Speed)
-    - Setting (Quality)
-    - Setting (Custom)
+  - RADii converts all Rhino surfaces and polysurfaces to meshes. 
+  - The default meshing process often produces to complex meshes with resulting data sizes and long loading times
 
-      - use "Min Edge" to sett the minimal edge length this will make your model low poly if you go to high
+.. the dots earlier are to end the table before the list starts
 
-**Output**
+.. Tip::
+
+  **Quality:** 
+  To control meshing process and the smoothness of your geometry use the following Grasshopper components:
+  
+  - Setting (Speed)
+  - Setting (Quality)
+  - Setting (Custom)
+
+    - use "Min Edge" to sett the minimal edge length this will make your model low poly if you go to high
+
+Output
+------------
 
 .. table::
   :align: left
@@ -38,12 +53,11 @@ To control the quality of your geometry you can use the following components
   =========   =====================================   ===================
   Name        Description                             Type
   =========   =====================================   ===================
-  Log         Documents changes & data send           Text
+  Log         Documents changes & data sent           Text
   Content     Connect to Save component for saving    RADii content
   =========   =====================================   ===================
 
 
-- Log can help identify how much data and what kind of it is send
 
 
 **Menu:**
@@ -61,7 +75,8 @@ To control the quality of your geometry you can use the following components
   Shared:     collaborative editing of geometry in the viewer
   ==========  =====================================================
 
-**Video tutorials:**
+Video tutorials:
+-----------------
 
 - `Collaborative content modification <https://www.youtube.com/watch?v=YuBep3x01cE>`_
   

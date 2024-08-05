@@ -1,5 +1,5 @@
 *******************************************
-Technical Requirements
+Setup Mobile Viewers
 *******************************************
 
 .. @gereon I would convert this page to a mobile viewer page and add the technical requirements to the section where needed; i would take the structure from the radii homepage, where it also has standard viewer (win/mac), plugin, vr viewers and mobile viewers; that also makes it more clear that you can install the viewer on almost any device, but that the plugin only runs on a win/mac machine with rhino installed.

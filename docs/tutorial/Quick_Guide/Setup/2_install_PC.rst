@@ -1,6 +1,6 @@
-____________________________
-Setup RADii Viewer PC/Mac
-____________________________
+_________________________________
+Setup RADii Standard Viewers
+_________________________________
 
 
 .. image:: ../Setup/Images/Radii_Info_Downloads_Standard_viewer.png

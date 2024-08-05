@@ -1,5 +1,5 @@
 ***************************************************
-Preparations for teaching
+Setup Teaching Environment
 ***************************************************
 
 work in progress

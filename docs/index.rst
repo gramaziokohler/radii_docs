@@ -67,7 +67,7 @@ _____________________
 
 .. raw:: html
 
-    <iframe width="700" height="315" src="https://youtu.be/NFQ2JTfqHFc" frameborder="0" allowfullscreen></iframe>
+    <iframe id="player" width="700" height="315" src="https://youtu.be/NFQ2JTfqHFc" frameborder="0" allowfullscreen> </iframe>
 
 
 Immersive Design Studio at Gramazio Kohler Research, ETH Zürich, Autumn semester 2023 student project by Matteo Cadei & Kyan Tami  

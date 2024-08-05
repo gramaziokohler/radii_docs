@@ -26,7 +26,7 @@ V. 0.39 B2
 
 .. topic::  What is RADii ?
       
-      RADii was created to easily access 3D models through different devices. Paired with a CAD plugin it creates a powerful real time connection to collaboratively develop 3d Models and discuss them in a VR environment.
+      RADii was created to easily access 3D models with different devices. Paired with a CAD plugin it creates a powerful real time connection to collaboratively develop 3d Models and discuss them in a VR environment.
 
 ..   `RADii <https://RADii.info/>`_ is a cloud platform that allows you to publish 3D Models for sharing, exploration and collaboration. RADii consists of **two parts**: 
 
@@ -42,10 +42,11 @@ V. 0.39 B2
 
 
 .. note::
- RADii is being developed by the architect Thomas W. Lee since 2020. From 2022 it has been further developed in collaboration with Gramazio Kohler Research in the context of the Immersive Design Studio at ETH Zurich. 
+ RADii is being developed by the architect Thomas W. Lee since 2020. From 2022 further development happened in collaboration with Gramazio Kohler Research in the context of the Immersive Design Studio at ETH Zurich. 
 
-.. braucht es die Info da wirklich? ETH supported this project with a `Innovedum Grant <https://ethz.ch/de/die-eth-zuerich/lehre/innovedum/innovedum-fund.html>`_ , which made this made this documentation and further proliferation possible.
+.. @gereon braucht es die Info da wirklich? ETH supported this project with a `Innovedum Grant <https://ethz.ch/de/die-eth-zuerich/lehre/innovedum/innovedum-fund.html>`_ , which made this made this documentation and further proliferation possible.
 
+.. @gereon diese Seite wäre vielleicht gut, mal als text an Thomas zu schicken. Ich denke, er hat da vermutlich das richtige wording, das auszudrücken. Auch das mit der Kollaboration wäre gut, mit Thomas zu diskutieren. ich würde dann die beiden nächsten absätze rausnehmen, und weiter oben versuchen ein video einzubauen
 
 Rhino, Grasshopper and Viewer
 ________________________________

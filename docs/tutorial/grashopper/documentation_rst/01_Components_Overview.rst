@@ -10,14 +10,14 @@ RADii Grasshopper
 Types of components
 ------------------------
 
-| **1. Connect** is the fundamental component to connect to a channel, it is always connected to all components.
+| **1. Connect** is the fundamental component to connect to a channel, it has to be connected to all components for publishing.
 | **2. Params** relay or link the described datatype
 | **3. Publish** components send different types of data from CAD software to a channel and its connected viewers.
-| **4. Save** enables you to save locally to .RADii files or on a channel in the cloud.
+| **4. Save** enables you to save .radii files local on your machine or on a channel in the cloud.
 | **5. Subscribe** imports data from a viewer back to your local Rhino Grasshopper session.
 | **6. Tools** to modify point clouds and meshes 
 
-
+.. @gereon Der Absatz hier vor Grasshopper Components passt finde ich nicht richtig rein. vielleicht könnte das bild auch noch auf die index seite und vielleicht bräuchte es nochmal eine kleine überarbeitung mit den publish local und global? to be discussed
 
 Data flow diagram RADii
 ----------------------------

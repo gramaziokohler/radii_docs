@@ -15,7 +15,7 @@ Connect Global & Local
 
   The connect components are the **central components** of the RADii plugin. 
   All other components are connected to one of them via the ``Connection`` output.
-  Only components that are connected will be published, as soon as you switch the Toggle to "True". 
+  Only connected components will be published (for global connection you have to switch the Toggle to "True"). 
   
 There are two ways to connect:
   Connect Global:

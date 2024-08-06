@@ -150,13 +150,11 @@ Projection
    
 .. image:: /tutorial/Viewer_PC/images/World_menu_Projection.png
   :scale: 70 %
-
-
+  :align: right
 
 - Projection = screen size settings
 
   - you can also edit the overall scale and height of the horizon
-
 
 Grid 
 """"""

@@ -16,7 +16,7 @@ import sys
 
 
 """""
-----------------Dependancies ------------------------
+----------------Dependencies ------------------------
 1. The sphinx book theme is a theme that is used for the documentation. It is a theme that is not included in the standard sphinx package and can be found below at  "Options for HTML output"
 2. For the embedding of youtube and vimeo videos into the pages we use, they are also marked in the extensions section of this file:  pip install sphinxcontrib-youtube
 """
@@ -56,7 +56,8 @@ exclude_patterns = ['_build',
 '.DS_Store',
 "tutorial/grashopper/documentation_rst/Vorlage.rst",
 "conf2.py", "index2.rst", "readme.rst",
-"tutorial/Quick_Guide/1_LV_Exploration.rst", "changelog.rst"
+"tutorial/Quick_Guide/1_LV_Exploration.rst", "changelog.rst", 
+"8_install_server.rst", "5_install_mobile.rst"
 
 ]
 
@@ -162,7 +163,7 @@ rst_prolog = """
 .. _Basics & Exploration tutorial: https://gramaziokohler.github.io/radii_docs/tutorial/Quick_Guide/1_LV_Exploration_short.html
 .. _Tutorial Grasshopper Basics:  https://gramaziokohler.github.io/radii_docs/tutorial/Quick_Guide/1_LV_Exploration_Grashopper.html
 .. _Tutorial Viewer Basics:  https://gramaziokohler.github.io/radii_docs/tutorial/Quick_Guide/1_LV_Exploration_Grashopper.html
-.. _Tutorial: Advanced Presentation: https://gramaziokohler.github.io/radii_docs/tutorial/Quick_Guide/3_LV%20Presentation_Storry.html
+.. _Tutorial: Advanced Presentation: https://gramaziokohler.github.io/radii_docs/tutorial/Quick_Guide/3_LV_20Presentation_Storry.html
 
 .. _Github Radii Documentation Issues: https://github.com/gramaziokohler/radii_docs/issues
 

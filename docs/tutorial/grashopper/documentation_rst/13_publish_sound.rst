@@ -63,5 +63,16 @@ Right click menu
 Videos:
 ---------------
 
-- `Publish sound basic usage <https://www.youtube.com/watch?v=4iT8-PehmJE>`_
-- `RADii: Sound development <https://www.youtube.com/watch?v=0mPwLp1ye34>`_
+**Publish sound basic usage**
+
+.. youtube:: 4iT8-PehmJE
+  :width: 90%
+  :align: left
+
+|
+
+**RADii: Sound development**
+
+.. youtube:: 0mPwLp1ye34
+  :width: 90%
+  :align: left

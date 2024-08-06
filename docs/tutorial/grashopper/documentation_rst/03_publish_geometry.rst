@@ -78,7 +78,18 @@ Output
 Video tutorials:
 -----------------
 
-- `Collaborative content modification <https://www.youtube.com/watch?v=YuBep3x01cE>`_
-  
+**Collaborative content modification**
   - activate the "Shared" option in the menu
-- `Collaboration  <https://www.youtube.com/watch?v=PVB9a0dsJfQ>`_ 
+
+.. youtube:: YuBep3x01cE
+  :width: 100%
+  :align: left
+
+|
+
+**Collaboration**
+
+.. youtube:: PVB9a0dsJfQ
+  :width: 100%
+  :align: left
+

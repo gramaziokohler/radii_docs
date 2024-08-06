@@ -68,6 +68,24 @@ To play multiple animations in parallel with one component, use the following se
 Videos
 ------------
 
-- `Object Animation example <https://www.youtube.com/watch?v=yMZXNn_Pgq4>`_
-- `Animation example <https://www.youtube.com/shorts/9h1RwmqvWDQ>`_
-- `Object animation <https://www.youtube.com/watch?v=yMZXNn_Pgq4>`_
+**Object Animation example**
+
+.. youtube:: yMZXNn_Pgq4
+  :width: 90%
+  :align: left
+
+|
+
+**Animation example**
+
+.. youtube:: 9h1RwmqvWDQ
+  :width: 90%
+  :align: left
+
+|
+
+**Object animation**
+
+.. youtube:: yMZXNn_Pgq4
+  :width: 90%
+  :align: left

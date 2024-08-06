@@ -64,6 +64,26 @@ Right click menu
 Video tutorials:
 -----------------
 
-- `Publish Section city scale <https://www.youtube.com/watch?v=5zsiGtmGIz4>`_
-- `Publish Section building scale <https://www.youtube.com/watch?v=3mJXLDXxK8o>`_
-- `Section Pointcloud <https://www.youtube.com/watch?v=JkuKp_Q2p2A>`_
+
+
+**Publish Section city scale**
+
+.. youtube:: 5zsiGtmGIz4
+  :width: 90%
+  :align: left
+
+|  
+
+**Publish Section building scale**
+
+.. youtube:: 3mJXLDXxK8o
+  :width: 90%
+  :align: left
+
+| 
+
+**Section Pointcloud**
+
+.. youtube:: JkuKp_Q2p2A
+  :width: 90%
+  :align: left

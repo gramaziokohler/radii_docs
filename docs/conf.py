@@ -15,13 +15,20 @@ import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
 
+"""""
+----------------Dependancies ------------------------
+1. The sphinx book theme is a theme that is used for the documentation. It is a theme that is not included in the standard sphinx package and can be found below at  "Options for HTML output"
+2. For the embedding of youtube and vimeo videos into the pages we use, they are also marked in the extensions section of this file:  pip install sphinxcontrib-youtube
+"""
+
 # -- Project information -----------------------------------------------------
 
 language = "en"
 
 project = 'Radii Documentation'
-copyright = '2024, ETH Zürich, Gramazio Kohler Research'
+copyright = 'YYYY, ETH Zürich, Gramazio Kohler Research'
 author = 'Gereon Sievi'
+release = '0.39 B2'
 
 # The full version, including alpha/beta/rc tags
 
@@ -32,6 +39,9 @@ author = 'Gereon Sievi'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+  'sphinxcontrib.youtube',
+  'sphinx.ext.githubpages'
+
     ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -40,13 +50,13 @@ templates_path = ['_templates']
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
+
 exclude_patterns = ['_build',
 'Thumbs.db',
 '.DS_Store',
 "tutorial/grashopper/documentation_rst/Vorlage.rst",
 "conf2.py", "index2.rst", "readme.rst",
-"tutorial/Quick_Guide/1_LV_Exploration.rst",
-
+"tutorial/Quick_Guide/1_LV_Exploration.rst", "changelog.rst"
 
 ]
 
@@ -60,6 +70,7 @@ exclude_patterns = ['_build',
 #
 html_theme = 'sphinx_book_theme'
 
+
 # How to use the sphinx book theme
 """
 the sphinx_book_theme can be found at https://sphinx-themes.org/sample-sites/sphinx-book-theme/#id2
@@ -72,6 +83,8 @@ Set the following in your existing Sphinx documentation’s conf.py file:
 html_theme = 'sphinx_book_theme'
 """
 
+#----------------------------
+# Theme Options: 
 
 html_last_updated_fmt = '%d.%m.%Y'
 
@@ -84,7 +97,7 @@ html_theme_options =  {
    
 }
 
-# things that i have not gotten to work so far:
+
 
 
 

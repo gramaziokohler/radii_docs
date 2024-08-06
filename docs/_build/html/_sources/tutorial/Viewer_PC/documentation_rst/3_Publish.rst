@@ -60,5 +60,16 @@ Send parameters back to Rhino Grasshopper that can be received with `Subscribe P
 Video tutorial:
 """"""""""""""""
 
-- `Parameters <https://www.youtube.com/watch?v=d4HaI0gQRH4>`_
-- `Voice chat and viewer to viewer control`_
+**Parameters**
+
+.. youtube:: d4HaI0gQRH4
+  :width: 90%
+  :align: left
+
+|
+
+**Voice chat and viewer to viewer control**
+
+.. youtube:: CCU14B5tqCM
+  :width: 90%
+  :align: left

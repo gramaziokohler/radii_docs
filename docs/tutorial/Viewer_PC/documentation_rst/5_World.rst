@@ -171,5 +171,16 @@ Toggles the origin point
 Video tutorials:
 """"""""""""""""
 
-- `Time animation <https://www.youtube.com/watch?v=nheVCJKet8k>`_
-- `Scaling <https://www.youtube.com/watch?v=72bPt8c2lzM>`_
+**Time animation**
+
+.. youtube:: nheVCJKet8k
+  :width: 90%
+  :align: left
+
+|
+
+**Scaling**
+
+.. youtube:: 72bPt8c2lzM
+  :width: 90%
+  :align: left

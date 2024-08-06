@@ -15,14 +15,10 @@ Radii Documentation
 
 V. 0.39 B2
 
-.. IDEA:
-   Table of content:
-   1. Home Page with general information
-   2. Radii Viewer - Detailed description of all parts & options 
-   3. Radii Grasshopper - Detailed description of all parts & options
-   4. Guides - Installations and Guides for different use cases
    
-.. @gereon vielleicht braucht es hier bei what is radii mehr einen übergreifenden text, der erklärt, was damit ermöglicht wird. vielleicht hat ja auch thomas dazu irgendwo was? Und das mit den parts würd ich dann weglassen, zumal du hier von 2 parts sprichst, später dann von 3... Könnten wie hier dann auch ein video einbetten? ich denke, das wäre sehr schön.
+.. @gereon vielleicht braucht es hier bei what is radii mehr einen übergreifenden text, der erklärt, was damit ermöglicht wird. vielleicht hat ja auch thomas dazu irgendwo was? Und das mit den parts würd ich dann weglassen, zumal du hier von 2 parts sprichst, später dann von 3... 
+
+
 
 .. topic::  What is RADii ?
       
@@ -33,6 +29,31 @@ V. 0.39 B2
 .. - A Software **Plugin** for Rhino / Grasshopper to publish 3D Models
 .. - A bunch of **Viewers** for various devices (Win/Mac PCs, VR Headsets or mobile devices) .to receive and explore the models.
 
+
+
+Example Project
+_______________________________________________________________________________ 
+
+.. youtube:: NFQ2JTfqHFc
+  :width: 100%
+  :align: left
+
+Immersive Design Studio at Gramazio Kohler Research, ETH Zürich, Autumn semester 2023 student project by Gabriel Mösch & Brandon Schwab Rodriguez
+
+.. image example project
+   .. image:: tutorial/Viewer_PC/images/01_Start_image.png
+      :alt: The empty Radii viewer after starting
+
+  .. image:: tutorial/Viewer_PC/images/231218_cadeim_kytami_Photo_1_WM.jpg
+    :alt: Autumn semester 2023, project by Cadei  Matteo & Tami  Kyan  
+
+
+
+
+
+
+
+..  How RADii works section ----------------------------------------------------------------------------------------
 .. image:: tutorial/Radii_diagramms/Daten_Diagramme_v2/svg/Radii_funktionality_simple_crop.svg
 
 .. topic:: How RADii works
@@ -41,41 +62,26 @@ V. 0.39 B2
    RADii Viewers exist for different platforms: Win/Mac, mobile devices and VR Headsets. Viewers are connected through the cloud and can interact with each other.
 
 
+
+
 .. topic:: About
 
- RADii is being developed by the architect Thomas W. Lee since 2020. From 2022 further development happened in collaboration with Gramazio Kohler Research in the context of the Immersive Design Studio at ETH Zurich. 
+ RADii is being developed by the architect Thomas W. Lee since 2020. From 2022 further development happened in collaboration with Gramazio Kohler Research in the context of the Immersive Design Studio at ETH Zurich. ETH supported this project with a `Innovedum Grant <https://ethz.ch/de/die-eth-zuerich/lehre/innovedum/innovedum-fund.html>`_ , which made this made this documentation and further proliferation possible.
 
-.. @gereon braucht es die Info da wirklich? ETH supported this project with a `Innovedum Grant <https://ethz.ch/de/die-eth-zuerich/lehre/innovedum/innovedum-fund.html>`_ , which made this made this documentation and further proliferation possible.
-
-.. @gereon diese Seite wäre vielleicht gut, mal als text an Thomas zu schicken. Ich denke, er hat da vermutlich das richtige wording, das auszudrücken. Auch das mit der Kollaboration wäre gut, mit Thomas zu diskutieren. ich würde dann die beiden nächsten absätze rausnehmen, und weiter oben versuchen ein video einzubauen
-
-Rhino, Grasshopper and Viewer
-________________________________
-
-.. image:: /tutorial/Quick_Guide/1_LV_Explo_Images/Rhino_GH_Viewer.png
-
-Example Project
-_____________________ 
-
-..
-   .. image:: tutorial/Viewer_PC/images/01_Start_image.png
-      :alt: The empty Radii viewer after starting
-
-.. image:: tutorial/Viewer_PC/images/231218_cadeim_kytami_Photo_1_WM.jpg
-   :alt: Autumn semester 2023, project by Cadei  Matteo & Tami  Kyan  
+.. @gereon_ diese Seite wäre vielleicht gut, mal als text an Thomas zu schicken. Ich denke, er hat da vermutlich das richtige wording, das auszudrücken. Auch das mit der Kollaboration wäre gut, mit Thomas zu diskutieren. ich würde dann die beiden nächsten absätze rausnehmen, und weiter oben versuchen ein video einzubauen ----- geschickt warte auf Antwort 
 
 
-.. raw:: html
 
-    <iframe id="player" width="700" height="315" src="https://youtu.be/NFQ2JTfqHFc" frameborder="0" allowfullscreen> <embed> </iframe>
+.. image of Rhino Grsshopper and the Viewer next to each other, felt to confoluted 
+  ..Rhino, Grasshopper and Viewer
+  _______________________________________________________________________________
+  .. image:: /tutorial/Quick_Guide/1_LV_Explo_Images/Rhino_GH_Viewer.png
 
-
-Immersive Design Studio at Gramazio Kohler Research, ETH Zürich, Autumn semester 2023 student project by Matteo Cadei & Kyan Tami  
 
 
 
 Further Links
-______________
+_________________________________________________________________________________
 
 Videos about the current development and news are available on `Archtica Youtube Channel <https://www.youtube.com/channel/UCfOGfaqPczXAGTpFDPm8XsA>`_.
 If you find any bugs, please notify us on `GitHub <https://github.com/Archtica/RADii/issues/>`_.

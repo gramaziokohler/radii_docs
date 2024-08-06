@@ -64,7 +64,17 @@ Setting and sending the above mentioned live during a presentation takes a lot o
 Video Examples:
 ---------------------
 
-- `Animation from 7 simple planes <https://www.youtube.com/shorts/9h1RwmqvWDQ>`_
-- `Publish Control Tutorial <https://www.youtube.com/watch?v=U9Uv8wFHlSQ>`_
+**Animation from 7 simple planes**
 
+.. youtube:: 9h1RwmqvWDQ
+  :width: 90%
+  :align: left
+
+|
+
+**Publish Control Tutorial**
+
+.. youtube:: U9Uv8wFHlSQ
+  :width: 90%
+  :align: left
 

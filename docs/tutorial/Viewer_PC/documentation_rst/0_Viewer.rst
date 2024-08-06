@@ -1,5 +1,5 @@
 ***********************
-Radii Viewer
+Radii Viewer Overview
 ***********************
 
 The RADii Viewer is a program used to connect to the RADii channels and explore the models.

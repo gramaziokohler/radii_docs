@@ -1,8 +1,8 @@
 .. RevSarah
 
-********************
-RADii Grasshopper
-********************
+******************************
+RADii Grasshopper Overview
+******************************
 
 .. image:: ../images/all_components.png
     :scale: 120 %

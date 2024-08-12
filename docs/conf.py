@@ -163,7 +163,7 @@ rst_prolog = """
 .. _Basics & Exploration tutorial: https://gramaziokohler.github.io/radii_docs/tutorial/Quick_Guide/1_LV_Exploration_short.html
 .. _Tutorial Grasshopper Basics:  https://gramaziokohler.github.io/radii_docs/tutorial/Quick_Guide/1_LV_Exploration_Grashopper.html
 .. _Tutorial Viewer Basics:  https://gramaziokohler.github.io/radii_docs/tutorial/Quick_Guide/1_LV_Exploration_Grashopper.html
-.. _Tutorial: Advanced Presentation: https://gramaziokohler.github.io/radii_docs/tutorial/Quick_Guide/3_LV_20Presentation_Storry.html
+.. _Tutorial Advanced Presentation: https://gramaziokohler.github.io/radii_docs/tutorial/Quick_Guide/3_LV_20Presentation_Storry.html
 
 .. _Github Radii Documentation Issues: https://github.com/gramaziokohler/radii_docs/issues
 

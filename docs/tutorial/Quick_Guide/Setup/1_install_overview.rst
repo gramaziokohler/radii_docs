@@ -1,5 +1,5 @@
 ******************
-Setups Overview
+Setups
 ******************
 
 Welcome in the setup section, here you will find the installation guides for the different parts of RADii as well as technical information about necessary hardware and infrastructure.

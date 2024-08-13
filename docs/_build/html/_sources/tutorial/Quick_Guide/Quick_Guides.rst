@@ -1,7 +1,9 @@
-**************
+************************
 Tutorials
-**************
+************************
+
 .. @gereon wenn die anderen jetzt alle tutorials heissen, müsste das dann nicht auch tutorial heissen? und wie steht die seite zur setup seite?
+.. @sarah setup seiten waren mal eine untergruppe der tutorials, die jetzt eigenständig sind, Overview ist bis jetzt der name für alle Startseiten
 
 | Welcome to the guide overview page.
 

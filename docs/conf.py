@@ -26,7 +26,7 @@ import sys
 language = "en"
 
 project = 'Radii Documentation'
-copyright = 'YYYY, ETH Zürich, Gramazio Kohler Research'
+copyright = '2023, ETH Zürich, Gramazio Kohler Research'
 author = 'Gereon Sievi'
 release = '0.39 B2'
 
@@ -93,9 +93,17 @@ html_theme_options =  {
     "logo": {
       "image_light": "_static/logo.png",
       "image_dark": "_static/logo_dark.png",
-   },
-   "content_footer_items": ["last-updated"]
-   
+     },
+   "content_footer_items": ["last-updated"],
+   "body_max_width": 'none',
+
+   "repository_url": "https://github.com/gramaziokohler/radii_docs/",
+    "use_source_button": True,
+    "repository_branch": "main",
+    "path_to_docs": "docs",
+    "use_edit_page_button": True,
+    "use_issues_button": True,
+
 }
 
 

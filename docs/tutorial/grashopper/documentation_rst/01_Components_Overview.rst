@@ -1,7 +1,7 @@
 .. RevSarah
 
 ******************************
-RADii Grasshopper Overview
+RADii Grasshopper
 ******************************
 
 .. image:: ../images/all_components.png

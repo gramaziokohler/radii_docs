@@ -1,5 +1,5 @@
 ************************
-Tutorials Overview
+Tutorials
 ************************
 
 .. @gereon wenn die anderen jetzt alle tutorials heissen, müsste das dann nicht auch tutorial heissen? und wie steht die seite zur setup seite?

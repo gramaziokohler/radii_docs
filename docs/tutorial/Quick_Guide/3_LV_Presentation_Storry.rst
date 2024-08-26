@@ -4,11 +4,11 @@ Tutorial: Advanced Presentation
 
 .. topic:: What this is about
 
-  This tutorial will show how to create a more advanced presentation with the `Publish Animation`_ and `Publish Control`_ .
+  This tutorial will show how to create a more advanced presentation with animations and additional settings that can be collected into scenarios that then can be played at once. 
 
 With `Publish Animation`_ it is possible to send viewers on defined paths and `Publish Control`_ lets you control the display settings of all viewers as well as the weather and the background. With `Publish Reference`_ it is possible to direct the viewers to load references into the scene from the cloud.  
 
-With the scenario manager of the `Save Scenario`_ component, you can bundle the content of all or some of the publish components and save them into a series of scenarios to switch through them.
+With the scenario manager of the `Save Scenario`_ component, you can bundle the content of all publish components and save them into a series of scenarios to switch through them.
 
 
 .. image:: ../Quick_Guide/3_LV_advanced_review/Grashopper_advanced_components_layout.png

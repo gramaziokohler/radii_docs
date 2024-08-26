@@ -60,6 +60,15 @@ Right click menu
   Limit           Sound decreases to 0 at the outer envelope
   ==============  ==========================================
 
+.. important::
+
+  - Use only mp3 files the standard one should work more specifically:
+    
+    - MPEG -1 Audio Layer III with 32 kHz, 44.1 kHz or 48 kHz sample rate
+  
+  - To keep the publishing size small use mono and lower sample rates
+
+
 Videos:
 ---------------
 

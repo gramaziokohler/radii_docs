@@ -11,7 +11,7 @@ It shows you where your storage is and what your publish and save limits are. In
 
 ``Channel:`` lets you switch between the subfolders of the channel and previews them. 
 
-If you would like to have a specific domain, your own server, unlimited or local storage contact RADii at **contact@RADii.info**.
+If you would like to have a specific domain, your own server, unlimited or local storage contact RADii at **contact@RADii.info**
 
 Member Definition
 *********************

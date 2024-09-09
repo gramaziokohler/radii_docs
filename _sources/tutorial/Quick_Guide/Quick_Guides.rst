@@ -1,7 +1,9 @@
-**************
-Guides 
-**************
+************************
+Tutorials
+************************
+
 .. @gereon wenn die anderen jetzt alle tutorials heissen, müsste das dann nicht auch tutorial heissen? und wie steht die seite zur setup seite?
+.. @sarah setup seiten waren mal eine untergruppe der tutorials, die jetzt eigenständig sind, Overview ist bis jetzt der name für alle Startseiten
 
 | Welcome to the guide overview page.
 
@@ -34,24 +36,8 @@ The setup for each device takes between 5 - 15 min
 .. @gereon wenn wir hier unten von tutorials reden, wäre vielleicht auch in den Überschriften der Ausdruck passender als guides
 
 
-Video Tutorials
----------------
-
-Should you come across discrepancies between the videos and what you encounter in RADii please return to the written manual.
-
-- `Thomas Lee - Radii tutorials playlist <https://youtube.com/playlist?list=PLsnxnhDZs-abvOYTdO6MPhOkPDq6ffQNz&feature=shared>`_
-
-- `Basics Publish <https://www.youtube.com/watch?v=Efk5rdFeWIA&list=PLsnxnhDZs-abvOYTdO6MPhOkPDq6ffQNz&index=1&pp=iAQB>`_
-
-- `Basics Save <https://www.youtube.com/watch?v=Z-RWySQ8r7c&list=PLsnxnhDZs-abvOYTdO6MPhOkPDq6ffQNz&index=2&pp=iAQB>`_
-
-- `Basics Subscribe <https://www.youtube.com/watch?v=QaJAsMF3870&list=PLsnxnhDZs-abvOYTdO6MPhOkPDq6ffQNz&index=3&pp=iAQB>`_
-
-- `Basics Viewer <https://www.youtube.com/watch?v=6Lra3IDARNo&list=PLsnxnhDZs-abvOYTdO6MPhOkPDq6ffQNz&index=4&pp=iAQB>`_
-
-
 Tutorials
-----------------------
+----------------------------------------------------
 
 .. toctree:: 
 	:titlesonly:
@@ -59,6 +45,30 @@ Tutorials
 	:glob:
 	
 	*
+
+
+Video Tutorials
+---------------------------------------------------
+
+Should you come across discrepancies between the videos and what you encounter in RADii please return to the written manual.
+
+Further tutorial by Thomas Lee: `RADii tutorials playlist <https://youtube.com/playlist?list=PLsnxnhDZs-abvOYTdO6MPhOkPDq6ffQNz&feature=shared>`_
+
+
+
+**Basics Publish**
+
+.. youtube:: Efk5rdFeWIA
+  :width: 90%
+
+|
+
+**Basics Viewer**
+
+
+.. youtube:: 6Lra3IDARNo  
+  :width: 90%
+
 
 
 Indices and tables

@@ -86,4 +86,9 @@ Menu
 Video tutorials:
 """""""""""""""""
 
-- `Toggle content <https://www.youtube.com/watch?v=HKPb65UUk2M>`_
+**Toggle content**
+
+.. youtube:: HKPb65UUk2M
+  :width: 90%
+  :align: left
+

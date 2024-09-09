@@ -130,9 +130,9 @@ Tracking & Reposition
     - `OptiTrack Tracking View and Origin <https://www.youtube.com/watch?v=WMEc1gVGah0>`_
     - `OptiTrack Tracking on large screen <https://www.youtube.com/watch?v=CP3z3kR98ZU>`_
 
-  **VR-Viewer**
+  **VR-Viewer & Mobile**
 
-    - reposition the origin and rotation to a location that is pointed on, the rotation is controlled with the joystick
+    - ``repositions the origin and rotation`` to a location that is pointed to, the rotation is controlled with the joystick
 
 
 
@@ -150,13 +150,11 @@ Projection
    
 .. image:: /tutorial/Viewer_PC/images/World_menu_Projection.png
   :scale: 70 %
-
-
+  :align: right
 
 - Projection = screen size settings
 
   - you can also edit the overall scale and height of the horizon
-
 
 Grid 
 """"""
@@ -171,5 +169,16 @@ Toggles the origin point
 Video tutorials:
 """"""""""""""""
 
-- `Time animation <https://www.youtube.com/watch?v=nheVCJKet8k>`_
-- `Scaling <https://www.youtube.com/watch?v=72bPt8c2lzM>`_
+**Time animation**
+
+.. youtube:: nheVCJKet8k
+  :width: 90%
+  :align: left
+
+|
+
+**Scaling**
+
+.. youtube:: 72bPt8c2lzM
+  :width: 90%
+  :align: left

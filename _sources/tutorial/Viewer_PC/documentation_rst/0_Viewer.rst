@@ -17,18 +17,35 @@ In case you might find something unclear, out of date or missing, please contact
 Keyboard Assignments
 -----------------------
 
-==============  ===================================
-Key             Action
-==============  ===================================
-W,A,S,D         Move
-Shift + Move    Sprint
-Space           Jump  
-Q               Fly Up
-E               Fly Down
-Right Mouse     Main Menus (open & close)
-Left Mouse      `Operation Menu`_ 
-==============  ===================================
+========================= ===================================
+Key                       Action
+========================= ===================================
+W,A,S,D                   Move
+Shift + Move              Sprint
+Space                     Jump  
+Q                         Fly Up
+E                         Fly Down
+Right Mouse               Main Menus (open & close) 
+Left Mouse                `Operation Menu`_ 
+**VR Controller Buttons**
+B Button                  Main Menus (open & close) 
+**Phone Buttons**
+Tap                       Opens `Operation Menu`_
+Two fingers zoom          Scale
+Two fingers rotate        Rotate model
+========================= ===================================
 
+Viewer Pages:
+---------------------
+
+
+
+.. toctree::
+    :titlesonly:
+    :numbered:
+    :glob:
+    
+    *
 
 Videos
 ----------
@@ -37,14 +54,3 @@ Videos
 - `VR grab mechanism <https://www.youtube.com/watch?v=mY81ZklBn8s>`_
 - `Phone Viewer <https://www.youtube.com/watch?v=a7lTTOijtNA>`_
 - `Phone Viewer object manipulation <https://www.youtube.com/watch?v=y1cg8ZQKlQg>`_
-
-
-Viewer Pages:
----------------------
-
-.. toctree::
-    :titlesonly:
-    :numbered:
-    :glob:
-    
-    *

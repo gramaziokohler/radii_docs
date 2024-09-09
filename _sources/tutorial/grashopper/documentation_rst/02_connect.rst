@@ -158,4 +158,10 @@ the component into the Viewers ``Local Connection`` Ip Address
 Videos:
 ---------
 
-`Connect - Follow video Demo <https://www.youtube.com/watch?v=h-5thZiZg1Q>`_
+**Connect - Follow video Demo**
+
+.. youtube:: h-5thZiZg1Q
+  :width: 100%
+  :align: left
+
+

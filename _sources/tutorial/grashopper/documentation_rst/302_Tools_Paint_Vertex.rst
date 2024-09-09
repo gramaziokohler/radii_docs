@@ -37,4 +37,8 @@ Output
 Video tutorials:
 -------------------
 
-- `Paint Vertex Example <https://www.youtube.com/watch?v=PjHwRyPMDLA>`_
+**Paint Vertex Example**
+
+.. youtube:: PjHwRyPMDLA
+  :width: 100%
+  :align: left

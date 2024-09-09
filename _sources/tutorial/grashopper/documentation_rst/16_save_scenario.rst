@@ -6,21 +6,19 @@ Save Scenario
 
 .. topic:: Definition
 
-  The Scenario Manager can collect all type of content, views, references, settings and more into scenarios, that can then be called into a viewer at once
-  With scenarios it is possible to do more complex presentations at ease.
+  The Scenario Manager can collect all type of content, views, references, settings and more into scenarios, that can then be called into a viewer at once.
+  With scenarios it is possible to do more complex presentations.
   
 .. attention:: 
 
-  Be careful or refrain from saving geometry content into this component with scenarios, instead use `Publish Reference`_ to download it. Otherwise the Grasshopper file can get very heavy and slow.
+  Be careful or refrain from saving geometry content into this component with scenarios, instead use `Save Scenario`_ to save to the cloud and `Publish Reference`_ to download it. Otherwise the Grasshopper file can get very heavy and slow.
   
 
 
 .. tip:: 
 
-  - Content from save Scenario can be saved to the cloud with `Save Content`_
-  - Grasshoppers autosave can be deactivated, in case it takes to long 
-  - To save time with heavier and bigger models: `Publish Reference`_  can direct all viewers to download a previously saved file that was saved to a channel, instead of live uploading and then downloading to the viewers.
-
+  - The ``Content`` output can be saved to the cloud with `Save Content`_
+  - Grasshoppers autosave can be deactivated when the saving takes to long
 
 Input
 ---------
@@ -40,7 +38,7 @@ Output
 Name        Description                             Type
 ==========  ======================================  ==============
 Log         Documents changes & data send           Text
-Content     Connect to Save component for saving    RADii content   
+Content     Connect to a Save component             RADii content
 ==========  ======================================  ==============
 
 
@@ -74,5 +72,4 @@ Load        Indicated if loading content via `Publish Reference`_ is included
 Duration    of the scenario when played on auto play in the viewer
 ==========  ==============================================================================================
 
-An example on how to use the component can be found in the Guide at `Tutorial: Advanced Presentation`_ 
-
+An example on how to use the component can be found in the Guide at `Tutorial Advanced Presentation`_

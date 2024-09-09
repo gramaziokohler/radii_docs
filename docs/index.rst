@@ -54,7 +54,7 @@ Immersive Design Studio at Gramazio Kohler Research, ETH Zürich, Autumn semeste
 
 
 ..  How RADii works section ----------------------------------------------------------------------------------------
-.. image:: tutorial/Radii_diagramms/Daten_Diagramme_v2/svg/Radii_funktionality_simple_crop.svg
+.. image:: tutorial/Radii_diagramms/Daten_Diagramme_v2/Artboard 1_4.svg
 
 .. topic:: How RADii works
 

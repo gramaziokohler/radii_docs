@@ -1,6 +1,6 @@
-______________
-Setup Oculus
-______________
+________________________________
+Setup RADii VR Viewer
+________________________________
 
 Please be aware that the Oculus and its environments are subject to frequent changes, the following tutorial might be out of date or diverge slightly from the current state. We are hoping to release a viewer through the app store at a later stage.
 
@@ -27,6 +27,16 @@ To find the Radii Viewer app on Oculus:
 2. Filter apps for unknown sources 
 3. Start Radii Viewer VR
 
+Technical Information
+**************************************************************************
+
+.. topic:: Oculus Quest 2
+
+  - for Pointclouds we found a performance limit of 100 000 Points
+
+  **Best practice:** 
+  - in our design studio we found that smaller models such as 1:1 konstruction detail mockups in the pass through mode worked best for the hardware. 
+ 
 
 
 

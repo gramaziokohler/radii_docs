@@ -1,29 +1,25 @@
+.. RevSarah
+
 ****************
 PublishControl
 ****************
 
 
-.. image:: ../images/Publish/Publish__controll.png
+.. image:: ../images/Publish/Publish__controll_new_menu.png
     :scale: 80 %
 
 .. topic:: Definition
     
-  Publish Control directs the viewer settings from Grasshopper as listed in the menu section below.
-  It contains the Scenario Manager that can save setting and all other content into a scenario to be played at once. With scenarios it is possible to do more complex presentations.
-  
-  - Be careful with saving geometry content into this component, this can make your Grasshopper file very heavy. 
-   
-.. tip:: 
+  Publish Control lets you control the Viewers settings from Grasshopper.
 
-  Grasshopper has an autosave function as a default setting. If the Publish Control component becomes too heavy, it will make you wait a lot
+.. note::
 
-**Video tutorials:**
+  The scenario Manager was spun of into `Save Scenario`_ and the loading of references into `Publish Reference`_ in v 039.B2 from PublishControl
 
-- `Publish Control overview <https://www.youtube.com/watch?v=-_7DvX_-9uY>`_
-- `Publish Control cloud load <https://www.youtube.com/watch?v=9upFjrH9zrE>`_
+  .. @gereon ist diese note hier oben wichtig? wir gehen ja eigentlich nicht davon aus, dass wer ältere Versionen verwendet...
 
-
-**Input**
+Input
+---------
 
 .. table::
   :align: left
@@ -34,12 +30,13 @@ PublishControl
   Connection      Link with the Connect component             Connect
   Time of Year    Day of the Year                             Number
   Time of Day     Time of the day                             Number
-  Content Save    output from other RADii components          save (RADii)
+  Content Save    Output from other RADii components          save (RADii)
   Index           For switching between scenarios             Number
   =============   ======================================      ==============
 
 
-**Output**
+Output
+------------
 
 .. table::
   :align: left
@@ -53,7 +50,8 @@ PublishControl
   =============  ======================================      ==============
 
 
-**Menu**
+Right click menu
+-----------------
 
 .. table::
   :align: left
@@ -73,67 +71,28 @@ PublishControl
   Save position       Include the position in a scenario save
   Clear               Clears all content from viewers
   Set Location        Sets the world location for the sun
-  Origin rotation     Rotates the model by x-degrees
-  Set origin rotation Confirm rotation
   =================== ============================================================================================
 
-
-.. tip:: 
-
-  - The saved content is stored in the component, be aware that huge amounts of geometry can make your .gh file very heavy and slow
-  - In this case turn off the grasshopper autosave setting as it will slow you down
-  - To save time with heavier and bigger models: with `Publish Reference`_ you can direct all viewers to download a saved file from a channel, instead of live uploading and then downloading to the viewers.
+.. removed from table:
+.. Origin rotation     Rotates the model by x-degrees
+.. Set origin rotation Confirm rotation
 
 
 
-Scenario Manager
------------------------
+Video tutorials:
+---------------------
 
-.. image:: ../images/Publish/Publish__controll_manager.png
-    :scale: 80 %
+**Publish Control overview**
 
-The scenario manager saves the selected options of the Publish Control component and content that is connected to it into scenarios that can be played in succession. 
+.. youtube:: -_7DvX_-9uY
+  :width: 90%
+  :align: left
 
+|
 
-==============  ============================================================================================================================
-Scenario Name   The name you want to give your scenario
-Save            Save the scenario, can be used to save on top of existing scenrios  
-Update          Updates time set and settings that can be set in publish control but not geometry
-Rename  	      Renames a scenario
-Clear           clears the scene before a scenario
-Duration        length of the scenario
-==============  ============================================================================================================================
+**Publish Control cloud load**
 
-**Column descriptions**
+.. youtube:: 9upFjrH9zrE
+  :width: 90%
+  :align: left
 
-==========  ==============================================================================================
-Blank       Index of the scenario
-Scenario    Name of the scenario
-Content     is content sent (geometry, views, etc.) you could just send settings (time, position etc.)
-Clear       Clears the channel before uploading new geometry
-Load        loading from the channel
-Duration    of the scenario when played on auto play in the viewer
-==========  ==============================================================================================
-
-
-**Examples**
-
-You have some geometry (a building) and want to publish or download from the server (1), then walk through it, change the time of the day (2) and
-continue your tour via a series of pre defined views (3-4).
-Instead of setting everything live during your presentation, you define one position after the other and save
-them as individual scenarios. You then can switch through them during your presentation more easily.
-
-
-**1)**
-
-.. image:: ../images/Publish/Scenario_Manager_examples/1.png
-
-**2)**
-
-.. image:: ../images/Publish/Scenario_Manager_examples/2.png
-
-**3-4)**
-
-.. image:: ../images/Publish/Scenario_Manager_examples/3.png
-
-.. image:: ../images/Publish/Scenario_Manager_examples/4.png  

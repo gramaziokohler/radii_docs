@@ -1,3 +1,5 @@
+.. RevSarah
+
 ******************
 PublishGeometry
 ******************
@@ -10,7 +12,8 @@ PublishGeometry
 
   This component is used to select geometry that should be published to a channel.
 
-**Input**
+Input
+---------
 
 .. table::
   :align: left
@@ -18,23 +21,31 @@ PublishGeometry
   =========== ================================ ================
   Name        Description                         Type
   =========== ================================ ================
-  Connection  Link with the Connect component     Connection
-  Geometry    Geometry you want to upload         Brep or Mesh
-  Quality     Mesh Quality for conversion         Settings
+  Connection  Link with the Connect component  Connection
+  Geometry    Geometry you want to upload      Brep or Mesh
+  Quality     Mesh Quality for conversion      Setting (Speed, Quality, Custom)
   =========== ================================ ================
+
+..
+
+  - RADii converts all Rhino surfaces and polysurfaces to meshes. 
+  - The default meshing process often produces to complex meshes with resulting data sizes and long loading times
+
+.. the dots earlier are to end the table before the list starts
 
 .. Tip::
 
   **Quality:** 
-  To control the quality of your geometry you can use the following gh components:
+  To control meshing process and the smoothness of your geometry use the following Grasshopper components:
+  
+  - Setting (Speed)
+  - Setting (Quality)
+  - Setting (Custom)
 
-      - Setting (Speed)
-      - Setting (Quality)
-      - Setting (Custom)
+    - use "Min Edge" to sett the minimal edge length this will make your model low poly if you go to high
 
-        - use "Min Edge" to sett the minimal edge length this will make your model low poly if you go to high
-
-**Output**
+Output
+------------
 
 .. table::
   :align: left
@@ -42,12 +53,11 @@ PublishGeometry
   =========   =====================================   ===================
   Name        Description                             Type
   =========   =====================================   ===================
-  Log         Documents changes & data send           Text
+  Log         Documents changes & data sent           Text
   Content     Connect to Save component for saving    RADii content
   =========   =====================================   ===================
 
 
-- Log can help identify how much data and what kind of it is send
 
 
 **Menu:**
@@ -65,9 +75,21 @@ PublishGeometry
   Shared:     collaborative editing of geometry in the viewer
   ==========  =====================================================
 
-**Video tutorials:**
+Video tutorials:
+-----------------
 
-- `Collaborative content modification <https://www.youtube.com/watch?v=YuBep3x01cE>`_
-  
+**Collaborative content modification**
   - activate the "Shared" option in the menu
-- `Collaboration  <https://www.youtube.com/watch?v=PVB9a0dsJfQ>`_ 
+
+.. youtube:: YuBep3x01cE
+  :width: 100%
+  :align: left
+
+|
+
+**Collaboration**
+
+.. youtube:: PVB9a0dsJfQ
+  :width: 100%
+  :align: left
+

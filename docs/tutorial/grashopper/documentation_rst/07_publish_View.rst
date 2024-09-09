@@ -14,7 +14,8 @@ PublishView
   - Grasshopper via the component input
   - Saved Rhino views are accessible in the component menu
 
-**Input**
+Input
+---------
 
 .. table::
   :align: left
@@ -24,11 +25,12 @@ PublishView
   =============   ======================================  ==============
   Connection      Link with the Connect component         Connect
   Camera Planes   Planes to define viewpoints             Plane
-  Field of view   Size of view                            Number
+  Lens Length     Lense to describe the field of view     Number
   Index           To switch between views                 Number
   =============   ======================================  ==============
 
-**Output**
+Output
+------------
 
 .. table::
   :align: left
@@ -36,11 +38,12 @@ PublishView
   =======   ======================================  ==============
   Name      Description                             Type
   =======   ======================================  ==============
-  Log       Documents changes & Data send           Text
+  Log       Document changes & Data sent            Text
   Save      Connect to SaveContent for saving       RADii content
   =======   ======================================  ==============
 
-**Menu**
+Right click menu
+-----------------
 
 .. table::
   :align: left
@@ -50,6 +53,6 @@ PublishView
   Active view Rhino Views
   =========== ======================================
 
-.. tip:: 
+.. note:: 
 
-  The camera lense length from Rhino is used for Rhino views.
+  RADii views use the camera lense length from Rhino is used for Rhino views.

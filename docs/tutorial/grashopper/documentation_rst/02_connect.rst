@@ -1,3 +1,5 @@
+.. RevSarah
+
 ***********************
 Connect Global & Local
 ***********************
@@ -13,29 +15,34 @@ Connect Global & Local
 
   The connect components are the **central components** of the RADii plugin. 
   All other components are connected to one of them via the ``Connection`` output.
-  Only components that are connected will be published, as soon as you switch the Toggle to "True".
+  Only connected components will be published (for global connection you have to switch the Toggle to "True"). 
+  
+There are two ways to connect:
+  Connect Global:
+   - connects to a channel that can be accessed globally
+   - works with an account from RADii.info
+
+  Connect Local:
+        - can be used offline on your device or local network
+        - is quicker since there is no need for any cloud upload
+
+.. the section below should not have a number 
+.. (not 1.1. two types of connect) but belong to the general section 1. connect global and local
 
 
-
-
-
-Two types of Connect:
---------------------------------------------
-
-.. topic:: 1. Connect Global
+.. .. topic:: 1. Connect Global
 
   - connects to a channel that can be accessed globally
   - works with an account from RADii.info
 
-
-
-.. topic:: 2. Connect Local
+.. .. topic:: 2. Connect Local
   
   - can be used offline on your device or local network
   - is quicker since there is not need for an upload to the cloud
 
 
-**Input**
+Input
+---------
 
 .. table::
   :align: left
@@ -50,7 +57,8 @@ Two types of Connect:
 
 
 
-**Output**
+Output
+------------
 
 .. table::
   :align: left
@@ -89,7 +97,7 @@ Connect Global:
 
 .. note:: 
 
-  If you are part of a group or organization, please use the respective email address.
+  If you are part of a group or organization, please use the respective email address to log in
 
 
 
@@ -101,13 +109,13 @@ About channels, subchannels and subsubsubchannels:
 
 .. image:: /tutorial/Quick_Guide//1_LV_Explo_Images/Grashopper/03_Quick_Guide_Publisher_zugeschnitten.png
 
-In RADii grasshoppers connect_ the same address can be reached by: logging in, choosing "channelname > My Domain" and then under "-subchannel-" 
+In RADii grasshopper connect_ the same address can be reached by: logging in, choosing "channelname > My Domain" and then under "-subchannel-" 
 typing the respective subchannel or subsubchannel as shown in the image below.
 
 The way to note a channel addresses in the Viewers `Connect Menu`_ is channelname.subchannel.subsubchannel. and can be endlessly extended in this way. 
 
 
-.. note::
+.. tip::
     
   **How the channel** ``sun.hs23.g1`` **is written:**
 
@@ -121,26 +129,39 @@ The way to note a channel addresses in the Viewers `Connect Menu`_ is channelnam
   type: ``subchannel:*hs23.g1``
 
 
+
+
+
 Connect Local:
 --------------------------------
 
-When using `Connect Local`, all content is automatically send to all open instances of the RADii Viewer on the same device as long as the `Viewers Local Connection Ip Address` is set to the `Local IP-Adress` that is displayed below the component.
+When using Connect Local, all content is automatically sent to all open instances of the RADii Viewer on the same device as long as the Viewers ``Local Connection`` Ip Address is set to the ``Local`` IP-Adress
+that is displayed below the component.
 
-To connect locally to an editor in the same network, input the `LAN`: Ip Address below the component into the `Viewers Local Connection Ip Address`
+To connect locally to another editor in the same network, input the ``LAN``: Ip Address below
+the component into the Viewers ``Local Connection`` Ip Address
 
-.. image:: ../images/Connect/Connect_local.png
-  :scale: 60%
 
-.. image:: ../images/Connect/Connect_local_viewer.png
+.. image:: ../images/Connect/Connect_local_noIP.png
+  :scale: 70%
+
+.. image:: ../images/Connect/Connect_local_viewer_noIP.png
   :scale: 90%
 
 
 .. important:: 
 
-  You will have an individual ``Lan and Local IP address`` showing below your component, do not use the one from the image on top.
+  For local connection to work, the devices have to be in the same network.
+
 
 
 Videos:
 ---------
 
-`Follow video Demo <https://www.youtube.com/watch?v=h-5thZiZg1Q>`_
+**Connect - Follow video Demo**
+
+.. youtube:: h-5thZiZg1Q
+  :width: 100%
+  :align: left
+
+

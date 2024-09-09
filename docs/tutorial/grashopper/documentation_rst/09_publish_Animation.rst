@@ -2,8 +2,8 @@
 PublishAnimation
 ******************
 
-.. image:: ../images/Publish/Publish_animation.png
-    :scale: 90 %
+.. image:: ../images/Publish/Publish_animation_2.png
+    :scale: 80 %
 
 
 .. topic:: Definition
@@ -14,7 +14,8 @@ PublishAnimation
   At least 3 planes are necessary for an animation.
 
 
-**Input**
+Input
+---------
 
 .. table::
   :align: left
@@ -24,11 +25,13 @@ PublishAnimation
   =================   ========================================    =======================================
   Connection          Link with the Connect component             Connect
   Animation Planes    Along the path you want to animate          Planes
+  Lens Length         Lense to describe the field of view         Number
   Content             Geometry you want to animate                Save of Publish Geometry component
   =================   ========================================    =======================================
 
 
-**Output**
+Output
+------------
 
 .. table::
   :align: left
@@ -36,12 +39,13 @@ PublishAnimation
   ==========  ======================================  ==============
   Name        Description                             Type
   ==========  ======================================  ==============
-  Log         Documents changes & Data send           Text
+  Log         Document changes & Data sent            Text
   Content     Connect to Content                      RADii content
   ==========  ======================================  ==============
 
 
-**Menu**
+Right click menu
+-----------------
 
 .. table::
   :align: left
@@ -52,15 +56,36 @@ PublishAnimation
   Animation   Behavior Play, Replay, Reverse, Return
   ==========  ==========================================
 
-**Multiple Animations in parallel:**
+ 
+Multiple Animations in parallel:
+--------------------------------------
 
 To play multiple animations in parallel with one component, use the following setup:
 
 .. image:: ../images/Publish/Publish_animation_parallel_schaltplan.png
 
 
-**Videos**
+Videos
+------------
 
-- `Object Animation example <https://www.youtube.com/watch?v=yMZXNn_Pgq4>`_
-- `Animation example <https://www.youtube.com/shorts/9h1RwmqvWDQ>`_
-- `Object animation <https://www.youtube.com/watch?v=yMZXNn_Pgq4>`_
+**Object Animation example**
+
+.. youtube:: yMZXNn_Pgq4
+  :width: 90%
+  :align: left
+
+|
+
+**Animation example**
+
+.. youtube:: 9h1RwmqvWDQ
+  :width: 90%
+  :align: left
+
+|
+
+**Object animation**
+
+.. youtube:: yMZXNn_Pgq4
+  :width: 90%
+  :align: left

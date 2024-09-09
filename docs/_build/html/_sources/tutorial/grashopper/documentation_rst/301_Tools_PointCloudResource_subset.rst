@@ -13,7 +13,9 @@ ReducePointCloud
 
   Reduces the number of points in a Point Cloud by a given fraction.
 
-**Input**
+
+Input
+---------
 
 .. table::
   :align: left
@@ -25,7 +27,8 @@ ReducePointCloud
   Fraction    Fraction of Points to remain            Number
   =========== ======================================  ==============
 
-**Output**
+Output
+------------
 
 .. table::
   :align: left
@@ -36,6 +39,9 @@ ReducePointCloud
   Point Cloud  Reduced Point Cloud                      Point Cloud
   ===========  ======================================  ==============
 
+
+
+
 SubsetPointCloud
 -----------------
 
@@ -45,7 +51,9 @@ SubsetPointCloud
 
   Sections a Point Cloud by a selection box volume.
 
-**Input**
+
+Input
+---------
 
 .. table::
   :align: left
@@ -57,7 +65,8 @@ SubsetPointCloud
   Selection box   Volume you want to keep                 Box
   =============   ======================================  ==============
 
-**Output**
+Output
+------------
 
 .. table::
   :align: left
@@ -67,4 +76,3 @@ SubsetPointCloud
   ===========  ======================================  ==============
   Point Cloud  Selection of Point Cloud                Point Cloud
   ===========  ======================================  ==============
-

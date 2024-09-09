@@ -1,70 +1,78 @@
-**************
-Guides
-**************
+************************
+Tutorials
+************************
 
-Welcome to the guide page, the following resources should give a quick entry into Radii.
-Starting with the installation you will find a description on every supported platform 
-and then the guides for a range of use cases, sorted by difficulty.
+.. @gereon wenn die anderen jetzt alle tutorials heissen, müsste das dann nicht auch tutorial heissen? und wie steht die seite zur setup seite?
+.. @sarah setup seiten waren mal eine untergruppe der tutorials, die jetzt eigenständig sind, Overview ist bis jetzt der name für alle Startseiten
 
-The text files will be updated more frequently than the videos,
- should you come across discrepancies between the videos and what you encounter in Radii.
+| Welcome to the guide overview page.
 
-
-The setups for each device take between 5 - 15 min each. 
-
-Radii consists of 3 parts:
-
-**Viewer:**
-Models can be explored via the Radii Viewers, that have to be installed as stand alone programs.
-Viewers are available for a number of different operating systems such as Windows/Mac, IPhone/Android and Oculus VR. 
+This page will give a general overview about the different parts of RADii.
+In the subpages of the guide section, found at the end of this page, guides for the installation and a range of use cases, sorted by complexity can be found.
 
 
-**Radii Grasshopper Plugin:** 
-The plugin enables you to publish(send) and subscribe(receive) 3D models and other geometry. It is running inside of `Rhino 3D <https://www.rhino3d.com/>`_.
+The setup for each device takes between 5 - 15 min
 
 
-**Radii Account** 
-`RADii.info`_
-For your own domain, more storage, advanced management and functionalities
+3 Parts of RADii
+----------------------------------------------
 
- *Register* in the user panel *and confirm* your email 
-    - it is not necessary to set a domain name
+.. topic:: RADii Account
+	
+	Register on  `RADii.info`_ for your own domain, more storage, advanced management and functionalities. *Register* in the user panel *and confirm* your email. It is not necessary to set a domain name.
+
+.. topic:: RADii Viewers
+
+	Models can be explored via the Radii Viewers, that have to be installed as stand alone programs.
+	Viewers are available for a number of different operating systems such as Windows/Mac, IPhone/Android and Oculus VR. 
 
 
-**Setup Pages:**
+.. topic:: RADii Grasshopper Plugin
 
-.. toctree::
-    :titlesonly:
-        
-    Setup/2_install_PC
-    Setup/3_install_grasshopper
-    Setup/4_install_occulus
-    Setup/5_install_Technical_Prereq
+	The plugin enables you to publish(send) and subscribe(receive) 3D models and other geometry. It is running inside of `Rhino 3D <https://www.rhino3d.com/>`_.
 
-**Guide Pages:**
+
+
+.. @gereon wenn wir hier unten von tutorials reden, wäre vielleicht auch in den Überschriften der Ausdruck passender als guides
+
+
+Tutorials
+----------------------------------------------------
 
 .. toctree:: 
-    :titlesonly:
-    :numbered:
-    :glob:
-    
-    *
+	:titlesonly:
+	:numbered:
+	:glob:
+	
+	*
 
-**Video Guides**
 
-`Thomas Lee - Radii tutorials playlist <https://youtube.com/playlist?list=PLsnxnhDZs-abvOYTdO6MPhOkPDq6ffQNz&feature=shared>`_
+Video Tutorials
+---------------------------------------------------
 
-- `Basics Publish <https://www.youtube.com/watch?v=Efk5rdFeWIA&list=PLsnxnhDZs-abvOYTdO6MPhOkPDq6ffQNz&index=1&pp=iAQB>`_
+Should you come across discrepancies between the videos and what you encounter in RADii please return to the written manual.
 
-- `Basics Save <https://www.youtube.com/watch?v=Z-RWySQ8r7c&list=PLsnxnhDZs-abvOYTdO6MPhOkPDq6ffQNz&index=2&pp=iAQB>`_
+Further tutorial by Thomas Lee: `RADii tutorials playlist <https://youtube.com/playlist?list=PLsnxnhDZs-abvOYTdO6MPhOkPDq6ffQNz&feature=shared>`_
 
-- `Basics Subscribe <https://www.youtube.com/watch?v=QaJAsMF3870&list=PLsnxnhDZs-abvOYTdO6MPhOkPDq6ffQNz&index=3&pp=iAQB>`_
 
-- `Basics Viewer <https://www.youtube.com/watch?v=6Lra3IDARNo&list=PLsnxnhDZs-abvOYTdO6MPhOkPDq6ffQNz&index=4&pp=iAQB>`_
+
+**Basics Publish**
+
+.. youtube:: Efk5rdFeWIA
+  :width: 90%
+
+|
+
+**Basics Viewer**
+
+
+.. youtube:: 6Lra3IDARNo  
+  :width: 90%
+
 
 
 Indices and tables
-==================
+-------------------
 
 * :ref:`genindex`
 * :ref:`search`

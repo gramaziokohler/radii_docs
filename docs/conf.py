@@ -15,13 +15,20 @@ import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
 
+"""""
+----------------Dependencies ------------------------
+1. The sphinx book theme is a theme that is used for the documentation. It is a theme that is not included in the standard sphinx package and can be found below at  "Options for HTML output"
+2. For the embedding of youtube and vimeo videos into the pages we use, they are also marked in the extensions section of this file:  pip install sphinxcontrib-youtube
+"""
+
 # -- Project information -----------------------------------------------------
 
 language = "en"
 
 project = 'Radii Documentation'
-copyright = '2024, ETH Zürich, Gramazio Kohler Research'
+copyright = '2023, ETH Zürich, Gramazio Kohler Research'
 author = 'Gereon Sievi'
+release = '0.39 B2'
 
 # The full version, including alpha/beta/rc tags
 
@@ -32,6 +39,9 @@ author = 'Gereon Sievi'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+  'sphinxcontrib.youtube',
+  'sphinx.ext.githubpages'
+
     ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -40,15 +50,18 @@ templates_path = ['_templates']
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
+
 exclude_patterns = ['_build',
 'Thumbs.db',
 '.DS_Store',
 "tutorial/grashopper/documentation_rst/Vorlage.rst",
 "conf2.py", "index2.rst", "readme.rst",
-"tutorial/Quick_Guide/1_LV_Exploration.rst",
-
+"tutorial/Quick_Guide/1_LV_Exploration.rst", "changelog.rst", 
+"8_install_server.rst", "5_install_mobile.rst"
 
 ]
+
+
 
 
 # -- Options for HTML output -------------------------------------------------
@@ -57,6 +70,7 @@ exclude_patterns = ['_build',
 # a list of builtin themes.
 #
 html_theme = 'sphinx_book_theme'
+
 
 # How to use the sphinx book theme
 """
@@ -69,20 +83,32 @@ Install this theme: $ pip install sphinx-book-theme
 Set the following in your existing Sphinx documentation’s conf.py file:
 html_theme = 'sphinx_book_theme'
 """
+
+#----------------------------
+# Theme Options: 
+
 html_last_updated_fmt = '%d.%m.%Y'
 
 html_theme_options =  {
     "logo": {
       "image_light": "_static/logo.png",
       "image_dark": "_static/logo_dark.png",
-   },
-   "content_footer_items": ["last-updated"]
-   
+     },
+   "content_footer_items": ["last-updated"],
+   "body_max_width": 'none',
+
+   "repository_url": "https://github.com/gramaziokohler/radii_docs/",
+    "use_source_button": True,
+    "repository_branch": "main",
+    "path_to_docs": "docs",
+    "use_edit_page_button": True,
+    "use_issues_button": True,
+
 }
 
-# things that i have not gotten to work so far
-#'logo': '/tutorial/grashopper/images/Icons/logo.png', 
-# font_family = {"../docs/_Font/OfficeCodePro/OfficeCodePro-Medium.oft"}
+
+
+
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -123,7 +149,7 @@ rst_prolog = """
 .. _Publish Reference: https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/14_publish_reference.html
 .. _Publish Parameter: https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/15_publish_parameter.html
 
-
+.. _Save Scenario: https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/16_save_scenario.html
 .. _Save Content: https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/12_SaveContent.html
 
 .. _Subscribe Curve: https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/103_SubscribeCurve.html
@@ -140,11 +166,13 @@ rst_prolog = """
 .. _Remote Content Menu: https://gramaziokohler.github.io/radii_docs/tutorial/Viewer_PC/documentation_rst/2_Remote_content.html
 .. _Operation Menu: https://gramaziokohler.github.io/radii_docs/tutorial/Viewer_PC/documentation_rst/6_Operation_menu.html
 
-
+  
 
 .. _Basics & Exploration tutorial: https://gramaziokohler.github.io/radii_docs/tutorial/Quick_Guide/1_LV_Exploration_short.html
 .. _Tutorial Grasshopper Basics:  https://gramaziokohler.github.io/radii_docs/tutorial/Quick_Guide/1_LV_Exploration_Grashopper.html
 .. _Tutorial Viewer Basics:  https://gramaziokohler.github.io/radii_docs/tutorial/Quick_Guide/1_LV_Exploration_Grashopper.html
+.. _Tutorial Advanced Presentation: https://gramaziokohler.github.io/radii_docs/tutorial/Quick_Guide/3_LV_20Presentation_Storry.html
+
 .. _Github Radii Documentation Issues: https://github.com/gramaziokohler/radii_docs/issues
 
 

@@ -9,34 +9,36 @@ In the following chapters, you can find a detailed documentation of all parts of
 development and might have changed over time.
 
 
-**Videos**
-
-- `Radii overview <https://www.youtube.com/watch?v=6Lra3IDARNo&list=PLsnxnhDZs-abvOYTdO6MPhOkPDq6ffQNz&index=5>`_
-- `VR grab mechanism <https://www.youtube.com/watch?v=mY81ZklBn8s>`_
-- `Phone Viewer <https://www.youtube.com/watch?v=a7lTTOijtNA>`_
-- `Phone Viewer object manipulation <https://www.youtube.com/watch?v=y1cg8ZQKlQg>`_
 
 
 In case you might find something unclear, out of date or missing, please contact Gramazio Kohler Research at ETHZ gesievi@ethz.ch
 
 
-**Keyboard Assignments**
+Keyboard Assignments
+-----------------------
 
-==============  ===================================
-Key             Action
-==============  ===================================
-W,A,S,D         Move
-Shift + Move    Sprint
-Space           Jump  
-Q               Fly Up
-E               Fly Down
-Right Mouse     Main Menus (open & close)
-Left Mouse      `Operation Menu`_ 
-==============  ===================================
+========================= ===================================
+Key                       Action
+========================= ===================================
+W,A,S,D                   Move
+Shift + Move              Sprint
+Space                     Jump  
+Q                         Fly Up
+E                         Fly Down
+Right Mouse               Main Menus (open & close) 
+Left Mouse                `Operation Menu`_ 
+**VR Controller Buttons**
+B Button                  Main Menus (open & close) 
+**Phone Buttons**
+Tap                       Opens `Operation Menu`_
+Two fingers zoom          Scale
+Two fingers rotate        Rotate model
+========================= ===================================
+
+Viewer Pages:
+---------------------
 
 
-
-**Viewer Page Menu:**
 
 .. toctree::
     :titlesonly:
@@ -44,3 +46,11 @@ Left Mouse      `Operation Menu`_
     :glob:
     
     *
+
+Videos
+----------
+
+- `Radii overview <https://www.youtube.com/watch?v=6Lra3IDARNo&list=PLsnxnhDZs-abvOYTdO6MPhOkPDq6ffQNz&index=5>`_
+- `VR grab mechanism <https://www.youtube.com/watch?v=mY81ZklBn8s>`_
+- `Phone Viewer <https://www.youtube.com/watch?v=a7lTTOijtNA>`_
+- `Phone Viewer object manipulation <https://www.youtube.com/watch?v=y1cg8ZQKlQg>`_

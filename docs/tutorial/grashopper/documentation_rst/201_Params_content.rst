@@ -10,7 +10,8 @@ Params Content
   This component is a relay for content that lets you organize your wires more efficiently.
 
 
-**Input**
+Input
+---------
 
 .. table::
   :align: left
@@ -21,7 +22,8 @@ Params Content
   Content     Link content in and outputs             RADii Content
   ==========  ======================================  ==============
 
-**Output**
+Output
+------------
 
 .. table::
   :align: left

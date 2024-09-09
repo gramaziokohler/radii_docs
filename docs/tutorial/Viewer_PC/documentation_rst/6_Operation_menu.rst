@@ -7,7 +7,8 @@ Operation Menu
     :align: center
     
 
-Open the Operation menu with a left click, close it with a right click
+Open the Operation menu with a left click, close it with a right click.
+On VR the menu is opened with the index finger button. 
 
 ================================================================================================================================================================= ============================================================= ============================================================
 **Home**  = moves you to the origin                                                                                                                               **Fly** = makes you fly and turns off collision for you       **Delete** = delete selected object

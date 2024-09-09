@@ -42,7 +42,7 @@ Editor - data that was published from Rhino Grasshopper
   ============= =========================================================
   Follow        Follow the Rhino view of the user
   NickName      The RhinoGrasshopper editor
-  Follow        Follow the rhino view of the user
+  Follow        Follow the Rhino view of the user
   User          Toggle avatar
   Content       Toggle content
   |Position|    Jump to the position of the Editor
@@ -58,7 +58,7 @@ Viewer - all other viewers that are on the channel right now
 
   ============= ==========================================
   NickName      Viewers (EG. Viewer PC)
-  Follow        Follow the rhino view of the user
+  Follow        Follow the Rhino view of the user
   User          Toggle avatar
   Content       Toggle content
   |Position|    Jump to the position of the Viewer 
@@ -86,4 +86,9 @@ Menu
 Video tutorials:
 """""""""""""""""
 
-- `Toggle content <https://www.youtube.com/watch?v=HKPb65UUk2M>`_
+**Toggle content**
+
+.. youtube:: HKPb65UUk2M
+  :width: 90%
+  :align: left
+

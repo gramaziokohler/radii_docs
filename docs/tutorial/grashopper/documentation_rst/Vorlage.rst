@@ -1,14 +1,15 @@
 ************
-Temp
+Vorlage
 ************
 
 .. image:: ../images/Publish/
 
 .. topic:: Definition
 
-  Textextesxt
+  Definition of the component text
 
-**Input**
+Input
+-----------
 
 ==========  ======================================  ==============
 Name        Description                             Type
@@ -17,15 +18,29 @@ Connection  Link with the Connect component         Connection
 
 ==========  ======================================  ==============
 
-**Output**
+Output
+------------
 
 ==========  ======================================  ==============
 Name        Description                             Type
 ==========  ======================================  ==============
 
-**Menu**
+Right click menu
+-----------------
 
 ==========  ==========================================
 ==========  ==========================================
 
-**Grasshopper Components**
+.. tip:: 
+
+  For optional information that help with the ease of usage
+
+.. important:: 
+
+  For information that should not be missed,such as things that can cause errors or make radii hard to use
+
+
+Video tutorials:
+---------------------
+
+- `Titel to be displayed <Link>`_

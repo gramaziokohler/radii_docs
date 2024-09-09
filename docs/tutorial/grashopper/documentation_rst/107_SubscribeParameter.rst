@@ -9,7 +9,7 @@ Grasshopper component
     
 .. topic:: Definition
 
-  This component is used to subscribe to a parameter that is set in a RADii Viewer or by `Publish Parameter`_ , it can then be changed in the Viewer and fed back into the Grashopper session with this component.
+  This component is used to subscribe to a parameter that is set in a RADii Viewer or by `Publish Parameter`_ , it can then be changed in the Viewer and fed back into the Grasshopper session with this component.
 
 
 Radii viewer counterpart
@@ -23,7 +23,8 @@ Radii viewer counterpart
   Values from SubscribeParameter could be used to modify geometry in a Grasshopper algorithm.
 
 
-**Input**
+Input
+---------
 
 .. table::
   :align: left
@@ -35,7 +36,8 @@ Radii viewer counterpart
   Subscribe   Toggle the subscription                 Boolean
   ==========  ======================================  ==============
 
-**Output**
+Output
+------------
 
 .. table::
   :align: left

@@ -433,44 +433,44 @@ This becomes more important in the later phases of a project.</p>
 <div class="pst-scrollable-table-container"><table class="table table-left">
 <tbody>
 <tr class="row-odd"><td><p><strong>1</strong></p></td>
-<td><p>You shall <strong>use mesh count wisely</strong></p></td>
-<td><p>Do not use thousands of vertices on a small door handle see: <a class="reference external" href="https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/03_publish_geometry.html">PublishGeometry</a></p></td>
-</tr>
-<tr class="row-even"><td><p><strong>2</strong></p></td>
-<td><p>You shall <strong>not use hidden or duplicate objects</strong> and materials</p></td>
-<td><p>Purge objects that are never going to be seen by anybody or used by anything</p></td>
-</tr>
-<tr class="row-odd"><td><p><strong>3</strong></p></td>
-<td><p>You shall <strong>apply relative level of detail</strong> to object size, importance and distance</p></td>
-<td><p>Do not spend time and performance doing high level of detail on objects you will never get close to</p></td>
-</tr>
-<tr class="row-even"><td><p><strong>4</strong></p></td>
-<td><p>You shall <strong>keep the texture resolutions low</strong> and relative to the object sizes</p></td>
-<td><p>Do not use large texture resolution on small objects. See options of <a class="reference external" href="https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/04_publish_material.html">PublishMaterial</a></p></td>
-</tr>
-<tr class="row-odd"><td><p><strong>5</strong></p></td>
-<td><p>You shall <strong>trim and subsample point clouds</strong> relative to distance and visibility</p></td>
-<td><p>Do not use millions on points on something that is seen from far away or obscured by other objects</p></td>
-</tr>
-<tr class="row-even"><td><p><strong>6</strong></p></td>
-<td><p>You shall only <strong>apply collision to objects that  is required</strong> to collide with</p></td>
-<td><p>Do not put collision on screws, nails, fixtures etc. see: <a class="reference external" href="https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/03_publish_geometry.html">PublishGeometry</a></p></td>
-</tr>
-<tr class="row-odd"><td><p><strong>7</strong></p></td>
-<td><p>You shall make <strong>content specific to viewer devices</strong></p></td>
-<td><p>Do not expect to run a scene with a high number of objects on and underpowered platform like a mobile phone or Oculus Standalone</p></td>
-</tr>
-<tr class="row-even"><td><p><strong>8</strong></p></td>
-<td><p>You shall <strong>watch</strong> the scene <strong>for places of performance degradation</strong></p></td>
-<td><p>Always test the scene for places where the performance drops (no lower than 25-30 fps) and react accordingly with any of the above</p></td>
-</tr>
-<tr class="row-odd"><td><p><strong>9</strong></p></td>
-<td><p>You shall <strong>only publish when needed</strong></p></td>
+<td><p><strong>Only publish if necessary</strong></p></td>
 <td><p>Do not spam content. Publish large static content like context, once while working on it then only keep the part of the scene live that your working on</p></td>
 </tr>
+<tr class="row-even"><td><p><strong>2</strong></p></td>
+<td><p><strong>Prepare your content according to the power of the viewer’s device</strong></p></td>
+<td><p>Complex scenes can make the viewers on slower devices choke</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>3</strong></p></td>
+<td><p><strong>Keep an eye on frame rate performance drops in your scene</strong></p></td>
+<td><p>Check your scene for places with performance drops (no lower than 25-30 fps) and solve issues below</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>4</strong></p></td>
+<td><p><strong>Apply relative level of detail</strong></p></td>
+<td><p>Use your effort highly detailed modelling thoughtfully and only where necessary</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>5</strong></p></td>
+<td><p><strong>Use mesh count wisely</strong></p></td>
+<td><p>Keep an eye on the meshing of your geometries. See also: <a class="reference external" href="https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/03_publish_geometry.html">PublishGeometry</a></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>6</strong></p></td>
+<td><p><strong>Check your scene for hidden or duplicate objects and materials</strong></p></td>
+<td><p>Purge geometries that are occluded from view as well as unused materials</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>7</strong></p></td>
+<td><p><strong>Use adequate texture resolutions</strong></p></td>
+<td><p>Match the texture resolution to the object size. See options of <a class="reference external" href="https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/04_publish_material.html">PublishMaterial</a></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>8</strong></p></td>
+<td><p><strong>Only apply collision to objects if needed</strong></p></td>
+<td><p>Do not put collision on screws, nails, fixtures etc. see: <a class="reference external" href="https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/03_publish_geometry.html">PublishGeometry</a></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>9</strong></p></td>
+<td><p><strong>Trim and subsample point clouds</strong></p></td>
+<td><p>Pointclouds can very quickly generate heavy scenes. Process them to fit your viewer’s device: &#64;help add link to pointcloud editing here</p></td>
+</tr>
 <tr class="row-even"><td><p><strong>10</strong></p></td>
-<td><p>You shall <strong>report bugs</strong></p></td>
-<td><p>Always report a bug to <a class="reference external" href="https://github.com/Archtica/RADii/issues">Github</a></p></td>
+<td><p><strong>Report bugs</strong></p></td>
+<td><p>If you find things working unexpectedly, please report to <a class="reference external" href="https://github.com/Archtica/RADii/issues">Github</a></p></td>
 </tr>
 </tbody>
 </table>

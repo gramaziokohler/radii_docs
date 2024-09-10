@@ -1,10 +1,9 @@
-********************************
+******************
 Setup RADii.info
-********************************
+******************
 
 .. image:: ../Setup/Images/Webpage_controlls.png
   :align: left
-
 
 By registering at `RADii.info`_ you get aces to your own channel on the Radii server.
 It shows you where your storage is and what your publish and save limits are. In this example they are 500 mb and 250 mb respectively.

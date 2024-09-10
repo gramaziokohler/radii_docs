@@ -38,6 +38,9 @@ release = '0.39 B2'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
+# pip install sphinxcontrib-youtube
+# pip install sphinxcontrib.yt
+
 extensions = [
   'sphinxcontrib.youtube',
   'sphinx.ext.githubpages'

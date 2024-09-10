@@ -58,8 +58,7 @@ Immersive Design Studio at Gramazio Kohler Research, ETH Zürich, Autumn semeste
 
 .. topic:: How RADii works
 
-   A plugin connects your CAD software (Rhino / Grasshopper) and 3D model to the cloud. This live connection is distributed to RADii Viewers.
-   RADii Viewers exist for different platforms: Win/Mac, mobile devices and VR Headsets. Viewers are connected through the cloud and can interact with each other.
+   A plugin connects your CAD software (Rhino / Grasshopper) and 3D model to the cloud. Through the live connection the geometry and other content is distributed to the RADii Viewers.RADii Viewers exist for different platforms: Win/Mac, mobile devices and VR Headsets. Viewers are connected through the cloud and can interact with each other. This is a simplified representation of what Radii can, a more complete graphic can be found in RadiiGrasshopper_
 
 
 

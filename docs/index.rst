@@ -13,7 +13,7 @@
 Radii Documentation
 **************************
 
-V. 0.39 B2
+V. 0.40
 
    
 .. @gereon vielleicht braucht es hier bei what is radii mehr einen übergreifenden text, der erklärt, was damit ermöglicht wird. vielleicht hat ja auch thomas dazu irgendwo was? Und das mit den parts würd ich dann weglassen, zumal du hier von 2 parts sprichst, später dann von 3... 
@@ -54,7 +54,7 @@ Immersive Design Studio at Gramazio Kohler Research, ETH Zürich, Autumn semeste
 
 
 ..  How RADii works section ----------------------------------------------------------------------------------------
-.. image:: tutorial/Radii_diagramms/Daten_Diagramme_v2/Artboard 1_4.svg
+.. image:: tutorial/Radii_diagramms/Daten_Diagramme_v2/Artboard_1_4.svg
 
 .. topic:: How RADii works
 

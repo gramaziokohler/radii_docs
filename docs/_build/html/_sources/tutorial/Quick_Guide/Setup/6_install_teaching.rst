@@ -74,11 +74,8 @@ In the second sitting we introduce the saving to the cloud and locally in RADii 
 The third class goes into detail about the scenario manager that is part of publish control and leaves time for possible subscribe components.
 
 
+.. Lv 3. Interactive collaborative work
 
-Lv 3. Interactive collaborative work
-------------------------------------------
 
-radomness is a question of auto 	
 
-Oculus 
 

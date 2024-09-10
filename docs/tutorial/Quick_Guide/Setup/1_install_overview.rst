@@ -16,5 +16,6 @@ Setup Pages:
 	2_install_PC
 	3_install_grasshopper
 	4_install_occulus
-	5_install_Technical_Prereq
 	6_install_teaching
+	7_Install_Website
+	

@@ -1,6 +1,6 @@
-*******************************
+********************************
 Tutorial: Project documentation
-*******************************
+********************************
 
 Radii projects can be documented in a number of ways. This tutorial will show you how to document a presentation by saving or recording it. 
 Saving geometry and controls separately has proven a useful practice, they can be loaded into the viewer speratily later. Making the individual files smaller and quicker to save.
@@ -15,7 +15,7 @@ Radii file diagram
 
 
 Save from Rhino Grasshopper:
-***************************
+*****************************
 
 - with the `Save Content`_ component: 
 

@@ -6,7 +6,7 @@ This tutorial is based on the fundamentals in the `Tutorial Grasshopper Basics`_
 
 .. topic:: What this is about
   
-  This tutorial introduces you to the main RADii Grasshopper components that are needed for a simple presentation in RADii. 
+  This tutorial will introduce you to the main RADii Grasshopper components that are needed for a simple presentation in RADii. 
 
 After publishing the necessary content, there is a number of ways to lead the Viewers through the model. 
 First with the ``follow`` option of the `Connect`_ component. After giving a true input, all viewers will follow the Rhino viewport. 

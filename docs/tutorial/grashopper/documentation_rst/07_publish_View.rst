@@ -55,4 +55,4 @@ Right click menu
 
 .. note:: 
 
-  RADii views use the camera lense length from Rhino is used for Rhino views.
+  RADii uses the camera lense length thas is saved with your Rhino views, if you select one of your saved Rhino Views from the Right click menu. So you have to change it in your Rhino Saved Views settings.

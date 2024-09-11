@@ -16,7 +16,7 @@ Save Scenario
 .. tip:: 
 
   - The ``Content`` output can be saved to the cloud with `Save Content`_
-  - Grasshoppers autosave can be deactivated when the saving takes to long
+  - If your Grasshopper file becomes slow due to the large amount of data in the `Save Scenario`_ component, you can deactivate the Grasshopper autosave (which is turned on by default).
 
 Input
 ---------

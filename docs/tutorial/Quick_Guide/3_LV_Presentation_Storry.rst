@@ -4,11 +4,11 @@ Tutorial: Advanced Presentation
 
 .. topic:: What this is about
 
-  This tutorial will show how to create a more advanced presentation with animations and additional settings that can be collected into scenarios that then can be played at once. 
+  This tutorial will show you how to create a more advanced presentation, including animations and advanced settings. You will learn how to create scenarios that can be played in a sequence. 
 
-With `Publish Animation`_ it is possible to send viewers on defined paths and `Publish Control`_ lets you control the display settings of all viewers as well as the weather and the background. With `Publish Reference`_ it is possible to direct the viewers to load references into the scene from the cloud.  
+`Publish Animation`_ allows you to send viewers on predefined paths and `Publish Control`_ lets you control the display settings of all viewers (including weather and background). With `Publish Reference`_ you can direct the viewers to autoload references from the cloud.  
 
-With the scenario manager of the `Save Scenario`_ component, you can bundle the content of all publish components and save them into a series of scenarios to switch through them.
+With the scenario manager of the `Save Scenario`_ component, you can bundle different content from publish components and save it into different scenarios, managed by the scenario manager. The saved scenarios can be edited, rearranged and then played in a sequence.
 
 
 .. image:: ../Quick_Guide/3_LV_advanced_review/Grashopper_advanced_components_layout.png
@@ -33,7 +33,7 @@ to be linked to the `Connect`_ component:
 Examples
 ------------------------
 
-The plan is to do the following: Geometry (a building) that has to be publish or downloaded from the server (1), then a walk through it, change the time of the day and the weather (2) and continue your tour via a series of pre defined views (3-4).
+The plan is to do the following: Geometry (a building) that has to be published or downloaded from the server (1), then a walk through it, change the time of the day and the weather (2) and continue your tour via a series of predefined views (3-4).
 
 Setting and sending the above mentioned live during a presentation takes a lot of time. It is quicker to collect the content into scenarios and save them. Switch through them during a presentation then becomes more easier and makes more complex presentations possible.
 

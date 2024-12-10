@@ -27,7 +27,7 @@ language = "en"
 
 project = 'Radii Documentation'
 copyright = '2023, ETH Zürich, Gramazio Kohler Research'
-author = 'Gereon Sievi'
+author = 'Gereon Sievi,Sarah Schneider'
 release = '0.39 B2'
 
 # The full version, including alpha/beta/rc tags
@@ -39,7 +39,7 @@ release = '0.39 B2'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 # pip install sphinxcontrib-youtube
-# pip install sphinxcontrib.yt
+# pip install sphinxcontrib.yt - seems to be broken
 
 extensions = [
   'sphinxcontrib.youtube',

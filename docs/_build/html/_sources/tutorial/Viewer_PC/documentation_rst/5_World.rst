@@ -1,7 +1,8 @@
+.. image:: /tutorial/Radii_Icons/World.png
 ************
 World Menu
 ************
-.. image:: /tutorial/Radii_Icons/World.png
+
 
 
 .. image:: ../images/World_menu_detail.png

@@ -16,12 +16,12 @@ Input
 .. table::
   :align: left
 
-  ==========  ======================================  ==============
-  Name        Description                             Type
-  ==========  ======================================  ==============
-  Connection  Link with the Connect component         Connection  
-  Content     To be included in the save              RADii content
-  ==========  ======================================  ==============
+  ==========  =======================================  ==============
+  Name        Description                              Type
+  ==========  =======================================  ==============
+  Connection  Link with the Connect component          Connection  
+  Content     Add content to be included in the save   RADii content
+  ==========  =======================================  ==============
 
 Right click menu
 -----------------

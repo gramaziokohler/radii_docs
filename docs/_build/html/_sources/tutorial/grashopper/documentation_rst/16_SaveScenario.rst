@@ -6,19 +6,17 @@ Save Scenario
 
 .. topic:: Definition
 
-  The Scenario Manager can collect all type of content, views, references, settings and more into scenarios, that can then be called into a viewer at once.
-  With scenarios it is possible to do more complex presentations.
+ The `Save Scenario`_ component can collect all types of content, views, references, settings and more into scenarios, that can then be published to connected viewers instantly.
+ Use scenarios to structure more complex presentations.
   
 .. attention:: 
 
-  Be careful or refrain from saving geometry content into this component with scenarios, instead use `Save Scenario`_ to save to the cloud and `Publish Reference`_ to download it. Otherwise the Grasshopper file can get very heavy and slow.
-  
-
+  Be careful with saving big amount of geometry content into the `Save Scenario`_ component, since this will make your Grasshopper file very heavy. Alternatively use `Save Scenario`_ to save your geometry to the cloud and use `Publish Reference`_ to integrate it to your scenarios.
 
 .. tip:: 
 
   - The ``Content`` output can be saved to the cloud with `Save Content`_
-  - Grasshoppers autosave can be deactivated when the saving takes to long
+  - If your Grasshopper file becomes slow due to the large amount of data in the `Save Scenario`_ component, you can deactivate the Grasshopper autosave (which is turned on by default).
 
 Input
 ---------
@@ -54,9 +52,9 @@ Scenario Manager
 
 =================== ============================================================================================================================
 Scenario Name       The name you want to give your scenario
-Save                Save the scenario, can be used to save on top of existing scenarios
+Save                Save the scenario, using an existing name to overwrite scenario
 Rename  	          Renames a scenario
-Clear               Clears the scene before a scenario
+Clear               Clears the scene of all content before a scenario
 Duration            Length of the scenario when played in the viewer in auto mode
 Add/Replace content New content will be added and existing updated. If used with existing content that has zero elements, it will delete it from the scenario
 =================== ============================================================================================================================
@@ -72,4 +70,4 @@ Load        Indicated if loading content via `Publish Reference`_ is included
 Duration    of the scenario when played on auto play in the viewer
 ==========  ==============================================================================================
 
-An example on how to use the component can be found in the Guide at `Tutorial Advanced Presentation`_
+An example on how to use the component can be found in the `Tutorial Advanced Presentation`_

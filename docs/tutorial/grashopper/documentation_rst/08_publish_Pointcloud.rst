@@ -41,6 +41,7 @@ Output
   ==========  ======================================  ==============
   Log         Document changes & Data sen             Text
   Content     Connect to Content                      RADii content
+  Sequence    Sequence to be saved as content         Radii content
   ==========  ======================================  ==============
 
 

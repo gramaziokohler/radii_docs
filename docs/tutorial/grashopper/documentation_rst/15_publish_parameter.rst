@@ -47,7 +47,7 @@ Output
   ==========  ======================================  ==============
   Log         Document changes & data sent            Text
   Content     Connect to Save or use otherwise        RADii content
-
+  Sequence    Sequence to be saved as content         Radii content
   ==========  ======================================  ==============
 
 .. image:: ../images/Publish/Publish_Parameter/Publish_parameter_subscribe.png

@@ -45,8 +45,9 @@ Output
   Name           Description                                 Type
   =============  ======================================      ==============
   Log            Documents changes & Data send               Text
-  Save Control   Saving the controls only                    RADii
-  Save Scenario  Save control and geometry                   RADii
+  Save Control   Saving the controls only                    RADii Content
+  Save Scenario  Save control and geometry                   RADii Content
+  Sequence       Sequence to be saved as content             Radii content
   =============  ======================================      ==============
 
 

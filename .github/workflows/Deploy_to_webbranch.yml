@@ -1,18 +1,4 @@
-# This GitHub Actions workflow is designed to deploy a specific folder from the main branch to the gh-pages branch.
-# 
-# Step-by-step explanation:
-# 1. The workflow is triggered by a push event to the main branch.
-# 2. The job named 'deploy' runs on the latest version of Ubuntu.
-# 3. The first step checks out the repository using the actions/checkout@v2 action.
-# 4. The second step configures Git with a username and email for the GitHub Actions bot.
-# 5. The workflow fetches the gh-pages branch from the remote repository.
-# 6. It then checks out the gh-pages branch.
-# 7. The specified folder from the main branch is copied to the root of the gh-pages branch.
-# 8. All changes are staged for commit.
-# 9. A commit is created with the message "Deploy to gh-pages".
-# 10. Finally, the changes are pushed to the gh-pages branch on the remote repository.
-
-name: Deploy to gh-pages
+ocname: Deploy to gh-pages
 
 on:
     push:

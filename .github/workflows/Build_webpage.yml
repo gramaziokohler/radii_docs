@@ -1,0 +1,14 @@
+
+on:
+    push:
+        branches:
+            - main
+
+#https://www.youtube.com/watch?v=SxkM1SK9YlI
+#https://docs.github.com/en/enterprise-cloud@latest/actions/writing-workflows/quickstart
+
+
+jobs:
+
+    
+

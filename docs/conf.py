@@ -39,7 +39,6 @@ release = '0.42'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 # pip install sphinxcontrib-youtube
-# pip install sphinxcontrib.yt - seems to be broken
 
 extensions = [
   'sphinxcontrib.youtube',

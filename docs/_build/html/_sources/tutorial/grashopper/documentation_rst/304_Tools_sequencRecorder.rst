@@ -8,11 +8,10 @@ Tool Sequence Recorder
 
   The sequence Recorder ist an right click option in almost all publishing components that records the changes in the component inputs for a later replay. 
 
-  Start by pressing the ``record sequence`` button and then make the changes you want to record to the  inputs. ``Stop recording``. 
+  Start by pressing ``Record Sequence`` in the menu and then make the changes you want to record to the  inputs. ``Stop recording``. 
   The sequence is stored in the ``sequence manager``, where the settings are located. The sequence that has an active tick in the ``output`` can be saved when connected to `Save Content`_ . 
   
   Saved sequencs can be played by loading them from the channel. They can be replayed by toggeling them in the `Users Menu`_ .
-
 
 
 Input

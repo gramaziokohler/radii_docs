@@ -17,6 +17,10 @@ Types of components
 | **5. Subscribe** imports data from a viewer back to your local Rhino Grasshopper session.
 | **6. Tools** to modify point clouds and meshes 
 
+.. tip:: 
+    
+    Individual components have options and managers inside them that can be accessed by right clicking on the components center.
+
 .. @gereon Der Absatz hier vor Grasshopper Components passt finde ich nicht richtig rein. vielleicht könnte das bild auch noch auf die index seite und vielleicht bräuchte es nochmal eine kleine überarbeitung mit den publish local und global? to be discussed
 
 Data flow diagram RADii
@@ -37,11 +41,8 @@ Diagram of all ways in which data can be sent, stored and received with RADii
 
 
 
-Grasshopper Components
------------------------
-
-
-
+Grasshopper Components List
+----------------------------
 
 .. Note: the naming in toctree is case sensitive
 

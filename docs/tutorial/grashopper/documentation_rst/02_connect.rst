@@ -123,10 +123,10 @@ The way to note a channel addresses in the Viewers `Connect Menu`_ is channelnam
   ``sun.hs23.g1``
 
   In Grasshopper `Connect`_ 
-  select from the available Channels:
-
-  ``Sun > My Domain`` and 
-  type: ``subchannel:*hs23.g1``
+  select from the available Channels:  
+  ``Sun > My Domain`` 
+  
+  and type under subchannel: ``hs23.g1``
 
 
 

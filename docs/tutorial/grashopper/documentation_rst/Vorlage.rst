@@ -43,4 +43,8 @@ Right click menu
 Video tutorials:
 ---------------------
 
-- `Titel to be displayed <Link>`_
+ Titel to be displayed
+
+.. youtube:: mv7_ne3KI4I
+  :width: 100%
+  :align: left

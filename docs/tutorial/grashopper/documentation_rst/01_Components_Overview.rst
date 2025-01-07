@@ -17,6 +17,10 @@ Types of components
 | **5. Subscribe** imports data from a viewer back to your local Rhino Grasshopper session.
 | **6. Tools** to modify point clouds and meshes 
 
+.. tip:: 
+    
+    Individual components have options and managers inside them that can be accessed by right clicking on the components center.
+
 .. @gereon Der Absatz hier vor Grasshopper Components passt finde ich nicht richtig rein. vielleicht könnte das bild auch noch auf die index seite und vielleicht bräuchte es nochmal eine kleine überarbeitung mit den publish local und global? to be discussed
 
 Data flow diagram RADii
@@ -27,20 +31,18 @@ Data flow diagram RADii
 
 Diagram of all ways in which data can be sent, stored and received with RADii
 
-| **Publish** sends data from the CAD software through the cloud to a RADii Viewer.
-| **Subscribe** imports data from a RADii Viewer though the cloud back to the CAD software.
-| `Publish Reference`_ allows for data that was stored in the cloud to be downloaded to viewers without having to directly upload it again.
-| `Save Content`_ can save all publishing content to the cloud or locally as a .RADII file. The viewers can then manually download them from the cloud or import locally.
-| Viewers can save all content they have received into a local .RADII file.  
+.. 
+    | **Publish** sends data from the CAD software through the cloud to a RADii Viewer.
+    | **Subscribe** imports data from a RADii Viewer though the cloud back to the CAD software.
+    | `Publish Reference`_ allows for data that was stored in the cloud to be downloaded to viewers without having to directly upload it again.
+    | `Save Content`_ can save all publishing content to the cloud or locally as a .RADII file. The viewers can then manually download them from the cloud or import locally.
+    | Viewers can save all content they have received into a local .RADII file.  
 
 
 
 
-Grasshopper Components
------------------------
-
-
-
+Grasshopper Components List
+----------------------------
 
 .. Note: the naming in toctree is case sensitive
 

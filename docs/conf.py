@@ -27,8 +27,8 @@ language = "en"
 
 project = 'Radii Documentation'
 copyright = '2023, ETH Zürich, Gramazio Kohler Research'
-author = 'Gereon Sievi,Sarah Schneider'
-release = '0.39 B2'
+author = 'Gereon Sievi, Corrections by Sarah Schneider'
+release = '0.42'
 
 # The full version, including alpha/beta/rc tags
 
@@ -167,6 +167,7 @@ rst_prolog = """
 .. _Radii Viewer: https://gramaziokohler.github.io/radii_docs/tutorial/Viewer_PC/documentation_rst/0_Viewer.html
 .. _Connect Menu: https://gramaziokohler.github.io/radii_docs/tutorial/Viewer_PC/documentation_rst/1_Connect.html
 .. _Remote Content Menu: https://gramaziokohler.github.io/radii_docs/tutorial/Viewer_PC/documentation_rst/2_Remote_content.html
+.. _Users Menu: https://gramaziokohler.github.io/radii_docs/tutorial/Viewer_PC/documentation_rst/4_Users.html
 .. _Operation Menu: https://gramaziokohler.github.io/radii_docs/tutorial/Viewer_PC/documentation_rst/6_Operation_menu.html
 
   

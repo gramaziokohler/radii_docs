@@ -3,13 +3,18 @@ PublishTransform
 ********************
 
 .. image:: ../images/Publish/Publish_transformation.png
-  :scale: 60 %
+  :scale: 40 %
 
 .. topic:: Definition
 
   Transforms geometry in the viewer by sending transformations. The geometry is then transformed localy in the viewer which make very fast and smooth change to it possible, as only positions and no new geometry is send.
   Currently transform inputs from move, rotate and scale are supported.
   They can be send as a single transformations or by combining them with the "compound" component from the "Transformation" tab in Grasshopper.
+
+.. important:: 
+
+  Currently only move, scale and rotate transformations are supported.
+
 
 Input
 -----------
@@ -30,7 +35,7 @@ Name        Description                             Type
 ==========  ======================================  ==============
 Log         Documents changes & data send           Text
 Content     Connect to a Save component             RADii content
-Sequence    
+Sequence    Sequence to be saved as content         Radii content
 ==========  ======================================  ==============
 
 Right click menu
@@ -50,10 +55,6 @@ Replay                      Loops the transformation
 Reverse                     Geometry returns to its original state at the end
 Animate                     Animates or disregards the transformation of selected inputs
 ==========================  ==========================================
-
-.. important:: 
-
-  For information that should not be missed,such as things that can cause errors or make radii hard to use
 
 
 

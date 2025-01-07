@@ -27,11 +27,12 @@ Data flow diagram RADii
 
 Diagram of all ways in which data can be sent, stored and received with RADii
 
-| **Publish** sends data from the CAD software through the cloud to a RADii Viewer.
-| **Subscribe** imports data from a RADii Viewer though the cloud back to the CAD software.
-| `Publish Reference`_ allows for data that was stored in the cloud to be downloaded to viewers without having to directly upload it again.
-| `Save Content`_ can save all publishing content to the cloud or locally as a .RADII file. The viewers can then manually download them from the cloud or import locally.
-| Viewers can save all content they have received into a local .RADII file.  
+.. 
+    | **Publish** sends data from the CAD software through the cloud to a RADii Viewer.
+    | **Subscribe** imports data from a RADii Viewer though the cloud back to the CAD software.
+    | `Publish Reference`_ allows for data that was stored in the cloud to be downloaded to viewers without having to directly upload it again.
+    | `Save Content`_ can save all publishing content to the cloud or locally as a .RADII file. The viewers can then manually download them from the cloud or import locally.
+    | Viewers can save all content they have received into a local .RADII file.  
 
 
 

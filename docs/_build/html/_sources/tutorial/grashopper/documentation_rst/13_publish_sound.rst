@@ -38,6 +38,7 @@ Output
   ==========  ======================================  ==============
   Log         Document  changes & data sent           Text
   Content     Connect to Save component for saving    RADii content
+  Sequence    Sequence to be saved as content         Radii content
   ==========  ======================================  ==============
 
 Right click menu

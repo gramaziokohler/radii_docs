@@ -32,12 +32,13 @@ Output
 .. table::
   :align: left
     
-  =======     ===================================== ==============
+  ========    ===================================== ==============
   Name        Description                           Type
-  =======     ===================================== ==============
+  ========    ===================================== ==============
   Log         Document changes & Data sent          Text
   Content     Connect to Save component for saving  RADii content
-  =======     ===================================== ==============
+  Sequence    Sequence to be saved as content       Radii content
+  ========    ===================================== ==============
 
 
 

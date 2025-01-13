@@ -60,7 +60,7 @@ The building up of geometry pieces. The changing of textures as a frame by frame
 Video tutorials:
 ---------------------
 
-RADii: Sequence Recorder 
+**RADii: Sequence Recorder** 
 
 .. youtube:: Hf-iLT7aNss
   :width: 100%

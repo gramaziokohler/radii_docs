@@ -11,7 +11,7 @@ Tool Sequence Recorder
   Start by pressing ``Record Sequence`` in the menu and then make the changes you want to record to the  inputs. ``Stop recording``. 
   The sequence is stored in the ``sequence manager``, where the settings are located. The sequence that has an active tick in the ``output`` can be saved when connected to `Save Content`_ . 
   
-  Saved sequencs can be played by loading them from the channel. They can be replayed by toggeling them in the `Users Menu`_ .
+  Saved sequences can be played by loading them from the channel. They can be replayed by toggling them in the `Users Menu`_ .
 
 
 Input
@@ -21,7 +21,7 @@ Input
 Name        Description                               Type
 ==========  ========================================  ==============
 Connection  Link with the Connect component           Connection
-Anny Input  Has to go through changes to be recorded  
+Any Input   Has to go through changes to be recorded  
 ==========  ========================================  ==============
 
 Output
@@ -55,7 +55,7 @@ Remove      Deletes the sequence
 Examples:
 ----------
 
-The building up of geometry pieces. The changing of textures as a frame by frame animation. The cycling through a big series of transfromations.
+The building up of geometry pieces. The changing of textures as a frame by frame animation. The cycling through a big series of transformations.
 
 Video tutorials:
 ---------------------

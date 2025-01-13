@@ -23,5 +23,9 @@
         "titlesonly",
         "toctree"
     ],
-    "iis.configDir": ""
+    "iis.configDir": "",
+    "cSpell.ignoreWords": [
+        "nojekyll",
+        "sphinxcontrib"
+    ]
 }

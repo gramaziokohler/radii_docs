@@ -1,6 +1,6 @@
-_______________________________
+________________________________________
 Setup/Update RADii Grasshopper Plugin
-_______________________________
+________________________________________
 
 At the time of wrtiting the plugin only runs with `Rhino 3D <https://www.rhino3d.com/>`_ 
 We are working on a version for other 3D software and an API for further custom implementations.

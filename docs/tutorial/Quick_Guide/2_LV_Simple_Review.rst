@@ -31,3 +31,8 @@ to be linked to the `Connect`_ component:
 - `Publish Section`_
 
 For further information, please consult the corresponding entries.
+
+.. tip::
+
+  In the cases of very big models it is the best practice to save them to the cloud before a presentation and then commanding a load to the viewers through the `Publish Reference`_ component.
+

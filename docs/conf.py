@@ -59,7 +59,7 @@ exclude_patterns = ['_build',
 "tutorial/grashopper/documentation_rst/Vorlage.rst",
 "conf2.py", "index2.rst", "readme.rst",
 "tutorial/Quick_Guide/1_LV_Exploration.rst", "changelog.rst", 
-"8_install_server.rst", "5_install_mobile.rst"
+"8_install_server.rst",
 
 ]
 

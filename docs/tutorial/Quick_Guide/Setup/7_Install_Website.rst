@@ -15,26 +15,28 @@ If you would like to have a specific domain, your own server, unlimited or local
 Member Definition
 *********************
 
-The owner can define a number of roles for members that have been added to a channel. via the Add member section.
+The owner and administrators can define a number of roles for members that have been added to a channel via the Add member section.
 
-| Administrators:
-| Editors:
+| Administrators: publish, save, delete and move all content on the channel, add and remove members 
+| Editors: publish, save content and delete own content to the channel
 | Spectators:
 
 
 Server Storage
 ******************
  
-- **Unregistered users**:
+**Public**
 
-  - publish limit : 250 mb
-  - save limit    : 50 mb
-  
-- **Registered users**:
+- Publish limit: 250 Mb
+- Save limit: 100 Mb
 
-  - publish limit : 500 mb
-  - save limit    : 250 mb 
+**My Channel**
+
+- Publish limit: 500 Mb
+- Save limit: 250 Mb
   
-- **Organizations**: Can be defined in coordination with `RADii.info`_
+**Personal Channel**: 
+
+- Can be defined in coordination with `RADii.info`_
 
 

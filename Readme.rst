@@ -9,3 +9,4 @@ The two files that control the template as well as the general settings are the 
 The conf.py has all the webpage options, the theme and generally controlls the look of the website.
 It also holds all links that are used throughout the pages as links. 
 
+When editing the documentation online the webpage will be updated with github actions. A local installation is therefore not necessarey anymore unless a local preview is of interest.

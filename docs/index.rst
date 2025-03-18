@@ -13,7 +13,7 @@
 Radii Documentation
 **************************
 
-V. 0.40
+V. 0.42
 
    
 .. @gereon vielleicht braucht es hier bei what is radii mehr einen übergreifenden text, der erklärt, was damit ermöglicht wird. vielleicht hat ja auch thomas dazu irgendwo was? Und das mit den parts würd ich dann weglassen, zumal du hier von 2 parts sprichst, später dann von 3... 

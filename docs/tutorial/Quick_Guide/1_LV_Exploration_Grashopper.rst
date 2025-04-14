@@ -104,9 +104,16 @@ Connect
 If not start by checking for typos and if the viewer is actually connected to the channel.
 
 
+Video Tutorial
+-----------------
 
+.. youtube:: Ei0d5AoilnU
+  :width: 100%
+  :align: left
 
 
 
 .. - ``Log:`` helps to identify how much and what kind of data is sent
 .. - ``Content`` is RADii data that can be used in other components, mainly for storing or collecting. The components are called `Save Scenario`_ and `Save Content`_.
+
+

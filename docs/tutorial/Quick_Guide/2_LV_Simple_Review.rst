@@ -36,3 +36,10 @@ For further information, please consult the corresponding entries.
 
   In the cases of very big models it is the best practice to save them to the cloud before a presentation and then commanding a load to the viewers through the `Publish Reference`_ component.
 
+
+Video Tutorial
+---------------------
+
+.. youtube:: S5ZKpiliLkw
+  :width: 100%
+  :align: left

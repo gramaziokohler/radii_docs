@@ -67,4 +67,9 @@ You are now connected to a channel and can explore the model.
 
 .. ---------------------------------------------------------------------------------
 
+Video Tutorial
+-----------------
 
+.. youtube:: Ei0d5AoilnU
+  :width: 100%
+  :align: left

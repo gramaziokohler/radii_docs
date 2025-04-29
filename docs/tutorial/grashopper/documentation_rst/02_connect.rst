@@ -151,7 +151,7 @@ the component into the Viewers ``Local Connection`` Ip Address
 
 .. important:: 
 
-  For local connection to work, the devices have to be in the same network.
+  For local connection to work, the devices have to be in the same network and subsribe components are as of 04/2025 not supported.
 
 
 

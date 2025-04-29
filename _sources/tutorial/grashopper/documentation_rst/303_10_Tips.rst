@@ -1,0 +1,45 @@
+.. RevSarah
+
+***************************************************
+Ten rules for working with Radii
+***************************************************
+
+Following these rules should prevent you from running into errors and performance issues. 
+This becomes more important in the later phases of a project.
+
+.. 
+  .. table::
+    :align: left
+
+    ======  =====================================================================================   ==================================================================================================
+    **1**   You shall **use mesh count wisely**                                                     Do not use thousands of vertices on a small door handle see: PublishGeometry_
+    **2**   You shall **not use hidden or duplicate objects** and materials                         Purge objects that are never going to be seen by anybody or used by anything
+    **3**   You shall **apply relative level of detail** to object size, importance and distance    Do not spend time and performance doing high level of detail on objects you will never get close to
+    **4**   You shall **keep the texture resolutions low** and relative to the object sizes         Do not use large texture resolution on small objects. See options of PublishMaterial_
+    **5**   You shall **trim and subsample point clouds** relative to distance and visibility       Do not use millions on points on something that is seen from far away or obscured by other objects
+    **6**   You shall only **apply collision to objects that  is required** to collide with         Do not put collision on screws, nails, fixtures etc. see: PublishGeometry_
+    **7**   You shall make **content specific to viewer devices**                                   Do not expect to run a scene with a high number of objects on and underpowered platform like a mobile phone or Oculus Standalone
+    **8**   You shall **watch** the scene **for places of performance degradation**                 Always test the scene for places where the performance drops (no lower than 25-30 fps) and react accordingly with any of the above
+    **9**   You shall **only publish when needed**                                                  Do not spam content. Publish large static content like context, once while working on it then only keep the part of the scene live that your working on
+    **10**  You shall **report bugs**                                                               Always report a bug to `Github <https://github.com/Archtica/RADii/issues>`_
+    ======  =====================================================================================   ==================================================================================================
+
+.. @gereon_: habe die liste von oben versucht zu präzisieren unten in 2 verianten (vielleicht kann die extra seite hier auch entfallen und man macht das in die index seite?)
+.. @sarah: noch zu besprechen
+
+ 
+.. table::
+  :align: left
+  
+  ======  ========================================================================  ==================================================================================================
+  **1**   **Only publish if necessary**                                             Do not spam content. Publish large static content (like context) once and only keep the part of the scene live that you are working on
+  **2**   **Prepare your content according to the power of the viewer's device**    Complex scenes can make the viewers on slower devices choke
+  **3**   **Keep an eye on frame rate performance drops in your scene**             Check your scene for places with performance drops (no lower than 25-30 fps) and solve issues below
+  **4**   **Apply relative level of detail**                                        Use your effort on highly detailed modelling thoughtfully and only where necessary
+  **5**   **Use mesh count wisely**                                                 Keep an eye on the meshing of your geometries. See also: PublishGeometry_
+  **6**   **Check your scene for hidden or duplicate objects and materials**        Purge geometries that are occluded from view as well as unused materials
+  **7**   **Use adequate texture resolutions**                                      Match the texture resolution to the object size. See options of PublishMaterial_
+  **8**   **Only apply collision to objects if needed**                             Do not put collision on screws, nails, fixtures etc. See also: PublishGeometry_
+  **9**   **Trim and subsample point clouds**                                       Pointclouds can very quickly generate heavy scenes. Process them to fit your viewer's device: `Tools Pointcloud`_
+  **10**  **Report bugs**                                                           If you find things working unexpectedly, please report to `Github <https://github.com/Archtica/RADii/issues>`_
+  ======  ========================================================================  ==================================================================================================
